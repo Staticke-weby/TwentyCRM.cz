@@ -48,6 +48,7 @@
     "pokud vám stačí záznam vlastní aktivity firmy kdo kdy klientovi psal nebo s ním byl vyhrazený server nebo cloud pro je levnější a z pohledu gdpr čistší",
     "probereme s vámi konkrétní situaci na schůzce",
     "co platí pro obě varianty",
+    "interní e maily uvnitř stejné domény se nesynchronizují",
     "přílohy e mailů výrobce dodává v průběhu roku 2026",
     "funguje v obou variantách",
     "twenty má vícestupňové oprávnění",
@@ -379,6 +380,7 @@
     "téměř ve všech případech doporučujeme vyhrazený server cloud volíme jen u nejmenších týmů bez plánu napojovat ai agenty"
   ],
   "/agentske-crm/": [
+    "twenty je středobod vašich dat a má v sobě napojení pro běžné ai nástroje claude chatgpt cursor google",
     "twenty je pro ai agenty stavěné",
     "většina starších crm ne",
     "není to o marketingu je to o stavbě",
@@ -397,7 +399,16 @@
     "když nastavíš stav zakázky na vyhráno vygeneruje se zakázkový list pošle se notifikace majiteli klienta a založí se úkol na fakturaci",
     "agent tak nepracuje slepě rozhoduje s vědomím následků",
     "konkrétní situace z firem které dnes twenty s ai nástroji používají",
+    "buď používáte ai přímo v twenty chat v aplikaci s vašimi klíči nebo si přivedete ai nástroj zvenčí claude desktop chatgpt cursor google",
     "funguje stejně na vyhrazeném serveru i v cloudu",
+    "twenty má vestavěné moderní napojení mcp kterému rozumí ai nástroje jako claude desktop chatgpt cursor i nově vypuštěný desktop nástroj od googlu",
+    "stačí twenty přidat do nástroje a pár kliky se přihlásíte",
+    "claude desktop a claude code od anthropic",
+    "google desktop ai nástroj nově vypuštěný podporuje mcp",
+    "vlastní ai nástroj postavený na míru",
+    "napojení twenty na externí ai nástroje claude desktop / cursor / chatgpt / google",
+    "v twenty najdete adresu pro napojení ai nástrojů",
+    "tu vložíte do claude desktopu chatgptu cursoru nebo googlího desktop nástroje a pár kliky se přihlásíte",
     "twenty automatizace volající ai naše nadstavby",
     "pro ai souhrn z výkazů klasifikaci poptávek nebo hodnocení nových poptávek stavíme twenty automatizace napojené na vaše ai anthropic openai",
     "texty zadání pro ai a zpracování odpovědi nastavíme spolu s vámi",
@@ -416,7 +427,8 @@
     "hotové ai dovednosti a agenti připravené pro vývojáře k použití v rané verzi",
     "vlastní ai modely mimo seznam podporovaných poskytovatelů třeba vlastní model běžící u vás llama podle dokumentace bude přidáno v dalších verzích",
     "ověřeno proti docs twenty com poznámkám k novým verzím twenty a twenty com",
-    "datum revize obsahu"
+    "datum revize obsahu",
+    "ai nástroj zvenčí si vybíráte vy claude desktop dnes cursor zítra google nástroj pozítří"
   ],
   "/obory/": [
     "kdo na co vidí se řídí typem záznamu poli a filtrovanými pohledy moje zakázky přesné omezení vidím jen své záznamy vyžaduje vyšší tarif v cloudu"
