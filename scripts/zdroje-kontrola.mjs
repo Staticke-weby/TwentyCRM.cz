@@ -37,9 +37,11 @@ for (const [url, s] of vObsahu) adresy.set(url, { ...(adresy.get(url) ?? {}), so
 
 async function over(url) {
   const hlavicky = { 'User-Agent': 'twentycrm-cz-kontrola-zdroju' };
+  // část webů na zkrácený dotaz (HEAD) nebo na neznámého klienta odpoví chybou — pak zkusit jako prohlížeč
+  const jakoProhlizec = { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)', Accept: 'text/html' };
   try {
     let r = await fetch(url, { method: 'HEAD', redirect: 'manual', headers: hlavicky });
-    if (r.status === 405 || r.status === 403) r = await fetch(url, { redirect: 'manual', headers: hlavicky });
+    if (r.status >= 400) r = await fetch(url, { redirect: 'manual', headers: jakoProhlizec });
     if (r.status >= 300 && r.status < 400) return { stav: 'presmerovano', kod: r.status, kam: new URL(r.headers.get('location'), url).href };
     return { stav: r.ok ? 'ok' : 'nedostupne', kod: r.status };
   } catch (err) {
@@ -60,7 +62,15 @@ await Promise.all(
 );
 
 for (const v of vysledky) if (v.stav === 'presmerovano' && v.zdroj?.presmerovani && !v.soubory) v.stav = 'ok';
-const problemy = vysledky.filter((v) => v.stav !== 'ok');
+// zdroj s „rucniKontrola: true" automatické stahování blokuje (např. Gartner) — jen připomenout
+const rucne = vysledky.filter((v) => v.stav === 'nedostupne' && v.zdroj?.rucniKontrola && !v.soubory);
+for (const v of rucne) v.stav = 'rucne';
+const problemy = vysledky.filter((v) => v.stav !== 'ok' && v.stav !== 'rucne');
+if (rucne.length) {
+  console.log('Ověřit ručně v prohlížeči (web blokuje automatické stahování):');
+  for (const v of rucne) console.log(`  · ${v.zdroj.id} — ${v.url}`);
+  console.log('');
+}
 for (const v of problemy.sort((a, b) => a.url.localeCompare(b.url))) {
   const kde = [v.zdroj && `registr: ${v.zdroj.id}`, ...(v.soubory ?? [])].filter(Boolean).join(', ');
   console.log(`✗ ${v.stav} (${v.kod}) ${v.url}${v.kam ? ` → ${v.kam}` : ''}\n    ${kde}`);
@@ -70,7 +80,7 @@ console.log(`\n${vysledky.length} adres (${registr.zdroje.length} v registru, ${
 if (zapis) {
   for (const z of registr.zdroje) {
     const v = vysledky.find((x) => x.url === z.url);
-    z.stav = v.stav;
+    z.stav = v.stav === "rucne" ? z.stav : v.stav;
     z.zkontrolovano = dnes;
   }
   writeFileSync(REGISTR, JSON.stringify(registr, null, 2) + '\n');

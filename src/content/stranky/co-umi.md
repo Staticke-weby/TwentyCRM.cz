@@ -222,7 +222,7 @@ připomínka splatnosti, automatický newsletter z filtru. **Není to závislé 
 ### Co je dobré vědět
 
 - Synchronizace běží každých 5 minut, ne v reálném čase
-- Interní e-maily (uvnitř stejné domény) se nesynchronizují
+- Interní e-maily (uvnitř stejné domény) se ve výchozím nastavení neukládají — správce to může zapnout
 - Funguje s plnou schránkou, ne s pouhým e-mailovým aliasem
 
 ### Konkrétní e-mail u klienta

@@ -243,7 +243,10 @@
       "zmeny": [
         {
           "co": "Agenti mají vlastní stránky a spouštěče, umí čekat na událost nebo čas",
-          "funkce": "ai-agenti"
+          "funkce": [
+            "ai-agenti",
+            "cekani-na-udalost"
+          ]
         },
         {
           "co": "Týmová schránka s AI a schválení člověkem uvnitř agenta (za přepínačem)",

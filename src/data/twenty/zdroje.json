@@ -1,32 +1,711 @@
 {
   "_popis": "Registr zdrojů pro tvrzení o Twenty a o trhu. Na id se odkazují funkce.json (pole zdroje) a články (frontmatter zdroje). Typy: vydani, dokumentace, web-twenty, cenik, kod, konkurence, studie, legislativa, standard. Kontrola dostupnosti: npm run zdroje:kontrola. Postup: docs/plan-pruvodce.md kap. 4.",
   "zdroje": [
-    { "id": "gh-vydani", "url": "https://github.com/twentyhq/twenty/releases", "nazev": "Twenty — poznámky k vydáním na GitHubu", "typ": "vydani", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "twenty-vydani", "url": "https://twenty.com/releases", "nazev": "Twenty — přehled novinek na twenty.com", "typ": "web-twenty", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "twenty-cenik", "url": "https://twenty.com/pricing", "nazev": "Twenty — ceník", "typ": "cenik", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-tarify", "url": "https://docs.twenty.com/user-guide/billing/capabilities/pricing-plans", "nazev": "Twenty — tarify a co obsahují", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-kredity", "url": "https://docs.twenty.com/user-guide/billing/capabilities/credits", "nazev": "Twenty — AI kredity", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-ai-chat", "url": "https://docs.twenty.com/user-guide/ai/capabilities/ai-chatbot", "nazev": "Twenty — AI chat", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-ai-faq", "url": "https://docs.twenty.com/user-guide/ai/how-tos/ai-faq", "nazev": "Twenty — časté otázky k AI (vlastní klíče, modely)", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-mcp", "url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp", "nazev": "Twenty — napojení AI nástrojů (MCP)", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-pravni-faq", "url": "https://docs.twenty.com/user-guide/legal/how-tos/legal-faq", "nazev": "Twenty — právní otázky (umístění dat, AI a data)", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-spoustece", "url": "https://docs.twenty.com/user-guide/workflows/capabilities/workflow-triggers", "nazev": "Twenty — spouštěče automatizací", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-akce", "url": "https://docs.twenty.com/user-guide/workflows/capabilities/workflow-actions", "nazev": "Twenty — kroky automatizací (včetně AI agenta a Classify)", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-opravneni", "url": "https://docs.twenty.com/user-guide/permissions-access/capabilities/permissions", "nazev": "Twenty — role a oprávnění", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-posta", "url": "https://docs.twenty.com/user-guide/calendar-emails/overview", "nazev": "Twenty — e-maily a kalendář", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-kampane", "url": "https://docs.twenty.com/user-guide/email-campaigns/overview", "nazev": "Twenty — e-mailové kampaně", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-server-nastaveni", "url": "https://docs.twenty.com/developers/self-host/capabilities/setup", "nazev": "Twenty — nastavení vlastního serveru (připojení Gmailu a Microsoft 365)", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-server-bezpecnost", "url": "https://docs.twenty.com/developers/self-host/capabilities/security", "nazev": "Twenty — zabezpečení vlastního serveru", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-aktualizace", "url": "https://docs.twenty.com/developers/self-host/capabilities/upgrade-guide", "nazev": "Twenty — přechod na novou verzi", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-aplikace", "url": "https://docs.twenty.com/developers/extend/apps/getting-started/quick-start", "nazev": "Twenty — vlastní aplikace (rychlý start)", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "docs-dovednosti", "url": "https://docs.twenty.com/developers/extend/apps/logic/skills-and-agents", "nazev": "Twenty — dovednosti a agenti v aplikacích", "typ": "dokumentace", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "gh-prepinace", "url": "https://github.com/twentyhq/twenty/blob/main/packages/twenty-shared/src/types/FeatureFlagKey.ts", "nazev": "Twenty — seznam přepínačů rozpracovaných funkcí v kódu", "typ": "kod", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "gh-pr-20672", "url": "https://github.com/twentyhq/twenty/pull/20672", "nazev": "Twenty — označení nástrojů MCP (čtení / změna dat)", "typ": "kod", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "gh-pr-29762", "url": "https://github.com/twentyhq/twenty/pull/29762", "nazev": "Twenty — ChatGPT a Claude jako vestavěné aplikace (rozpracováno)", "typ": "kod", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "gh-pr-29957", "url": "https://github.com/twentyhq/twenty/pull/29957", "nazev": "Twenty — krok „MCP nástroj“ v automatizacích (rozpracováno)", "typ": "kod", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "gh-pr-30083", "url": "https://github.com/twentyhq/twenty/pull/30083", "nazev": "Twenty — agenti čtou přílohy záznamů (rozpracováno)", "typ": "kod", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "gh-pr-30128", "url": "https://github.com/twentyhq/twenty/pull/30128", "nazev": "Twenty — podmíněné spouštěče agentů (rozpracováno)", "typ": "kod", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "gh-pr-30252", "url": "https://github.com/twentyhq/twenty/pull/30252", "nazev": "Twenty — přístupové skupiny a pravidla viditelnosti (rozpracováno)", "typ": "kod", "vydavatel": "Twenty", "zkontrolovano": "2026-11-12", "stav": "ok" },
-    { "id": "mcp-standard", "url": "https://modelcontextprotocol.io/", "nazev": "Model Context Protocol — oficiální stránky standardu", "typ": "standard", "vydavatel": "Agentic AI Foundation (Linux Foundation)", "presmerovani": true, "zkontrolovano": "2026-11-12", "stav": "ok" }
+    {
+      "id": "gh-vydani",
+      "url": "https://github.com/twentyhq/twenty/releases",
+      "nazev": "Twenty — poznámky k vydáním na GitHubu",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-vydani",
+      "url": "https://twenty.com/releases",
+      "nazev": "Twenty — přehled novinek na twenty.com",
+      "typ": "web-twenty",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-cenik",
+      "url": "https://twenty.com/pricing",
+      "nazev": "Twenty — ceník",
+      "typ": "cenik",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-tarify",
+      "url": "https://docs.twenty.com/user-guide/billing/capabilities/pricing-plans",
+      "nazev": "Twenty — tarify a co obsahují",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-kredity",
+      "url": "https://docs.twenty.com/user-guide/billing/capabilities/credits",
+      "nazev": "Twenty — AI kredity",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-ai-chat",
+      "url": "https://docs.twenty.com/user-guide/ai/capabilities/ai-chatbot",
+      "nazev": "Twenty — AI chat",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-ai-faq",
+      "url": "https://docs.twenty.com/user-guide/ai/how-tos/ai-faq",
+      "nazev": "Twenty — časté otázky k AI (vlastní klíče, modely)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-mcp",
+      "url": "https://docs.twenty.com/user-guide/ai/capabilities/mcp",
+      "nazev": "Twenty — napojení AI nástrojů (MCP)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-pravni-faq",
+      "url": "https://docs.twenty.com/user-guide/legal/how-tos/legal-faq",
+      "nazev": "Twenty — právní otázky (umístění dat, AI a data)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-spoustece",
+      "url": "https://docs.twenty.com/user-guide/workflows/capabilities/workflow-triggers",
+      "nazev": "Twenty — spouštěče automatizací",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-akce",
+      "url": "https://docs.twenty.com/user-guide/workflows/capabilities/workflow-actions",
+      "nazev": "Twenty — kroky automatizací (včetně AI agenta a Classify)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-opravneni",
+      "url": "https://docs.twenty.com/user-guide/permissions-access/capabilities/permissions",
+      "nazev": "Twenty — role a oprávnění",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-posta",
+      "url": "https://docs.twenty.com/user-guide/calendar-emails/overview",
+      "nazev": "Twenty — e-maily a kalendář",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-kampane",
+      "url": "https://docs.twenty.com/user-guide/email-campaigns/overview",
+      "nazev": "Twenty — e-mailové kampaně",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-server-nastaveni",
+      "url": "https://docs.twenty.com/developers/self-host/capabilities/setup",
+      "nazev": "Twenty — nastavení vlastního serveru (připojení Gmailu a Microsoft 365)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-server-bezpecnost",
+      "url": "https://docs.twenty.com/developers/self-host/capabilities/security",
+      "nazev": "Twenty — zabezpečení vlastního serveru",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-aktualizace",
+      "url": "https://docs.twenty.com/developers/self-host/capabilities/upgrade-guide",
+      "nazev": "Twenty — přechod na novou verzi",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-aplikace",
+      "url": "https://docs.twenty.com/developers/extend/apps/getting-started/quick-start",
+      "nazev": "Twenty — vlastní aplikace (rychlý start)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-dovednosti",
+      "url": "https://docs.twenty.com/developers/extend/apps/logic/skills-and-agents",
+      "nazev": "Twenty — dovednosti a agenti v aplikacích",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "gh-prepinace",
+      "url": "https://github.com/twentyhq/twenty/blob/main/packages/twenty-shared/src/types/FeatureFlagKey.ts",
+      "nazev": "Twenty — seznam přepínačů rozpracovaných funkcí v kódu",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "gh-pr-20672",
+      "url": "https://github.com/twentyhq/twenty/pull/20672",
+      "nazev": "Twenty — označení nástrojů MCP (čtení / změna dat)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "gh-pr-29762",
+      "url": "https://github.com/twentyhq/twenty/pull/29762",
+      "nazev": "Twenty — ChatGPT a Claude jako vestavěné aplikace (rozpracováno)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "gh-pr-29957",
+      "url": "https://github.com/twentyhq/twenty/pull/29957",
+      "nazev": "Twenty — krok „MCP nástroj“ v automatizacích (rozpracováno)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "gh-pr-30083",
+      "url": "https://github.com/twentyhq/twenty/pull/30083",
+      "nazev": "Twenty — agenti čtou přílohy záznamů (rozpracováno)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "gh-pr-30128",
+      "url": "https://github.com/twentyhq/twenty/pull/30128",
+      "nazev": "Twenty — podmíněné spouštěče agentů (rozpracováno)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "gh-pr-30252",
+      "url": "https://github.com/twentyhq/twenty/pull/30252",
+      "nazev": "Twenty — přístupové skupiny a pravidla viditelnosti (rozpracováno)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "mcp-standard",
+      "url": "https://modelcontextprotocol.io/",
+      "nazev": "Model Context Protocol — oficiální stránky standardu",
+      "typ": "standard",
+      "vydavatel": "Agentic AI Foundation (Linux Foundation)",
+      "presmerovani": true,
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "anthropic-mcp-nadace",
+      "url": "https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation",
+      "nazev": "Anthropic — předání MCP nadaci Agentic AI Foundation (Linux Foundation)",
+      "typ": "standard",
+      "vydavatel": "Anthropic",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-40-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.40.0",
+      "nazev": "Twenty v2.40 — dovednosti a katalog AI modelů",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-46-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.46.0",
+      "nazev": "Twenty v2.46 — stránky a spouštěče agentů, čekání na událost",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-56-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.56.0",
+      "nazev": "Twenty v2.56 — AI kroky s vlastním oprávněním",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-permissions-access-control",
+      "url": "https://docs.twenty.com/user-guide/ai/capabilities/permissions-access-control",
+      "nazev": "Twenty — oprávnění AI agentů",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-ai-agents",
+      "url": "https://docs.twenty.com/user-guide/ai/capabilities/ai-agents",
+      "nazev": "Twenty — AI agenti v automatizacích",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "gartner-press-releases-2025-08-26-gartner-predicts-40-percen",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-08-26-gartner-predicts-40-percent-of-enterprise-apps-will-feature-task-specific-ai-agents-by-2026-up-from-less-than-5-percent-in-2025",
+      "nazev": "Gartner — tisková zpráva 26. 8. 2025 o AI agentech v podnikových aplikacích",
+      "typ": "studie",
+      "vydavatel": "Gartner",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok",
+      "rucniKontrola": true
+    },
+    {
+      "id": "microsoft-work-trend-index-2025-the-year-the-frontier-firm-i",
+      "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/2025-the-year-the-frontier-firm-is-born",
+      "nazev": "Microsoft WorkLab — Work Trend Index 2025 (23. 4. 2025)",
+      "typ": "studie",
+      "vydavatel": "Microsoft",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-mailbox",
+      "url": "https://docs.twenty.com/user-guide/calendar-emails/capabilities/mailbox",
+      "nazev": "Twenty — co se ze schránky ukládá a co ne",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-calendar",
+      "url": "https://docs.twenty.com/user-guide/calendar-emails/capabilities/calendar",
+      "nazev": "Twenty — synchronizace kalendáře",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-email-channels",
+      "url": "https://docs.twenty.com/user-guide/calendar-emails/capabilities/email-channels",
+      "nazev": "Twenty — e-mailové kanály (sdílená schránka přeposíláním)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-public-call-recorder",
+      "url": "https://github.com/twentyhq/twenty/tree/main/packages/twenty-apps/public/call-recorder",
+      "nazev": "Twenty — aplikace Call Recorder (nahrávací asistent)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-public-teams",
+      "url": "https://github.com/twentyhq/twenty/tree/main/packages/twenty-apps/public/teams",
+      "nazev": "Twenty — aplikace Microsoft Teams (přepisy schůzek)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-public-fathom",
+      "url": "https://github.com/twentyhq/twenty/tree/main/packages/twenty-apps/public/fathom",
+      "nazev": "Twenty — aplikace Fathom",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-public-granola",
+      "url": "https://github.com/twentyhq/twenty/tree/main/packages/twenty-apps/public/granola",
+      "nazev": "Twenty — aplikace Granola",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-public-fireflies",
+      "url": "https://github.com/twentyhq/twenty/tree/main/packages/twenty-apps/public/fireflies",
+      "nazev": "Twenty — aplikace Fireflies",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "salesforce-13-agentic-enterprise-announcement",
+      "url": "https://www.salesforce.com/news/press-releases/2025/10/13/agentic-enterprise-announcement/",
+      "nazev": "Salesforce — Agentic Enterprise (13. 10. 2025)",
+      "typ": "konkurence",
+      "vydavatel": "Salesforce",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "raynet-blog-mcp-server-raynet",
+      "url": "https://raynet.cz/blog/mcp-server-raynet/",
+      "nazev": "Raynet — MCP server Raynet (blog výrobce, 2. 9. 2026)",
+      "typ": "konkurence",
+      "vydavatel": "Raynet",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "pipedrive-newsroom-pipedrive-launches-native-mcp-server-brin",
+      "url": "https://www.pipedrive.com/en/newsroom/pipedrive-launches-native-mcp-server-bringing-crm-workflows-directly-into-ai-assistants",
+      "nazev": "Pipedrive — tisková zpráva o MCP serveru (30. 6. 2026)",
+      "typ": "konkurence",
+      "vydavatel": "Pipedrive",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "hubspot-changelog-remote-hubspot-mcp-server-is-now-generally",
+      "url": "https://developers.hubspot.com/changelog/remote-hubspot-mcp-server-is-now-generally-available",
+      "nazev": "HubSpot — MCP server obecně dostupný (13. 4. 2026)",
+      "typ": "konkurence",
+      "vydavatel": "HubSpot",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "hubspot-build-apps-integrate-with-the-remote-hubspot-mcp-ser",
+      "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/integrate-with-the-remote-hubspot-mcp-server",
+      "nazev": "HubSpot — dokumentace MCP serveru (data a oprávnění)",
+      "typ": "konkurence",
+      "vydavatel": "HubSpot",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "salesforce-04-salesforce-hosted-mcp-servers-are-now-generall",
+      "url": "https://developer.salesforce.com/blogs/2026/04/salesforce-hosted-mcp-servers-are-now-generally-available",
+      "nazev": "Salesforce — hostované MCP servery obecně dostupné (29. 4. 2026)",
+      "typ": "konkurence",
+      "vydavatel": "Salesforce",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "attio-mcp-overview",
+      "url": "https://docs.attio.com/mcp/overview",
+      "nazev": "Attio — dokumentace Attio MCP",
+      "typ": "konkurence",
+      "vydavatel": "Attio",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "claude-articles-11175166-get-started-with-custom-connectors-",
+      "url": "https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp",
+      "nazev": "Anthropic — vlastní konektory přes vzdálený MCP server (tarify, síťové požadavky)",
+      "typ": "dokumentace",
+      "vydavatel": "Anthropic",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "openai-articles-12584461-developer-mode-apps-and-full-mcp-co",
+      "url": "https://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt",
+      "nazev": "OpenAI — připojení vlastních MCP serverů v ChatGPT (tarify, zápis, potvrzování)",
+      "typ": "dokumentace",
+      "vydavatel": "OpenAI",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok",
+      "rucniKontrola": true
+    },
+    {
+      "id": "salesforce-agentforce-pricing",
+      "url": "https://www.salesforce.com/agentforce/pricing/",
+      "nazev": "Salesforce — ceník Agentforce",
+      "typ": "konkurence",
+      "vydavatel": "Salesforce",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "salesforce-15-agentforce-flexible-pricing-news",
+      "url": "https://www.salesforce.com/news/press-releases/2025/05/15/agentforce-flexible-pricing-news/",
+      "nazev": "Salesforce — tisková zpráva o Flex Credits (15. 5. 2025)",
+      "typ": "konkurence",
+      "vydavatel": "Salesforce",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "hubspot-company-news-hubspots-customer-agent-and-prospecting",
+      "url": "https://www.hubspot.com/company-news/hubspots-customer-agent-and-prospecting-agent-now-you-pay-when-the-task-is-complete",
+      "nazev": "HubSpot — Customer Agent a Prospecting Agent se platí za výsledek",
+      "typ": "konkurence",
+      "vydavatel": "HubSpot",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "hubspot-artificial-intelligence-credits",
+      "url": "https://www.hubspot.com/products/artificial-intelligence/credits",
+      "nazev": "HubSpot — HubSpot Credits",
+      "typ": "konkurence",
+      "vydavatel": "HubSpot",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "microsoft-pricing-copilot-studio",
+      "url": "https://www.microsoft.com/en-us/copilot/pricing/copilot-studio",
+      "nazev": "Microsoft — ceník Copilot Studio",
+      "typ": "konkurence",
+      "vydavatel": "Microsoft",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "microsoft-pricing-business",
+      "url": "https://www.microsoft.com/en-us/copilot/pricing/business",
+      "nazev": "Microsoft — ceník Microsoft 365 Copilot",
+      "typ": "konkurence",
+      "vydavatel": "Microsoft",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "zoho-agents-pricing-html",
+      "url": "https://www.zoho.com/agents/pricing.html",
+      "nazev": "Zoho — ceník Zia Agents",
+      "typ": "konkurence",
+      "vydavatel": "Zoho",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "claude-api-rate-limits",
+      "url": "https://platform.claude.com/docs/en/api/rate-limits",
+      "nazev": "Anthropic — limity útraty a vlastní měsíční strop",
+      "typ": "dokumentace",
+      "vydavatel": "Anthropic",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "gartner-press-releases-2025-06-25-gartner-predicts-over-40-p",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027",
+      "nazev": "Gartner — přes 40 % projektů agentní AI bude do konce roku 2027 zrušeno (tisková zpráva, 25. 6. 2025)",
+      "typ": "studie",
+      "vydavatel": "Gartner",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok",
+      "rucniKontrola": true
+    },
+    {
+      "id": "csu-produkty-ai-pouzivaji-v-cesku-tri-ctvrtiny-velkych-firem",
+      "url": "https://csu.gov.cz/produkty/ai-pouzivaji-v-cesku-tri-ctvrtiny-velkych-firem",
+      "nazev": "ČSÚ — AI používají v Česku tři čtvrtiny velkých firem (5. 11. 2026)",
+      "typ": "studie",
+      "vydavatel": "ČSÚ",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-ai-overview",
+      "url": "https://docs.twenty.com/user-guide/ai/overview",
+      "nazev": "Twenty — přehled AI",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "eur-lex-oj-ces",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/oj/ces",
+      "nazev": "EUR-Lex — nařízení (EU) 2024/1689 o umělé inteligenci (AI Act)",
+      "typ": "legislativa",
+      "vydavatel": "EUR-Lex",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "eur-lex-oj-ces-2",
+      "url": "https://eur-lex.europa.eu/eli/reg/2026/1744/oj/ces",
+      "nazev": "EUR-Lex — nařízení (EU) 2026/1744 (Digital Omnibus on AI), kterým se mění AI Act",
+      "typ": "legislativa",
+      "vydavatel": "EUR-Lex",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "eur-lex-2026-07-27-ces",
+      "url": "https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/ces",
+      "nazev": "EUR-Lex — konsolidované znění AI Actu k 27. 7. 2026",
+      "typ": "legislativa",
+      "vydavatel": "EUR-Lex",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "digital-strategy-policies-regulatory-framework-ai",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "nazev": "Evropská komise — AI Act, harmonogram použitelnosti",
+      "typ": "legislativa",
+      "vydavatel": "Evropská komise",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "ai-act-service-desk-ai-act-article-50",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-50",
+      "nazev": "AI Act Service Desk (Evropská komise) — článek 50, povinnosti transparentnosti",
+      "typ": "legislativa",
+      "vydavatel": "Evropská komise",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "ai-act-service-desk-ai-act-article-4",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-4",
+      "nazev": "AI Act Service Desk (Evropská komise) — článek 4, gramotnost v oblasti AI",
+      "typ": "legislativa",
+      "vydavatel": "Evropská komise",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "ai-act-service-desk-ai-act-article-113",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-113",
+      "nazev": "AI Act Service Desk (Evropská komise) — článek 113, data použitelnosti",
+      "typ": "legislativa",
+      "vydavatel": "Evropská komise",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "ai-act-service-desk-ai-act-article-111",
+      "url": "https://ai-act-service-desk.ec.europa.eu/en/ai-act/article-111",
+      "nazev": "AI Act Service Desk (Evropská komise) — článek 111, přechodná ustanovení",
+      "typ": "legislativa",
+      "vydavatel": "Evropská komise",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "digital-strategy-news-commission-publishes-guidelines-transp",
+      "url": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems",
+      "nazev": "Evropská komise — pokyny k povinnostem transparentnosti (20. 7. 2026)",
+      "typ": "legislativa",
+      "vydavatel": "Evropská komise",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "ec-en-ip-26-1024",
+      "url": "https://ec.europa.eu/commission/presscorner/detail/en/ip_26_1024",
+      "nazev": "Evropská komise — politická dohoda o Digital Omnibus on AI (7. 5. 2026)",
+      "typ": "legislativa",
+      "vydavatel": "Evropská komise",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "ctu-tiskova-zprava-2-srpna-2026-jako-klicove-datum-pro-pravi",
+      "url": "https://ctu.gov.cz/tiskova-zprava-2.-srpna-2026-jako-klicove-datum-pro-pravidla-transparentnosti-podle-aktu-o-umele",
+      "nazev": "ČTÚ — 2. srpna 2026 jako klíčové datum pro pravidla transparentnosti (31. 7. 2026)",
+      "typ": "legislativa",
+      "vydavatel": "ČTÚ",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "mpo-tiskove-zpravy-vlada-podporila-rozvoj-umele-inteligence-",
+      "url": "https://mpo.gov.cz/cz/rozcestnik/pro-media/tiskove-zpravy/vlada-podporila-rozvoj-umele-inteligence-zrizenim-nove-rady-a-schvalenim-navrhu-zakona--295239/",
+      "nazev": "MPO — vláda schválila návrh zákona o umělé inteligenci (9. 11. 2026)",
+      "typ": "legislativa",
+      "vydavatel": "MPO",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-data-migration-overview",
+      "url": "https://docs.twenty.com/user-guide/data-migration/overview",
+      "nazev": "Twenty — import a převod dat",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-objects",
+      "url": "https://docs.twenty.com/user-guide/data-model/capabilities/objects",
+      "nazev": "Twenty — vlastní typy záznamů (objekty)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-calendar-view",
+      "url": "https://docs.twenty.com/user-guide/views-pipelines/capabilities/calendar-view",
+      "nazev": "Twenty — kalendářní pohled",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    }
   ]
 }

@@ -25,7 +25,7 @@ for (const soubor of soubory('dist')) {
     // url(/fonts/…) v CSS
     .replace(/url\((["']?)\/(?!\/)/g, `url($1${zaklad}/`)
     // načítání vyhledávání v průvodci ('/pagefind/…' ve vloženém skriptu)
-    .replace(/(["'])\/pagefind\//g, `$1${zaklad}/pagefind/`);
+    .replace(/(["'`])\/pagefind\//g, `$1${zaklad}/pagefind/`);
   if (novy !== puvodni) {
     writeFileSync(soubor, novy);
     pocet++;

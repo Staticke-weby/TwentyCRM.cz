@@ -2,304 +2,1069 @@
   "_popis": "Registr schopností Twenty — JEDINÉ místo, kde se mění stav funkce. stav: dnes | pripravuje-se (+ duvod: prepinac | beta | docs-coming-soon | nepotvrzeno) | smer. omezeni: jen-cloud | jen-vlastni-server | tarif-organization | cloud-organization | tarif-enterprise | aplikace-treti-strany. od = první vydání, ve kterém funkce je (null = starší než v2.0). Historie změn se skládá z vydani.json (zmeny[].funkce). nazev, prinos a pozn čte zákazník — česky, bez žargonu. hledat = anglická slova, podle kterých skript twenty:vydani pozná funkci v poznámkách k vydání.",
   "funkce": [
     {
-      "id": "ai-chat", "nazev": "AI chat přímo v Twenty",
+      "id": "ai-chat",
+      "nazev": "AI chat přímo v Twenty",
       "prinos": "Zeptáte se CRM běžnou řečí — najde záznamy, shrne historii klienta a na požádání záznamy založí nebo upraví.",
-      "stav": "dnes", "od": "2.1.0", "omezeni": [], "zdroje": ["docs-ai-chat"],
-      "overeno": "2026-11-12", "temata": ["ai"], "hledat": ["AI chat", "Ask AI", "chat thread"]
+      "stav": "dnes",
+      "od": "2.1.0",
+      "omezeni": [],
+      "zdroje": [
+        "docs-ai-chat"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai"
+      ],
+      "hledat": [
+        "AI chat",
+        "Ask AI",
+        "chat thread"
+      ]
     },
     {
-      "id": "ai-dashboardy", "nazev": "AI postaví přehled a pohled",
+      "id": "ai-dashboardy",
+      "nazev": "AI postaví přehled a pohled",
       "prinos": "Řeknete, co chcete vidět, a AI sestaví dashboard nebo filtrovaný pohled — bez správce systému.",
-      "stav": "dnes", "od": "2.20.0", "omezeni": [], "zdroje": ["twenty-vydani"],
-      "overeno": "2026-11-12", "temata": ["ai", "reporty"], "hledat": ["dashboard"]
+      "stav": "dnes",
+      "od": "2.20.0",
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "reporty"
+      ],
+      "hledat": [
+        "dashboard"
+      ]
     },
     {
-      "id": "ai-import", "nazev": "Import dat s pomocí AI",
+      "id": "ai-import",
+      "nazev": "Import dat s pomocí AI",
       "prinos": "AI pomůže přiřadit sloupce z Excelu nebo CSV ke správným polím — přechod ze starého systému je rychlejší.",
-      "stav": "dnes", "od": "2.18.0", "omezeni": [], "zdroje": ["twenty-vydani"],
-      "overeno": "2026-11-12", "temata": ["ai", "data"], "hledat": ["import"]
+      "stav": "dnes",
+      "od": "2.18.0",
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "data"
+      ],
+      "hledat": [
+        "import"
+      ]
     },
     {
-      "id": "slucovani-duplicit", "nazev": "Slučování duplicit (i s pomocí AI)",
+      "id": "slucovani-duplicit",
+      "nazev": "Slučování duplicit (i s pomocí AI)",
       "prinos": "Dvakrát založené firmy, osoby nebo jiné záznamy sloučíte do jednoho, AI pomůže duplicity najít.",
-      "stav": "dnes", "od": "2.53.1", "omezeni": [], "zdroje": ["gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["ai", "data"], "hledat": ["merge", "duplicate"]
+      "stav": "dnes",
+      "od": "2.53.1",
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "data"
+      ],
+      "hledat": [
+        "merge",
+        "duplicate"
+      ]
     },
     {
-      "id": "ai-agenti", "nazev": "AI agenti se spouštěči",
+      "id": "ai-agenti",
+      "nazev": "AI agenti se spouštěči",
       "prinos": "Agent sám zareaguje na událost nebo plán — třeba na novou poptávku — a odvede zadanou práci pod vlastní rolí.",
-      "stav": "dnes", "od": "2.0.0", "omezeni": [], "zdroje": ["twenty-vydani", "gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["ai", "agenti"], "hledat": ["agent", "trigger"]
+      "stav": "dnes",
+      "od": "2.0.0",
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani",
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "agenti"
+      ],
+      "hledat": [
+        "agent",
+        "trigger"
+      ]
     },
     {
-      "id": "ai-dovednosti", "nazev": "Dovednosti pro AI",
+      "id": "ai-dovednosti",
+      "nazev": "Dovednosti pro AI",
       "prinos": "Firemní postup (jak připravit nabídku, jak shrnout schůzku) zapíšete jednou a AI ho pak opakuje stejně.",
-      "stav": "dnes", "od": "2.40.0", "omezeni": [], "zdroje": ["docs-dovednosti", "gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["ai", "agenti"], "hledat": ["skill"]
+      "stav": "dnes",
+      "od": "2.40.0",
+      "omezeni": [],
+      "zdroje": [
+        "docs-dovednosti",
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "agenti"
+      ],
+      "hledat": [
+        "skill"
+      ]
     },
     {
-      "id": "ai-volba-modelu", "nazev": "Volba AI modelu",
+      "id": "ai-volba-modelu",
+      "nazev": "Volba AI modelu",
       "prinos": "U každého modelu vidíte cenu, poskytovatele a kde se data zpracovávají, a volíte mezi levnějším a chytřejším.",
-      "stav": "dnes", "od": "2.40.0", "omezeni": [], "zdroje": ["twenty-vydani", "gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["ai", "provoz"], "hledat": ["model"]
+      "stav": "dnes",
+      "od": "2.40.0",
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani",
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "provoz"
+      ],
+      "hledat": [
+        "model"
+      ]
     },
     {
-      "id": "vlastni-klice-ai", "nazev": "Vlastní klíče k AI",
+      "id": "vlastni-klice-ai",
+      "nazev": "Vlastní klíče k AI",
       "prinos": "Zadáte vlastní klíče k Anthropic, OpenAI, Google, Mistral nebo xAI a za AI platíte přímo poskytovateli, bez přirážky.",
-      "stav": "dnes", "od": null, "omezeni": ["jen-vlastni-server"], "zdroje": ["docs-ai-faq"],
-      "overeno": "2026-11-12", "temata": ["ai", "provoz", "naklady"], "hledat": ["BYOK", "API key", "provider"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [
+        "jen-vlastni-server"
+      ],
+      "zdroje": [
+        "docs-ai-faq"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "provoz",
+        "naklady"
+      ],
+      "hledat": [
+        "BYOK",
+        "API key",
+        "provider"
+      ]
     },
     {
-      "id": "ai-kredity", "nazev": "AI kredity a limity útraty",
+      "id": "ai-kredity",
+      "nazev": "AI kredity a limity útraty",
       "prinos": "Spotřebu AI vidíte v kreditech a můžete jí nastavit strop, aby účet nepřekvapil.",
-      "stav": "dnes", "od": "2.49.0", "omezeni": [], "zdroje": ["docs-kredity"],
-      "overeno": "2026-11-12", "temata": ["ai", "naklady"], "hledat": ["credit", "billing"]
+      "stav": "dnes",
+      "od": "2.49.0",
+      "omezeni": [
+        "jen-cloud"
+      ],
+      "zdroje": [
+        "docs-kredity"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "naklady"
+      ],
+      "hledat": [
+        "credit",
+        "billing"
+      ]
     },
     {
-      "id": "ai-krok-automatizace", "nazev": "AI agent jako krok automatizace",
+      "id": "ai-krok-automatizace",
+      "nazev": "AI agent jako krok automatizace",
       "prinos": "Do automatizace vložíte krok, ve kterém AI podle vašeho zadání přečte záznam, rozhodne a doplní údaje — s vlastním omezeným oprávněním.",
-      "stav": "dnes", "od": "2.0.0", "omezeni": [], "zdroje": ["docs-akce", "twenty-vydani"],
-      "overeno": "2026-11-12", "temata": ["ai", "agenti", "automatizace"], "hledat": ["AI step", "agent step", "workflow"]
+      "stav": "dnes",
+      "od": "2.0.0",
+      "omezeni": [],
+      "zdroje": [
+        "docs-akce",
+        "twenty-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "agenti",
+        "automatizace"
+      ],
+      "hledat": [
+        "AI step",
+        "agent step",
+        "workflow"
+      ]
     },
     {
-      "id": "ai-trideni", "nazev": "AI třídění v automatizacích (Classify)",
+      "id": "ai-trideni",
+      "nazev": "AI třídění v automatizacích (Classify)",
       "prinos": "AI zařadí poptávku nebo e-mail do kategorie a automatizace podle toho pokračuje — třeba ji přidělí správnému obchodníkovi.",
-      "stav": "dnes", "od": "2.42.0", "omezeni": [], "zdroje": ["docs-akce"],
-      "overeno": "2026-11-12", "temata": ["ai", "automatizace", "obchod"], "hledat": ["classify"]
+      "stav": "dnes",
+      "od": "2.42.0",
+      "omezeni": [],
+      "zdroje": [
+        "docs-akce"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "automatizace",
+        "obchod"
+      ],
+      "hledat": [
+        "classify"
+      ],
+      "pozn": "Interní: krok Classify potřebuje hodnoticí model „Jev\" a klíč, který zapne správce (docs workflow-actions)."
     },
     {
-      "id": "ada-tymova-schranka", "nazev": "Ada — AI kolegyně v týmové schránce",
+      "id": "cekani-na-udalost",
+      "nazev": "Automatizace a agent počkají na událost",
+      "prinos": "Automatizace nebo agent se zastaví a pokračují, až se záznam změní nebo uplyne nastavený čas — třeba tři dny po odeslání nabídky.",
+      "stav": "dnes",
+      "od": "2.46.0",
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "automatizace",
+        "agenti"
+      ],
+      "hledat": [
+        "wait for event",
+        "wait"
+      ]
+    },
+    {
+      "id": "koncept-emailu",
+      "nazev": "E-mail od AI jako koncept ke kontrole",
+      "prinos": "Automatizace připraví e-mail napsaný AI a uloží ho do konceptů — člověk ho zkontroluje a odešle sám.",
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "docs-akce"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "automatizace",
+        "komunikace",
+        "ai"
+      ],
+      "hledat": [
+        "draft email"
+      ]
+    },
+    {
+      "id": "ada-tymova-schranka",
+      "nazev": "Ada — AI kolegyně v týmové schránce",
       "prinos": "AI asistentka, kterou kolegové označí v konverzaci jako člověka a ona úkol převezme.",
-      "stav": "pripravuje-se", "duvod": "prepinac", "od": null, "omezeni": [], "zdroje": ["gh-vydani", "gh-prepinace"],
-      "overeno": "2026-11-12", "temata": ["ai", "agenti"], "hledat": ["Ada", "inbox", "direct message"]
+      "stav": "pripravuje-se",
+      "duvod": "prepinac",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani",
+        "gh-prepinace"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "agenti"
+      ],
+      "hledat": [
+        "Ada",
+        "inbox",
+        "direct message"
+      ]
     },
     {
-      "id": "schvaleni-clovekem", "nazev": "Agent se zeptá a počká na schválení",
+      "id": "schvaleni-clovekem",
+      "nazev": "Agent se zeptá a počká na schválení",
       "prinos": "Agent připraví krok, pošle ho člověku ke schválení a pokračuje až po odpovědi.",
-      "stav": "pripravuje-se", "duvod": "prepinac", "od": null, "omezeni": [], "zdroje": ["gh-vydani", "gh-prepinace"],
-      "overeno": "2026-11-12", "temata": ["ai", "agenti"], "hledat": ["approval", "human input", "inbox"]
+      "stav": "pripravuje-se",
+      "duvod": "prepinac",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani",
+        "gh-prepinace"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "agenti"
+      ],
+      "hledat": [
+        "approval",
+        "human input",
+        "inbox"
+      ]
     },
     {
-      "id": "ai-obrazovky", "nazev": "AI postaví vlastní obrazovku",
+      "id": "ai-obrazovky",
+      "nazev": "AI postaví vlastní obrazovku",
       "prinos": "Popíšete, co potřebujete vidět, a AI navrhne a zveřejní vlastní panel na kartě záznamu.",
-      "stav": "pripravuje-se", "duvod": "prepinac", "od": null, "omezeni": [], "zdroje": ["gh-vydani", "gh-prepinace"],
-      "overeno": "2026-11-12", "temata": ["ai", "aplikace"], "hledat": ["widget", "component builder"]
+      "stav": "pripravuje-se",
+      "duvod": "prepinac",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani",
+        "gh-prepinace"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "aplikace"
+      ],
+      "hledat": [
+        "widget",
+        "component builder"
+      ]
     },
     {
-      "id": "ai-pravidla-dat", "nazev": "Pravidla pro data v AI",
+      "id": "ai-pravidla-dat",
+      "nazev": "Pravidla pro data v AI",
       "prinos": "Nastavíte, že AI smí data zpracovávat jen v EU a poskytovatel je nesmí uchovávat.",
-      "stav": "pripravuje-se", "duvod": "prepinac", "od": null, "omezeni": [], "zdroje": ["docs-pravni-faq", "gh-prepinace"],
-      "overeno": "2026-11-12", "temata": ["ai", "bezpecnost"], "hledat": ["data policy", "zero retention"]
+      "stav": "pripravuje-se",
+      "duvod": "prepinac",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "docs-pravni-faq",
+        "gh-prepinace"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "bezpecnost"
+      ],
+      "hledat": [
+        "data policy",
+        "zero retention"
+      ]
     },
     {
-      "id": "mcp-server", "nazev": "Napojení pro AI nástroje (MCP)",
+      "id": "mcp-server",
+      "nazev": "Napojení pro AI nástroje (MCP)",
       "prinos": "Claude, ChatGPT nebo Cursor se k Twenty připojí a pracují s daty v CRM pod rolí toho, kdo se ptá.",
-      "stav": "dnes", "od": "2.0.0", "omezeni": [], "zdroje": ["docs-mcp"],
-      "overeno": "2026-11-12", "temata": ["mcp", "ai"], "hledat": ["MCP"]
+      "stav": "dnes",
+      "od": "2.0.0",
+      "omezeni": [],
+      "zdroje": [
+        "docs-mcp"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "mcp",
+        "ai"
+      ],
+      "hledat": [
+        "MCP"
+      ]
     },
     {
-      "id": "mcp-oznaceni-akci", "nazev": "AI nástroj pozná, co data jen čte a co je mění",
+      "id": "mcp-oznaceni-akci",
+      "nazev": "AI nástroj pozná, co data jen čte a co je mění",
       "prinos": "Twenty AI nástrojům označí, které akce jen čtou a které data mění — asistent se pak před změnou může zeptat.",
-      "stav": "dnes", "od": "2.6.0", "omezeni": [], "zdroje": ["gh-pr-20672"],
-      "overeno": "2026-11-12", "temata": ["mcp", "bezpecnost"], "hledat": ["annotation"]
+      "stav": "dnes",
+      "od": "2.6.0",
+      "omezeni": [],
+      "zdroje": [
+        "gh-pr-20672"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "mcp",
+        "bezpecnost"
+      ],
+      "hledat": [
+        "annotation"
+      ]
     },
     {
-      "id": "mcp-spousti-automatizaci", "nazev": "AI nástroj zvenčí spustí automatizaci",
+      "id": "mcp-spousti-automatizaci",
+      "nazev": "AI nástroj zvenčí spustí automatizaci",
       "prinos": "Asistent připojený přes MCP spustí připravenou automatizaci v Twenty — třeba vystavení nabídky.",
-      "stav": "dnes", "od": "2.57.0", "omezeni": [], "zdroje": ["gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["mcp", "automatizace"], "hledat": ["MCP", "workflow"]
+      "stav": "dnes",
+      "od": "2.57.0",
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "mcp",
+        "automatizace"
+      ],
+      "hledat": [
+        "MCP",
+        "workflow"
+      ]
     },
     {
-      "id": "mcp-klient", "nazev": "Twenty použije další systémy přes MCP",
+      "id": "mcp-klient",
+      "nazev": "Twenty použije další systémy přes MCP",
       "prinos": "AI v Twenty si sama sáhne do dalších firemních systémů, aniž by se data musela kopírovat.",
-      "stav": "pripravuje-se", "duvod": "beta", "od": null, "omezeni": [], "zdroje": ["gh-vydani", "gh-prepinace"],
-      "overeno": "2026-11-12", "temata": ["mcp", "ai"], "hledat": ["MCP server", "MCP client"]
+      "stav": "pripravuje-se",
+      "duvod": "beta",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani",
+        "gh-prepinace"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "mcp",
+        "ai"
+      ],
+      "hledat": [
+        "MCP server",
+        "MCP client"
+      ]
     },
     {
-      "id": "automatizace", "nazev": "Automatizace bez programování",
+      "id": "automatizace",
+      "nazev": "Automatizace bez programování",
       "prinos": "Při vzniku nebo změně záznamu, podle plánu nebo na tlačítko proběhne řada kroků — e-mail, úkol, změna stavu, volání jiného systému.",
-      "stav": "dnes", "od": null, "omezeni": [], "zdroje": ["docs-spoustece", "docs-akce"],
-      "overeno": "2026-11-12", "temata": ["automatizace"], "hledat": ["workflow"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "docs-spoustece",
+        "docs-akce"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "automatizace"
+      ],
+      "hledat": [
+        "workflow"
+      ]
     },
     {
-      "id": "pridelovani-dokola", "nazev": "Spravedlivé rozdělování mezi lidi",
+      "id": "pridelovani-dokola",
+      "nazev": "Spravedlivé rozdělování mezi lidi",
       "prinos": "Nové poptávky nebo úkoly se rozdělují mezi obchodníky či techniky postupně dokola.",
-      "stav": "dnes", "od": "2.16.0", "omezeni": [], "zdroje": ["docs-akce"],
-      "overeno": "2026-11-12", "temata": ["automatizace", "obchod"], "hledat": ["round-robin", "round robin"]
+      "stav": "dnes",
+      "od": "2.16.0",
+      "omezeni": [],
+      "zdroje": [
+        "docs-akce"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "automatizace",
+        "obchod"
+      ],
+      "hledat": [
+        "round-robin",
+        "round robin"
+      ]
     },
     {
-      "id": "slack", "nazev": "Twenty ve Slacku",
+      "id": "slack",
+      "nazev": "Twenty ve Slacku",
       "prinos": "Ze Slacku se zeptáte CRM nebo spustíte automatizaci, asistent jedná za člena, který ho označil.",
-      "stav": "dnes", "od": "2.7.0", "omezeni": [], "zdroje": ["gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["komunikace", "ai"], "hledat": ["Slack"]
+      "stav": "dnes",
+      "od": "2.7.0",
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "komunikace",
+        "ai"
+      ],
+      "hledat": [
+        "Slack"
+      ]
     },
     {
-      "id": "teams", "nazev": "Twenty v Microsoft Teams",
+      "id": "teams",
+      "nazev": "Twenty v Microsoft Teams",
       "prinos": "Asistent Twenty přímo v Teams.",
-      "stav": "pripravuje-se", "duvod": "nepotvrzeno", "od": null, "omezeni": [], "zdroje": ["gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["komunikace", "ai"], "hledat": ["Teams"]
+      "stav": "pripravuje-se",
+      "duvod": "nepotvrzeno",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "komunikace",
+        "ai"
+      ],
+      "hledat": [
+        "Teams"
+      ]
     },
     {
-      "id": "posta-kalendar", "nazev": "E-maily a kalendář na kartě klienta",
+      "id": "posta-kalendar",
+      "nazev": "E-maily a kalendář na kartě klienta",
       "prinos": "E-maily a schůzky s klientem se ukládají k jeho kartě samy. Gmail a Microsoft 365 přihlášením účtem, ostatní přes IMAP a CalDAV.",
-      "stav": "dnes", "od": null, "omezeni": [], "zdroje": ["docs-posta", "docs-server-nastaveni"],
-      "overeno": "2026-11-12", "temata": ["komunikace"], "hledat": ["email", "calendar", "IMAP", "messaging"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "docs-posta",
+        "docs-server-nastaveni"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "komunikace"
+      ],
+      "hledat": [
+        "email",
+        "calendar",
+        "IMAP",
+        "messaging"
+      ]
     },
     {
-      "id": "sdilena-schranka", "nazev": "Sdílená schránka v CRM",
+      "id": "sdilena-schranka",
+      "nazev": "Sdílená schránka v CRM",
       "prinos": "Pošta z adres jako info@ nebo servis@ se přeposláním dostane do CRM bez připojování celé schránky.",
-      "stav": "dnes", "od": "2.4.0", "omezeni": [], "zdroje": ["twenty-vydani"],
-      "overeno": "2026-11-12", "temata": ["komunikace"], "hledat": ["forwarding", "shared inbox"]
+      "stav": "dnes",
+      "od": "2.4.0",
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "komunikace"
+      ],
+      "hledat": [
+        "forwarding",
+        "shared inbox"
+      ],
+      "pozn": "Interní: na vlastním serveru příjem přeposlané pošty vyžaduje nastavení na straně serveru (Amazon SES, INBOUND_EMAIL_DOMAIN) — dokumentace pro vlastní server to nepopisuje; alternativa je připojit info@ jako běžnou schránku. Ověřit při nasazení."
     },
     {
-      "id": "nahravani-schuzek", "nazev": "Nahrávání a přepis schůzek",
+      "id": "nahravani-schuzek",
+      "nazev": "Nahrávání a přepis schůzek",
       "prinos": "Schůzku nahraje asistent, přepis a záznam se uloží přímo ke klientovi.",
-      "stav": "dnes", "od": "2.17.0", "omezeni": [], "zdroje": ["gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["komunikace", "ai"], "hledat": ["recording", "transcript", "Recall"]
+      "stav": "dnes",
+      "od": "2.17.0",
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "komunikace",
+        "ai"
+      ],
+      "hledat": [
+        "recording",
+        "transcript",
+        "Recall"
+      ]
     },
     {
-      "id": "zapisniky-schuzek", "nazev": "Zápisy schůzek z Fireflies, Fathom, Granola a Teams",
+      "id": "zapisniky-schuzek",
+      "nazev": "Zápisy schůzek z Fireflies, Fathom, Granola a Teams",
       "prinos": "Zápisy a shrnutí z nástroje, který už používáte, se dostanou ke klientovi v CRM.",
-      "stav": "dnes", "od": "2.7.0", "omezeni": [], "zdroje": ["twenty-vydani", "gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["komunikace", "ai"], "hledat": ["Fireflies", "Fathom", "Granola", "transcript"]
+      "stav": "dnes",
+      "od": "2.7.0",
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani",
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "komunikace",
+        "ai"
+      ],
+      "hledat": [
+        "Fireflies",
+        "Fathom",
+        "Granola",
+        "transcript"
+      ]
     },
     {
-      "id": "linkedin", "nazev": "Konverzace z LinkedInu v CRM",
+      "id": "linkedin",
+      "nazev": "Konverzace z LinkedInu v CRM",
       "prinos": "Zprávy z LinkedInu se ukládají ke kontaktu a dá se na ně odpovědět z CRM.",
-      "stav": "dnes", "od": "2.55.0", "omezeni": ["aplikace-treti-strany"], "zdroje": ["gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["komunikace", "obchod"], "hledat": ["LinkedIn", "Unipile"]
+      "stav": "dnes",
+      "od": "2.55.0",
+      "omezeni": [
+        "aplikace-treti-strany"
+      ],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "komunikace",
+        "obchod"
+      ],
+      "hledat": [
+        "LinkedIn",
+        "Unipile"
+      ]
     },
     {
-      "id": "emailove-kampane", "nazev": "E-mailové kampaně",
+      "id": "emailove-kampane",
+      "nazev": "E-mailové kampaně",
       "prinos": "Obchodní rozesílky na vybrané kontakty přímo z CRM.",
-      "stav": "pripravuje-se", "duvod": "beta", "od": null, "omezeni": [], "zdroje": ["docs-kampane"],
-      "overeno": "2026-11-12", "temata": ["komunikace"], "hledat": ["campaign"]
+      "stav": "pripravuje-se",
+      "duvod": "beta",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "docs-kampane"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "komunikace"
+      ],
+      "hledat": [
+        "campaign"
+      ]
     },
     {
-      "id": "vlastni-zaznamy", "nazev": "Vlastní typy záznamů a pole",
+      "id": "vlastni-zaznamy",
+      "nazev": "Vlastní typy záznamů a pole",
       "prinos": "CRM přizpůsobíte oboru — přidáte vlastní typy záznamů, pole a vazby bez programování.",
-      "stav": "dnes", "od": null, "omezeni": [], "zdroje": ["twenty-vydani"],
-      "overeno": "2026-11-12", "temata": ["data", "aplikace"], "hledat": ["object", "field"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "data",
+        "aplikace"
+      ],
+      "hledat": [
+        "object",
+        "field"
+      ]
     },
     {
-      "id": "vazby-mnoho", "nazev": "Vazby mnoho na mnoho",
+      "id": "vazby-mnoho",
+      "nazev": "Vazby mnoho na mnoho",
       "prinos": "Jeden záznam propojíte s více záznamy druhého typu a naopak — třeba kontakt s více projekty.",
-      "stav": "dnes", "od": "2.45.0", "omezeni": [], "zdroje": ["twenty-vydani"],
-      "overeno": "2026-11-12", "temata": ["data"], "hledat": ["many-to-many", "junction"]
+      "stav": "dnes",
+      "od": "2.45.0",
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "data"
+      ],
+      "hledat": [
+        "many-to-many",
+        "junction"
+      ]
     },
     {
-      "id": "kontrola-dat", "nazev": "Pravidla pro kontrolu dat",
+      "id": "kontrola-dat",
+      "nazev": "Pravidla pro kontrolu dat",
       "prinos": "Systém nepustí neúplný nebo chybný záznam — lidi ani AI.",
-      "stav": "dnes", "od": "2.56.0", "omezeni": [], "zdroje": ["gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["data"], "hledat": ["validation"]
+      "stav": "dnes",
+      "od": "2.56.0",
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "data"
+      ],
+      "hledat": [
+        "validation"
+      ]
     },
     {
-      "id": "pohledy", "nazev": "Pohledy: tabulka, kanban, kalendář, seznam",
+      "id": "pohledy",
+      "nazev": "Pohledy: tabulka, kanban, kalendář, seznam",
       "prinos": "Stejná data vidí obchodník jako kanban obchodů, dispečer jako kalendář a vedoucí jako tabulku.",
-      "stav": "dnes", "od": null, "omezeni": [], "zdroje": ["twenty-vydani"],
-      "overeno": "2026-11-12", "temata": ["data", "reporty"], "hledat": ["view", "kanban", "calendar view"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "data",
+        "reporty"
+      ],
+      "hledat": [
+        "view",
+        "kanban",
+        "calendar view"
+      ]
     },
     {
-      "id": "dashboardy", "nazev": "Dashboardy",
+      "id": "dashboardy",
+      "nazev": "Dashboardy",
       "prinos": "Grafy, tabulky a čísla z CRM na jedné obrazovce.",
-      "stav": "dnes", "od": "2.0.0", "omezeni": [], "zdroje": ["twenty-vydani"],
-      "overeno": "2026-11-12", "temata": ["reporty"], "hledat": ["dashboard"]
+      "stav": "dnes",
+      "od": "2.0.0",
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "reporty"
+      ],
+      "hledat": [
+        "dashboard"
+      ]
     },
     {
-      "id": "role-opravneni", "nazev": "Role a oprávnění",
+      "id": "role-opravneni",
+      "nazev": "Role a oprávnění",
       "prinos": "Kdo vidí a upravuje které typy záznamů a pole — pro lidi, AI agenty i napojené systémy.",
-      "stav": "dnes", "od": null, "omezeni": ["cloud-organization"], "zdroje": ["docs-opravneni"],
-      "overeno": "2026-11-12", "temata": ["opravneni", "bezpecnost"], "hledat": ["role", "permission"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [
+        "cloud-organization"
+      ],
+      "zdroje": [
+        "docs-opravneni"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "opravneni",
+        "bezpecnost"
+      ],
+      "hledat": [
+        "role",
+        "permission"
+      ]
     },
     {
-      "id": "jen-sve-zaznamy", "nazev": "Každý vidí jen své záznamy",
+      "id": "jen-sve-zaznamy",
+      "nazev": "Každý vidí jen své záznamy",
       "prinos": "Tvrdé omezení: uživatel cizí záznamy vůbec neuvidí.",
-      "stav": "dnes", "od": null, "omezeni": ["tarif-organization"], "zdroje": ["docs-opravneni"],
-      "overeno": "2026-11-12", "temata": ["opravneni", "bezpecnost"], "hledat": ["row-level", "row level"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [
+        "tarif-organization"
+      ],
+      "zdroje": [
+        "docs-opravneni"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "opravneni",
+        "bezpecnost"
+      ],
+      "hledat": [
+        "row-level",
+        "row level"
+      ]
     },
     {
-      "id": "soukrome-zaznamy", "nazev": "Soukromé záznamy a sdílení",
+      "id": "soukrome-zaznamy",
+      "nazev": "Soukromé záznamy a sdílení",
       "prinos": "Důvěrný obchod nebo záznam vidí jen ten, kdo ho založil, a ti, s kým ho výslovně sdílí.",
-      "stav": "dnes", "od": "2.55.0", "omezeni": [], "zdroje": ["gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["opravneni"], "hledat": ["private record", "sharing"]
+      "stav": "dnes",
+      "od": "2.55.0",
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "opravneni"
+      ],
+      "hledat": [
+        "private record",
+        "sharing"
+      ]
     },
     {
-      "id": "sso", "nazev": "Jednotné přihlášení (SSO)",
+      "id": "sso",
+      "nazev": "Jednotné přihlášení (SSO)",
       "prinos": "Přihlášení firemním účtem (SAML nebo OIDC), bez dalšího hesla.",
-      "stav": "dnes", "od": null, "omezeni": ["tarif-organization"], "zdroje": ["docs-tarify"],
-      "overeno": "2026-11-12", "temata": ["bezpecnost"], "hledat": ["SSO", "SAML", "OIDC"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [
+        "tarif-organization"
+      ],
+      "zdroje": [
+        "docs-tarify"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "bezpecnost"
+      ],
+      "hledat": [
+        "SSO",
+        "SAML",
+        "OIDC"
+      ]
     },
     {
-      "id": "audit-log", "nazev": "Záznam změn (audit log)",
+      "id": "audit-log",
+      "nazev": "Záznam změn (audit log)",
       "prinos": "Dohledáte, kdo co a kdy v systému změnil.",
-      "stav": "dnes", "od": null, "omezeni": ["tarif-organization"], "zdroje": ["docs-tarify"],
-      "overeno": "2026-11-12", "temata": ["bezpecnost"], "hledat": ["audit"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [
+        "tarif-organization"
+      ],
+      "zdroje": [
+        "docs-tarify"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "bezpecnost"
+      ],
+      "hledat": [
+        "audit"
+      ]
     },
     {
-      "id": "dvoufazove-prihlaseni", "nazev": "Dvoufázové přihlášení",
+      "id": "dvoufazove-prihlaseni",
+      "nazev": "Dvoufázové přihlášení",
       "prinos": "K heslu ještě kód z telefonu — ukradené heslo nestačí.",
-      "stav": "dnes", "od": null, "omezeni": [], "zdroje": ["twenty-cenik"],
-      "overeno": "2026-11-12", "temata": ["bezpecnost"], "hledat": ["2FA", "TOTP", "two-factor"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "twenty-cenik"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "bezpecnost"
+      ],
+      "hledat": [
+        "2FA",
+        "TOTP",
+        "two-factor"
+      ]
     },
     {
-      "id": "import-export", "nazev": "Import a export dat",
+      "id": "import-export",
+      "nazev": "Import a export dat",
       "prinos": "Data z Excelu a CSV nahrajete a kdykoli je zase vyexportujete — nejste uzamčeni.",
-      "stav": "dnes", "od": null, "omezeni": [], "zdroje": ["gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["data"], "hledat": ["import", "export", "XLSX", "CSV"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "data"
+      ],
+      "hledat": [
+        "import",
+        "export",
+        "XLSX",
+        "CSV"
+      ]
     },
     {
-      "id": "aplikace", "nazev": "Vlastní aplikace nad Twenty",
+      "id": "aplikace",
+      "nazev": "Vlastní aplikace nad Twenty",
       "prinos": "Oborové rozšíření s vlastními typy záznamů, logikou, obrazovkami i agenty, které se instaluje jako celek.",
-      "stav": "dnes", "od": "2.0.0", "omezeni": [], "zdroje": ["docs-aplikace"],
-      "overeno": "2026-11-12", "temata": ["aplikace"], "hledat": ["app", "SDK"]
+      "stav": "dnes",
+      "od": "2.0.0",
+      "omezeni": [],
+      "zdroje": [
+        "docs-aplikace"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "aplikace"
+      ],
+      "hledat": [
+        "app",
+        "SDK"
+      ]
     },
     {
-      "id": "obchod-s-aplikacemi", "nazev": "Obchod s aplikacemi",
+      "id": "obchod-s-aplikacemi",
+      "nazev": "Obchod s aplikacemi",
       "prinos": "Hotové aplikace od výrobce a dalších firem nainstalujete z jednoho místa.",
-      "stav": "pripravuje-se", "duvod": "beta", "od": null, "omezeni": [], "zdroje": ["gh-vydani"],
-      "overeno": "2026-11-12", "temata": ["aplikace"], "hledat": ["marketplace"]
+      "stav": "pripravuje-se",
+      "duvod": "beta",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "aplikace"
+      ],
+      "hledat": [
+        "marketplace"
+      ]
     },
     {
-      "id": "cloud-frankfurt", "nazev": "Cloud výrobce v AWS ve Frankfurtu",
+      "id": "cloud-frankfurt",
+      "nazev": "Cloud výrobce v AWS ve Frankfurtu",
       "prinos": "Data v cloudu Twenty leží v Evropské unii.",
-      "stav": "dnes", "od": null, "omezeni": ["jen-cloud"], "zdroje": ["docs-pravni-faq"],
-      "overeno": "2026-11-12", "temata": ["provoz", "bezpecnost"], "hledat": ["region", "hosting"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [
+        "jen-cloud"
+      ],
+      "zdroje": [
+        "docs-pravni-faq"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "provoz",
+        "bezpecnost"
+      ],
+      "hledat": [
+        "region",
+        "hosting"
+      ]
     },
     {
-      "id": "licence-organization-server", "nazev": "Tarif Organization i pro vlastní server",
+      "id": "licence-organization-server",
+      "nazev": "Tarif Organization i pro vlastní server",
       "prinos": "Pokročilé funkce (SSO, záznam změn, „každý vidí jen své“) jdou získat i na vlastním serveru, jako licence od výrobce.",
-      "stav": "dnes", "od": null, "omezeni": ["jen-vlastni-server"], "zdroje": ["docs-tarify", "twenty-cenik"],
-      "overeno": "2026-11-12", "temata": ["provoz", "naklady"], "hledat": ["license", "enterprise key"]
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [
+        "jen-vlastni-server"
+      ],
+      "zdroje": [
+        "docs-tarify",
+        "twenty-cenik"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "provoz",
+        "naklady"
+      ],
+      "hledat": [
+        "license",
+        "enterprise key"
+      ]
     },
     {
-      "id": "smer-vestavene-asistenty", "nazev": "ChatGPT a Claude jako vestavěné aplikace",
+      "id": "smer-vestavene-asistenty",
+      "nazev": "ChatGPT a Claude jako vestavěné aplikace",
       "prinos": "Každý uživatel si v Twenty připojí svůj účet ChatGPT nebo Claude.",
-      "stav": "smer", "od": null, "omezeni": [], "zdroje": ["gh-pr-29762"],
-      "overeno": "2026-11-12", "temata": ["ai", "mcp"], "hledat": ["ChatGPT", "Claude app"]
+      "stav": "smer",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-pr-29762"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "mcp"
+      ],
+      "hledat": [
+        "ChatGPT",
+        "Claude app"
+      ]
     },
     {
-      "id": "smer-mcp-v-automatizacich", "nazev": "Nástroje jiných systémů v automatizacích",
+      "id": "smer-mcp-v-automatizacich",
+      "nazev": "Nástroje jiných systémů v automatizacích",
       "prinos": "Krok automatizace, který zavolá nástroj jiného systému přes MCP.",
-      "stav": "smer", "od": null, "omezeni": [], "zdroje": ["gh-pr-29957"],
-      "overeno": "2026-11-12", "temata": ["mcp", "automatizace"], "hledat": ["MCP tool"]
+      "stav": "smer",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-pr-29957"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "mcp",
+        "automatizace"
+      ],
+      "hledat": [
+        "MCP tool"
+      ]
     },
     {
-      "id": "smer-agent-cte-prilohy", "nazev": "Agenti čtou přílohy záznamů",
+      "id": "smer-agent-cte-prilohy",
+      "nazev": "Agenti čtou přílohy záznamů",
       "prinos": "Agent si přečte i přiložené dokumenty — objednávku, protokol, smlouvu.",
-      "stav": "smer", "od": null, "omezeni": [], "zdroje": ["gh-pr-30083"],
-      "overeno": "2026-11-12", "temata": ["ai", "agenti"], "hledat": ["attachment"]
+      "stav": "smer",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-pr-30083"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "agenti"
+      ],
+      "hledat": [
+        "attachment"
+      ]
     },
     {
-      "id": "smer-podminene-spoustece", "nazev": "Agent se spustí jen za splněné podmínky",
+      "id": "smer-podminene-spoustece",
+      "nazev": "Agent se spustí jen za splněné podmínky",
       "prinos": "Agent zareaguje jen na události, které odpovídají vašim pravidlům.",
-      "stav": "smer", "od": null, "omezeni": [], "zdroje": ["gh-pr-30128"],
-      "overeno": "2026-11-12", "temata": ["ai", "agenti"], "hledat": ["conditional trigger"]
+      "stav": "smer",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-pr-30128"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "ai",
+        "agenti"
+      ],
+      "hledat": [
+        "conditional trigger"
+      ]
     },
     {
-      "id": "smer-pristupove-skupiny", "nazev": "Přístupové skupiny a viditelnost podle vazeb",
+      "id": "smer-pristupove-skupiny",
+      "nazev": "Přístupové skupiny a viditelnost podle vazeb",
       "prinos": "Jemnější pravidla, kdo vidí které záznamy — třeba podle týmu nebo klienta.",
-      "stav": "smer", "od": null, "omezeni": [], "zdroje": ["gh-pr-30252", "gh-prepinace"],
-      "overeno": "2026-11-12", "temata": ["opravneni"], "hledat": ["access group"]
+      "stav": "smer",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "gh-pr-30252",
+        "gh-prepinace"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "opravneni"
+      ],
+      "hledat": [
+        "access group"
+      ]
     }
   ]
 }

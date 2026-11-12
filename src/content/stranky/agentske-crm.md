@@ -11,7 +11,7 @@ hero:
   nadpis: Twenty otevřené pro AI agenty
   perex: >-
     Twenty je **středobod vašich dat** — a má v sobě napojení pro běžné AI nástroje
-    (Claude, ChatGPT, Cursor, Google). Každý ve firmě si vybere svého AI asistenta podle toho,
+    (Claude, ChatGPT, Cursor). Každý ve firmě si vybere svého AI asistenta podle toho,
     kde už pracuje, a všichni přitom pracují **nad stejnou databází**. Hledají,
     zapisují, zakládají zakázky, sestavují nabídky. Klíče k AI jsou vaše (BYOK), tokeny platíte
     přímo poskytovateli — žádná přirážka.
@@ -149,7 +149,7 @@ PDF se objeví ve složce zakázky, dispečerka pošle z Outlooku.
 ## Které AI nástroje Twenty podporuje
 
 Dvě cesty. Buď používáte AI přímo v Twenty (chat v aplikaci s vašimi klíči), nebo si přivedete
-AI nástroj zvenčí (Claude Desktop, ChatGPT, Cursor, Google).
+AI nástroj zvenčí (Claude, ChatGPT, Cursor).
 
 :::karty{sloupce="2"}
 
@@ -166,15 +166,13 @@ xAI Grok, Azure) a chat začne fungovat. Zeptáte se v běžné řeči, on prohl
 ### 🔌 AI nástroje zvenčí (doporučujeme na vyhrazeném serveru)
 
 Twenty má vestavěné **moderní napojení (MCP)**, kterému rozumí AI nástroje jako
-Claude Desktop, ChatGPT, Cursor i nově vypuštěný desktop nástroj od Googlu. Stačí Twenty
-přidat do nástroje a pár kliky se přihlásíte. Pak s daty Twenty pracujete z prostředí, kde
-už pracujete.
+Claude, ChatGPT nebo Cursor. Twenty přidáte do nástroje a přihlásíte se svým účtem v prohlížeči.
+Pak s daty Twenty pracujete z prostředí, kde už pracujete.
 
-- **Claude Desktop** a **Claude Code** — od Anthropic
-- **ChatGPT** — od OpenAI
+- **Claude** (aplikace i Claude Code) — od Anthropic
+- **ChatGPT** — od OpenAI, plné napojení včetně zápisu v tarifech pro firmy (Business, Enterprise)
 - **Cursor** — programátorský nástroj pro správce CRM
-- **Google desktop AI nástroj** — nově vypuštěný, podporuje MCP
-- **Vlastní AI nástroj** postavený na míru
+- **Další AI nástroje**, které standard MCP podporují, i vlastní nástroj postavený na míru
 
 Tokeny si platíte přímo poskytovateli daného nástroje (Anthropic pro Claude, OpenAI pro ChatGPT, Google pro Gemini, atd.) — Twenty zde nestojí v cestě.
 
@@ -207,10 +205,10 @@ Klíče vám v rámci implementace pomůžeme zaregistrovat a do Twenty nastavit
 
 ::stitek[2]
 
-### Napojení Twenty na externí AI nástroje (Claude Desktop / Cursor / ChatGPT / Google)
+### Napojení Twenty na externí AI nástroje (Claude / ChatGPT / Cursor)
 
-V Twenty najdete adresu pro napojení AI nástrojů. Tu vložíte do Claude Desktopu, ChatGPTu,
-Cursoru nebo Googlího desktop nástroje a pár kliky se přihlásíte. AI okamžitě uvidí váš
+V Twenty najdete připravené nastavení pro napojení AI nástrojů. Vložíte ho do Claude, ChatGPT
+nebo Cursoru a přihlásíte se svým účtem v prohlížeči. AI okamžitě uvidí váš
 datový model a začne s ním pracovat — jen v rámci toho, na co máte vy oprávnění.
 
 :::
@@ -244,7 +242,7 @@ z naší evidence funkcí, kterou průběžně ověřujeme proti poznámkám k v
 
 **Nejste vázáni na jeden AI nástroj.** AI chat v Twenty běží
 na vašich klíčích — dnes Claude, zítra Gemini, za půl roku silnější model. AI nástroj zvenčí
-si vybíráte vy — Claude Desktop dnes, Cursor zítra, Google nástroj pozítří. Nikdo vás netlačí
+si vybíráte vy — Claude dnes, ChatGPT zítra, jiný nástroj pozítří. Nikdo vás netlačí
 do jednoho dodavatele.
 
 **Nevíte, co bude za rok.** AI nástroje se mění každý měsíc.

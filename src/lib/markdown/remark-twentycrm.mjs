@@ -7,6 +7,7 @@
 //   :::sloupce{sloupce="2|3"}         jako karty, ale bez rámečku
 //   :::zvyrazneni                     podbarvený blok
 //   :::poznamka[Nadpis]{ton="info|varovani|uspech"}   podbarvený blok se štítkem a ikonou tónu
+//   :::otazky                         časté otázky v článku: ### Otázka + odpověď (rozbalovací, FAQPage)
 //   :::pripadova-studie{ikona="🏢" nazev="…" podtitul="…"}
 //        #### Před / #### Co jsme v Twenty nastavili / #### Po  (tři sloupce) + > citát
 //
@@ -49,6 +50,7 @@
 // proto vracíme zpátky na obyčejný text.
 
 import { visit, SKIP } from 'unist-util-visit';
+import { toString } from 'mdast-util-to-string';
 import { faq, zPricing, dosadHodnoty, escapeHtml } from '../site.mjs';
 import { EMOJI_RE, odznak, nahradEmojiVHtml, stitekPoznamky } from '../ikony.mjs';
 import { najdiFunkci, vyberFunkce, stavFunkciBlok } from '../twenty.mjs';
@@ -191,6 +193,33 @@ export default function remarkTwentycrm() {
           case 'zvyrazneni':
             node.data = { hName: 'div', hProperties: { className: ['zvyrazneni'] } };
             return;
+          case 'otazky': {
+            // Časté otázky přímo v článku: ### Otázka + odpověď (Markdown). Vykreslí se jako ::faq
+            // včetně strukturovaných dat FAQPage.
+            const { uvod, skupiny } = rozdelPodleH3(node.children);
+            if (!skupiny.length || uvod.length) chyba(file, node, ':::otazky — uvnitř patří jen ### otázky a pod nimi odpovědi');
+            const polozky = skupiny.map(([nadpis, ...odpoved]) => {
+              if (!odpoved.length) chyba(file, node, `:::otazky — otázka „${toString(nadpis)}" nemá odpověď`);
+              return { otazka: toString(nadpis), odpoved };
+            });
+            const ld = {
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: polozky.map((p) => ({
+                '@type': 'Question',
+                name: p.otazka,
+                acceptedAnswer: { '@type': 'Answer', text: p.odpoved.map((n) => toString(n)).join('\n\n') },
+              })),
+            };
+            node.data = { hName: 'div', hProperties: { className: ['faq', 'not-prose', 'not-content'] } };
+            node.children = [
+              ...polozky.map((p) =>
+                obal('details', ['faq__polozka'], [obal('summary', [], [{ type: 'text', value: p.otazka }]), obal('div', ['faq__odpoved'], p.odpoved)]),
+              ),
+              html(`<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>`),
+            ];
+            return;
+          }
           default:
             return chyba(file, node, `neznámý blok :::${node.name}`);
         }

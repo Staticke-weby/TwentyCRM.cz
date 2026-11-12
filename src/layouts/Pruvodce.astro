@@ -288,6 +288,8 @@ const aktivni = (e: Clanek) => (e.id === clanek.id ? 'page' : undefined);
       // @ts-expect-error — globál z pagefind-ui.js
       new window.PagefindUI({
         element: '#hledani',
+        // odkazy ve výsledcích skládat od místa, odkud se vyhledávání načetlo („/" nebo dočasná podsložka)
+        baseUrl: new URL(js.src).pathname.replace(/pagefind\/pagefind-ui\.js$/, ''),
         showImages: false,
         showSubResults: true,
         resetStyles: false,

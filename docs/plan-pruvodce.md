@@ -288,6 +288,12 @@ klíče k AI) označit „Pro správce" a držet zvlášť, aby nerušily hlavn�
   Zbývá z kap. 4.3: `twenty:prepinace`, `twenty:novinky` a kontrola „hotová funkce v textu, která je v registru pripravuje-se".
 - ✅ Stránka „Jak průvodce ověřujeme" (`/twenty/jak-overujeme/`, koncept do zveřejnění průvodce).
 
+**Stav 2026-11-12: vlna 1 napsaná jako koncepty** — vstupní stránka, 15 článků (článek „Vyhrazený server, nebo cloud“
+vypuštěn: ceny cloudu jen na `/cloud-vs-selfhost/`, oblast Provoz tam odkazuje) a úvody 8 oblastí; zdroje převedeny do
+registru (78), nové funkce `cekani-na-udalost` a `koncept-emailu`. Prochází se na dočasném webu (staticke-weby.github.io/TwentyCRM.cz, zobrazuje i koncepty); otevřené body k ověření:
+Gartner (web blokuje automatické stahování — ověřit ručně), sdílená schránka přeposíláním na vlastním serveru
+(potřebuje Amazon SES, viz `funkce.json` → `sdilena-schranka.pozn`), kdy servisní plán zakládá zakázku (příručka si odporuje).
+
 **Vlna 1 — 14 článků + vstupní stránka (2–3 týdny)**: články označené „1" v kap. 3.2. Mix: tři pilíře prodeje
 (automatický záznam, agenti, MCP) + SEO mezery (plánování výjezdů, evidence zakázek, AI Act, ceny AI agentů, MCP srovnání).
 Po vlně 1 průvodce zveřejnit (zrušit `draft`) a zapnout odkaz v menu.
@@ -306,7 +312,7 @@ z průvodce. Po 3 měsících vyhodnotit, které oblasti přivádějí poptávky
 1. **Rozdělení témat s bohemiacrm.cz** — twentycrm.cz vlastní Twenty, open source, vyhrazený server, agentní CRM, MCP
    i servisní návody; bohemiacrm.cz vlastní Microsoft / Power Platform a velké firmy a na tato témata jen odkazuje
    (zapsáno v `brainstorming/twentycrm-strategie.md`).
-2. **Schvaluje Petr Baloun** — koncepty dávkou; článek se zveřejní zrušením `draft` až po jeho souhlasu.
+2. **Bez formálního schvalování** (změna 2026-11-12) — koncepty se procházejí společně na dočasném webu, který je zobrazuje; `draft` se ruší při spuštění na vlastní doméně.
 3. **Adresy oblastí podle hledaných slov** (nadpis zůstává výsledek pro klienta) — finální, po zveřejnění neměnit:
    `/twenty/e-maily-a-schuzky/` · `po-jednani` · `ai-agenti` · `mcp` · `obchod` · `servis` · `na-miru` · `data` · `provoz` ·
    `naklady` · `kam-twenty-miri` · `novinky` · `slovnik` · `jak-overujeme`. Složky v `src/content/pruvodce/` jsou založené.

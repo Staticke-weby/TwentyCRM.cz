@@ -51,7 +51,7 @@
 ## T7. AI Act (relevantní pro CRM agenty)
 - Od 2. 2. 2025 zakázané praktiky + AI gramotnost (čl. 4)
 - Od 2. 8. 2026 transparentnost (čl. 50): člověk musí vědět, že komunikuje s AI (chatboti, voiceboti, AI psané zprávy); pro systémy na trhu strojové označení do 2. 12. 2026
-- Digital Omnibus (předběžná dohoda 6.–7. 5. 2026): vysoce riziková pravidla na 2. 12. 2027 / 2. 8. 2028 — https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/ (formální přijetí [neověřeno])
+- Digital Omnibus (předběžná dohoda 6.–7. 5. 2026): vysoce riziková pravidla na 2. 12. 2027 / 2. 8. 2028 — https://www.gibsondunn.com/eu-ai-act-omnibus-agreement-postponed-high-risk-deadlines-and-other-key-changes/ — **přijato:** nařízení (EU) 2026/1744, v platnosti od 27. 7. 2026 (ověřeno 2026-11-12 na https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai a EUR-Lex; podrobně článek /twenty/provoz/ai-act-a-crm/)
 - Běžní CRM agenti (follow-upy, nabídky, plánování) většinou nejsou vysoce rizikoví; HR a scoring mohou být — interpretace, ne zdroj
 
 ## T8. Suverenita a vlastní provoz
