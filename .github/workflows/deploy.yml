@@ -25,7 +25,12 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      # Dočasně na https://staticke-weby.github.io/TwentyCRM.cz/ — noindex (žádný duplikát ve vyhledávání)
+      # a cesty předsazené podsložkou. Po přepnutí na doménu www.twentycrm.cz smazat NOINDEX a krok „docasna-adresa".
       - run: npm run build
+        env:
+          NOINDEX: '1'
+      - run: node scripts/docasna-adresa.mjs /TwentyCRM.cz
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
