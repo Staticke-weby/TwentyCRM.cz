@@ -2,7 +2,7 @@
 /**
  * Layout průvodce /twenty/ ve stylu Payday: soumrakový pás s názvem, pod ním
  * boční navigace (oblasti a články, vyhledávání) · text článku · „Na této stránce".
- * Pod článkem: kdy a proti čemu byla fakta ověřena, zdroje, předchozí/další, demo, upozornění.
+ * Pod článkem: kdy a proti čemu byla fakta ověřena, zdroje, předchozí/další, demo (právní upozornění je v patičce webu).
  */
 import { render } from 'astro:content';
 import Base from './Base.astro';
@@ -248,13 +248,6 @@ const aktivni = (e: Clanek) => (e.id === clanek.id ? 'page' : undefined);
 
       <div data-pagefind-ignore set:html={demoCta()} />
 
-      <p class="pruvodce__upozorneni" data-pagefind-ignore>
-        <strong>Twenty</strong> je software s otevřeným zdrojovým kódem, vyvíjený společností Twenty Inc. (licence AGPL-3.0).
-        Tento průvodce <strong>NENÍ oficiálním zastoupením</strong> Twenty.com — píše ho ESHOpino s.r.o., nezávislá česká
-        agentura, která Twenty nasazuje a spravuje. Oficiální zdroje:
-        <a href="https://docs.twenty.com/cs/user-guide/introduction" rel="noopener" target="_blank">česká dokumentace</a> ·
-        <a href="https://github.com/twentyhq/twenty/releases" rel="noopener" target="_blank">vydání na GitHubu</a>.
-      </p>
     </article>
 
     {
@@ -378,7 +371,6 @@ const aktivni = (e: Clanek) => (e.id === clanek.id ? 'page' : undefined);
   .listovani__odkaz:hover { border-color: var(--tc-ink); }
   .listovani__odkaz span { display: block; font-size: 0.8125rem; color: var(--tc-muted); margin-bottom: 0.2rem; }
   .listovani__odkaz--dalsi { text-align: right; grid-column: 2; }
-  .pruvodce__upozorneni { font-size: 0.8125rem !important; color: var(--tc-muted) !important; line-height: 1.6; max-width: var(--tc-text-col); }
 
   /* Na této stránce */
   .pruvodce__toc { display: none; }
