@@ -42,8 +42,8 @@
     },
     {
       "id": "ai-import",
-      "nazev": "Import dat s pomocí AI",
-      "prinos": "AI pomůže přiřadit sloupce z Excelu nebo CSV ke správným polím — přechod ze starého systému je rychlejší.",
+      "nazev": "Import dat přes AI chat",
+      "prinos": "Soubor z Excelu nebo CSV nahrajete do AI chatu a AI data převede do CRM. Běžný import přiřadí sloupce k polím sám podle názvu.",
       "stav": "dnes",
       "od": "2.18.0",
       "omezeni": [],
@@ -57,7 +57,8 @@
       ],
       "hledat": [
         "import"
-      ]
+      ],
+      "pozn": "Interní: import přes AI chat stojí na prostředí pro spouštění kódu; na vlastním serveru je ve výchozím stavu vypnuté (dokumentace počítá se službou E2B)."
     },
     {
       "id": "slucovani-duplicit",
@@ -228,7 +229,7 @@
       "hledat": [
         "classify"
       ],
-      "pozn": "Interní: krok Classify potřebuje hodnoticí model „Jev\" a klíč, který zapne správce (docs workflow-actions)."
+      "pozn": "Interní: krok Classify běží na hodnoticím modelu Jev přes službu TypeSafe AI (zpracovatel podle Legal FAQ); správce ji musí zapnout a nastavit klíčem."
     },
     {
       "id": "cekani-na-udalost",
@@ -460,9 +461,28 @@
       ]
     },
     {
+      "id": "zaznam-behu-automatizace",
+      "nazev": "Záznam průběhu automatizací",
+      "prinos": "U každého běhu automatizace vidíte krok po kroku, co proběhlo, a po chybě ji spustíte znovu od chybného kroku.",
+      "stav": "dnes",
+      "od": "2.9.0",
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "automatizace"
+      ],
+      "hledat": [
+        "workflow run",
+        "retry"
+      ]
+    },
+    {
       "id": "pridelovani-dokola",
       "nazev": "Spravedlivé rozdělování mezi lidi",
-      "prinos": "Nové poptávky nebo úkoly se rozdělují mezi obchodníky či techniky postupně dokola.",
+      "prinos": "Nové poptávky nebo úkoly se rozdělují mezi obchodníky či techniky — dokola, podle vytížení nebo náhodně.",
       "stav": "dnes",
       "od": "2.16.0",
       "omezeni": [],
@@ -477,12 +497,13 @@
       "hledat": [
         "round-robin",
         "round robin"
-      ]
+      ],
+      "pozn": "Interní: seznam lidí v kroku je pevný, nedá se do něj předat výsledek hledání (docs workflow-actions)."
     },
     {
       "id": "slack",
       "nazev": "Twenty ve Slacku",
-      "prinos": "Ze Slacku se zeptáte CRM nebo spustíte automatizaci, asistent jedná za člena, který ho označil.",
+      "prinos": "Ze Slacku se zeptáte CRM — asistent jedná za člena, který ho označil — a automatizace mohou posílat zprávy do Slacku.",
       "stav": "dnes",
       "od": "2.7.0",
       "omezeni": [],
@@ -501,7 +522,7 @@
     {
       "id": "teams",
       "nazev": "Twenty v Microsoft Teams",
-      "prinos": "Asistent Twenty přímo v Teams.",
+      "prinos": "Asistent Twenty přímo v Teams. Dnes jsou z Teams k dispozici přepisy schůzek se shrnutím AI.",
       "stav": "pripravuje-se",
       "duvod": "nepotvrzeno",
       "od": null,
@@ -538,6 +559,25 @@
         "calendar",
         "IMAP",
         "messaging"
+      ]
+    },
+    {
+      "id": "posledni-kontakt",
+      "nazev": "Datum posledního kontaktu u klienta",
+      "prinos": "U osob, firem a obchodních případů vidíte, kdy s nimi naposledy někdo komunikoval — z připojené pošty a kalendáře.",
+      "stav": "dnes",
+      "od": "2.20.0",
+      "omezeni": [],
+      "zdroje": [
+        "gh-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "komunikace",
+        "obchod"
+      ],
+      "hledat": [
+        "last contact"
       ]
     },
     {
@@ -607,12 +647,10 @@
     {
       "id": "linkedin",
       "nazev": "Konverzace z LinkedInu v CRM",
-      "prinos": "Zprávy z LinkedInu se ukládají ke kontaktu a dá se na ně odpovědět z CRM.",
-      "stav": "dnes",
-      "od": "2.55.0",
-      "omezeni": [
-        "aplikace-treti-strany"
-      ],
+      "prinos": "Zprávy z LinkedInu se ukládají ke kontaktu a dá se na ně odpovědět z CRM — přes aplikaci výrobce napojenou na službu Unipile.",
+      "stav": "pripravuje-se",
+      "od": null,
+      "omezeni": [],
       "zdroje": [
         "gh-vydani"
       ],
@@ -624,7 +662,9 @@
       "hledat": [
         "LinkedIn",
         "Unipile"
-      ]
+      ],
+      "duvod": "prepinac",
+      "pozn": "Interní: aplikace od v2.54 (čtení), v2.55 historie, v2.56 odpovědi; obrazovka připojení účtu ve v2.57 za přepínačem IS_APP_PREFERENCES_ENABLED; vlastní server potřebuje účet u Unipile a veřejnou adresu."
     },
     {
       "id": "emailove-kampane",
@@ -687,11 +727,14 @@
     {
       "id": "kontrola-dat",
       "nazev": "Pravidla pro kontrolu dat",
-      "prinos": "Systém nepustí neúplný nebo chybný záznam — lidi ani AI.",
+      "prinos": "Systém nepustí neúplný nebo chybný záznam — lidi ani AI. Dělají se tak i povinná pole.",
       "stav": "dnes",
       "od": "2.56.0",
-      "omezeni": [],
+      "omezeni": [
+        "tarif-organization"
+      ],
       "zdroje": [
+        "twenty-capabilities-validation-rules",
         "gh-vydani"
       ],
       "overeno": "2026-11-12",
@@ -700,6 +743,24 @@
       ],
       "hledat": [
         "validation"
+      ]
+    },
+    {
+      "id": "jedinecna-pole",
+      "nazev": "Jedinečná pole",
+      "prinos": "E-mail u osoby a doména u firmy se nezopakují; jedinečným můžete označit i další pole, třeba IČO.",
+      "stav": "dnes",
+      "od": null,
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "data"
+      ],
+      "hledat": [
+        "unique"
       ]
     },
     {
@@ -721,6 +782,26 @@
         "view",
         "kanban",
         "calendar view"
+      ]
+    },
+    {
+      "id": "rozvrzeni-karty",
+      "nazev": "Vlastní rozvržení karty záznamu",
+      "prinos": "Kartu klienta, zakázky nebo zařízení si poskládáte ze záložek a částí podle toho, co lidé potřebují vidět.",
+      "stav": "dnes",
+      "od": "2.0.0",
+      "omezeni": [],
+      "zdroje": [
+        "twenty-vydani"
+      ],
+      "overeno": "2026-11-12",
+      "temata": [
+        "data",
+        "aplikace"
+      ],
+      "hledat": [
+        "record page",
+        "layout"
       ]
     },
     {

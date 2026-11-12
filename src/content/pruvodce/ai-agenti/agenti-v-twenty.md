@@ -95,8 +95,8 @@ nepohnuly, a vlastníkům založí úkol s krátkým shrnutím poslední komunik
 - **AI model.** Na vyhrazeném serveru s vlastními klíči k AI, za které platíte přímo poskytovateli.
   V cloudu výrobce se AI účtuje v kreditech a platí se dvě faktury — viz
   [vyhrazený server, nebo cloud](/cloud-vs-selfhost/).
-- **Pro třídění zvláštní model.** Krok Classify běží na hodnoticím modelu výrobce, který musí
-  správce zapnout a nastavit k němu klíč. Bez toho krok neproběhne.
+- **Pro třídění zvláštní model.** Krok Classify běží na hodnoticím modelu Jev přes službu
+  TypeSafe AI, kterou musí správce zapnout a nastavit k ní klíč. Bez toho krok neproběhne.
 - **Zadání, dovednosti a role.** Co má agent dělat, podle jakého postupu a na co smí sáhnout.
   Připravíme spolu s vámi při nasazení.
 

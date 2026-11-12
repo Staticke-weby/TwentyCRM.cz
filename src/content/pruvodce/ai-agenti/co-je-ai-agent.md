@@ -105,8 +105,8 @@ a agenty se spouštěči.
 ### Může agent udělat chybu?
 
 Může, stejně jako člověk. Proto má agent jen roli s nejnutnějšími právy, výstupy, které jdou ven
-ke klientovi, připravuje jako koncepty, a Twenty u něj hlídá stejná pravidla jako u lidí — povinná
-pole a kontrolu dat. Začínat se vyplatí jednou úlohou, u které se výsledek dá snadno zkontrolovat.
+ke klientovi, připravuje jako koncepty, a Twenty u něj hlídá stejná pravidla jako u lidí — role
+a v tarifu Organization i pravidla pro kontrolu dat. Začínat se vyplatí jednou úlohou, u které se výsledek dá snadno zkontrolovat.
 
 ### Nahradí agent obchodníka nebo dispečerku?
 

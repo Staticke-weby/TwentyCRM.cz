@@ -81,8 +81,8 @@ pro toho je [napojení na fakturaci](/napojeni-na-fakturaci/).
 
 ## Jak přejít z Excelu
 
-Data z Excelu nebo CSV se do Twenty nahrávají importem a AI při něm pomůže přiřadit sloupce
-ke správným polím. Kdykoli je zase vyexportujete, takže v systému nejste uzamčení. Jak import
+Data z Excelu nebo CSV se do Twenty nahrávají importem, který sloupce přiřadí k polím podle názvu
+a typu dat ([přechod z Excelu](/twenty/data/prechod-z-excelu-s-ai/)). Kdykoli je zase vyexportujete, takže v systému nejste uzamčení. Jak import
 funguje, popisuje [dokumentace výrobce](https://docs.twenty.com/cs/user-guide/data-migration/overview).
 
 Nemusíte převádět celou historii. Většinou stačí klienti, místa, zařízení a datum poslední

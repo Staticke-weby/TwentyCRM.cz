@@ -46,7 +46,7 @@ Dvě věci, díky kterým se AI v Twenty dá pustit k ostrým datům.
 AI nástroj se k Twenty připojí přes **moderní napojení pro AI (MCP)** a zadá příkaz přímo jádru
 systému — „založ zakázku", „najdi klienta", „doplň termín". Nemusí nic napodobovat na obrazovce.
 
-Twenty přitom ohlídá totéž co u člověka: **povinná pole, pravidla pro kontrolu dat a navázané
+Twenty přitom ohlídá totéž co u člověka: AI vidí a mění jen to, co dovolí **role**, a **navázané
 automatizace** proběhnou stejně, jako kdyby záznam uložil kolega.
 
 ### AI ví, co jen čte a co mění

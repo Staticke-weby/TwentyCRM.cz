@@ -25,7 +25,7 @@ a přepis online schůzek a převzetí přepisů a shrnutí z Microsoft Teams, F
 a Granoly. Co se do CRM uloží a co zůstane soukromé, si určí každý uživatel u své schránky.
 
 **Kam to míří:** Twenty přidává další kanály, kterými firma s klienty mluví — například zprávy
-z LinkedInu přes aplikaci třetí strany. Směr je jasný: veškerá komunikace s klientem na jednom
+z LinkedInu přes aplikaci výrobce napojenou na službu Unipile. Směr je jasný: veškerá komunikace s klientem na jednom
 místě, kde s ní mohou pracovat lidé i AI.
 
 Navazující oblast [Po každém jednání hotový další krok](/twenty/po-jednani/) ukazuje, co z takto

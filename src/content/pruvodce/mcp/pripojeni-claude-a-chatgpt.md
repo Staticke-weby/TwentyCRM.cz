@@ -60,7 +60,7 @@ všech tarifů Twenty i vyhrazeného serveru.
 | Potvrzení změn | Claude žádá o schválení použití nástroje, nepotřebné akce jde vypnout | u zápisu si může vyžádat potvrzení, zvlášť rizikové akce může zablokovat |
 
 Stav podle nápovědy [Anthropic](https://support.claude.com/en/articles/11175166-get-started-with-custom-connectors-using-remote-mcp)
-a [OpenAI](https://help.openai.com/en/articles/12584461-developer-mode-apps-and-full-mcp-connectors-in-chatgpt-beta),
+a [OpenAI](https://help.openai.com/en/articles/12584461-connecting-custom-mcp-servers-in-chatgpt),
 ověřeno 12. 11. 2026. OpenAI vede plné napojení zatím jako zkušební provoz a názvy v nastavení
 ChatGPT se často mění. Kromě aplikací Claude a ChatGPT se k Twenty připojí i Claude Code, Cursor
 a další nástroje s podporou MCP. Postup krok za krokem je v

@@ -62,8 +62,8 @@ role určí, které záznamy a pole smí číst a měnit
 
 Schválení člověkem se dnes řeší nastavením: AI připraví návrh, kategorii nebo koncept a odeslání
 nechá na člověku. Krok, ve kterém agent sám pošle návrh ke schválení a počká na odpověď, se
-v Twenty **připravuje**. Pravidla pro kontrolu dat a slučování duplicit pomohou data uklidit před
-startem.
+v Twenty **připravuje**. Slučování duplicit a v tarifu Organization i pravidla pro kontrolu dat pomohou data uklidit
+před startem.
 
 :::poznamka[Ilustrační příklad]{ton="info"}
 

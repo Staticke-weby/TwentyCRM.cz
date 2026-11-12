@@ -77,8 +77,16 @@
           "funkce": "kontrola-dat"
         },
         {
-          "co": "Ada jako výchozí jméno AI asistenta",
+          "co": "Pravidla, kdy Ada vstupuje do konverzace; nastavení jména a obrázku asistenta",
           "funkce": "ada-tymova-schranka"
+        },
+        {
+          "co": "Volba schránky, ze které se e-mail odešle",
+          "funkce": "posta-kalendar"
+        },
+        {
+          "co": "Zjednodušená volba AI modelu: výchozí model, úroveň nebo konkrétní model",
+          "funkce": "ai-volba-modelu"
         }
       ],
       "zpracovano": "2026-11-12"
@@ -97,12 +105,16 @@
           "funkce": "soukrome-zaznamy"
         },
         {
-          "co": "Konverzace z LinkedInu (aplikace přes Unipile)",
+          "co": "LinkedIn: import historie, kontaktů a příloh (přes Unipile)",
           "funkce": "linkedin"
         },
         {
           "co": "Blokace opakovaného použití kódu dvoufázového přihlášení",
           "funkce": "dvoufazove-prihlaseni"
+        },
+        {
+          "co": "Webhooky vyžadují roli (nekompatibilní změna pro napojené systémy)",
+          "funkce": "role-opravneni"
         }
       ],
       "zpracovano": "2026-11-12"
@@ -122,6 +134,10 @@
             "obchod-s-aplikacemi",
             "mcp-klient"
           ]
+        },
+        {
+          "co": "Aplikace LinkedIn: čtení konverzací (přes Unipile)",
+          "funkce": "linkedin"
         }
       ],
       "zpracovano": "2026-11-12"
@@ -152,7 +168,7 @@
       "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.52.0",
       "zmeny": [
         {
-          "co": "Propojení e-mailů a schůzek s obchody",
+          "co": "E-mail odeslaný ze záznamu zůstane uložený u tohoto záznamu",
           "funkce": "posta-kalendar"
         }
       ],
@@ -169,6 +185,10 @@
         },
         {
           "co": "Nový editor textu"
+        },
+        {
+          "co": "Ruční připojení e-mailu nebo schůzky k obchodnímu případu",
+          "funkce": "posta-kalendar"
         }
       ],
       "zpracovano": "2026-11-12"
@@ -197,6 +217,14 @@
         {
           "co": "AI kredity a limity na uživatele",
           "funkce": "ai-kredity"
+        },
+        {
+          "co": "Nahrávky hovorů na kartě záznamu",
+          "funkce": "nahravani-schuzek"
+        },
+        {
+          "co": "Možnost vyloučit soukromé události z kalendáře",
+          "funkce": "posta-kalendar"
         }
       ],
       "zpracovano": "2026-11-12"
@@ -205,7 +233,16 @@
       "verze": "2.48.0",
       "datum": "2026-10-16",
       "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.48.0",
-      "zmeny": [],
+      "zmeny": [
+        {
+          "co": "Export dat přes klíče pro napojené systémy",
+          "funkce": "import-export"
+        },
+        {
+          "co": "Filtrování nevyžádané pošty ve sdílené schránce",
+          "funkce": "sdilena-schranka"
+        }
+      ],
       "zpracovano": "2026-11-12"
     },
     {
@@ -220,10 +257,6 @@
         {
           "co": "Asistent v Teams odpovídá (rozpracovaný)",
           "funkce": "teams"
-        },
-        {
-          "co": "Export dat přes klíče pro napojené systémy",
-          "funkce": "import-export"
         },
         {
           "co": "Lidský vstup v automatizacích (za přepínačem)",
@@ -290,6 +323,10 @@
         {
           "co": "Přímý režim MCP",
           "funkce": "mcp-server"
+        },
+        {
+          "co": "Automatizace mohou upravovat e-maily a schůzky (např. kategorie z třídění)",
+          "funkce": "automatizace"
         }
       ],
       "zpracovano": "2026-11-12"
@@ -527,7 +564,10 @@
         },
         {
           "co": "Doporučené aplikace: obohacení údajů, poslední kontakt, nahrávání hovorů",
-          "funkce": "aplikace"
+          "funkce": [
+            "aplikace",
+            "posledni-kontakt"
+          ]
         }
       ],
       "zpracovano": "2026-11-12"
@@ -610,7 +650,10 @@
       "zmeny": [
         {
           "co": "Opakování automatizace od chybného kroku",
-          "funkce": "automatizace"
+          "funkce": [
+            "automatizace",
+            "zaznam-behu-automatizace"
+          ]
         }
       ],
       "zpracovano": "2026-11-12"
@@ -650,7 +693,10 @@
       "zmeny": [
         {
           "co": "Záznam průběhu jednotlivých kroků automatizace",
-          "funkce": "automatizace"
+          "funkce": [
+            "automatizace",
+            "zaznam-behu-automatizace"
+          ]
         },
         {
           "co": "Oprávnění aplikací",

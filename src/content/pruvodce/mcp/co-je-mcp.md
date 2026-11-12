@@ -88,6 +88,6 @@ například předplatné Claude nebo ChatGPT.
 ### Co když AI udělá chybu?
 
 Akce, které mění data, jsou označené a asistent se před nimi může zeptat. Zbytek hlídá Twenty
-stejně jako u člověka: povinná pole, pravidla pro kontrolu dat a role.
+stejně jako u člověka: role a navázané automatizace; v tarifu Organization i pravidla pro kontrolu dat.
 
 :::

@@ -78,8 +78,9 @@ cenu jednoho třídění, vynásobí ji měsíčním objemem a nastaví strop o 
   tohoto čísla nedává smysl žádný ceník.
 - **Cena jedné úlohy z ostrého provozu.** Nejspolehlivěji ji zjistíte krátkým pilotem na jedné úloze
   — postup popisujeme v článku [Jak začít pilotem](/twenty/naklady/pilot-ai/).
-- **Strop útraty.** U poskytovatele AI si nastavíte měsíční limit — například Anthropic umožňuje
-  nastavit vlastní měsíční limit pod stropem účtu.
+- **Strop útraty.** U poskytovatele AI hlídáte útratu jeho nástroji — Anthropic umožňuje nastavit
+  vlastní měsíční limit, u OpenAI jsou upozornění na útratu a limity na tempo požadavků. Podrobně
+  v článku [Jak hlídat útratu za AI](/twenty/naklady/hlidani-utraty-za-ai/).
 - **Rozumná volba modelu.** Třídění a doplnění údajů zvládne levnější model; dražší nechte na úlohy,
   kde záleží na kvalitě textu.
 
@@ -101,8 +102,9 @@ bude u vás, zjistíte nejlépe krátkým pilotem na skutečných datech.
 
 ### Dá se útrata omezit, aby nepřekvapila?
 
-Ano. Na vyhrazeném serveru nastavíte měsíční limit u poskytovatele AI. Limit doporučujeme nastavit
-hned při spuštění první automatizace, ne až po první faktuře.
+Ano, nástroji poskytovatele AI: u Anthropic vlastním měsíčním limitem, u OpenAI upozorněním na útratu
+a limity na tempo požadavků (upozornění samo požadavky nezastaví). Nastavte je hned při spuštění první
+automatizace, ne až po první faktuře.
 
 ### Proč neuvádíte, kdo je nejlevnější?
 

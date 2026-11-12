@@ -294,6 +294,14 @@ registru (78), nové funkce `cekani-na-udalost` a `koncept-emailu`. Prochází s
 Gartner (web blokuje automatické stahování — ověřit ručně), sdílená schránka přeposíláním na vlastním serveru
 (potřebuje Amazon SES, viz `funkce.json` → `sdilena-schranka.pozn`), kdy servisní plán zakládá zakázku (příručka si odporuje).
 
+**Stav 2026-11-12 (večer): vlny 2 a 3 napsané jako koncepty** — celkem 61 stránek průvodce (155 zdrojů, 56 funkcí v registru),
+včetně Kam Twenty míří, Novinek (říjen, listopad 2026) a slovníku na jedné stránce. Oproti kap. 3.2: „AI kredity v Twenty“
+→ `/twenty/naklady/hlidani-utraty-za-ai/` (kredity jsou jen v cloudu), „Bezpečnost Twenty“ a „Open source CRM česky“
+vypuštěny (pokrývají `/bezpecnost/` a `/crm-open-source-cesky/`), trendy a srovnání agentů v oblasti AI agenti.
+Opraveno při kontrole: pravidla pro kontrolu dat (a tím povinná pole) jsou jen v tarifu Organization; LinkedIn = připravuje se
+(připojení účtu za přepínačem); import s AI = import přes AI chat. Ručně ověřit: Gartner, čísla článků GDPR (EUR-Lex
+blokuje stahování).
+
 **Vlna 1 — 14 článků + vstupní stránka (2–3 týdny)**: články označené „1" v kap. 3.2. Mix: tři pilíře prodeje
 (automatický záznam, agenti, MCP) + SEO mezery (plánování výjezdů, evidence zakázek, AI Act, ceny AI agentů, MCP srovnání).
 Po vlně 1 průvodce zveřejnit (zrušit `draft`) a zapnout odkaz v menu.

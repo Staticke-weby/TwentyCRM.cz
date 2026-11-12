@@ -229,7 +229,7 @@
     {
       "id": "gh-pr-30252",
       "url": "https://github.com/twentyhq/twenty/pull/30252",
-      "nazev": "Twenty — přístupové skupiny a pravidla viditelnosti (rozpracováno)",
+      "nazev": "Twenty — přístupové skupiny a pravidla viditelnosti (změna uzavřena; směr dokládá přepínač v kódu)",
       "typ": "kod",
       "vydavatel": "Twenty",
       "zkontrolovano": "2026-11-12",
@@ -704,6 +704,699 @@
       "nazev": "Twenty — kalendářní pohled",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-tag-twenty-2fv2-49-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.49.0",
+      "nazev": "Twenty v2.49 — zmínky Ady v konverzacích, možnost ji vypnout",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-tag-twenty-2fv2-57-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.57.0",
+      "nazev": "Twenty v2.57 — přímé zprávy mezi členy týmu",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-tag-twenty-2fv2-57-1",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.57.1",
+      "nazev": "Twenty v2.57.1 — jméno a obrázek asistenta v týmové schránce",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "microsoft-work-trend-index-agents-human-agency-and-the-oppor",
+      "url": "https://www.microsoft.com/en-us/worklab/work-trend-index/agents-human-agency-and-the-opportunity-for-every-organization",
+      "nazev": "Microsoft WorkLab — Work Trend Index 2026 (5. 5. 2026)",
+      "typ": "studie",
+      "vydavatel": "Microsoft",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "microsoft-18-microsoft-agent-365-the-control-plane-for-ai-ag",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/2025/11/18/microsoft-agent-365-the-control-plane-for-ai-agents/",
+      "nazev": "Microsoft — Agent 365, správa AI agentů ve firmě (18. 11. 2025)",
+      "typ": "konkurence",
+      "vydavatel": "Microsoft",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "salesforce-stories-state-of-sales-report-announcement-2026",
+      "url": "https://www.salesforce.com/news/stories/state-of-sales-report-announcement-2026/",
+      "nazev": "Salesforce — State of Sales 2026 (3. 2. 2026)",
+      "typ": "konkurence",
+      "vydavatel": "Salesforce",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "ec-w-ddn-20251211-2",
+      "url": "https://ec.europa.eu/eurostat/web/products-eurostat-news/w/ddn-20251211-2",
+      "nazev": "Eurostat — 20 % firem v EU používalo v roce 2025 AI (11. 12. 2025)",
+      "typ": "legislativa",
+      "vydavatel": "Evropská komise",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "ec-statistics-explained-index-php",
+      "url": "https://ec.europa.eu/eurostat/statistics-explained/index.php?title=Use_of_artificial_intelligence_in_enterprises",
+      "nazev": "Eurostat — Use of artificial intelligence in enterprises (data 2025)",
+      "typ": "legislativa",
+      "vydavatel": "Evropská komise",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "noma-blog-forcedleak-agent-risks-exposed-in-salesforce-agent",
+      "url": "https://noma.security/blog/forcedleak-agent-risks-exposed-in-salesforce-agentforce",
+      "nazev": "Noma Security — ForcedLeak, zranitelnost v Salesforce Agentforce (25. 9. 2025)",
+      "typ": "dokumentace",
+      "vydavatel": "noma.security",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "raynetcrm-know-how-raynet-ai-2026",
+      "url": "https://raynetcrm.com/know-how/raynet-ai-2026/",
+      "nazev": "Raynet — Raynet AI v roce 2026 (článek výrobce)",
+      "typ": "konkurence",
+      "vydavatel": "Raynet",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "pipedrive-newsroom-pipedrive-unveils-next-generation-ai-crm-",
+      "url": "https://www.pipedrive.com/en/newsroom/pipedrive-unveils-next-generation-ai-crm-with-agentic-experience",
+      "nazev": "Pipedrive — agentní AI v betě (tisková zpráva, 4. 2. 2025)",
+      "typ": "konkurence",
+      "vydavatel": "Pipedrive",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "pipedrive-newsroom-pipedrive-launches-nova-to-turn-sales-mee",
+      "url": "https://www.pipedrive.com/en/newsroom/pipedrive-launches-nova-to-turn-sales-meetings-into-crm-intelligence",
+      "nazev": "Pipedrive — Nova, asistent pro obchodní schůzky (tisková zpráva, 16. 9. 2026)",
+      "typ": "konkurence",
+      "vydavatel": "Pipedrive",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "knowledge-ai-understand-breeze",
+      "url": "https://knowledge.hubspot.com/ai/understand-agent-hub",
+      "nazev": "HubSpot — přehled AI a agentů v HubSpotu (znalostní báze, aktualizace 1. 10. 2026)",
+      "typ": "konkurence",
+      "vydavatel": "HubSpot",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "hubspot-company-news-spring-2026-spotlight",
+      "url": "https://www.hubspot.com/company-news/spring-2026-spotlight",
+      "nazev": "HubSpot — Spring 2026 Spotlight, agenti pro vyhledávání zákazníků a podporu (14. 4. 2026)",
+      "typ": "konkurence",
+      "vydavatel": "HubSpot",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "salesforce-sales-ai-sales-agent",
+      "url": "https://www.salesforce.com/sales/ai-sales-agent/",
+      "nazev": "Salesforce — Agentforce pro obchod (stránka výrobce)",
+      "typ": "konkurence",
+      "vydavatel": "Salesforce",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-validation-rules",
+      "url": "https://docs.twenty.com/user-guide/data-model/capabilities/validation-rules",
+      "nazev": "Twenty — pravidla pro kontrolu dat (Validation Rules)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-fields",
+      "url": "https://docs.twenty.com/user-guide/data-model/capabilities/fields",
+      "nazev": "Twenty — pole a jejich jedinečnost",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-uniqueness-constraints",
+      "url": "https://docs.twenty.com/user-guide/data-migration/capabilities/uniqueness-constraints",
+      "nazev": "Twenty — jedinečná pole a duplicity",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-53-1",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.53.1",
+      "nazev": "Twenty v2.53.1 — slučování libovolných záznamů, i přes AI chat",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-47-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.47.0",
+      "nazev": "Twenty v2.47 — AI sestaví pravidlo pro kontrolu dat; pravidla v tarifu Organization",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-file-formats",
+      "url": "https://docs.twenty.com/user-guide/data-migration/capabilities/file-formats",
+      "nazev": "Twenty — podporované formáty souborů pro import",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-field-mapping",
+      "url": "https://docs.twenty.com/user-guide/data-migration/capabilities/field-mapping",
+      "nazev": "Twenty — přiřazení sloupců při importu",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-how-tos-export-your-data",
+      "url": "https://docs.twenty.com/user-guide/data-migration/how-tos/export-your-data",
+      "nazev": "Twenty — export dat",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-18-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.18.0",
+      "nazev": "Twenty v2.18 — spolehlivý hromadný import přes AI chat",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-51-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.51.0",
+      "nazev": "Twenty v2.51 — export celého pracovního prostoru",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "arxiv-abs-2505-18878",
+      "url": "https://arxiv.org/abs/2505.18878",
+      "nazev": "CRMArena-Pro — test AI agentů na úlohách v CRM (Salesforce AI Research, 24. 5. 2025)",
+      "typ": "dokumentace",
+      "vydavatel": "arxiv.org",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-pull-27818",
+      "url": "https://github.com/twentyhq/twenty/pull/27818",
+      "nazev": "Twenty — pravidla pro kontrolu dat v tarifu Organization (PR 27818)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-public-linkedin",
+      "url": "https://github.com/twentyhq/twenty/tree/main/packages/twenty-apps/public/linkedin",
+      "nazev": "Twenty — aplikace LinkedIn (kód a popis)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-linkedin-setup",
+      "url": "https://github.com/twentyhq/twenty/blob/main/packages/twenty-apps/public/linkedin/SETUP.md",
+      "nazev": "Twenty — aplikace LinkedIn, nastavení na vlastním serveru (Unipile)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-54-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.54.0",
+      "nazev": "Twenty v2.54 — aplikace LinkedIn (čtení zpráv přes Unipile)",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-55-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.55.0",
+      "nazev": "Twenty v2.55 — LinkedIn, import historie, kontaktů a příloh",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "unipile-pricing-api",
+      "url": "https://www.unipile.com/pricing-api/",
+      "nazev": "Unipile — ceník (podle počtu připojených účtů)",
+      "typ": "dokumentace",
+      "vydavatel": "www.unipile.com",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-how-tos-forward-a-shared-inbox-from-any-mail-provider",
+      "url": "https://docs.twenty.com/user-guide/calendar-emails/how-tos/forward-a-shared-inbox-from-any-mail-provider",
+      "nazev": "Twenty — přeposílání sdílené schránky od libovolného poskytovatele",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-how-tos-forward-a-shared-inbox-from-microsoft-365",
+      "url": "https://docs.twenty.com/user-guide/calendar-emails/how-tos/forward-a-shared-inbox-from-microsoft-365",
+      "nazev": "Twenty — přeposílání sdílené schránky z Microsoft 365",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-pull-28732",
+      "url": "https://github.com/twentyhq/twenty/pull/28732",
+      "nazev": "Twenty — uložené AI obrazovky v rozvržení stránek (rozpracováno, PR #28732)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-pull-30156",
+      "url": "https://github.com/twentyhq/twenty/pull/30156",
+      "nazev": "Twenty — propojení uživatelů Teams s členy týmu (rozpracováno, PR #30156)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-pull-30232",
+      "url": "https://github.com/twentyhq/twenty/pull/30232",
+      "nazev": "Twenty — přímé zprávy ve vlastní sekci týmové schránky (PR #30232)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-pull-29822",
+      "url": "https://github.com/twentyhq/twenty/pull/29822",
+      "nazev": "Twenty — AI a MCP spustí automatizaci (PR #29822)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-public-slack",
+      "url": "https://github.com/twentyhq/twenty/tree/main/packages/twenty-apps/public/slack",
+      "nazev": "Twenty — aplikace Slack (asistent, náhledy odkazů, kroky v automatizacích)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-slack-setup",
+      "url": "https://github.com/twentyhq/twenty/blob/main/packages/twenty-apps/public/slack/SETUP.md",
+      "nazev": "Twenty — nastavení aplikace Slack na vlastním serveru",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-26-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.26.0",
+      "nazev": "Twenty v2.26 — konverzační asistent ve Slacku",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-50-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.50.0",
+      "nazev": "Twenty v2.50 — první verze aplikace Teams jen se shrnutím přepisů",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-57-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.57.0",
+      "nazev": "Twenty v2.57 — nástroje externích MCP serverů v AI chatu (za přepínačem)",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-tag-twenty-2fv2-55-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.55.0",
+      "nazev": "Twenty v2.55 — AI chat staví a zveřejňuje vlastní obrazovky (3. 11. 2026)",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-record-pages",
+      "url": "https://docs.twenty.com/user-guide/layout/capabilities/record-pages",
+      "nazev": "Twenty — rozvržení karty záznamu (záložky a části karty)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-layout-front-components",
+      "url": "https://docs.twenty.com/developers/extend/apps/layout/front-components",
+      "nazev": "Twenty — vlastní obrazovky v aplikacích (ve vývoji)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-core-concepts-apps",
+      "url": "https://docs.twenty.com/getting-started/core-concepts/apps",
+      "nazev": "Twenty — co jsou aplikace a proč existují",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-operations-publishing",
+      "url": "https://docs.twenty.com/developers/extend/apps/operations/publishing",
+      "nazev": "Twenty — zveřejnění aplikace (obchod s aplikacemi i soukromé nasazení)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-operations-marketplace-review",
+      "url": "https://docs.twenty.com/developers/extend/apps/operations/marketplace-review",
+      "nazev": "Twenty — kontrola aplikací před zařazením do obchodu",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-data-model-overview",
+      "url": "https://docs.twenty.com/user-guide/data-model/overview",
+      "nazev": "Twenty — datový model (kdy pole, kdy nový typ záznamu)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-relation-fields",
+      "url": "https://docs.twenty.com/user-guide/data-model/capabilities/relation-fields",
+      "nazev": "Twenty — vazby mezi záznamy",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-how-tos-create-many-to-many-relations",
+      "url": "https://docs.twenty.com/user-guide/data-model/how-tos/create-many-to-many-relations",
+      "nazev": "Twenty — vazby mnoho na mnoho",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "openai-terraform-rate-limits-and-spend",
+      "url": "https://developers.openai.com/api/docs/guides/terraform/rate-limits-and-spend",
+      "nazev": "OpenAI — limity požadavků a upozornění na útratu u projektů a organizace",
+      "typ": "dokumentace",
+      "vydavatel": "OpenAI",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "claude-build-with-claude-effort",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/effort",
+      "nazev": "Anthropic — úroveň úsilí modelu (effort) a spotřeba textu",
+      "typ": "dokumentace",
+      "vydavatel": "Anthropic",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "claude-manage-claude-data-residency",
+      "url": "https://platform.claude.com/docs/en/manage-claude/data-residency",
+      "nazev": "Anthropic — příplatek za zpracování jen v USA",
+      "typ": "dokumentace",
+      "vydavatel": "Anthropic",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-pull-29368",
+      "url": "https://github.com/twentyhq/twenty/pull/29368",
+      "nazev": "Twenty — AI kroky v automatizacích s vlastním nastavením a oprávněním (PR #29368)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-dashboards-overview",
+      "url": "https://docs.twenty.com/user-guide/dashboards/overview",
+      "nazev": "Twenty — dashboardy (přehled a současná omezení)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-dashboards",
+      "url": "https://docs.twenty.com/user-guide/dashboards/capabilities/dashboards",
+      "nazev": "Twenty — dashboardy, záložky, viditelnost a co se připravuje",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-widgets",
+      "url": "https://docs.twenty.com/user-guide/dashboards/capabilities/widgets",
+      "nazev": "Twenty — typy grafů a dlaždic na dashboardu",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-how-tos-dashboards-faq",
+      "url": "https://docs.twenty.com/user-guide/dashboards/how-tos/dashboards-faq",
+      "nazev": "Twenty — časté otázky k dashboardům",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-crm-automations-detect-stale-opportunities",
+      "url": "https://docs.twenty.com/user-guide/workflows/how-tos/crm-automations/detect-stale-opportunities",
+      "nazev": "Twenty — návod na upozornění na obchodní případy bez pohybu",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-filters-and-sorting",
+      "url": "https://docs.twenty.com/user-guide/views-pipelines/capabilities/filters-and-sorting",
+      "nazev": "Twenty — filtry a řazení v pohledech",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-public-last-contact",
+      "url": "https://github.com/twentyhq/twenty/tree/main/packages/twenty-apps/public/last-contact",
+      "nazev": "Twenty — aplikace Last Contact (datum posledního kontaktu)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "eur-lex-oj-ces-3",
+      "url": "https://eur-lex.europa.eu/eli/reg/2016/679/oj/ces",
+      "nazev": "EUR-Lex — nařízení (EU) 2016/679 (obecné nařízení o ochraně osobních údajů, GDPR)",
+      "typ": "legislativa",
+      "vydavatel": "EUR-Lex",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "edpb-guidelines-guidelines-072020-concepts-controller-and-pr",
+      "url": "https://www.edpb.europa.eu/documents/guideline/guidelines-072020-on-the-concepts-of-controller-and-processor-in-the-gdpr_en",
+      "nazev": "EDPB — pokyny 07/2020 k pojmům správce a zpracovatel",
+      "typ": "legislativa",
+      "vydavatel": "EDPB",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "uoou",
+      "url": "https://uoou.gov.cz/",
+      "nazev": "Úřad pro ochranu osobních údajů",
+      "typ": "legislativa",
+      "vydavatel": "ÚOOÚ",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "anthropic-legal-commercial-terms",
+      "url": "https://www.anthropic.com/legal/commercial-terms",
+      "nazev": "Anthropic — obchodní podmínky pro firemní služby (zákaz trénování na obsahu zákazníků)",
+      "typ": "dokumentace",
+      "vydavatel": "Anthropic",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "privacy-articles-7996862-how-do-i-view-and-sign-your-data-pr",
+      "url": "https://privacy.claude.com/en/articles/7996862-how-do-i-view-and-sign-your-data-processing-addendum-dpa",
+      "nazev": "Anthropic — smlouva o zpracování (DPA) se standardními smluvními doložkami",
+      "typ": "dokumentace",
+      "vydavatel": "Anthropic",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "claude-manage-claude-api-and-data-retention",
+      "url": "https://platform.claude.com/docs/en/manage-claude/api-and-data-retention",
+      "nazev": "Anthropic — uchovávání dat v API a režim nulového uchovávání",
+      "typ": "dokumentace",
+      "vydavatel": "Anthropic",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "privacy-articles-7996866-how-long-do-you-store-my-organizati",
+      "url": "https://privacy.claude.com/en/articles/7996866-how-long-do-you-store-my-organization-s-data",
+      "nazev": "Anthropic — jak dlouho uchovává data firemních zákazníků",
+      "typ": "dokumentace",
+      "vydavatel": "Anthropic",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "openai-guides-your-data",
+      "url": "https://developers.openai.com/api/docs/guides/your-data",
+      "nazev": "OpenAI — data v API (trénování, uchovávání, zpracování v Evropě)",
+      "typ": "dokumentace",
+      "vydavatel": "OpenAI",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-pull-29553",
+      "url": "https://github.com/twentyhq/twenty/pull/29553",
+      "nazev": "Twenty — zjednodušená volba AI modelu (výchozí model, úroveň nebo konkrétní model)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "getjobber-features-ai-receptionist",
+      "url": "https://www.getjobber.com/features/ai-receptionist/",
+      "nazev": "Jobber — AI Receptionist (stránka výrobce, ověřeno 12. 11. 2026)",
+      "typ": "dokumentace",
+      "vydavatel": "www.getjobber.com",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "salesforce-stories-agentforce-for-field-service-announcement",
+      "url": "https://www.salesforce.com/news/stories/agentforce-for-field-service-announcement/",
+      "nazev": "Salesforce — Agentforce for Field Service (9. 4. 2025)",
+      "typ": "konkurence",
+      "vydavatel": "Salesforce",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "learn-field-service-soa-overview",
+      "url": "https://learn.microsoft.com/en-us/dynamics365/field-service/soa-overview",
+      "nazev": "Microsoft Learn — Scheduling Operations Agent v Dynamics 365 Field Service (preview)",
+      "typ": "konkurence",
+      "vydavatel": "Microsoft",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "servicetitan-press-servicetitan-introducing-the-next-evoluti",
+      "url": "https://www.servicetitan.com/press/servicetitan-introducing-the-next-evolution-of-ai-at-pantheon-2025-keynote",
+      "nazev": "ServiceTitan — představení asistenta Atlas (tisková zpráva, 18. 9. 2025)",
+      "typ": "dokumentace",
+      "vydavatel": "www.servicetitan.com",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "salesforce-stories-field-service-growing-talent-crisis",
+      "url": "https://www.salesforce.com/news/stories/field-service-growing-talent-crisis/",
+      "nazev": "Salesforce — State of Field Service, průzkum 2 317 respondentů (30. 7. 2026)",
+      "typ": "konkurence",
+      "vydavatel": "Salesforce",
       "zkontrolovano": "2026-11-12",
       "stav": "ok"
     }
