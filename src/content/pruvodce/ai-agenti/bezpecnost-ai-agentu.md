@@ -8,7 +8,7 @@ overeno: 2026-11-12
 verzeTwenty: '2.57'
 temata: [ai, agenti, bezpecnost, opravneni]
 funkce: [role-opravneni, ai-krok-automatizace, ai-agenti, mcp-oznaceni-akci, mcp-server, koncept-emailu, kontrola-dat, audit-log, licence-organization-server, ai-volba-modelu, ai-pravidla-dat, schvaleni-clovekem]
-zdroje: [docs-opravneni, twenty-capabilities-permissions-access-control, docs-mcp, docs-server-bezpecnost, docs-tarify, gh-pr-20672, github-twenty-v2-56-0, docs-akce, noma-blog-forcedleak-agent-risks-exposed-in-salesforce-agent]
+zdroje: [docs-opravneni, twenty-capabilities-permissions-access-control, docs-mcp, docs-server-bezpecnost, docs-tarify, gh-pr-20672, github-twenty-v2-56-0, docs-akce, noma-blog-forcedleak-agent-risks-exposed-in-salesforce-agent, gartner-press-releases-2026-05-26-gartner-says-applying-unif]
 ---
 
 **AI agent v CRM je bezpečný tehdy, když smí jen to, co ke své práci potřebuje, když se dá zpětně
@@ -45,6 +45,11 @@ popsán až po opravě, 25. 9. 2025.
 pokyn, agent má mít co nejmenší oprávnění a nesmí mít snadnou cestu, jak data poslat ven bez člověka.
 Totéž doporučuje i zpráva objevitelů: nejmenší nutná práva, kontrola dat z nedůvěryhodných zdrojů
 a přehled o tom, jaké agenty firma provozuje.
+
+Gartner v květnu 2026 varoval, že do roku 2027 omezí nebo vypne autonomní AI agenty 40 % firem,
+protože mezery v řízení odhalí až incidenty v ostrém provozu. Doporučuje nastavovat pravidla podle
+toho, jak samostatně agent smí jednat a k čemu má přístup — jednoduchý agent jen čte, samostatný
+agent dostane přísnější hlídání.
 
 ## Co vám to umožní
 

@@ -8,7 +8,7 @@ overeno: 2026-11-12
 verzeTwenty: '2.57'
 temata: [data, ai, agenti]
 funkce: [slucovani-duplicit, kontrola-dat, vlastni-zaznamy, role-opravneni, ai-krok-automatizace, posta-kalendar]
-zdroje: [docs-opravneni, gh-vydani, salesforce-stories-state-of-sales-report-announcement-2026, arxiv-abs-2505-18878, twenty-capabilities-validation-rules, twenty-capabilities-uniqueness-constraints, github-twenty-v2-53-1, github-pull-27818]
+zdroje: [docs-opravneni, gh-vydani, salesforce-stories-state-of-sales-report-announcement-2026, arxiv-abs-2505-18878, twenty-capabilities-validation-rules, twenty-capabilities-uniqueness-constraints, github-twenty-v2-53-1, github-pull-27818, gartner-press-releases-2026-07-28-gartner-predicts-ai-agents]
 ---
 
 **AI agent v CRM nemá vlastní paměť ani úsudek o vašich klientech — rozhoduje jen podle toho, co
@@ -21,6 +21,11 @@ Není to okrajový problém. V průzkumu Salesforce State of Sales 2026 (4 050 l
 z 22 zemí, srpen až září 2025) uvedlo 51 % vedoucích obchodu, kteří AI používají, že jim AI
 projekty brzdí nepropojené systémy. 74 % dotázaných se proto věnuje čištění dat — odstraňování
 duplicit, opravám chyb a chybějících údajů a sjednocování formátů.
+
+Gartner v červenci 2026 předpověděl, že do roku 2028 bude AI agentů v obchodě desetkrát víc než
+obchodníků, ale **méně než 40 % obchodníků řekne, že jim agenti zvýšili produktivitu**. Bez
+pořádných dat, propojených procesů a pohodlné práce pro obchodníky podle něj vznikne jen víc
+digitální aktivity, ne víc výsledků.
 
 ## Kde agent na datech klopýtne
 

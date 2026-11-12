@@ -349,7 +349,9 @@ const aktivni = (e: Clanek) => (e.id === clanek.id ? 'page' : undefined);
   .strom__oblast ul a { font-size: 0.875rem; color: var(--tc-muted); }
 
   /* Vyhledávání */
-  .hledani { margin-bottom: 1.25rem; }
+  /* užší než panel a s okrajem kolem — rámeček i zvýraznění při psaní se vejdou i vedle posuvníku */
+  .hledani { margin: 0 0.75rem 1.25rem 0; padding: 3px; }
+  .hledani :global(.pagefind-ui__search-input) { width: 100%; box-sizing: border-box; }
   .hledani:empty { display: none; }
 
   /* Článek */

@@ -1399,6 +1399,33 @@
       "vydavatel": "Salesforce",
       "zkontrolovano": "2026-11-12",
       "stav": "ok"
+    },
+    {
+      "id": "gartner-press-releases-2026-05-26-gartner-says-applying-unif",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-05-26-gartner-says-applying-uniform-governance-across-ai-agents-will-lead-to-enterprise-ai-agent-failure",
+      "nazev": "Gartner — řízení AI agentů podle míry samostatnosti (26. 5. 2026)",
+      "typ": "studie",
+      "vydavatel": "Gartner",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "gartner-press-releases-2026-07-28-gartner-predicts-ai-agents",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-07-28-gartner-predicts-ai-agents-will-outnumber-sellers-10-to-1-by-2028-yet-fewer-than-40-percent-of-sellers-will-say-agents-improved-productivity",
+      "nazev": "Gartner — AI agenti v obchodě (28. 7. 2026)",
+      "typ": "studie",
+      "vydavatel": "Gartner",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "gartner-press-releases-2026-08-17-gartner-predicts-ai-infere",
+      "url": "https://www.gartner.com/en/newsroom/press-releases/2026-08-17-gartner-predicts-ai-inference-costs-per-agentic-workflow-will-increase-more-than-fivefold-through-2028",
+      "nazev": "Gartner — náklady na běh agentních postupů (17. 8. 2026)",
+      "typ": "studie",
+      "vydavatel": "Gartner",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
     }
   ]
 }

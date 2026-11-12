@@ -8,13 +8,17 @@ overeno: 2026-11-12
 verzeTwenty: '2.57'
 temata: [naklady, ai, provoz]
 funkce: [vlastni-klice-ai, ai-volba-modelu, ai-krok-automatizace, ai-agenti, ai-trideni, ai-kredity]
-zdroje: [docs-ai-faq, claude-api-rate-limits, twenty-vydani, github-twenty-v2-40-0, github-twenty-v2-46-0, github-twenty-v2-56-0, docs-pravni-faq, openai-terraform-rate-limits-and-spend, claude-build-with-claude-effort, claude-manage-claude-data-residency]
+zdroje: [docs-ai-faq, claude-api-rate-limits, twenty-vydani, github-twenty-v2-40-0, github-twenty-v2-46-0, github-twenty-v2-56-0, docs-pravni-faq, openai-terraform-rate-limits-and-spend, claude-build-with-claude-effort, claude-manage-claude-data-residency, gartner-press-releases-2026-08-17-gartner-predicts-ai-infere]
 ---
 
 **Útratu za AI na vyhrazeném serveru hlídáte tam, kde ji platíte — u poskytovatele AI: nastavíte
 měsíční strop nebo upozornění a Twenty připojíte přes samostatný účet, aby byla jeho spotřeba vidět
 zvlášť.** Zbytek je volba modelu podle úlohy, krátký pilot, ze kterého znáte cenu jedné úlohy,
 a pravidelný pohled do vyúčtování.
+
+Hlídat se to vyplatí, i když ceny AI modelů klesají. Gartner v srpnu 2026 předpověděl, že náklady
+na běh jednoho agentního postupu do roku 2028 **vzrostou víc než pětinásobně** — agenti dělají
+složitější úlohy ve více krocích a spotřebují mnohem víc textu než jednoduchý chat.
 
 Na vyhrazeném serveru zadáváte do Twenty vlastní klíče k AI a spotřebu platíte přímo poskytovateli,
 bez přirážky (víc v článku [Vlastní klíče k AI](/twenty/provoz/vlastni-klice-k-ai/)). Kredity a limity

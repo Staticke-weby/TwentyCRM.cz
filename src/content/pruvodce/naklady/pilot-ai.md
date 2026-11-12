@@ -8,7 +8,7 @@ overeno: 2026-11-12
 verzeTwenty: '2.57'
 temata: [naklady, ai, agenti]
 funkce: [ai-krok-automatizace, ai-trideni, ai-agenti, role-opravneni, schvaleni-clovekem, kontrola-dat, slucovani-duplicit]
-zdroje: [docs-akce, docs-opravneni, gartner-press-releases-2025-06-25-gartner-predicts-over-40-p, csu-produkty-ai-pouzivaji-v-cesku-tri-ctvrtiny-velkych-firem]
+zdroje: [docs-akce, docs-opravneni, gartner-press-releases-2025-06-25-gartner-predicts-over-40-p, csu-produkty-ai-pouzivaji-v-cesku-tri-ctvrtiny-velkych-firem, gartner-press-releases-2026-05-26-gartner-says-applying-unif]
 ---
 
 **Projekty s AI agenty nejčastěji končí proto, že stojí víc, než se čekalo, nepřinášejí jasně
@@ -17,8 +17,10 @@ jedné opakované úloze, s měřitelným cílem, se schválením člověkem a n
 
 Analytická společnost Gartner v červnu 2025 předpověděla, že **přes 40 % projektů s AI agenty bude do
 konce roku 2027 zrušeno** — kvůli rostoucím nákladům, nejasnému obchodnímu přínosu nebo nedostatečné
-kontrole rizik. Zároveň AI rychle zabydluje české firmy: podle Českého statistického úřadu ji v roce
-2026 používalo **35 % podniků s více než 10 zaměstnanci**, dvakrát víc než o rok dřív. Mezi malými
+kontrole rizik. V květnu 2026 to doplnil: do roku 2027 **40 % firem omezí nebo vypne autonomní AI
+agenty**, protože mezery v jejich řízení odhalí až incidenty v ostrém provozu — a doporučuje hlídat
+agenty podle toho, jak samostatně smějí jednat. Zároveň AI rychle zabydluje české firmy: podle Českého statistického úřadu ji v roce
+2026 používalo **35 % podniků s 10 a více zaměstnanci**, dvakrát víc než o rok dřív. Mezi malými
 firmami je to necelá třetina a nejčastěji jde o psaní textů, kódu nebo tvorbu hlasu.
 
 ## Co vám to umožní
