@@ -1,0 +1,16 @@
+---
+import Pruvodce from '../../layouts/Pruvodce.astro';
+import { vsechny } from '../../lib/pruvodce';
+
+export async function getStaticPaths() {
+  const clanky = await vsechny();
+  return clanky.map((clanek) => ({
+    params: { slug: clanek.id === 'index' ? undefined : clanek.id },
+    props: { clanek },
+  }));
+}
+
+const { clanek } = Astro.props;
+---
+
+<Pruvodce clanek={clanek} />

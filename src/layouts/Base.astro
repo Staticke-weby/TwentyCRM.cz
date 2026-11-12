@@ -1,0 +1,139 @@
+---
+/**
+ * Základní layout všech marketingových stránek: <head> (SEO, OG, JSON-LD), hlavička, patička,
+ * mobilní lišta s kontaktem. Staging build (NOINDEX=1) dá noindex všude a vypne Umami.
+ */
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { KONTAKT, mailtoOdkaz, telOdkaz } from '../lib/site.mjs';
+
+interface Props {
+  title: string;
+  description: string;
+  pageId?: string;
+  mailto?: string;
+  noindex?: boolean;
+  /** Stránka začíná tmavým hero → hlavička je nad ním průhledná (Payday „overlay"). */
+  overlay?: boolean;
+}
+
+const { title, description, pageId, mailto = 'generic', noindex = false, overlay = false } = Astro.props;
+const globalNoindex = import.meta.env.NOINDEX === '1' || process.env.NOINDEX === '1';
+const robots = noindex || globalNoindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large';
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const ogImage = new URL('/og-image.jpg', Astro.site).href;
+const produkce = import.meta.env.PROD && !globalNoindex;
+
+const organizace = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'TwentyCRM.cz',
+  legalName: 'ESHOpino s.r.o.',
+  url: 'https://www.twentycrm.cz',
+  logo: 'https://www.twentycrm.cz/brand/logo.svg',
+  description:
+    'Nezávislá česká agentura, která nad open-source Twenty staví hotová řešení, nasazuje je a spravuje. Dvě hotová CRM pro malé a střední firmy.',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Roháčova 145/14',
+    addressLocality: 'Praha 3',
+    postalCode: '130 00',
+    addressCountry: 'CZ',
+  },
+  contactPoint: {
+    '@type': 'ContactPoint',
+    telephone: KONTAKT.telefon,
+    email: KONTAKT.email,
+    contactType: 'sales',
+    areaServed: 'CZ',
+    availableLanguage: ['cs'],
+  },
+  taxID: 'CZ03223485',
+  vatID: 'CZ03223485',
+};
+---
+
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="color-scheme" content="light" />
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta name="robots" content={robots} />
+
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="cs_CZ" />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Twenty CRM — moderní open source CRM v češtině" />
+    <meta property="og:site_name" content="TwentyCRM.cz" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <link rel="icon" type="image/svg+xml" href="/brand/logo.svg" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link rel="preload" href="/fonts/Inter-roman.var.woff2" as="font" type="font/woff2" crossorigin />
+
+    {
+      produkce && (
+        <script
+          is:inline
+          defer
+          src="https://navstevnost.pikapod.net/script.js"
+          data-website-id="b5bef4cc-2068-42f1-a221-eacbeb233faf"
+        />
+      )
+    }
+    {produkce && <script type="application/ld+json" set:html={JSON.stringify(organizace)} />}
+    <slot name="head" />
+    <script is:inline>
+      // Prvky s třídou .reveal se jednou vynoří, když dojedou do zorného pole (Payday).
+      (() => {
+        if (matchMedia('(prefers-reduced-motion: reduce)').matches || !('IntersectionObserver' in window)) return;
+        document.documentElement.classList.add('muze-vynorit');
+        addEventListener('DOMContentLoaded', () => {
+          const o = new IntersectionObserver(
+            (zaznamy) =>
+              zaznamy.forEach((z) => {
+                if (!z.isIntersecting) return;
+                z.target.classList.add('je-videt');
+                o.unobserve(z.target);
+              }),
+            { rootMargin: '0px 0px -8% 0px' },
+          );
+          document.querySelectorAll('.reveal').forEach((el) => o.observe(el));
+        });
+      })();
+    </script>
+  </head>
+  <body>
+    <a href="#obsah" class="skip-link">Přeskočit na obsah</a>
+    <Header overlay={overlay} />
+    <main id="obsah" class:list={[!overlay && "pt-(--tc-header-h)"]}>
+      <slot />
+    </main>
+    <Footer />
+
+    {
+      pageId !== 'kontakt' && (
+        <div class="sticky-cta">
+          <a href={telOdkaz()} class="btn btn-primary">Zavolat</a>
+          <a href={mailtoOdkaz(mailto)} class="btn btn-secondary">Napsat</a>
+        </div>
+      )
+    }
+  </body>
+</html>

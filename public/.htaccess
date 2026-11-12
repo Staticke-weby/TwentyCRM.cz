@@ -1,0 +1,47 @@
+# ============================================================
+# twentycrm.cz — Apache .htaccess pro statický build (Astro → dist/)
+# Hosting: Svethostingu.cz, za Cloudflare (Full Strict SSL)
+# ============================================================
+
+RewriteEngine On
+DirectoryIndex index.html
+
+# HTTPS (Cloudflare přesměrovává už sám, tohle je pojistka)
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} !=on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# URL bez lomítka → s lomítkem (stejně jako na původním webu), jen pro existující složky
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_URI} !/$
+RewriteRule ^(.*)$ /$1/ [R=301,L]
+
+ErrorDocument 404 /404.html
+
+# ----------- Cache -----------
+<IfModule mod_headers.c>
+  # Astro dává do názvů souborů v /_astro/ hash → lze cachovat napořád
+  <FilesMatch "\.(css|js|woff2|svg|png|jpg|jpeg|webp|avif|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(html|xml|txt|md)$">
+    Header set Cache-Control "public, max-age=0, must-revalidate"
+  </FilesMatch>
+
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains" env=HTTPS
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript application/json application/xml image/svg+xml
+</IfModule>
+
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>
+<Files ".htaccess">
+  Require all denied
+</Files>

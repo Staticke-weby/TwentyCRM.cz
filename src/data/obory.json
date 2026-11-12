@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "id": "hvac",
+      "reseni": "servis",
+      "url": "/pro-servisni-firmy/hvac/",
+      "emoji": "❄️",
+      "title": "HVAC, klimatizace, tepelná čerpadla",
+      "subtitle": "Instalace i následný servis",
+      "tagline": "Servisní historie každé klimatizace a tepelného čerpadla. Pravidelné prevence se plánují samy. Mobil pro technika na střeše.",
+      "objects": ["Klient", "Místo", "Zařízení (s.č., model, chladivo)", "Servisní plán", "Zakázka", "Výjezd", "Výkaz práce"]
+    },
+    {
+      "id": "revize",
+      "reseni": "servis",
+      "url": "/pro-servisni-firmy/revize/",
+      "emoji": "🛡️",
+      "title": "Revizní technici",
+      "subtitle": "Elektro, plyn, hasicí technika, hromosvody",
+      "tagline": "Karta každého revidovaného zařízení se sériovým číslem. Lhůty, které si nastavíte, hlídá systém. Revizní zpráva v PDF s vaším logem.",
+      "objects": ["Klient", "Místo", "Zařízení (revidovaný objekt)", "Servisní plán", "Zakázka", "Výjezd", "Výkaz práce"]
+    },
+    {
+      "id": "stroje",
+      "reseni": "servis",
+      "url": "/pro-servisni-firmy/stroje/",
+      "emoji": "⚙️",
+      "title": "Servis výrobních a strojních zařízení",
+      "subtitle": "Odstávka stojí peníze každou hodinu",
+      "tagline": "Karta každého stroje se sériovým číslem a historií zásahů. Hodiny techniků z výkazů — přesný podklad pro fakturaci.",
+      "objects": ["Klient", "Místo", "Zařízení (stroj)", "Servisní plán", "Zakázka", "Výjezd", "Výkaz práce"]
+    },
+    {
+      "id": "elektro",
+      "reseni": "servis",
+      "url": "/pro-servisni-firmy/elektro-a-zabezpeceni/",
+      "emoji": "🔌",
+      "title": "Elektroinstalace a zabezpečovací technika",
+      "subtitle": "Elektro, EZS, EPS, kamery, přístupové systémy",
+      "tagline": "Co je kde nainstalované, kdo to montoval a kdy tam má někdo znovu přijít. Ústředny, čidla a kamery na kartách, ne v hlavě.",
+      "objects": ["Klient", "Místo (objekt)", "Zařízení (ústředna a prvky)", "Servisní plán", "Zakázka", "Výjezd", "Výkaz práce"]
+    },
+    {
+      "id": "gastro",
+      "reseni": "servis",
+      "url": "/pro-servisni-firmy/gastro-technika/",
+      "emoji": "☕",
+      "title": "Gastro technika a nápojové automaty",
+      "subtitle": "Kávovary, automaty, výčepní technika",
+      "tagline": "Stroj stojí u zákazníka a nesmí stát. Karta každého kávovaru na konkrétní pobočce, prevence běží sama, technik hlásí z telefonu.",
+      "objects": ["Klient", "Místo (provozovna)", "Zařízení (stroj)", "Servisní plán", "Zakázka", "Výjezd", "Výkaz práce"]
+    },
+    {
+      "id": "vytahy",
+      "reseni": "servis",
+      "url": "/pro-servisni-firmy/vytahy/",
+      "emoji": "🛗",
+      "title": "Výtahy",
+      "subtitle": "Servis, opravy i montáž",
+      "tagline": "Stovky výtahů v desítkách domů, každý s vlastní historií a vlastním termínem. Kdo tam byl naposledy a co se tam dělalo.",
+      "objects": ["Klient (SVJ, správce)", "Místo (dům)", "Zařízení (výtah)", "Servisní plán", "Zakázka", "Výjezd", "Výkaz práce"]
+    },
+    {
+      "id": "kotle",
+      "reseni": "servis",
+      "url": "/pro-servisni-firmy/kotle-a-plynova-zarizeni/",
+      "emoji": "🔥",
+      "title": "Kotle a plynová zařízení",
+      "subtitle": "Montáž, prohlídky, sezónní špička",
+      "tagline": "Kotel má sériové číslo, záruku a termín další prohlídky. Systém vám je připomene dřív, než začne topná sezóna.",
+      "objects": ["Klient", "Místo", "Zařízení (kotel, kotelna)", "Servisní plán", "Zakázka", "Výjezd", "Výkaz práce"]
+    },
+    {
+      "id": "chlazeni",
+      "reseni": "servis",
+      "url": "/pro-servisni-firmy/chladici-technika/",
+      "emoji": "🧊",
+      "title": "Chladicí technika",
+      "subtitle": "Průmyslové a obchodní chlazení, mrazírny",
+      "tagline": "Když chlazení stojí, zboží se kazí. Havarijní výjezd i plánovaná prohlídka nad kartou konkrétního zařízení.",
+      "objects": ["Klient", "Místo (provoz)", "Zařízení (chladicí)", "Servisní plán", "Zakázka", "Výjezd", "Výkaz práce"]
+    },
+    {
+      "id": "realizace",
+      "reseni": "servis",
+      "url": "/obory/realizace-a-instalace/",
+      "emoji": "🔨",
+      "title": "Realizace a instalace",
+      "subtitle": "Dodávky na klíč, po předání navazuje servis",
+      "tagline": "Co namontujete, to pak servisujete. Instalované zařízení rovnou vzniká jako karta s datem instalace, zárukou a servisním plánem.",
+      "objects": ["Klient", "Místo", "Zařízení", "Servisní plán", "Zakázka (montáž)", "Výjezd", "Výkaz práce", "Nabídka"]
+    },
+    {
+      "id": "velkoobchod",
+      "reseni": "sales",
+      "url": "/obory/velkoobchod-a-distribuce/",
+      "emoji": "📦",
+      "title": "Velkoobchod a distribuce",
+      "subtitle": "B2B prodej, opakované odběry",
+      "tagline": "Karta klienta s historií objednávek, cenovou hladinou a poznámkami obchodníka, který ho má na starost. Doplňuje skladový a fakturační systém.",
+      "objects": ["Klient", "Kontaktní osoba", "Obchodní případ", "Nabídka", "Ceník", "Obchodní plán"]
+    },
+    {
+      "id": "vyroba-na-zakazku",
+      "reseni": "sales",
+      "url": "/obory/vyroba-na-zakazku/",
+      "emoji": "🏭",
+      "title": "Výroba na zakázku",
+      "subtitle": "Malé série, kusová výroba",
+      "tagline": "Každá poptávka je trochu jiná. Specifikace od zákazníka, nacenění s marží, dohled nad tím, co je rozpracované a co čeká na rozhodnutí.",
+      "objects": ["Klient", "Obchodní případ", "Nabídka s položkami", "Projekt s rozpočtem", "Obchodní plán"]
+    },
+    {
+      "id": "profesni",
+      "reseni": "sales",
+      "url": "/obory/profesni-sluzby/",
+      "emoji": "💼",
+      "title": "Kanceláře, agentury, poradenství",
+      "subtitle": "Prodává se čas a know-how",
+      "tagline": "Projekt s rozpočtem nákladů, čistá marže po subdodávkách, přehled o tom, kdo má kterého klienta na starost.",
+      "objects": ["Klient", "Obchodní případ", "Projekt s rozpočtem", "Nabídka", "Úkol s typem aktivity"]
+    },
+    {
+      "id": "zastoupeni",
+      "reseni": "sales",
+      "url": "/obory/obchodni-zastoupeni-a-dovozci/",
+      "emoji": "🌍",
+      "title": "Obchodní zastoupení a dovozci",
+      "subtitle": "Nakupujete v eurech, prodáváte v korunách",
+      "tagline": "Ceník s nákupní i prodejní cenou, marže na každé nabídce a měny, které se nikde tiše nesečtou.",
+      "objects": ["Klient", "Obchodní případ", "Nabídka", "Ceník (nákup i prodej)", "Obchodní plán"]
+    },
+    {
+      "id": "vyrobni-firmy",
+      "reseni": "sales",
+      "url": "/obory/vyrobni-firmy/",
+      "emoji": "🧱",
+      "title": "Obchodní oddělení výrobní firmy",
+      "subtitle": "CRM jen pro obchod, výroba zůstane ve svém",
+      "tagline": "Poptávky, nabídky z katalogu, marže a plán obratu. Do výroby CRM nezasahuje — a právě proto ho zavedete rychle.",
+      "objects": ["Klient", "Obchodní případ", "Nabídka", "Ceník", "Obchodní plán"]
+    }
+  ]
+}

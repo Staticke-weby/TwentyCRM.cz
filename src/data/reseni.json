@@ -1,0 +1,193 @@
+{
+  "disclaimer": "Naše nadstavba nad open-source Twenty. Nejsme Twenty Inc.",
+  "produkty": [
+    {
+      "key": "sales",
+      "name": "Twenty Sales",
+      "subtitle": "Naše nadstavba nad open-source Twenty",
+      "url": "/pro-obchodni-tymy/",
+      "icon": "📈",
+      "claim": "Když řídíte obchod — od první poptávky přes nabídku a marži až po plnění plánu. Firmám i koncovým zákazníkům, krátké i dlouhé obchody.",
+      "mailtoTemplate": "sales",
+      "proKoho": [
+        "Prodáváte firmám, koncovým zákazníkům, nebo obojímu",
+        "Obchod u vás trvá dny i měsíce — krátké i dlouhé jedou stejně",
+        "Děláte nabídky a chcete u nich vidět, kolik na nich vyděláte",
+        "Máte ceník a chcete, aby z něj obchodníci skládali nabídky"
+      ],
+      "nesedne": [
+        "Objednávky se odbavují samy a nikdo s nikým nemluví",
+        "Firma, která jen eviduje kontakty a nabídky nedělá",
+        "Kdo potřebuje vlastní datový model a pět propojení na jiné systémy"
+      ],
+      "entity": [
+        "Zájemce (lead)",
+        "Klient",
+        "Kontaktní osoba",
+        "Obchodní případ",
+        "Nabídka",
+        "Položka nabídky",
+        "Náklad",
+        "Produkt (ceník)",
+        "Projekt",
+        "Obchodní plán",
+        "Šablona dokumentu",
+        "Úkol"
+      ],
+      "klicoveSchopnosti": [
+        "Zadáte IČO, zbytek doplní ARES — název, DIČ, adresa, plátce DPH",
+        "Jedním kliknutím prověříte nespolehlivého plátce DPH i insolvenci",
+        "Zájemci mimo obchodní případy — kvalifikací se převedou na klienta a případ",
+        "Fáze obchodu s pravděpodobností a váženou hodnotou",
+        "Nabídky s nákupní cenou a dvěma úrovněmi marže",
+        "Projekty s rozpočtem nákladů a živým čerpáním",
+        "Obchodní plán se semaforem, který měří tempo vůči času",
+        "Šablony dokumentů, které si přepíšete sami",
+        "Připravené pohledy, dashboardy a obchodní role hned první den"
+      ],
+      "neobsahuje": [
+        "Výjezdy techniků a plánovač týmu",
+        "Evidence zařízení u zákazníka a jejich servisní historie",
+        "Servisní plán a opakované zakázky",
+        "Zakázkový list a výkaz práce z terénu"
+      ],
+      "stav": "Hotové řešení. Nasazení je otázka dnů, demo pošleme na vyžádání."
+    },
+    {
+      "key": "servis",
+      "name": "Twenty Servis",
+      "subtitle": "Naše nadstavba nad open-source Twenty",
+      "url": "/pro-servisni-firmy/",
+      "icon": "🔧",
+      "claim": "Když posíláte lidi k zákazníkovi něco namontovat nebo opravit — od zakázky po podklad k fakturaci.",
+      "mailtoTemplate": "servis",
+      "proKoho": [
+        "Montujete, instalujete nebo servisujete u zákazníka",
+        "Vracíte se k témuž zařízení opakovaně a potřebujete znát jeho historii",
+        "Plánujete lidem dny dopředu a řešíte, kdo kdy kam jede",
+        "Fakturujete podle odpracovaných hodin, kilometrů a materiálu"
+      ],
+      "nesedne": [
+        "Firma bez lidí v terénu, která jen prodává",
+        "Servis výhradně u vás na provozovně, bez výjezdů"
+      ],
+      "entity": [
+        "Klient",
+        "Kontaktní osoba",
+        "Místo (pobočka)",
+        "Zařízení",
+        "Servisní plán",
+        "Zakázka",
+        "Výjezd",
+        "Výkaz práce",
+        "Nabídka",
+        "Položka nabídky",
+        "Úkol"
+      ],
+      "klicoveSchopnosti": [
+        "Zadáte IČO, zbytek doplní ARES — název, DIČ, adresa, plátce DPH",
+        "Montáž i servis jsou typ zakázky — co namontujete, to pak servisujete",
+        "Karta zařízení se sériovým číslem, datem instalace a živým stavem záruky",
+        "Servisní plán generuje opakované zakázky sám, v noci",
+        "Týdenní plánovač výjezdů, který sám označí kolize v čase technika",
+        "Technik vyplní výkaz v telefonu — hodiny, kilometry, materiál, popis práce",
+        "Razítko podpisu zákazníka i technika přímo na zakázce",
+        "PDF zakázkový list a PDF nabídka s vaším logem",
+        "Přehledy zvlášť pro technika, pro dispečera a pro majitele"
+      ],
+      "neobsahuje": [
+        "Zájemce (leady) a jejich kvalifikaci",
+        "Obchodní plán a výhled plnění",
+        "Servis na vaší provozovně — řešení počítá s výjezdem k zákazníkovi"
+      ],
+      "stav": "Hotové řešení včetně uživatelské příručky v češtině. Demo pošleme na vyžádání."
+    }
+  ],
+  "srovnani": [
+    {
+      "label": "K čemu to hlavně je",
+      "sales": "Řízení obchodu — od poptávky po podepsanou nabídku",
+      "servis": "Práce u zákazníka — od zakázky po podklad k fakturaci"
+    },
+    {
+      "label": "Klienti, kontakty, načtení z ARES",
+      "sales": "ano",
+      "servis": "ano"
+    },
+    {
+      "label": "Nabídky, položky, ceník produktů",
+      "sales": "ano",
+      "servis": "ano — totožné jako v Sales"
+    },
+    {
+      "label": "Zájemci (leady) a jejich kvalifikace",
+      "sales": "ano",
+      "servis": "ne"
+    },
+    {
+      "label": "Obchodní případy s fázemi a pravděpodobností",
+      "sales": "ano",
+      "servis": "roli obchodního případu plní Zakázka"
+    },
+    {
+      "label": "Projekty s rozpočtem nákladů",
+      "sales": "ano",
+      "servis": "ne"
+    },
+    {
+      "label": "Obchodní plán, plnění a výhled",
+      "sales": "ano",
+      "servis": "ne"
+    },
+    {
+      "label": "Prověření rizika klienta (plátce DPH, insolvence)",
+      "sales": "ano",
+      "servis": "ne"
+    },
+    {
+      "label": "Šablony dokumentů, které si přepíšete sami",
+      "sales": "ano",
+      "servis": "ne — PDF nabídka a zakázkový list mají pevnou sazbu"
+    },
+    {
+      "label": "Místa (pobočky) a karty zařízení",
+      "sales": "ne",
+      "servis": "ano"
+    },
+    {
+      "label": "Servisní plán — opakované zakázky se generují samy",
+      "sales": "ne",
+      "servis": "ano"
+    },
+    {
+      "label": "Plánovač výjezdů s hlídáním kolizí",
+      "sales": "ne",
+      "servis": "ano"
+    },
+    {
+      "label": "Výkaz práce v telefonu, podpisy, zakázkový list",
+      "sales": "ne",
+      "servis": "ano"
+    },
+    {
+      "label": "AI chat a napojení pro AI nástroje",
+      "sales": "ano",
+      "servis": "ano"
+    },
+    {
+      "label": "Průvodce pro AI agenta a hotová zadání",
+      "sales": "ano",
+      "servis": "ne"
+    },
+    {
+      "label": "Provoz na vyhrazeném serveru nebo v cloudu",
+      "sales": "ano",
+      "servis": "ano"
+    },
+    {
+      "label": "Cena nasazení a měsíčního provozu",
+      "sales": "stejná",
+      "servis": "stejná"
+    }
+  ]
+}

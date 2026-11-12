@@ -1,0 +1,127 @@
+---
+/**
+ * Patička. Upozornění „není oficiálním zastoupením Twenty.com" musí být VIDITELNÉ,
+ * ne vybledlé — logo nese nápis TWENTY CRM (pravni-texty.md 4b, CLAUDE.md).
+ */
+import { KONTAKT, mailtoOdkaz, telOdkaz } from '../lib/site.mjs';
+import { pruvodceZverejnen } from '../lib/pruvodce';
+
+const jePruvodce = await pruvodceZverejnen();
+
+const sloupce = [
+  {
+    nadpis: 'Řešení',
+    odkazy: [
+      ['/pro-obchodni-tymy/', 'Twenty Sales — pro obchod'],
+      ['/pro-servisni-firmy/', 'Twenty Servis — pro práci u zákazníka'],
+      ['/ktere-crm-vybrat/', 'Které řešení vybrat'],
+      ['/napojeni-na-fakturaci/', 'Napojení na fakturaci'],
+      ['/obory/', 'Pro koho'],
+    ],
+  },
+  {
+    nadpis: 'Twenty',
+    odkazy: [
+      ['/co-umi/', 'Co Twenty umí'],
+      ['/agentske-crm/', 'Agentské CRM'],
+      ['/twenty/', 'Průvodce Twenty'],
+      ['/crm-open-source-cesky/', 'CRM open source česky'],
+      ['/open-source-crm-srovnani/', 'Srovnání open source CRM'],
+      ['/migrace/', 'Přechod na Twenty'],
+    ].filter(([href]) => jePruvodce || href !== '/twenty/'),
+  },
+  {
+    nadpis: 'Spolupráce',
+    odkazy: [
+      ['/cenik/', 'Cena'],
+      ['/cloud-vs-selfhost/', 'Vyhrazený server nebo cloud'],
+      ['/sla-balicky/', 'SLA balíčky'],
+      ['/bezpecnost/', 'Bezpečnost a GDPR'],
+      ['/otazky/', 'Otázky'],
+      ['/o-nas/', 'O nás'],
+      ['/kontakt/', 'Kontakt'],
+    ],
+  },
+];
+---
+
+<footer class="paticka">
+  <div class="kontejner">
+    <div class="paticka__mrizka">
+      <div class="paticka__znacka">
+        <img src="/brand/logo.svg" alt="Twenty CRM" width="180" height="36" />
+        <p>
+          Nezávislá česká agentura, která nad open-source Twenty staví hotová řešení, nasazuje je a spravuje — pro malé a
+          střední firmy napříč obory.
+        </p>
+        <p class="paticka__kontakt">
+          <a href={telOdkaz()} class="tnum">{KONTAKT.telefonZobrazeni}</a>
+          <a href={mailtoOdkaz('generic')}>{KONTAKT.email}</a>
+        </p>
+        <p class="paticka__sestra">
+          Sesterská značka: <a href="https://www.bohemiacrm.cz" rel="noopener" target="_blank">bohemiacrm.cz</a>
+          <span>Microsoft Power Platform / MDA</span>
+        </p>
+      </div>
+      {
+        sloupce.map((s) => (
+          <div>
+            <p class="paticka__nadpis">{s.nadpis}</p>
+            <ul>
+              {s.odkazy.map(([href, text]) => (
+                <li>
+                  <a href={href}>{text}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="paticka__pravni">
+      <p>
+        <strong>ESHOpino s.r.o.</strong> · IČO 03223485 · DIČ CZ03223485 · Roháčova 145/14, 130 00 Praha 3
+      </p>
+      <p class="paticka__upozorneni">
+        <strong>Twenty</strong> je software s otevřeným zdrojovým kódem, vyvíjený americkou společností Twenty Inc. (licence
+        AGPL-3.0). Tato stránka <strong>NENÍ oficiálním zastoupením</strong> Twenty.com — provozuje ji ESHOpino s.r.o.,
+        nezávislá česká agentura, která Twenty staví a spravuje pro klienty na českém trhu.
+      </p>
+      <p class="paticka__zdroje">
+        Oficiální zdroje Twenty:
+        <a href="https://twenty.com" rel="noopener" target="_blank">twenty.com</a> ·
+        <a href="https://docs.twenty.com/cs/user-guide/introduction" rel="noopener" target="_blank">česká dokumentace</a> ·
+        <a href="https://github.com/twentyhq/twenty" rel="noopener" target="_blank">GitHub</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  /* Patička ve stylu Payday (on-night) */
+  .paticka { background: var(--tc-night); color: var(--tc-night-muted); padding: 4.5rem 0 6.5rem; font-size: 0.9rem; }
+  @media (min-width: 1024px) {
+    .paticka { padding-bottom: 3rem; }
+  }
+  .paticka a { color: var(--tc-night-muted); text-decoration: none; transition: color 0.2s; }
+  .paticka a:hover { color: var(--tc-night-ink); }
+  .paticka__mrizka { display: grid; gap: 2.5rem; }
+  @media (min-width: 768px) {
+    .paticka__mrizka { grid-template-columns: 1.4fr 1fr 1fr 1fr; }
+  }
+  .paticka__znacka img { height: 1.6rem; width: auto; filter: brightness(0) invert(1); margin-bottom: 1.5rem; }
+  .paticka__znacka p { margin: 0 0 1rem; max-width: 22rem; line-height: 1.6; }
+  .paticka__kontakt { display: flex; flex-direction: column; gap: 0.35rem; }
+  .paticka__kontakt a { color: var(--tc-night-ink); }
+  .paticka__sestra span { display: block; font-size: 0.8rem; opacity: 0.7; }
+  .paticka__nadpis { color: var(--tc-night-ink); font-weight: 500; margin: 0 0 1rem; }
+  .paticka ul { display: grid; gap: 0.55rem; }
+  .paticka__pravni { border-top: 1px solid rgb(255 255 255 / 0.12); margin-top: 3.5rem; padding-top: 2rem; display: grid; gap: 0.9rem; line-height: 1.6; }
+  .paticka__pravni p { margin: 0; }
+  .paticka__pravni strong { color: var(--tc-night-ink); font-weight: 600; }
+  /* Upozornění „není oficiálním zastoupením" musí být dobře čitelné (pravni-texty.md 4b). */
+  .paticka__upozorneni { color: var(--tc-night-ink); max-width: 60rem; }
+  .paticka__zdroje { font-size: 0.8rem; }
+  .paticka__zdroje a { text-decoration: underline; text-underline-offset: 0.25em; }
+</style>

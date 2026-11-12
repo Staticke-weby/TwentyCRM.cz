@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twenty CRM pro servis HVAC — prezentace | TwentyCRM.cz</title>
+  <meta name="description" content="Prezentační PDF Twenty CRM pro servisní firmy v oboru HVAC, klimatizací a tepelných čerpadel. Co řešíme, co dostanete, cena.">
+  <meta name="robots" content="noindex, nofollow">
+
+  <link rel="stylesheet" href="/tisk/styl-puvodni-web.css">
+  <link rel="preload" href="/fonts/Inter-roman.var.woff2" as="font" type="font/woff2" crossorigin>
+
+  <style>
+    @page { size: A4; margin: 0; }
+    html, body { background: #FFFFFF; }
+    body { font-family: 'Inter', system-ui, sans-serif; color: #0F172A; }
+    .pdf-page {
+      width: 210mm;
+      max-width: 100%;
+      margin: 0 auto;
+      box-sizing: border-box;
+      padding: 14mm 13mm;
+      min-height: 297mm;
+      display: flex;
+      flex-direction: column;
+    }
+    .pdf-page + .pdf-page { border-top: 1px dashed #E2E8F0; }
+    @media print {
+      body { print-color-adjust: exact; -webkit-print-color-adjust: exact; font-size: 11pt; }
+      .pdf-page {
+        page-break-after: always;
+        padding: 14mm 13mm;
+        min-height: 297mm;
+        max-width: none;
+      }
+      .pdf-page:last-child { page-break-after: auto; }
+      .pdf-page + .pdf-page { border-top: none; }
+      .no-print { display: none !important; }
+      /* Lehce zmenšená typografie pro A4 — proporční s webovou škálou */
+      .text-h1 { font-size: 32pt !important; line-height: 1.1 !important; }
+      .text-h2 { font-size: 20pt !important; line-height: 1.2 !important; }
+      .text-h3 { font-size: 14pt !important; line-height: 1.3 !important; }
+      .text-h4 { font-size: 12pt !important; line-height: 1.3 !important; }
+      .text-lead { font-size: 12.5pt !important; line-height: 1.45 !important; }
+      .text-body { font-size: 11pt !important; line-height: 1.5 !important; }
+      .text-small { font-size: 9.5pt !important; line-height: 1.4 !important; }
+      .text-tiny { font-size: 8pt !important; line-height: 1.35 !important; }
+      pre, code, .font-mono { font-size: 9.5pt !important; line-height: 1.45 !important; }
+      a { color: inherit; text-decoration: underline; text-underline-offset: 2px; text-decoration-thickness: 0.5pt; }
+      a.no-underline, .no-underline { text-decoration: none !important; }
+    }
+    .print-hint {
+      max-width: 188mm;
+      margin: 2rem auto;
+      padding: 1rem 1.25rem;
+      background: #EFF6FF;
+      border-left: 4px solid #0066FF;
+      color: #0F172A;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body class="font-sans bg-white text-ink antialiased">
+
+  <div class="print-hint no-print">
+    <strong>Tisk do PDF:</strong> Ctrl+P (Cmd+P) → Layout Portrait, Margins „Default", Scale 100 %,
+    <strong>Background graphics: ON</strong> → Save as PDF. Pak nahrát do
+    <code>web/public/prezentace-hvac.pdf</code> a otevře se na
+    <code>twentycrm.cz/prezentace-hvac.pdf</code>.
+  </div>
+
+  <section class="pdf-page">
+
+    <div class="flex items-center justify-between mb-12">
+      <img src="/brand/logo.svg" alt="Twenty CRM" class="h-8 w-auto">
+      <p class="text-small text-muted tracking-wider uppercase">Prezentace 2026</p>
+    </div>
+
+    <div class="flex-1 flex flex-col justify-center">
+      <p class="text-small font-semibold uppercase tracking-wider text-accent mb-4">
+        ❄️ HVAC · klimatizace · tepelná čerpadla
+      </p>
+      <h1 class="text-h1 mb-6 leading-tight">
+        Twenty CRM<br>pro servis HVAC
+      </h1>
+      <p class="text-lead text-ink/80 leading-relaxed max-w-2xl mb-10">
+        Servisní historie každého kotle, klimatizace nebo čerpadla v jedné databázi.
+        Plán pravidelných prevencí běží sám. Technik v mobilu vyplní výkaz, klient dostane
+        PDF zakázkový list s vaším logem.
+      </p>
+
+      <div class="flex flex-wrap gap-2 mb-12">
+        <span class="px-3 py-1.5 bg-accent/10 text-accent rounded-full text-small font-semibold">Český implementátor</span>
+        <span class="px-3 py-1.5 bg-success/10 text-success rounded-full text-small font-semibold">Open source pod AGPL-3.0</span>
+        <span class="px-3 py-1.5 bg-info/10 text-info rounded-full text-small font-semibold">Data v EU (Německo, ISO 27001)</span>
+      </div>
+    </div>
+
+    <div class="border-t border-border pt-6 grid grid-cols-2 gap-6 text-small">
+      <div>
+        <p class="font-bold text-ink mb-1">ESHOpino s.r.o.</p>
+        <p class="text-muted">Nezávislá česká agentura, která Twenty CRM implementuje a spravuje pro servisní firmy.</p>
+      </div>
+      <div class="text-right">
+        <p class="font-bold text-ink leading-tight">+420 605 540 167<br>+420 736 772 499</p>
+        <p class="text-muted mt-1">info@bohemiacrm.cz</p>
+        <p class="text-tiny text-muted mt-1"><a href="https://www.twentycrm.cz" class="text-muted">twentycrm.cz</a> · IČO 03223485</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pdf-page">
+
+    <p class="text-small font-semibold uppercase tracking-wider text-accent mb-3">01 · Co řešíme</p>
+    <h2 class="text-h1 mb-3 leading-tight">Pět bolestí, které HVAC firmu brzdí</h2>
+    <p class="text-lead text-muted mb-8 max-w-3xl">
+      Pokud vám aspoň jedna z nich zní povědomě, máme řešení.
+    </p>
+
+    <div class="space-y-5 flex-1">
+
+      <div class="border-l-4 border-accent pl-6">
+        <h3 class="text-h4 mb-2">Každé zařízení má svůj příběh — který se ztrácí</h3>
+        <p class="text-body text-ink/80 leading-relaxed">
+          Kdo ho instaloval, jaké chladivo má v sobě, kdy byla poslední prevence, co se opravovalo,
+          kolik dní zbývá záruky. Dnes je to v Excelu, na papíře, nebo v hlavě technika. Když ten technik onemocní, kolega začíná od nuly.
+        </p>
+      </div>
+
+      <div class="border-l-4 border-warning pl-6">
+        <h3 class="text-h4 mb-2">Pravidelné prevence se ztrácí mezi prsty</h3>
+        <p class="text-body text-ink/80 leading-relaxed">
+          Která zařízení čeká roční servis? Komu se blíží termín? Kdo z techniků je certifikovaný
+          na konkrétní výrobce nebo na zacházení s chladivy? Když přijde sezóna, vzpomenete si na
+          to už pozdě.
+        </p>
+      </div>
+
+      <div class="border-l-4 border-info pl-6">
+        <h3 class="text-h4 mb-2">Sezónní špička bez systému je peklo</h3>
+        <p class="text-body text-ink/80 leading-relaxed">
+          Léto. Zákazník volá s reklamací, dispečerka volá technikovi, technik odpovídá ze střechy.
+          Plán se přepisuje každé dvě hodiny a do víkendu nikdo neví, kdo má kdy kde být.
+        </p>
+      </div>
+
+      <div class="border-l-4 border-success pl-6">
+        <h3 class="text-h4 mb-2">Zakázkové listy na papíře = ztracený čas i peníze</h3>
+        <p class="text-body text-ink/80 leading-relaxed">
+          Technik vyplní v autě, klient podepíše, papír leží tři dny v aktovce. Fakturantka se ptá,
+          kde to je. Než dorazí, přepočítáte si hodiny od techniků zpaměti — a něco zapomenete fakturovat.
+        </p>
+      </div>
+
+      <div class="border-l-4 border-accent pl-6">
+        <h3 class="text-h4 mb-2">Reklamace v záruce, na kterou se přijde pozdě</h3>
+        <p class="text-body text-ink/80 leading-relaxed">
+          Klient zavolá s problémem a vy nevíte, jestli záruka ještě běží, nebo už skončila.
+          Bez centrální evidence dat instalace a délky záruky se chyby dějí — buď platíte zbytečně, nebo nasrtváte zákazníka.
+        </p>
+      </div>
+
+    </div>
+
+    <p class="text-tiny text-muted text-right mt-8">2 / 6 · <a href="https://www.twentycrm.cz" class="text-muted">twentycrm.cz</a></p>
+  </section>
+
+  <section class="pdf-page">
+
+    <p class="text-small font-semibold uppercase tracking-wider text-accent mb-3">02 · Co od nás dostanete</p>
+    <h2 class="text-h1 mb-3 leading-tight">Čtyři věci, které vám usnadní život</h2>
+    <p class="text-lead text-muted mb-8 max-w-3xl">
+      Všechno v ceně 34&nbsp;990&nbsp;Kč za nasazení a měsíčního paušálu 4&nbsp;990&nbsp;Kč. Žádné poplatky za každého uživatele.
+    </p>
+
+    <div class="grid grid-cols-2 gap-5 flex-1">
+
+      <div class="border-2 border-border rounded-lg overflow-hidden flex flex-col">
+        <div class="h-1.5 bg-accent flex-shrink-0"></div>
+        <div class="p-5 flex flex-col flex-1">
+          <p class="text-small font-bold uppercase tracking-wider text-accent mb-1">01 · Plánování</p>
+          <h3 class="text-h3 text-ink leading-tight mb-3">Plánování výjezdů na týden dopředu</h3>
+          <p class="text-body text-ink/80 mb-3">
+            Dispečerka vidí v jedné tabulce všechny techniky a kam jedou. Když potřebujete poslat dva lidi na jednu instalaci, přiřadí je jedním přetažením myší.
+          </p>
+          <ul class="space-y-1.5 text-small text-ink/80 mt-auto">
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Přesun výjezdu na jiný den jedním kliknutím</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Sám přeskočí víkendy a státní svátky</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Upozorní, když má jeden technik dvě věci v jeden čas</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-2 border-border rounded-lg overflow-hidden flex flex-col">
+        <div class="h-1.5 bg-accent flex-shrink-0"></div>
+        <div class="p-5 flex flex-col flex-1">
+          <p class="text-small font-bold uppercase tracking-wider text-accent mb-1">02 · Mobil</p>
+          <h3 class="text-h3 text-ink leading-tight mb-3">Technik v terénu — všechno v mobilu</h3>
+          <p class="text-body text-ink/80 mb-3">
+            Žádná aplikace ke stažení. Technik si v mobilu otevře stránku, přidá si ji na plochu a chová se jako aplikace. Na střeše nebo v kotelně vidí, co má dělat, a všechno zapíše rovnou tam.
+          </p>
+          <ul class="space-y-1.5 text-small text-ink/80 mt-auto">
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> „Co mám dnes" a „Co mám tento týden"</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Zápis hodin, ujetých km, použitého chladiva i dílů</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Podpis zákazníka prstem na obrazovku</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-2 border-border rounded-lg overflow-hidden flex flex-col">
+        <div class="h-1.5 bg-accent flex-shrink-0"></div>
+        <div class="p-5 flex flex-col flex-1">
+          <p class="text-small font-bold uppercase tracking-wider text-accent mb-1">03 · Prevence</p>
+          <h3 class="text-h3 text-ink leading-tight mb-3">Pravidelné prevence si plánuje systém sám</h3>
+          <p class="text-body text-ink/80 mb-3">
+            U každého kotle nebo klimatizace nastavíte, jak často má jezdit prevence. Systém každou noc kontroluje, kde se blíží termín, a sám založí zakázku — vy ji jen pošlete technikovi.
+          </p>
+          <ul class="space-y-1.5 text-small text-ink/80 mt-auto">
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Roční, pololetní nebo čtvrtletní prevence</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Přiřadí stejného technika, který zařízení zná</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Záruka se sama počítá od data instalace</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="border-2 border-border rounded-lg overflow-hidden flex flex-col">
+        <div class="h-1.5 bg-accent flex-shrink-0"></div>
+        <div class="p-5 flex flex-col flex-1">
+          <p class="text-small font-bold uppercase tracking-wider text-accent mb-1">04 · Dokumenty</p>
+          <h3 class="text-h3 text-ink leading-tight mb-3">Nabídka a zakázkový list v PDF s vaším logem</h3>
+          <p class="text-body text-ink/80 mb-3">
+            Jedním kliknutím vygenerujete cenovou nabídku nebo finální zakázkový list. Hned je můžete poslat zákazníkovi e-mailem. Firmu vyplní systém sám podle IČO z veřejné databáze ARES.
+          </p>
+          <ul class="space-y-1.5 text-small text-ink/80 mt-auto">
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Položky s DPH, dopravou, hodinovou sazbou</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Souhrn práce — hodiny, km, použitý materiál</li>
+            <li class="flex gap-2"><span class="text-success font-bold">✓</span> Volitelně shrnutí výkazu lidskou řečí pomocí AI</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <p class="text-tiny text-muted text-right mt-6">3 / 6 · <a href="https://www.twentycrm.cz" class="text-muted">twentycrm.cz</a></p>
+  </section>
+
+  <section class="pdf-page">
+
+    <p class="text-small font-semibold uppercase tracking-wider text-accent mb-3">03 · Jak je to navržené</p>
+    <h2 class="text-h1 mb-3 leading-tight">Systém, který myslí jako vy</h2>
+    <p class="text-lead text-muted mb-8 max-w-3xl">
+      Běžný CRM má jen Klient + Příležitost + Aktivita. Náš HVAC datový model má hierarchii,
+      která dohledá konkrétní zařízení po letech.
+    </p>
+
+    <div class="bg-bg-soft border border-border rounded-lg p-6 mb-8">
+      <pre class="text-small font-mono text-ink leading-relaxed whitespace-pre overflow-x-auto"
+><strong>Klient</strong> (Klima Servis Praha, s.r.o.)
+  ↓
+  <strong>Místo</strong> (Václavské nám. 14, Praha 1)
+  <strong>Místo</strong> (Karlovo nám. 4, Praha 2)
+       ↓
+       <strong>Zařízení</strong> (Daikin 5 kW, s.č. ABC123, instalace 2023-04, R32)
+              ↓
+              <strong>Servisní plán</strong>: Roční prevence (běží sám)
+                    ↓
+                    <strong>Zakázka</strong> 2026-03-12: Roční servis (1,5 h, 250 g R32)
+                    <strong>Zakázka</strong> 2026-09-20: Reklamace ovladače (0,5 h)
+                    <strong>Zakázka</strong> 2027-03-15: Roční servis (auto-naplánováno)</pre>
+    </div>
+
+    <div class="grid grid-cols-3 gap-4 mb-10">
+      <div class="border border-border rounded-lg p-4">
+        <p class="text-small font-bold text-accent mb-2">Z karty klienta</p>
+        <p class="text-small text-ink/80">Všechny pobočky, všechna zařízení, kompletní historie napříč lety.</p>
+      </div>
+      <div class="border border-border rounded-lg p-4">
+        <p class="text-small font-bold text-accent mb-2">Z karty zařízení</p>
+        <p class="text-small text-ink/80">Kdo dělal posledně, co měnil, kdy je další prevence, kolik dní zbývá záruky.</p>
+      </div>
+      <div class="border border-border rounded-lg p-4">
+        <p class="text-small font-bold text-accent mb-2">Servisní plán</p>
+        <p class="text-small text-ink/80">Prevence se generuje sama každou noc — neřešíte připomínky v kalendáři.</p>
+      </div>
+    </div>
+
+    <div class="border-t border-border pt-6">
+      <h3 class="text-h4 mb-3">Co dostanete navíc oproti běžnému řešení</h3>
+      <ul class="space-y-2 text-small text-ink/80">
+        <li class="flex gap-2">
+          <span class="text-success font-bold flex-shrink-0">✓</span>
+          <span><strong>Žádné poplatky za uživatele</strong> — přijmete pátého technika a paušál se nemění. U běžných terénních systémů platíte za každého zaměstnance navíc.</span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-success font-bold flex-shrink-0">✓</span>
+          <span><strong>Vlastní typ záznamu Zařízení</strong> s plnou servisní historií — dohledáte konkrétní Daikin i po pěti letech. Běžný CRM toto neumí, vidí jen aktivity na klientovi.</span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-success font-bold flex-shrink-0">✓</span>
+          <span><strong>Data jsou vaše</strong> — fyzicky v Německu, kdykoliv si je stáhnete nebo přesunete. U uzavřených systémů jsou data u dodavatele a ven se dostávají složitě.</span>
+        </li>
+        <li class="flex gap-2">
+          <span class="text-success font-bold flex-shrink-0">✓</span>
+          <span><strong>Roste s vámi</strong> — když budete chtít přidat sklad náhradních dílů, HR pro nábor techniků nebo klientský portál, postavíme to nad stejnou kostrou. Není to izolovaný program.</span>
+        </li>
+      </ul>
+    </div>
+
+    <p class="text-tiny text-muted text-right mt-auto pt-4">4 / 6 · <a href="https://www.twentycrm.cz" class="text-muted">twentycrm.cz</a></p>
+  </section>
+
+  <section class="pdf-page">
+
+    <p class="text-small font-semibold uppercase tracking-wider text-accent mb-3">04 · Cena</p>
+    <h2 class="text-h1 mb-3 leading-tight">Transparentní paušál bez poplatků za uživatele</h2>
+    <p class="text-lead text-muted mb-10 max-w-3xl">
+      Všechny ceny jsou bez DPH.
+    </p>
+
+    <div class="space-y-5">
+
+      <div class="border-2 border-accent rounded-lg p-6">
+        <div class="flex items-baseline justify-between mb-3">
+          <h3 class="text-h3">Nasazení</h3>
+          <p class="text-h2 font-black tnum text-accent">34&nbsp;990&nbsp;Kč</p>
+        </div>
+        <p class="text-small text-muted mb-3">Jednorázově, doba nasazení cca 2–3 týdny.</p>
+        <ul class="grid grid-cols-2 gap-x-6 gap-y-1 text-small text-ink/80">
+          <li>✓ Analýza vašich procesů</li>
+          <li>✓ Nasazení datové struktury na míru oboru</li>
+          <li>✓ Server v Německu, který pro vás zařídíme</li>
+          <li>✓ ARES auto-fill firem podle IČO</li>
+          <li>✓ Šablona nabídky a zakázkového listu</li>
+          <li>✓ Praktické zaškolení</li>
+        </ul>
+      </div>
+
+      <div class="border border-border rounded-lg p-6">
+        <div class="flex items-baseline justify-between mb-3">
+          <h3 class="text-h3">Měsíční paušál — vyhrazený server</h3>
+          <p class="text-h2 font-black tnum">4&nbsp;990&nbsp;Kč<span class="text-small text-muted font-normal">/měs</span></p>
+        </div>
+        <p class="text-small text-muted mb-3">Jedna faktura v korunách. Twenty má otevřený zdrojový kód — neplatíte za licence.</p>
+        <ul class="grid grid-cols-2 gap-x-6 gap-y-1 text-small text-ink/80">
+          <li>✓ Provoz na serveru v Německu</li>
+          <li>✓ Úložiště 1 TB (možno rozšířit)</li>
+          <li>✓ <a href="https://www.twentycrm.cz/bezpecnost/" class="text-ink">Šifrované zálohy 7 dní zpět</a></li>
+          <li>✓ 1 hodina měsíčně na úpravy a aktualizace</li>
+          <li>✓ Bez poplatků za uživatele — neomezený počet</li>
+          <li>✓ Škálovatelný výkon pro AI agenty (MCP)</li>
+        </ul>
+      </div>
+
+      <div class="bg-bg-soft rounded-lg p-6">
+        <h3 class="text-h4 mb-2">Větší úpravy a oborové integrace</h3>
+        <p class="text-small text-ink/80 mb-2">
+          Úpravy datového modelu, napojení na Pohodu/Fakturoid/iDoklad, oborový workflow přes
+          <a href="https://www.twentycrm.cz/sla-balicky/"><strong>SLA balíček</strong></a> — jednorázová platba 5&nbsp;000 až 50&nbsp;000&nbsp;Kč, bonus 10–20&nbsp;% kreditu,
+          čerpání až 12&nbsp;měsíců. Hodinová sazba 2&nbsp;000&nbsp;Kč/h, samostatnou hodinovou fakturaci
+          mimo balíček neposkytujeme.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="border-t border-border pt-6 mt-6">
+      <p class="text-body font-semibold text-ink mb-1">Příklad pro 10 techniků za rok</p>
+      <p class="text-small text-ink/80">
+        34&nbsp;990&nbsp;Kč nasazení + 12 × 4&nbsp;990&nbsp;Kč paušál = <strong class="text-success text-h4">94&nbsp;870&nbsp;Kč/rok</strong>.
+        Žádné poplatky za uživatele. Přijmete dvacátého kolegu — paušál se nemění.
+      </p>
+    </div>
+
+    <p class="text-tiny text-muted text-right mt-auto pt-4">5 / 6 · <a href="https://www.twentycrm.cz" class="text-muted">twentycrm.cz</a></p>
+  </section>
+
+  <section class="pdf-page">
+
+    <p class="text-small font-semibold uppercase tracking-wider text-accent mb-3">05 · Co dál</p>
+    <h2 class="text-h1 mb-3 leading-tight">Podívejte se na video představení</h2>
+    <p class="text-lead text-muted mb-8 max-w-3xl">
+      Ukázku, jak systém vypadá v praxi — od pohledu dispečera přes mobil technika až po vystavený
+      zakázkový list — najdete ve video představení.
+    </p>
+
+    <a href="https://docs.google.com/videos/d/14qGe5SsbE9hG2lDG7IItRlavS_lVBJ6uiqCMpJlluyY/edit?usp=sharing"
+       class="block border-2 border-accent rounded-lg p-6 mb-8 no-underline bg-white">
+      <div class="flex items-center gap-5">
+        <div class="text-5xl text-accent flex-shrink-0" style="line-height:1">▶</div>
+        <div>
+          <p class="text-small uppercase tracking-wider font-bold text-accent mb-1">Video představení Twenty CRM pro HVAC</p>
+          <p class="text-h3 text-ink leading-tight font-bold">Otevřít video →</p>
+        </div>
+      </div>
+    </a>
+
+    <div class="grid grid-cols-3 gap-4 mb-10">
+      <div class="border border-border rounded-lg p-4">
+        <p class="text-h4 font-black text-accent mb-1">1</p>
+        <p class="text-small text-ink/80"><strong>30 min online schůzka</strong> — projdeme váš proces a typický den dispečera i technika.</p>
+      </div>
+      <div class="border border-border rounded-lg p-4">
+        <p class="text-h4 font-black text-accent mb-1">2</p>
+        <p class="text-small text-ink/80"><strong>Přístup do veřejného dema</strong> — pošleme přihlašovací údaje, můžete si systém vyzkoušet bez závazku.</p>
+      </div>
+      <div class="border border-border rounded-lg p-4">
+        <p class="text-h4 font-black text-accent mb-1">3</p>
+        <p class="text-small text-ink/80"><strong>Návrh implementace</strong> — konkrétní harmonogram, cena, podpis smlouvy.</p>
+      </div>
+    </div>
+
+    <div class="border-2 border-accent bg-white rounded-lg p-6 mb-8">
+      <h3 class="text-h3 text-ink mb-5 leading-tight">Domluvte si schůzku zdarma</h3>
+      <div class="grid grid-cols-2 gap-6">
+        <div>
+          <p class="text-tiny uppercase tracking-widest font-bold text-accent mb-3">📞 Telefon</p>
+          <p class="text-h4 font-bold text-ink leading-tight mb-0.5"><a href="tel:+420605540167" class="!text-ink">+420 605 540 167</a></p>
+          <p class="text-small text-muted mb-3">Petr Baloun</p>
+          <p class="text-h4 font-bold text-ink leading-tight mb-0.5"><a href="tel:+420736772499" class="!text-ink">+420 736 772 499</a></p>
+          <p class="text-small text-muted">David Řezáč</p>
+        </div>
+        <div>
+          <p class="text-tiny uppercase tracking-widest font-bold text-accent mb-3">📧 E-mail</p>
+          <p class="text-h4 font-bold text-ink leading-tight"><a href="mailto:info@bohemiacrm.cz" class="!text-ink">info@bohemiacrm.cz</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-border pt-4 mt-auto">
+      <p class="text-tiny text-muted leading-relaxed mb-2">
+        <strong>Twenty</strong> je open-source software pod licencí AGPL-3.0, vyvíjený společností
+        Twenty Inc. (USA). <strong>ESHOpino s.r.o. NENÍ oficiálním zastoupením</strong> Twenty.com —
+        jsme nezávislý český implementátor.
+      </p>
+      <p class="text-tiny text-muted">
+        Více na <a href="https://www.twentycrm.cz/pro-servisni-firmy/hvac/" class="text-muted"><strong>twentycrm.cz/pro-servisni-firmy/hvac/</strong></a> · ESHOpino s.r.o., IČO 03223485,
+        Roháčova 145/14, 130 00 Praha 3 · Verze prezentace: červen 2026
+      </p>
+    </div>
+
+    <p class="text-tiny text-muted text-right mt-2">6 / 6 · <a href="https://www.twentycrm.cz" class="text-muted">twentycrm.cz</a></p>
+  </section>
+
+</body>
+</html>

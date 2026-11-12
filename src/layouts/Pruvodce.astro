@@ -1,0 +1,403 @@
+---
+/**
+ * Layout průvodce /twenty/ ve stylu Payday: soumrakový pás s názvem, pod ním
+ * boční navigace (oblasti a články, vyhledávání) · text článku · „Na této stránce".
+ * Pod článkem: kdy a proti čemu byla fakta ověřena, zdroje, předchozí/další, demo, upozornění.
+ */
+import { render } from 'astro:content';
+import Base from './Base.astro';
+import { strom, poradiCteni, url, oblastClanku, type Clanek } from '../lib/pruvodce';
+import { demoCta } from '../lib/komponenty.mjs';
+import { najdiFunkci, najdiZdroj, stavFunkciBlok } from '../lib/twenty.mjs';
+
+interface Props {
+  clanek: Clanek;
+}
+
+const { clanek } = Astro.props;
+const d = clanek.data;
+const { Content, headings } = await render(clanek);
+const { uvod, oblasti } = await strom();
+const poradi = await poradiCteni();
+const i = poradi.findIndex((e) => e.id === clanek.id);
+const predchozi = i > 0 ? poradi[i - 1] : undefined;
+const dalsi = i >= 0 && i < poradi.length - 1 ? poradi[i + 1] : undefined;
+
+const idOblasti = oblastClanku(clanek);
+const oblast = oblasti.find((o) => o.uvod.id === idOblasti);
+const jeUvodOblasti = Boolean(oblast && oblast.uvod.id === clanek.id);
+const jeUvodPruvodce = clanek.id === 'index';
+const obsahStranky = headings.filter((h) => h.depth === 2 || h.depth === 3);
+
+const datum = (dt?: Date) => dt?.toLocaleDateString('cs-CZ', { day: 'numeric', month: 'long', year: 'numeric' });
+const overeno = datum(d.overeno);
+
+// Registry (src/data/twenty): neznámé id funkce nebo zdroje shodí build s názvem souboru.
+const vRegistru = <T,>(fn: () => T): T => {
+  try {
+    return fn();
+  } catch (err) {
+    throw new Error(`[průvodce] ${clanek.filePath}: ${(err as Error).message}`);
+  }
+};
+const funkceClanku = d.funkce.map((id) => vRegistru(() => najdiFunkci(id)));
+const zdroje = d.zdroje.map((z) => (typeof z === 'string' ? vRegistru(() => najdiZdroj(z)) : z));
+const stavFunkci = funkceClanku.length ? stavFunkciBlok(funkceClanku, { smer: true }) : '';
+
+// Drobečková navigace + strukturovaná data
+const drobecky = [
+  { nazev: 'Průvodce Twenty', href: url('index') },
+  ...(oblast && !jeUvodOblasti ? [{ nazev: oblast.uvod.data.vMenu ?? oblast.uvod.data.title, href: url(oblast.uvod) }] : []),
+];
+const site = Astro.site!;
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [...drobecky, ...(jeUvodPruvodce ? [] : [{ nazev: d.title, href: url(clanek) }])].map((b, n) => ({
+      '@type': 'ListItem',
+      position: n + 1,
+      name: b.nazev,
+      item: new URL(b.href, site).href,
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'TechArticle',
+    headline: d.title,
+    description: d.description,
+    inLanguage: 'cs',
+    url: new URL(url(clanek), site).href,
+    ...(d.overeno ? { dateModified: d.overeno.toISOString().slice(0, 10) } : {}),
+    author: { '@type': 'Organization', name: 'TwentyCRM.cz', url: 'https://www.twentycrm.cz' },
+    publisher: { '@type': 'Organization', name: 'ESHOpino s.r.o.' },
+  },
+];
+const nazevMenu = (e: Clanek) => e.data.vMenu ?? e.data.title;
+const aktivni = (e: Clanek) => (e.id === clanek.id ? 'page' : undefined);
+---
+
+<Base title={`${d.title} | Průvodce Twenty | TwentyCRM.cz`} description={d.description} noindex={d.draft} overlay>
+  <script slot="head" type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  <section class="hero soumrak zrno pruvodce-hero">
+    <div class="kontejner-siroky">
+      <nav aria-label="Drobečková navigace" class="drobecky vynor">
+        {
+          jeUvodPruvodce ? (
+            <span class="stitek">Průvodce Twenty</span>
+          ) : (
+            drobecky.map((b) => (
+              <>
+                <a href={b.href}>{b.nazev}</a>
+                <span aria-hidden="true">/</span>
+              </>
+            ))
+          )
+        }
+      </nav>
+      <h1 class="vynor" style="--i:1">{d.title}</h1>
+      <p class="hero__perex vynor" style="--i:2">{d.description}</p>
+    </div>
+  </section>
+
+  <div class="kontejner-siroky pruvodce">
+    <aside class="pruvodce__nav" aria-label="Obsah průvodce">
+      <details class="pruvodce__nav-mobil" open>
+        <summary>Obsah průvodce</summary>
+        <div class="pruvodce__nav-vnitrek">
+          <div id="hledani" class="hledani" data-pagefind-ignore>
+          </div>
+          <ul class="strom">
+            {
+              uvod && (
+                <li>
+                  <a href={url(uvod)} aria-current={aktivni(uvod)} class="strom__uvod">
+                    Úvod
+                  </a>
+                </li>
+              )
+            }
+            {
+              oblasti.map((o) => (
+                <li class="strom__oblast">
+                  <a href={url(o.uvod)} aria-current={aktivni(o.uvod)} class="strom__nazev">
+                    {nazevMenu(o.uvod)}
+                  </a>
+                  {o.clanky.length > 0 && (
+                    <ul>
+                      {o.clanky.map((c) => (
+                        <li>
+                          <a href={url(c)} aria-current={aktivni(c)}>
+                            {nazevMenu(c)}
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </details>
+    </aside>
+
+    <article class="pruvodce__clanek obsah" data-pagefind-body>
+      <Content />
+
+      {
+        jeUvodPruvodce && oblasti.length > 0 && (
+          <div class="karty-blok" data-pagefind-ignore>
+            <div class="mrizka mrizka--2 reveal">
+              {oblasti.map((o) => (
+                <div class="karta">
+                  <h3>
+                    <a href={url(o.uvod)}>{o.uvod.data.title}</a>
+                  </h3>
+                  <p>{o.uvod.data.description}</p>
+                  {o.clanky.length > 0 && (
+                    <ul>
+                      {o.clanky.map((c) => (
+                        <li>
+                          <a href={url(c)}>{nazevMenu(c)}</a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </div>
+              ))}
+            </div>
+          </div>
+        )
+      }
+
+      {
+        jeUvodOblasti && oblast && oblast.clanky.length > 0 && (
+          <div class="karty-blok" data-pagefind-ignore>
+            <div class="mrizka mrizka--2 reveal">
+              {oblast.clanky.map((c) => (
+                <div class="karta">
+                  <h3>
+                    <a href={url(c)}>{c.data.title}</a>
+                  </h3>
+                  <p>{c.data.description}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        )
+      }
+
+      {
+        stavFunkci && (
+          <section class="pruvodce__funkce" aria-labelledby="stav-funkci">
+            <h2 id="stav-funkci">Co z toho Twenty umí dnes</h2>
+            <Fragment set:html={stavFunkci} />
+          </section>
+        )
+      }
+
+      {
+        (overeno || zdroje.length > 0) && (
+          <section class="overeni" aria-label="Ověření a zdroje" data-pagefind-ignore>
+            {overeno && (
+              <p>
+                <strong>Ověřeno {overeno}</strong>
+                {d.verzeTwenty && <> proti Twenty v{d.verzeTwenty}</>}.
+              </p>
+            )}
+            {zdroje.length > 0 && (
+              <>
+                <p class="overeni__nadpis">Zdroje</p>
+                <ul>
+                  {zdroje.map((z) => (
+                    <li>
+                      <a href={z.url} rel="noopener" target="_blank">
+                        {z.nazev ?? z.url}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </section>
+        )
+      }
+
+      {
+        (predchozi || dalsi) && (
+          <nav class="listovani" aria-label="Předchozí a další" data-pagefind-ignore>
+            {predchozi ? (
+              <a href={url(predchozi)} class="listovani__odkaz">
+                <span>← Předchozí</span>
+                {nazevMenu(predchozi)}
+              </a>
+            ) : (
+              <span />
+            )}
+            {dalsi && (
+              <a href={url(dalsi)} class="listovani__odkaz listovani__odkaz--dalsi">
+                <span>Další →</span>
+                {nazevMenu(dalsi)}
+              </a>
+            )}
+          </nav>
+        )
+      }
+
+      <div data-pagefind-ignore set:html={demoCta()} />
+
+      <p class="pruvodce__upozorneni" data-pagefind-ignore>
+        <strong>Twenty</strong> je software s otevřeným zdrojovým kódem, vyvíjený společností Twenty Inc. (licence AGPL-3.0).
+        Tento průvodce <strong>NENÍ oficiálním zastoupením</strong> Twenty.com — píše ho ESHOpino s.r.o., nezávislá česká
+        agentura, která Twenty nasazuje a spravuje. Oficiální zdroje:
+        <a href="https://docs.twenty.com/cs/user-guide/introduction" rel="noopener" target="_blank">česká dokumentace</a> ·
+        <a href="https://github.com/twentyhq/twenty/releases" rel="noopener" target="_blank">vydání na GitHubu</a>.
+      </p>
+    </article>
+
+    {
+      obsahStranky.length > 1 && (
+        <nav class="pruvodce__toc" aria-label="Na této stránce">
+          <p class="stitek">Na této stránce</p>
+          <ul>
+            {obsahStranky.map((h) => (
+              <li class:list={[h.depth === 3 && 'toc__pod']}>
+                <a href={`#${h.slug}`}>{h.text}</a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      )
+    }
+  </div>
+</Base>
+
+<script>
+  // Vyhledávání: Pagefind index vzniká až při buildu (dist/pagefind/). Ve vývoji zůstane pole prázdné.
+  const misto = document.getElementById('hledani');
+  if (misto) {
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = '/pagefind/pagefind-ui.css';
+    const js = document.createElement('script');
+    js.src = '/pagefind/pagefind-ui.js';
+    js.onload = () => {
+      misto.innerHTML = '';
+      // @ts-expect-error — globál z pagefind-ui.js
+      new window.PagefindUI({
+        element: '#hledani',
+        showImages: false,
+        showSubResults: true,
+        resetStyles: false,
+        translations: { placeholder: 'Hledat v průvodci', zero_results: 'Pro „[SEARCH_TERM]" nic nenalezeno' },
+      });
+    };
+    document.head.append(css, js);
+  }
+
+  // Na mobilu je navigace sbalená, na širokém displeji vždy otevřená.
+  const nav = document.querySelector<HTMLDetailsElement>('.pruvodce__nav-mobil');
+  const siroky = window.matchMedia('(min-width: 64rem)');
+  const nastav = () => nav && (nav.open = siroky.matches);
+  nastav();
+  siroky.addEventListener('change', nastav);
+</script>
+
+<style>
+  .kontejner-siroky {
+    width: 100%;
+    max-width: calc(84rem + var(--tc-gutter) * 2);
+    margin-inline: auto;
+    padding-inline: var(--tc-gutter);
+  }
+  .pruvodce-hero h1 { max-width: 48rem; font-size: var(--tc-display-lg); line-height: 1.05; letter-spacing: -0.042em; }
+  .drobecky { display: flex; flex-wrap: wrap; gap: 0.5rem; font-size: 0.875rem; margin-bottom: 1.25rem; color: rgb(255 255 255 / 0.6); }
+  .drobecky a { color: rgb(255 255 255 / 0.85); text-decoration: none; }
+  .drobecky a:hover { color: #fff; }
+
+  .pruvodce { display: grid; gap: 0 3rem; align-items: start; }
+  @media (min-width: 64rem) {
+    .pruvodce { grid-template-columns: 15rem minmax(0, 1fr); }
+  }
+  @media (min-width: 80rem) {
+    .pruvodce { grid-template-columns: 15rem minmax(0, 1fr) 13rem; }
+  }
+
+  /* Boční navigace */
+  .pruvodce__nav { padding-top: 2rem; }
+  @media (min-width: 64rem) {
+    .pruvodce__nav { position: sticky; top: calc(var(--tc-header-h) + 1rem); max-height: calc(100dvh - var(--tc-header-h) - 2rem); overflow-y: auto; padding-top: 3.5rem; }
+  }
+  .pruvodce__nav-mobil > summary {
+    list-style: none;
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0.85rem 1rem;
+    border: 1px solid var(--tc-line);
+    border-radius: 0.875rem;
+    background: var(--tc-wash);
+  }
+  .pruvodce__nav-mobil > summary::-webkit-details-marker { display: none; }
+  @media (min-width: 64rem) {
+    .pruvodce__nav-mobil > summary { display: none; }
+  }
+  .pruvodce__nav-vnitrek { padding: 1rem 0; }
+  .strom { display: grid; gap: 0.25rem; font-size: 0.9375rem; }
+  .strom a { display: block; padding: 0.35rem 0.75rem; border-radius: 0.6rem; color: var(--tc-ink-2); text-decoration: none; transition: background-color 0.2s, color 0.2s; }
+  .strom a:hover { background: var(--tc-wash); color: var(--tc-ink); }
+  .strom a[aria-current='page'] { background: var(--tc-accent-soft); color: var(--tc-accent); font-weight: 500; }
+  .strom__oblast { margin-top: 0.75rem; }
+  .strom__nazev { font-weight: 550; color: var(--tc-ink) !important; }
+  .strom__oblast ul { border-left: 1px solid var(--tc-line); margin: 0.2rem 0 0 0.75rem; padding-left: 0.4rem; }
+  .strom__oblast ul a { font-size: 0.875rem; color: var(--tc-muted); }
+
+  /* Vyhledávání */
+  .hledani { margin-bottom: 1.25rem; }
+  .hledani:empty { display: none; }
+
+  /* Článek */
+  .pruvodce__clanek { padding-top: 3.5rem; min-width: 0; }
+  .overeni { margin-top: 3.5rem; padding: 1.25rem 1.5rem; border: 1px solid var(--tc-line); border-radius: 1rem; font-size: 0.9rem; color: var(--tc-ink-2); max-width: var(--tc-text-col); }
+  .overeni p { margin: 0 0 0.5rem; }
+  .overeni__nadpis { font-weight: 600; color: var(--tc-ink); margin-top: 0.75rem !important; }
+  .overeni ul { margin: 0; }
+  .listovani { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 2.5rem; max-width: var(--tc-text-col); }
+  .listovani__odkaz {
+    display: block;
+    padding: 1rem 1.25rem;
+    border: 1px solid var(--tc-line);
+    border-radius: 0.875rem;
+    text-decoration: none !important;
+    color: var(--tc-ink) !important;
+    transition: border-color 0.2s;
+  }
+  .listovani__odkaz:hover { border-color: var(--tc-ink); }
+  .listovani__odkaz span { display: block; font-size: 0.8125rem; color: var(--tc-muted); margin-bottom: 0.2rem; }
+  .listovani__odkaz--dalsi { text-align: right; grid-column: 2; }
+  .pruvodce__upozorneni { font-size: 0.8125rem !important; color: var(--tc-muted) !important; line-height: 1.6; max-width: var(--tc-text-col); }
+
+  /* Na této stránce */
+  .pruvodce__toc { display: none; }
+  @media (min-width: 80rem) {
+    .pruvodce__toc { display: block; position: sticky; top: calc(var(--tc-header-h) + 1rem); padding-top: 3.5rem; font-size: 0.875rem; }
+  }
+  .pruvodce__toc ul { display: grid; gap: 0.4rem; border-left: 1px solid var(--tc-line); padding-left: 0.9rem; }
+  .pruvodce__toc a { color: var(--tc-muted); text-decoration: none; }
+  .pruvodce__toc a:hover { color: var(--tc-ink); }
+  .toc__pod { padding-left: 0.75rem; }
+
+  /* Pagefind UI v barvách Payday */
+  .hledani :global(.pagefind-ui) {
+    --pagefind-ui-scale: 0.8;
+    --pagefind-ui-primary: var(--tc-accent);
+    --pagefind-ui-text: var(--tc-ink);
+    --pagefind-ui-background: var(--tc-page);
+    --pagefind-ui-border: var(--tc-line-strong);
+    --pagefind-ui-tag: var(--tc-wash);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 0.75rem;
+    --pagefind-ui-font: var(--tc-font);
+  }
+</style>

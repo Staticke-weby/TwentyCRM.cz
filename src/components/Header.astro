@@ -1,0 +1,272 @@
+---
+/**
+ * Hlavička podle šablony Payday (MIT): pevná nahoře, nad tmavým hero průhledná,
+ * při scrollu dolů se schová a při scrollu nahoru vrátí. Mobilní menu přes celou obrazovku.
+ * Navíc oproti Payday: rozbalovací „Řešení" (nativní <details>).
+ */
+import { pruvodceZverejnen } from '../lib/pruvodce';
+import { sipka } from '../lib/komponenty.mjs';
+
+interface Props {
+  /** Stránka začíná tmavým hero → hlavička je do prvního scrollu průhledná. */
+  overlay?: boolean;
+}
+const { overlay = false } = Astro.props;
+
+const jePruvodce = await pruvodceZverejnen();
+const reseni = [
+  { href: '/pro-obchodni-tymy/', nazev: 'Twenty Sales', popis: 'Když řídíte obchod — nabídky, marže, plán' },
+  { href: '/pro-servisni-firmy/', nazev: 'Twenty Servis', popis: 'Když montujete a servisujete u zákazníka' },
+];
+const odkazy = [
+  { href: '/obory/', nazev: 'Pro koho' },
+  { href: '/co-umi/', nazev: 'Co Twenty umí' },
+  { href: '/twenty/', nazev: 'Průvodce' },
+  { href: '/cenik/', nazev: 'Cena' },
+  { href: '/otazky/', nazev: 'Otázky' },
+  { href: '/o-nas/', nazev: 'O nás' },
+].filter((o) => jePruvodce || o.href !== '/twenty/');
+const cesta = Astro.url.pathname;
+const aktivni = (href: string) => href !== '/' && cesta.startsWith(href);
+---
+
+<header class="hlavicka" data-hlavicka data-overlay={overlay ? '' : undefined}>
+  <div class="hlavicka__lista">
+    <div class="hlavicka__radek">
+      <a href="/" class="hlavicka__logo" aria-label="TwentyCRM.cz — úvodní stránka">
+        <img src="/brand/logo.svg" alt="Twenty CRM" width="180" height="36" />
+      </a>
+
+      <nav class="hlavicka__nav" aria-label="Hlavní">
+        <ul>
+          <li>
+            <details class="rozbal" data-zavirat>
+              <summary class="nav-odkaz">Řešení <span aria-hidden="true" class="sipka-dolu"></span></summary>
+              <div class="rozbal__panel">
+                {
+                  reseni.map((r) => (
+                    <a href={r.href} class="rozbal__polozka">
+                      <span class="rozbal__nazev">{r.nazev}</span>
+                      <span class="rozbal__popis">{r.popis}</span>
+                    </a>
+                  ))
+                }
+                <a href="/ktere-crm-vybrat/" class="rozbal__polozka rozbal__polozka--dalsi">
+                  <span class="rozbal__nazev">Které vybrat →</span>
+                  <span class="rozbal__popis">Dvě otázky a srovnání obou vedle sebe</span>
+                </a>
+              </div>
+            </details>
+          </li>
+          {
+            odkazy.map((o) => (
+              <li>
+                <a href={o.href} class="nav-odkaz" aria-current={aktivni(o.href) ? 'page' : undefined}>
+                  {o.nazev}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+
+      <div class="hlavicka__vpravo">
+        <a href="/kontakt/" class="btn btn-primary btn-sipka btn-maly hlavicka__cta">
+          Konzultace zdarma<span class="btn-sipka__ikona" set:html={sipka} />
+        </a>
+        <button type="button" class="hlavicka__prepinac" aria-expanded="false" aria-controls="mobilni-menu" aria-label="Otevřít menu" data-prepinac>
+          <span class="hamburger" aria-hidden="true"><span></span><span></span><span></span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div id="mobilni-menu" class="mobil" inert data-mobil>
+    <nav class="kontejner mobil__vnitrek" aria-label="Mobilní">
+      <p class="stitek">Řešení</p>
+      <ul class="mobil__seznam">
+        {reseni.map((r) => <li><a href={r.href} data-odkaz-menu>{r.nazev}</a></li>)}
+        <li><a href="/ktere-crm-vybrat/" class="mobil__dalsi" data-odkaz-menu>Které vybrat →</a></li>
+      </ul>
+      <ul class="mobil__seznam mobil__seznam--velke">
+        {odkazy.map((o) => <li><a href={o.href} data-odkaz-menu>{o.nazev}</a></li>)}
+        <li><a href="/cloud-vs-selfhost/" data-odkaz-menu>Server nebo cloud</a></li>
+      </ul>
+      <div class="mobil__cta">
+        <a href="/kontakt/" class="btn btn-primary btn-sipka btn-lg">
+          Konzultace zdarma<span class="btn-sipka__ikona" set:html={sipka} />
+        </a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .hlavicka {
+    position: fixed;
+    inset: 0 0 auto;
+    z-index: 50;
+    transition: transform 0.45s var(--tc-ease);
+  }
+  .hlavicka[data-skryta] { transform: translateY(-110%); }
+  .hlavicka__lista {
+    position: relative;
+    z-index: 20;
+    background: var(--tc-page);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  }
+  .hlavicka__radek {
+    width: 100%;
+    max-width: calc(84rem + var(--tc-gutter) * 2);
+    margin-inline: auto;
+    padding-inline: var(--tc-gutter);
+    height: var(--tc-header-h);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  .hlavicka__logo { display: flex; flex-shrink: 0; }
+  .hlavicka__logo img { height: 1.75rem; width: auto; display: block; transition: filter 0.3s; }
+
+  .hlavicka__nav { display: none; margin-inline: auto; }
+  .hlavicka__nav ul { display: flex; align-items: center; gap: 0.15rem; }
+  .nav-odkaz {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.45rem 0.8rem;
+    border-radius: 999px;
+    font-size: 0.9375rem;
+    color: var(--tc-ink-2);
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.2s, background-color 0.2s;
+  }
+  .nav-odkaz:hover, .nav-odkaz[aria-current='page'], .rozbal[open] > .nav-odkaz { color: var(--tc-ink); background: var(--tc-wash); }
+
+  .hlavicka__vpravo { margin-left: auto; display: flex; align-items: center; gap: 0.5rem; }
+  .hlavicka__cta { display: none; }
+
+  /* Nad tmavým hero: průhledná se světlým textem, dokud se nescrolluje. */
+  [data-overlay]:not([data-scrolled], [data-mobil-otevreno]) .hlavicka__lista { background: transparent; color: #fff; }
+  [data-overlay]:not([data-scrolled], [data-mobil-otevreno]) .hlavicka__logo img { filter: brightness(0) invert(1); }
+  [data-overlay]:not([data-scrolled], [data-mobil-otevreno]) .nav-odkaz { color: rgb(255 255 255 / 0.82); }
+  [data-overlay]:not([data-scrolled], [data-mobil-otevreno]) .nav-odkaz:hover,
+  [data-overlay]:not([data-scrolled], [data-mobil-otevreno]) .nav-odkaz[aria-current='page'],
+  [data-overlay]:not([data-scrolled], [data-mobil-otevreno]) .rozbal[open] > .nav-odkaz { color: #fff; background: rgb(255 255 255 / 0.12); }
+  [data-overlay]:not([data-scrolled], [data-mobil-otevreno]) .hlavicka__cta { background: #fff; color: var(--tc-ink); }
+  [data-overlay]:not([data-scrolled], [data-mobil-otevreno]) .hlavicka__cta :global(.btn-sipka__ikona) { background: var(--tc-ink); color: #fff; }
+  [data-overlay]:not([data-scrolled], [data-mobil-otevreno]) .hamburger span { background: #fff; }
+  [data-scrolled] .hlavicka__lista { box-shadow: 0 1px 0 var(--tc-line); }
+
+  /* Rozbalovací Řešení */
+  .rozbal { position: relative; }
+  .rozbal > summary { list-style: none; cursor: pointer; }
+  .rozbal > summary::-webkit-details-marker { display: none; }
+  .sipka-dolu { width: 0.4rem; height: 0.4rem; border-right: 1.5px solid currentColor; border-bottom: 1.5px solid currentColor; transform: translateY(-2px) rotate(45deg); transition: transform 0.2s; }
+  .rozbal[open] .sipka-dolu { transform: translateY(1px) rotate(225deg); }
+  .rozbal__panel {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 0.6rem);
+    width: 21rem;
+    background: var(--tc-page);
+    color: var(--tc-ink);
+    border: 1px solid var(--tc-line);
+    border-radius: 1rem;
+    box-shadow: 0 24px 50px -24px rgb(29 27 38 / 0.35);
+    padding: 0.4rem;
+  }
+  .rozbal__polozka { display: block; padding: 0.75rem 0.9rem; border-radius: 0.7rem; text-decoration: none; }
+  .rozbal__polozka:hover { background: var(--tc-wash); }
+  .rozbal__nazev { display: block; font-weight: 500; color: var(--tc-ink); letter-spacing: -0.01em; }
+  .rozbal__popis { display: block; font-size: 0.8125rem; color: var(--tc-muted); margin-top: 0.1rem; }
+  .rozbal__polozka--dalsi { border-top: 1px solid var(--tc-line); margin-top: 0.3rem; border-radius: 0 0 0.7rem 0.7rem; }
+  .rozbal__polozka--dalsi .rozbal__nazev { color: var(--tc-accent); }
+
+  /* Mobilní menu */
+  .hlavicka__prepinac { display: grid; place-items: center; width: 2.75rem; height: 2.75rem; margin-right: -0.5rem; border-radius: 999px; }
+  .hamburger { display: grid; gap: 5px; width: 20px; }
+  .hamburger span { height: 1.5px; background: var(--tc-ink); border-radius: 2px; transition: transform 0.25s var(--tc-ease), opacity 0.2s; }
+  [data-mobil-otevreno] .hamburger span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+  [data-mobil-otevreno] .hamburger span:nth-child(2) { opacity: 0; }
+  [data-mobil-otevreno] .hamburger span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+  .mobil {
+    position: fixed;
+    inset: 0;
+    z-index: 10;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    background: var(--tc-page);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
+  }
+  [data-mobil-otevreno] .mobil { opacity: 1; pointer-events: auto; }
+  .mobil__vnitrek { display: flex; flex-direction: column; min-height: 100%; padding-top: calc(var(--tc-header-h) + 1.5rem); padding-bottom: 2rem; }
+  .mobil__seznam { display: grid; gap: 0.15rem; margin-bottom: 1.75rem; }
+  .mobil__seznam a { display: block; padding: 0.4rem 0; font-size: 1.25rem; letter-spacing: -0.02em; color: var(--tc-ink); text-decoration: none; }
+  .mobil__seznam--velke a { font-size: 1.875rem; letter-spacing: -0.04em; padding: 0.5rem 0; }
+  .mobil__seznam a.mobil__dalsi { color: var(--tc-accent); }
+  .mobil__cta { margin-top: auto; padding-top: 1.5rem; }
+  .mobil__cta .btn { width: 100%; justify-content: space-between; }
+
+  @media (min-width: 40rem) {
+    .hlavicka__cta { display: inline-flex; }
+  }
+  @media (min-width: 75rem) {
+    .hlavicka__nav { display: block; }
+    .hlavicka__prepinac, .mobil { display: none; }
+  }
+</style>
+
+<script>
+  const hlavicka = document.querySelector<HTMLElement>('[data-hlavicka]');
+  if (hlavicka) {
+    const prepinac = hlavicka.querySelector<HTMLButtonElement>('[data-prepinac]');
+    const mobil = hlavicka.querySelector<HTMLElement>('[data-mobil]');
+    const rozbaly = hlavicka.querySelectorAll<HTMLDetailsElement>('details[data-zavirat]');
+
+    const nastavMobil = (otevrit: boolean) => {
+      hlavicka.toggleAttribute('data-mobil-otevreno', otevrit);
+      if (mobil) mobil.inert = !otevrit;
+      prepinac?.setAttribute('aria-expanded', String(otevrit));
+      prepinac?.setAttribute('aria-label', otevrit ? 'Zavřít menu' : 'Otevřít menu');
+      document.documentElement.style.overflow = otevrit ? 'hidden' : '';
+    };
+    prepinac?.addEventListener('click', () => nastavMobil(!hlavicka.hasAttribute('data-mobil-otevreno')));
+    hlavicka.querySelectorAll('[data-odkaz-menu]').forEach((a) => a.addEventListener('click', () => nastavMobil(false)));
+    window.matchMedia('(min-width: 75rem)').addEventListener('change', (e) => e.matches && nastavMobil(false));
+
+    document.addEventListener('click', (e) => {
+      rozbaly.forEach((d) => {
+        if (d.open && !d.contains(e.target as Node)) d.open = false;
+      });
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key !== 'Escape') return;
+      rozbaly.forEach((d) => (d.open = false));
+      if (hlavicka.hasAttribute('data-mobil-otevreno')) {
+        nastavMobil(false);
+        prepinac?.focus();
+      }
+    });
+
+    // Schovat při scrollu dolů, vrátit při scrollu nahoru. Nikdy u horního okraje ani s otevřeným menu.
+    let posledniY = window.scrollY;
+    const priScrollu = () => {
+      const y = window.scrollY;
+      const zaneprazdnena =
+        hlavicka.hasAttribute('data-mobil-otevreno') ||
+        hlavicka.contains(document.activeElement) ||
+        [...rozbaly].some((d) => d.open);
+      hlavicka.toggleAttribute('data-scrolled', y > 8);
+      if (y < 120 || zaneprazdnena) hlavicka.removeAttribute('data-skryta');
+      else if (Math.abs(y - posledniY) > 6) hlavicka.toggleAttribute('data-skryta', y > posledniY);
+      posledniY = y;
+    };
+    priScrollu();
+    window.addEventListener('scroll', priScrollu, { passive: true });
+    hlavicka.addEventListener('focusin', () => hlavicka.removeAttribute('data-skryta'));
+  }
+</script>

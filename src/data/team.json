@@ -1,0 +1,52 @@
+{
+  "company": {
+    "legal_name": "ESHOpino s.r.o.",
+    "ico": "03223485",
+    "dic": "CZ03223485",
+    "address": {
+      "street": "Roháčova 145/14",
+      "city": "Praha 3",
+      "zip": "130 00"
+    }
+  },
+  "support": {
+    "email": "info@bohemiacrm.cz",
+    "phone": "+420 605 540 167",
+    "phone_e164": "+420605540167",
+    "hours": "Po–Pá 8:00–17:00"
+  },
+  "members": [
+    {
+      "id": "baloun",
+      "name": "Petr Baloun",
+      "title": "Specialista na CRM a integrace",
+      "role": "jednatel",
+      "phone": "+420 605 540 167",
+      "phone_e164": "+420605540167",
+      "email": "baloun@bohemiacrm.cz",
+      "tagline": "Bavte se se mnou o implementacích, datovém modelu a integracích.",
+      "initials": "PB"
+    },
+    {
+      "id": "rezac",
+      "name": "David Řezáč",
+      "title": "CRM & procesní konzultant",
+      "role": "jednatel",
+      "phone": "+420 736 772 499",
+      "phone_e164": "+420736772499",
+      "email": "rezac@bohemiacrm.cz",
+      "tagline": "Bavte se se mnou o procesech, optimalizaci a strategii rolloutu.",
+      "initials": "DŘ"
+    },
+    {
+      "id": "pitner",
+      "name": "Jakub Pitner",
+      "title": "Developer a správa serverů",
+      "role": null,
+      "phone": null,
+      "phone_e164": null,
+      "tagline": "Bavte se se mnou o technických detailech, vyhrazeném serveru a úpravách v kódu.",
+      "initials": "JP"
+    }
+  ]
+}

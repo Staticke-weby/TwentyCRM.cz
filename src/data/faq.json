@@ -1,0 +1,246 @@
+{
+  "categories": [
+    {
+      "id": "twenty",
+      "label": "O Twenty obecně"
+    },
+    {
+      "id": "cena",
+      "label": "Cena a smlouva"
+    },
+    {
+      "id": "bezpecnost",
+      "label": "Bezpečnost a data"
+    },
+    {
+      "id": "implementace",
+      "label": "Nasazení a podpora"
+    },
+    {
+      "id": "funkce",
+      "label": "Co Twenty umí"
+    },
+    {
+      "id": "migrace",
+      "label": "Přechod ze stávajícího systému"
+    }
+  ],
+  "items": [
+    {
+      "id": "dve-reseni",
+      "category": "twenty",
+      "question": "Jaký je rozdíl mezi Twenty Sales a Twenty Servis?",
+      "answer": "Twenty Sales řídí obchod — zájemce, obchodní případ s fázemi, nabídku s nákupní cenou a marží, projekty s rozpočtem nákladů a kvartální plán obratu se semaforem. Twenty Servis řídí práci u zákazníka — místa a karty zařízení se sériovým číslem a zárukou, servisní plán, který generuje opakované zakázky sám, plánovač výjezdů s hlídáním kolizí a výkaz technika v telefonu. Nabídky, položky a ceník produktů jsou v obou totožné. Obě řešení jsou naše nadstavby nad open-source Twenty, běží na stejné platformě a stojí stejně."
+    },
+    {
+      "id": "potrebuju-obe",
+      "category": "twenty",
+      "question": "Potřebujeme obojí — obchod i servis. Musíme koupit obě řešení?",
+      "answer": "Ne. Twenty Servis pokrývá celý životní cyklus zakázky včetně nabídek a ceníku, takže servisní a montážní firmě stačí. Kombinovaný balíček nenabízíme a za druhou nadstavbu se nepřiplácí — vybíráte jedno řešení. Rozhodující otázka je, jestli od vás někdo jezdí k zákazníkovi něco montovat nebo opravovat. Když ano, chcete Twenty Servis. Když ne a řídíte obchod, chcete Twenty Sales."
+    },
+    {
+      "id": "sales-b2c",
+      "category": "twenty",
+      "question": "Twenty Sales je jen pro prodej firmám?",
+      "answer": "Ne. Funguje stejně pro prodej firmám i koncovým zákazníkům a zvládne krátké i dlouhé obchody. Rozhoduje jediná věc: jestli se o obchodu jedná a dělá se na něj nabídka. Prodej kuchyně, fotovoltaiky nebo stroje je z pohledu systému totéž — mění se jen tempo, ne způsob práce. Nedává smysl jen tam, kde se objednávky odbavují samy a nikdo s nikým nemluví, typicky čistě e-shopový provoz."
+    },
+    {
+      "id": "muzeme-videt",
+      "category": "twenty",
+      "question": "Můžeme si to nejdřív prohlédnout?",
+      "answer": "Ano. Demo je připravené a plné reálně vypadajících dat — pošleme vám ho na vyžádání, nebo vás jím za půl hodiny provedeme online. Základní variantu samotného Twenty si navíc můžete vyzkoušet zdarma přímo u výrobce na twenty.com; naše nadstavby v ní ale nejsou."
+    },
+    {
+      "id": "cena-obe-reseni",
+      "category": "cena",
+      "question": "Liší se cena podle toho, které řešení si vyberu?",
+      "answer": "Ne. Nasazení 34 990 Kč jednorázově a provoz 4 990 Kč měsíčně na vyhrazeném serveru platí stejně pro Twenty Sales i Twenty Servis. Neplatíte víc za to, že máte složitější obor, ani méně za to, že máte jednodušší."
+    },
+    {
+      "id": "co-je-twenty",
+      "category": "twenty",
+      "question": "Co je Twenty CRM?",
+      "answer": "Twenty je moderní CRM systém pro správu klientů, obchodu a oborové agendy. Má otevřený zdrojový kód, což znamená, že nejste závislí na jednom dodavateli — kód je veřejně dostupný. Vyvíjí se rychle, novou verzi vydávají víceméně každý týden."
+    },
+    {
+      "id": "kdo-jste",
+      "category": "twenty",
+      "question": "Jste Twenty? Tvoříte ho?",
+      "answer": "Ne. Twenty vyvíjí americká společnost Twenty Inc. spolu s mezinárodní komunitou. My jsme nezávislá česká agentura, která nad Twenty postavila dvě hotová řešení, nasazuje je českým firmám a stará se o provoz. Naše hodnota je v tom, že rozumíme obchodním a servisním procesům — ne v tom, že bychom Twenty programovali."
+    },
+    {
+      "id": "twenty-vs-konkurence",
+      "category": "twenty",
+      "question": "Proč Twenty a ne běžný konkurenční CRM?",
+      "answer": "Běžný konkurenční CRM je dobrá volba, pokud potřebujete klasický obchodní cyklus a vystačíte si s předdefinovanými poli. Twenty (s námi) má smysl, pokud máte specifické procesy — servis zařízení, výjezdy techniků, revize. Naše řešení tyhle typy záznamů mají hotové, Twenty nemá poplatky za každého uživatele a vaše data můžete mít u sebe na serveru. Pro firmu se 20 zaměstnanci ušetříte oproti konkurenci přes 130 000 Kč ročně."
+    },
+    {
+      "id": "modernost",
+      "category": "twenty",
+      "question": "Co znamená, že je Twenty moderní?",
+      "answer": "Otevřený zdrojový kód — můžete si ho kdykoli stáhnout, takže nejste závislí na dodavateli. Vestavěná automatizace — pravidla, která pracují za vás, jsou součástí systému, ne další program. Napojení na umělou inteligenci (Claude, ChatGPT) — vaši asistenti mohou pracovat přímo s daty z CRM. A rychlý vývoj — nové funkce přibývají pravidelně každý týden."
+    },
+    {
+      "id": "celkova-cena",
+      "category": "cena",
+      "question": "Kolik to bude celkem stát?",
+      "answer": "Na vyhrazeném serveru (téměř vždy doporučujeme) platíte jednu fakturu v korunách: 34 990 Kč nasazení + 4 990 Kč měsíčně bez ohledu na počet uživatelů — žádné licence neplatíte a první měsíc provozu je v ceně nasazení. Twenty jde provozovat i v cloudu výrobce, kde se navíc platí licence za každého uživatele a od pěti lidí vyjde celkově dráž — srovnání najdete na stránce Vyhrazený server nebo cloud."
+    },
+    {
+      "id": "proc-platit",
+      "category": "cena",
+      "question": "Proč platit, když je software zdarma?",
+      "answer": "Software je zdarma. Peníze platíte za odborné nasazení na vaše procesy, nasazení na server, zálohování, sledování novinek, drobné úpravy, zaškolení a podporu. Sami si Twenty z internetu stáhnout můžete, ale dostat z něj systém, ve kterém se dá druhý den pracovat, je odborná práce — díky dvěma hotovým řešením ji máme vyladěnou a nasadíme v řádu jednotek pracovních dní."
+    },
+    {
+      "id": "kdyz-prestaneme",
+      "category": "cena",
+      "question": "Co když s vámi přestaneme spolupracovat?",
+      "answer": "Vaše data jsou ve standardní PostgreSQL databázi, takže si je vyexportujete (v rámci platného smluvního vztahu vám s exportem pomůžeme). Twenty samotné je open source, takže software si potom může spravovat váš interní vývojář nebo jiný poskytovatel. Naše práce nad rámec toho — konkrétní rozšíření, propojení, provozní vrstva (servery, monitoring, deployment scripty, sdílené nástroje, díky kterým držíme cenu nízko) — je naše know-how vybudované roky a konkrétní podmínky předání nad rámec dat řešíme individuálně podle situace. Nejste vázáni na nás jako produkt — jen na partnerství, které lze ukončit."
+    },
+    {
+      "id": "updates",
+      "category": "cena",
+      "question": "Jsou v ceně i nové verze Twenty?",
+      "answer": "Ano. Nové verze nasazujeme na vaše požádání — naplánujeme termín, provedeme upgrade a otestujeme, že vám i po něm funguje vše, co jste si nastavili."
+    },
+    {
+      "id": "skryte-poplatky",
+      "category": "cena",
+      "question": "Jsou v ceně nějaké skryté poplatky?",
+      "answer": "Žádné záměrné. V paušálu 4 990 Kč na vyhrazeném serveru NEJSOU větší úpravy nad 1 hodinu měsíčně (řeší předplacené balíčky 5 000–50 000 Kč), zdvojnásobení výkonu serveru (od 1 000 Kč měsíčně) ani externí úložiště (1 000 Kč za 1 TB měsíčně). AI v Twenty funguje na principu BYOK (vlastní API klíč u Anthropic, OpenAI, Google nebo xAI) — tokeny si platíte přímo poskytovateli AI za reálnou spotřebu. Pokud zvolíte provoz v cloudu, platíte navíc licenci Twenty přímo výrobci — podrobné ceny na stránce Vyhrazený server nebo cloud."
+    },
+    {
+      "id": "kde-data",
+      "category": "bezpecnost",
+      "question": "Kde jsou moje data?",
+      "answer": "Data jsou na serveru v Německu — server pro vás zařídíme a spravujeme my, vy se o nic technicky nestaráte."
+    },
+    {
+      "id": "gdpr",
+      "category": "bezpecnost",
+      "question": "Jak je to s GDPR?",
+      "answer": "Twenty samo o sobě je technologie — GDPR je hlavně o procesech a nastavení. Nabízíme: server v Německu, který pro vás zařídíme (data jsou fyzicky pod evropskou jurisdikcí), nastavení rolí a viditelnosti dat na úrovni typů záznamů a polí, export dat na požádání, smazání nebo anonymizaci konkrétní osoby, smluvní zpracování (DPA mezi námi). Pro silně regulované obory (zdravotnictví, finance, právo) doporučujeme variantu na vyhrazeném serveru. Omezení „vidím jen své záznamy“ a audit log nabízí Twenty v tarifu Organization (v cloudu i jako licenci pro vlastní server) — pokud je potřebujete, projdeme to spolu."
+    },
+    {
+      "id": "kdo-pristup",
+      "category": "bezpecnost",
+      "question": "Kdo má přístup k mým datům?",
+      "answer": "Na vyhrazeném serveru jen ti, které sami pustíte do CRM (nastavujete role). Z naší strany se k datům dostanou pouze ti, kdo řeší konkrétní servisní úkol, a to s vaším vědomím."
+    },
+    {
+      "id": "zalohovani",
+      "category": "bezpecnost",
+      "question": "Co zálohy?",
+      "answer": "Na vyhrazeném serveru: zálohy 7 dní zpět v ceně paušálu. Volitelně si můžete připlatit za delší uchovávání záloh nebo externí zálohování do vlastního úložiště (cena individuální)."
+    },
+    {
+      "id": "doba-nasazeni",
+      "category": "implementace",
+      "question": "Jak dlouho nasazení trvá?",
+      "answer": "Připravená oborová řešení nasadíme v řádu jednotek pracovních dní od podpisu po spuštění. Většinu času trávíme s vámi nad vašimi procesy a zaškolením, ne nad infrastrukturou."
+    },
+    {
+      "id": "co-v-cene-nasazeni",
+      "category": "implementace",
+      "question": "Co je v ceně 34 990 Kč za nasazení?",
+      "answer": "Až 3 hodiny praktického školení – zvládněte CRM rychle a efektivně, nasazení vybraného hotového řešení (Twenty Sales nebo Twenty Servis), doplnění polí a číselníků vašeho oboru, provoz na serveru v Německu, který pro vás zařídíme, převod dat ze stávajícího systému, šablona nabídky nebo jiného dokumentu s vaším logem, dokumentace v češtině. První měsíc provozu na vyhrazeném serveru máte zdarma."
+    },
+    {
+      "id": "podpora",
+      "category": "implementace",
+      "question": "Jaká je podpora po nasazení?",
+      "answer": "Hodinová sazba 2 000 Kč za hodinu na konzultace, zaškolení i úpravy. Aktivní podpora e-mailem i telefonem (pondělí až pátek 8–16). Předplacené balíčky se slevou: Basic 5 000 Kč → 5 000 Kč kreditu, Standard 10 000 Kč → 11 000 Kč (bonus 10 %), Professional 20 000 Kč → 23 000 Kč (bonus 15 %), Premium 50 000 Kč → 60 000 Kč (bonus 20 %)."
+    },
+    {
+      "id": "uprava-sami",
+      "category": "implementace",
+      "question": "Můžeme si CRM upravovat sami?",
+      "answer": "Spíše ne. Datový model (typy záznamů, pole, vazby, automatizace) máme u nás jako součást kódu, aby šel systém konzistentně udržovat a doplňovat při dalších fázích a při nových verzích Twenty. Vy sami si v aplikaci nastavujete jen vlastnosti prostředí — vlastní pohledy, filtry, řazení, oblíbené záznamy, osobní notifikace. Větší úpravy (nová pole, nový typ záznamu, nová automatizace, integrace, generování PDF) řešíme my v rámci paušálu (1 hodina měsíčně v ceně) nebo přes SLA balíček."
+    },
+    {
+      "id": "mobilka",
+      "category": "funkce",
+      "question": "Má Twenty mobilní aplikaci?",
+      "answer": "Ano. Otevřete ji v prohlížeči telefonu nebo tabletu, klepnutím přidáte na plochu a chová se jako klasická aplikace — technik má na displeji dnešní výjezdy, kartu zařízení i výkaz. Z App Store ani Google Play se nic nestahuje a nikdo nic neaktualizuje, takže všichni v týmu mají vždycky stejnou verzi. Dnes to tak dělá většina moderních systémů. Pracuje se online; v místě úplně bez signálu si technik zapíše na papír a doplní po návratu."
+    },
+    {
+      "id": "ai",
+      "category": "funkce",
+      "question": "Má Twenty umělou inteligenci?",
+      "answer": "Ano. Twenty má vestavěný AI chat přímo v aplikaci. Na vyhrazeném serveru funguje na principu BYOK (bring your own key): zadáte vlastní klíče k AI (Anthropic Claude, OpenAI, Google Gemini, xAI Grok) a AI začne fungovat. Tokeny si platíte přímo poskytovateli za reálnou spotřebu — žádný markup od nás ani od Twenty. AI chat umí v přirozené řeči vyhledávat, zakládat a upravovat záznamy, stavět dashboardy a automatizace. Vedle toho má Twenty napojení pro AI nástroje zvenčí (MCP) — Claude Desktop, ChatGPT, Cursor i nově vypuštěný desktop nástroj od Googlu se připojí pár kliky a začnou s vašimi daty pracovat z prostředí, kde už pracujete. Detail v sekci /agentske-crm/. V automatizacích může pracovat i AI agent nebo AI krok, který třídí a doplňuje záznamy."
+    },
+    {
+      "id": "fakturace",
+      "category": "funkce",
+      "question": "Můžu napojit Fakturoid, iDoklad nebo Pohodu?",
+      "answer": "Ano, jako rozšíření na požadavek — na ten fakturační program, který opravdu používáte (Pohoda, Money, ABRA, iDoklad, Fakturoid a další). Podklad z přijaté nabídky nebo z hotových výkazů přeteče do vašeho programu a zpátky se vrátí číslo faktury a datum úhrady. Doklad ale vždycky vystavuje fakturační software, ne CRM — dvě místa, kde vzniká faktura, jsou horší než jedno. Napojujeme se na fakturaci; účetnictví jako celek (daňová evidence, mzdy, majetek) zůstává vaší účetní a jejímu programu."
+    },
+    {
+      "id": "email",
+      "category": "funkce",
+      "question": "Jaké e-maily se dají napojit?",
+      "answer": "Twenty se napojí na poštu a kalendář každého uživatele. Gmail a Microsoft 365 připojíme přihlášením účtem — do CRM se pak ukládají příchozí i odchozí e-maily s klienty a schůzky, kontakty se zakládají automaticky a klienti se párují podle e-mailové domény. Ostatní poskytovatele (Seznam, Forpsi, Český hosting, Active 24, Wedos i další) připojíme přes otevřené standardy IMAP, SMTP a CalDAV; jak spolehlivě synchronizace s vaším konkrétním poskytovatelem běží, ověříme při nasazení. Pokud chcete mít konkrétní e-mail u klienta v CRM, přidáte ho do Poznámek u záznamu (přeposláním nebo zkopírováním)."
+    },
+    {
+      "id": "uzivatele",
+      "category": "funkce",
+      "question": "Kolik uživatelů a záznamů zvládne?",
+      "answer": "Počet uživatelů ani záznamů neomezujeme — strop dává velikost serveru. Pro běžnou firmu se stovkami tisíc záznamů bohatě stačí standardní server; když objem naroste, výkon posílíme."
+    },
+    {
+      "id": "jazyky",
+      "category": "funkce",
+      "question": "Jaké jazyky podporuje?",
+      "answer": "Twenty má rozhraní ve více než 30 jazycích včetně češtiny. Dokumentace výrobce má také českou verzi. Naše implementace je celá v češtině, včetně zaškolení a dokumentace na míru."
+    },
+    {
+      "id": "role-permissions",
+      "category": "funkce",
+      "question": "Můžu omezit, co technik vidí v aplikaci?",
+      "answer": "Ano. Twenty má tři vrstvy oprávnění + samostatně filtrované pohledy: (1) na úrovni typů záznamů — technik vidí jen Zakázky a Zařízení, účetní jen Faktury (na vyhrazeném serveru v ceně), (2) na úrovni polí — skrytí citlivých polí, jen pro čtení (taky v ceně), (3) tvrdé omezení, kdy uživatel vůbec nesmí vidět cizí záznamy (nabízí Twenty v tarifu Organization — v cloudu i jako licenci pro vlastní server). Pro většinu firem ale stačí první dvě vrstvy plus pokročilé filtrované pohledy (Moje zakázky, Můj plán na dnešek, Mí klienti) — uživatel má v denní práci svou agendu, ale technicky může v případě potřeby přepnout na jiný pohled. Filtrované pohledy fungují vždy. Po tvrdému omezení sáhněte, když uživatel skutečně nesmí cizí záznamy vidět — typicky regulované obory, citlivá HR data, multi-tenant scénáře."
+    },
+    {
+      "id": "migrace",
+      "category": "migrace",
+      "question": "Můžu přejít z jiného CRM?",
+      "answer": "Ano. Vyexportujete data z původního systému (CSV soubor) a my je naimportujeme do Twenty. Při nasazení s vámi probereme, co všechno chcete přenést (kontakty, příležitosti, historii), jak namapovat pole z původního systému na Twenty, a kolik historických záznamů přenášíme. Migrační skript napíšeme jako součást nasazení, pokud je objem rozumný (do desítek tisíc záznamů). U větších objemů řešíme individuálně."
+    },
+    {
+      "id": "kombinace",
+      "category": "migrace",
+      "question": "Můžu Twenty kombinovat s mým ERP nebo fakturací?",
+      "answer": "Ano. Twenty má rozhraní pro napojení na další systémy a umí samo volat externí služby. Typický scénář: Twenty drží CRM, servisní data a zakázky; Pohoda nebo Fakturoid drží faktury; po dokončení zakázky se faktura vystaví automaticky."
+    },
+    {
+      "id": "db-pristup",
+      "category": "bezpecnost",
+      "question": "Mám přímý přístup k databázi (PostgreSQL)?",
+      "answer": "Na vyhrazeném serveru ano — máte plný přístup k PostgreSQL, můžete se připojit přes psql, pgAdmin, DBeaver nebo libovolný SQL klient, dělat vlastní SQL dotazy, BI reporty, pg_dump zálohy. To my jako provozovatel serveru zpřístupníme. V cloudu výrobce přímý přístup k databázi není. Pokud potřebujete vlastní SQL nad daty Twenty, je vyhrazený server jediná cesta."
+    },
+    {
+      "id": "twenty-zanikne",
+      "category": "migrace",
+      "question": "Co když Twenty zanikne?",
+      "answer": "Twenty má otevřený zdrojový kód, který je veřejně dostupný, vaše data jsou ve standardní databázi, takže ho můžete provozovat dál sami nebo si najmout jiného poskytovatele. Není to zavřená uzavřené služby, kde byste s jejím ukončením o všechno přišli. Pravděpodobnost zániku je nízká — Twenty má desítky tisíc příznivců po celém světě, aktivní vývoj a financování. Zcela vyloučit to nelze, ale rizik je výrazně méně než u typického startupu se zavřeným kódem. Kdyby k tomu došlo, pomůžeme vám s přechodem na alternativu."
+    },
+    {
+      "id": "demo-vyzkouseni",
+      "category": "implementace",
+      "question": "Můžu si to nejdřív vyzkoušet?",
+      "answer": "Ano. Pošleme vám demo přístup do hotového řešení — do Twenty Sales, nebo do Twenty Servis podle toho, co řešíte. Není to prázdný systém k nastavení, ale to, co dodáváme: připravený datový model, načítání firem z ARES po IČO, nabídky s nákupní cenou a marží, připravené pohledy a nástěnky, šablony dokumentů a AI chat nad daty. Stačí napsat na info@bohemiacrm.cz svůj obor a co řešíte nejvíc; přístup pošleme do 1 pracovního dne, zdarma a bez závazku. Raději živě? Na 30 minut online vám ukážeme, jak by to vypadalo u vás."
+    },
+    {
+      "id": "proc-bez-formulare",
+      "category": "implementace",
+      "question": "Proč nemáte kontaktní formulář?",
+      "answer": "Vyhovuje nám to a klientům také — mnoho z nich raději zavolá nebo napíše e-mail. Když chcete poptávku strukturovat, klepněte na tlačítko „Napsat“ — připraví se vám rozepsaný e-mail s otázkami, na které stačí doplnit jednoslovné odpovědi. Pak ho upravíte a pošlete. Web od vás navíc nesbírá žádná data — vidíme je až ve chvíli, kdy nám e-mail nebo telefonát dorazí."
+    },
+    {
+      "id": "dokumentace",
+      "category": "migrace",
+      "question": "Kde najdu oficiální dokumentaci?",
+      "answer": "Webové stránky výrobce: twenty.com. Návody v češtině: docs.twenty.com/cs/user-guide/introduction. Anglická dokumentace: docs.twenty.com. Naše vlastní dokumentace na míru vašemu nasazení vám předáme jako součást implementace."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+/* Design tokeny — jediné místo s barvami, písmem a rozměry.
+   Vizuální systém převzatý ze šablony Payday (MIT, licenses/payday-theme-MIT.txt),
+   barvy 1:1 podle Payday (rozhodnutí uživatele 2026-11-12).
+   Písmo zatím Inter (nápis v logu); Payday používá Libre Franklin — otevřená volba. */
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/Inter-roman.var.woff2') format('woff2');
+}
+
+:root {
+  --tc-font: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+
+  /* plochy */
+  --tc-page: #ffffff;
+  --tc-wash: #f6f5f2;
+  --tc-card: #eeede8;
+  /* text */
+  --tc-ink: #1d1b26;
+  --tc-ink-2: #34313f;
+  --tc-muted: #67646f;
+  /* linky */
+  --tc-line: #e8e6e1;
+  --tc-line-strong: #d5d2cb;
+  /* akcent značky */
+  --tc-accent: #5b4bc4;
+  --tc-accent-hover: #4a3cab;
+  --tc-accent-light: #c4c1de;
+  --tc-accent-soft: #edeafa;
+  /* stavy */
+  --tc-success: #23874d;
+  --tc-success-soft: #e2f3e8;
+  --tc-warning: #a96a00;
+  --tc-info: #0e7490;
+  /* tmavé plochy (patička, tmavé sekce) */
+  --tc-night: #15132a;
+  --tc-night-ink: #f6f3ee;
+  --tc-night-muted: #c4c1de;
+
+  /* rozměry */
+  --tc-header-h: 4.25rem;
+  --tc-gutter: clamp(1rem, 0.4rem + 2.6vw, 2.5rem);
+  --tc-measure: 72rem;
+  --tc-text-col: 44rem;
+  --tc-radius: 1.25rem;
+
+  /* typografie — velké nadpisy lehkým řezem s těsným prokladem (Payday) */
+  --tc-display-xl: clamp(2.6rem, 1.4rem + 4.4vw, 4.75rem);
+  --tc-display-lg: clamp(2.2rem, 1.5rem + 2.4vw, 3.5rem);
+  --tc-display-md: clamp(1.85rem, 1.45rem + 1.4vw, 2.6rem);
+  --tc-title: clamp(1.15rem, 1.07rem + 0.3vw, 1.3rem);
+  --tc-lead: clamp(1.05rem, 1rem + 0.25vw, 1.2rem);
+
+  --tc-ease: cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* filmové zrno přes gradienty (Payday) */
+  --tc-grain: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3CfeComponentTransfer%3E%3CfeFuncR type='linear' slope='2.4' intercept='-.7'/%3E%3CfeFuncG type='linear' slope='2.4' intercept='-.7'/%3E%3CfeFuncB type='linear' slope='2.4' intercept='-.7'/%3E%3C/feComponentTransfer%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}

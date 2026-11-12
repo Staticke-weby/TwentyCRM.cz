@@ -1,0 +1,106 @@
+{
+    "generic": {
+        "subject": "Konzultace Twenty CRM",
+        "body": "Dobrý den,\n\nmám zájem o Twenty CRM pro naši firmu.\n\nKrátce o nás:\n- Obor:\n- Velikost týmu:\n- Současné řešení:\n\nS pozdravem,"
+    },
+    "demo": {
+        "subject": "Žádost o demo přístup",
+        "body": "Dobrý den,\n\nrádi bychom demo přístup do vašeho CRM.\n\n- Obor:\n- Co řešíme nejvíc:\n- Zajímá nás spíš řízení obchodu, nebo práce u zákazníka:\n\nS pozdravem,"
+    },
+    "demo-sales": {
+        "subject": "Žádost o demo přístup — Twenty Sales",
+        "body": "Dobrý den,\n\nrádi bychom demo přístup do Twenty Sales.\n\n- Co prodáváme:\n- Kolik nás obchod dělá:\n- Co nám dnes v obchodu nejvíc chybí:\n\nS pozdravem,"
+    },
+    "demo-servis": {
+        "subject": "Žádost o demo přístup — Twenty Servis",
+        "body": "Dobrý den,\n\nrádi bychom demo přístup do Twenty Servis.\n\n- Co montujeme nebo servisujeme:\n- Jak dnes plánujeme výjezdy:\n- Co nás na tom nejvíc zdržuje:\n\nS pozdravem,"
+    },
+    "sales": {
+        "subject": "Konzultace — Twenty Sales (CRM pro obchod)",
+        "body": "Dobrý den,\n\nzajímá nás Twenty Sales pro řízení našeho obchodu.\n\n- Co prodáváme:\n- Jak dlouho trvá typický obchod:\n- Děláme nabídky (ano\/ne) a hlídáme na nich marži (ano\/ne):\n- Současné řešení (Excel \/ jiný CRM \/ …):\n\nS pozdravem,"
+    },
+    "servis": {
+        "subject": "Konzultace — Twenty Servis (CRM pro práci u zákazníka)",
+        "body": "Dobrý den,\n\nzajímá nás Twenty Servis pro naši firmu.\n\n- Co montujeme nebo servisujeme:\n- Vracíme se k témuž zařízení opakovaně (ano\/ne):\n- Jak dnes plánujeme výjezdy:\n- Současné řešení (Excel \/ papír \/ jiný systém):\n\nS pozdravem,"
+    },
+    "fakturace": {
+        "subject": "Napojení CRM na fakturaci",
+        "body": "Dobrý den,\n\nchtěli bychom CRM napojit na náš fakturační program.\n\n- Fakturační program (Pohoda \/ Money \/ ABRA \/ iDoklad \/ Fakturoid \/ jiný):\n- Co má z CRM přetéct (nabídky \/ odpracované hodiny \/ materiál):\n- Kdo dnes faktury vystavuje:\n\nS pozdravem,"
+    },
+    "elektro": {
+        "subject": "Konzultace — Elektromontáže a zabezpečovací technika",
+        "body": "Dobrý den,\n\nděláme elektroinstalace \/ zabezpečovací systémy.\n\n- Co montujeme a servisujeme (elektro \/ EZS \/ EPS \/ kamery \/ …):\n- Děláme i pravidelné kontroly (ano\/ne):\n- Jak dnes evidujeme, co je kde nainstalované:\n\nS pozdravem,"
+    },
+    "gastro": {
+        "subject": "Konzultace — Servis gastro techniky",
+        "body": "Dobrý den,\n\ndodáváme a servisujeme gastro techniku.\n\n- Typ techniky (kávovary \/ nápojové automaty \/ výčepní \/ …):\n- Máme stroje i v zápůjčce nebo pronájmu (ano\/ne):\n- Jak dnes plánujeme pravidelnou prevenci:\n\nS pozdravem,"
+    },
+    "vytahy": {
+        "subject": "Konzultace — Servis a montáž výtahů",
+        "body": "Dobrý den,\n\nservisujeme a montujeme výtahy.\n\n- Typy výtahů, které máme ve správě:\n- Kolik zhruba zařízení evidujeme:\n- Jak dnes hlídáme termíny pravidelných úkonů:\n\nS pozdravem,"
+    },
+    "kotle": {
+        "subject": "Konzultace — Servis kotlů a plynových zařízení",
+        "body": "Dobrý den,\n\nmontujeme a servisujeme kotle \/ plynová zařízení.\n\n- Typy zařízení (plynové kotle \/ kotelny \/ tepelná čerpadla \/ …):\n- Děláme i pravidelné prohlídky (ano\/ne):\n- Jak dnes zvládáme sezónní špičku:\n\nS pozdravem,"
+    },
+    "chlazeni": {
+        "subject": "Konzultace — Servis chladicí techniky",
+        "body": "Dobrý den,\n\nservisujeme chladicí techniku.\n\n- Co servisujeme (chladicí boxy \/ mrazírny \/ vitríny \/ strojovny \/ …):\n- Máme i havarijní výjezdy mimo pracovní dobu (ano\/ne):\n- Jak dnes evidujeme, co je u kterého klienta nainstalované:\n\nS pozdravem,"
+    },
+    "zastoupeni": {
+        "subject": "Konzultace — Obchodní zastoupení \/ dovoz",
+        "body": "Dobrý den,\n\nzastupujeme značky \/ dovážíme sortiment.\n\n- Sortiment a značky:\n- Nakupujeme v jiné měně než prodáváme (ano\/ne, jaké měny):\n- Hlídáme marži na každé nabídce (ano\/ne):\n- Současné řešení:\n\nS pozdravem,"
+    },
+    "vyrobci": {
+        "subject": "Konzultace — Obchodní oddělení výrobní firmy",
+        "body": "Dobrý den,\n\njsme výrobní firma a hledáme CRM pro obchodní oddělení.\n\n- Co vyrábíme:\n- Prodáváme z katalogu nebo na zakázku:\n- Jaký systém používá výroba (a má zůstat):\n- Co nám dnes v obchodu nejvíc chybí:\n\nS pozdravem,"
+    },
+    "hvac": {
+        "subject": "Konzultace — HVAC servisní firma",
+        "body": "Dobrý den,\n\nprovozujeme servisní firmu v oblasti klimatizace \/ HVAC.\n\n- Počet techniků:\n- Současné řešení (Excel \/ jiný CRM \/ …):\n- Co řešíme nejvíc:\n\nS pozdravem,"
+    },
+    "revize": {
+        "subject": "Konzultace — Revize",
+        "body": "Dobrý den,\n\nprovozujeme revizní techniky.\n\n- Typy revizí (elektro \/ plyn \/ …):\n- Počet techniků:\n- Co řešíme nejvíc:\n\nS pozdravem,"
+    },
+    "stroje": {
+        "subject": "Konzultace — Servis strojních zařízení",
+        "body": "Dobrý den,\n\nprovozujeme servisní firmu pro výrobní\/strojní zařízení.\n\n- Obor (CNC \/ potravinářství \/ …):\n- Počet techniků:\n- SLA požadavky:\n\nS pozdravem,"
+    },
+    "realizace": {
+        "subject": "Konzultace — Realizační firma",
+        "body": "Dobrý den,\n\nprovozujeme realizační firmu (větší projekty \/ instalace na klíč).\n\n- Obor (stavební \/ technologické \/ IT \/ …):\n- Velikost firmy:\n- Typický projekt (rozsah, délka):\n- Co řešíme nejvíc:\n\nS pozdravem,"
+    },
+    "velkoobchod": {
+        "subject": "Konzultace — Velkoobchod a distribuce",
+        "body": "Dobrý den,\n\nprovozujeme velkoobchod \/ distribuci.\n\n- Sortiment \/ obor:\n- Počet obchodníků:\n- Současný skladový a fakturační systém:\n- Co nám v něm chybí:\n\nS pozdravem,"
+    },
+    "vyroba": {
+        "subject": "Konzultace — Výroba na zakázku",
+        "body": "Dobrý den,\n\nprovozujeme výrobu na zakázku.\n\n- Obor (kovovýroba \/ plastikářství \/ …):\n- Velikost zakázek (kusy \/ malé série):\n- Současný systém:\n- Co řešíme nejvíc:\n\nS pozdravem,"
+    },
+    "profesni": {
+        "subject": "Konzultace — Kancelář \/ agentura \/ poradenství",
+        "body": "Dobrý den,\n\nprovozujeme profesní službu.\n\n- Obor (advokátní \/ účetní \/ projekční \/ agentura \/ …):\n- Počet lidí v týmu:\n- Účtujete na hodiny \/ paušál \/ kombinaci:\n- Co řešíme nejvíc:\n\nS pozdravem,"
+    },
+    "konkurence": {
+        "subject": "Migrace ze stávajícího CRM do Twenty",
+        "body": "Dobrý den,\n\npoužíváme jiný CRM systém a zvažujeme přechod na Twenty.\n\n- Současný CRM:\n- Počet uživatelů:\n- Co nám chybí:\n\nS pozdravem,"
+    },
+    "excel": {
+        "subject": "Z Excelu do Twenty CRM",
+        "body": "Dobrý den,\n\ndoteď řídíme klienty v Excelu \/ Outlooku \/ na papíře a hledáme moderní CRM.\n\n- Počet lidí ve firmě:\n- Obor:\n- Co nás nejvíc trápí:\n\nS pozdravem,"
+    },
+    "cena": {
+        "subject": "Cenová nabídka Twenty CRM",
+        "body": "Dobrý den,\n\nchtěli bychom orientační cenovou nabídku pro:\n\n- Počet uživatelů:\n- Cloud nebo vyhrazený server:\n- Obor:\n\nS pozdravem,"
+    },
+    "otazka": {
+        "subject": "Mám otázku k Twenty CRM",
+        "body": "Dobrý den,\n\nmám otázku ohledně Twenty CRM:\n\n[Vaše otázka]\n\nDěkuji,"
+    },
+    "bezpecnost": {
+        "subject": "Bezpečnost a GDPR — Twenty CRM",
+        "body": "Dobrý den,\n\nmáme dotaz k bezpečnosti \/ GDPR provozu Twenty CRM:\n\n[Konkrétní otázka, regulační prostředí, citlivost dat]\n\nKrátce o nás:\n- Obor \/ regulační rámec:\n- Velikost týmu:\n- Současné řešení:\n\nS pozdravem,"
+    }
+}

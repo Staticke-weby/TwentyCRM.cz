@@ -1,0 +1,9 @@
+---
+import { getEntry } from 'astro:content';
+import Stranka from '../layouts/Stranka.astro';
+
+const stranka = await getEntry('stranky', 'index');
+if (!stranka) throw new Error('Chybí src/content/stranky/index.md');
+---
+
+<Stranka stranka={stranka} />

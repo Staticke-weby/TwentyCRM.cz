@@ -1,0 +1,78 @@
+---
+/**
+ * Layout pro stránku z kolekce `stranky` (src/content/stranky/**.md):
+ * hero z frontmatteru → obsah Markdownu → závěrečné CTA z frontmatteru.
+ */
+import { render, type CollectionEntry } from 'astro:content';
+import { marked } from 'marked';
+import Base from './Base.astro';
+import { ctaTlacitka, disclaimer, sipka } from '../lib/komponenty.mjs';
+import { dosadHodnoty, escapeHtml } from '../lib/site.mjs';
+import { nahradEmojiVHtml } from '../lib/ikony.mjs';
+
+interface Props {
+  stranka: CollectionEntry<'stranky'>;
+}
+
+const { stranka } = Astro.props;
+const d = stranka.data;
+const { Content } = await render(stranka);
+// Hero a závěr: krátký Markdown (tučně, odkazy) + zástupné hodnoty {{cena.…}}
+// emoji → ikony Lucide (src/lib/ikony.mjs)
+const inline = (s?: string) => (s ? nahradEmojiVHtml(marked.parseInline(dosadHodnoty(s)) as string) : '');
+---
+
+<Base title={d.title} description={d.description} pageId={d.pageId} mailto={d.mailto} noindex={d.noindex} overlay={d.hero?.pozadi === 'tmave'}>
+  {
+    d.hero && (
+      <section class:list={['hero', d.hero.pozadi === 'tmave' ? 'soumrak zrno' : 'hero--svetle', d.hero.velke && 'hero--velke']}>
+        <div class="kontejner">
+          <div class="hero__vnitrek">
+            {d.hero.stitek && <p class="stitek vynor" set:html={nahradEmojiVHtml(escapeHtml(d.hero.stitek))} />}
+            <h1 class="vynor" style="--i:1" set:html={inline(d.hero.nadpis)} />
+            {d.hero.perex && <p class="hero__perex vynor" style="--i:2" set:html={inline(d.hero.perex)} />}
+            {d.hero.text.map((t) => <p class="hero__text vynor" style="--i:2" set:html={inline(t)} />)}
+            {d.hero.stitky.length > 0 && (
+              <ul class="hero__stitky vynor" style="--i:3">
+                {d.hero.stitky.map((s) => <li set:html={inline(s)} />)}
+              </ul>
+            )}
+            {d.hero.tlacitka.length > 0 && (
+              <div class="hero__akce">
+                {d.hero.tlacitka.map((t) => (
+                  <a href={t.odkaz} class:list={['btn', 'btn-lg', t.styl === 'hlavni' ? 'btn-primary btn-sipka' : 'btn-secondary']}>
+                    {t.text}
+                    {t.styl === 'hlavni' && <span class="btn-sipka__ikona" set:html={sipka} />}
+                  </a>
+                ))}
+              </div>
+            )}
+            {d.hero.kontakt && (
+              <div class="hero__akce">
+                <Fragment set:html={ctaTlacitka({ mailto: d.mailto, velikost: 'lg', tmave: d.hero.pozadi === 'tmave' })} />
+              </div>
+            )}
+            {d.hero.disclaimer && <Fragment set:html={disclaimer({ produkt: d.hero.disclaimer, tmave: d.hero.pozadi === 'tmave' })} />}
+          </div>
+        </div>
+      </section>
+    )
+  }
+
+  <div class="kontejner obsah">
+    <Content />
+  </div>
+
+  {
+    d.zaver && (
+      <section class="zaver soumrak zrno">
+        <div class="kontejner">
+          <h2 class="reveal" set:html={inline(d.zaver.nadpis)} />
+          {d.zaver.text && <p set:html={inline(d.zaver.text)} />}
+          <Fragment set:html={ctaTlacitka({ mailto: d.mailto, velikost: 'lg', tmave: true })} />
+          {d.zaver.poznamky.map((p) => <p class="zaver__pozn" set:html={inline(p)} />)}
+        </div>
+      </section>
+    )
+  }
+</Base>

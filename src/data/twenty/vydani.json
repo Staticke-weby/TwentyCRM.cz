@@ -1,0 +1,802 @@
+{
+  "_popis": "Registr vydání Twenty od v2.0. Nová vydání: npm run twenty:vydani (-- --zapis). zmeny = česky, co vydání firmě přineslo (jen podstatné), funkce = id z funkce.json (řetězec nebo seznam) — z toho se skládá historie funkce. zpracovano = kdy člověk vydání prošel (null = čeká). Výchozí stav 2.0–2.57.1 podle rešerše docs/vyzkum/2026-11-12-twenty-schopnosti-a-vydani.md.",
+  "vydani": [
+    {
+      "verze": "2.57.1",
+      "datum": "2026-11-09",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.57.1",
+      "zmeny": [
+        {
+          "co": "Úprava jména a avataru Ady",
+          "funkce": "ada-tymova-schranka"
+        },
+        {
+          "co": "Opravy účtování kreditů a přihlášení přes SAML",
+          "funkce": [
+            "ai-kredity",
+            "sso"
+          ]
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.57.0",
+      "datum": "2026-11-09",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.57.0",
+      "zmeny": [
+        {
+          "co": "AI a nástroje zvenčí spouštějí automatizace",
+          "funkce": "mcp-spousti-automatizaci"
+        },
+        {
+          "co": "Nástroje jiných systémů v AI chatu (za přepínačem)",
+          "funkce": "mcp-klient"
+        },
+        {
+          "co": "Pravidla pro data v AI (za přepínačem)",
+          "funkce": "ai-pravidla-dat"
+        },
+        {
+          "co": "Přímé zprávy (za přepínačem)",
+          "funkce": "ada-tymova-schranka"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.56.1",
+      "datum": "2026-11-05",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.56.1",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.56.0",
+      "datum": "2026-11-05",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.56.0",
+      "zmeny": [
+        {
+          "co": "AI kroky v automatizacích s vlastním oprávněním",
+          "funkce": "ai-krok-automatizace"
+        },
+        {
+          "co": "Claude 5.5 s volbou úrovně úsilí",
+          "funkce": "ai-volba-modelu"
+        },
+        {
+          "co": "Odpovědi na LinkedIn z CRM",
+          "funkce": "linkedin"
+        },
+        {
+          "co": "Soukromé záznamy pro všechny (přepínač zrušen)",
+          "funkce": "soukrome-zaznamy"
+        },
+        {
+          "co": "Pravidla pro kontrolu dat",
+          "funkce": "kontrola-dat"
+        },
+        {
+          "co": "Ada jako výchozí jméno AI asistenta",
+          "funkce": "ada-tymova-schranka"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.55.0",
+      "datum": "2026-11-03",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.55.0",
+      "zmeny": [
+        {
+          "co": "AI staví vlastní obrazovky (za přepínačem)",
+          "funkce": "ai-obrazovky"
+        },
+        {
+          "co": "Soukromé záznamy",
+          "funkce": "soukrome-zaznamy"
+        },
+        {
+          "co": "Konverzace z LinkedInu (aplikace přes Unipile)",
+          "funkce": "linkedin"
+        },
+        {
+          "co": "Blokace opakovaného použití kódu dvoufázového přihlášení",
+          "funkce": "dvoufazove-prihlaseni"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.54.0",
+      "datum": "2026-10-30",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.54.0",
+      "zmeny": [
+        {
+          "co": "E-mailové kampaně bez přepínače (dokumentace je vede jako zkušební provoz)",
+          "funkce": "emailove-kampane"
+        },
+        {
+          "co": "Výpis v obchodě s aplikacemi; aplikace mohou nabízet MCP servery",
+          "funkce": [
+            "obchod-s-aplikacemi",
+            "mcp-klient"
+          ]
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.53.1",
+      "datum": "2026-10-30",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.53.1",
+      "zmeny": [
+        {
+          "co": "Slučování duplicit u libovolného typu záznamu, i s pomocí AI",
+          "funkce": "slucovani-duplicit"
+        },
+        {
+          "co": "AI nástroje pro e-mailové kampaně",
+          "funkce": "emailove-kampane"
+        },
+        {
+          "co": "Údaje o MCP serverech pro aplikace",
+          "funkce": "mcp-klient"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.52.0",
+      "datum": "2026-10-27",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.52.0",
+      "zmeny": [
+        {
+          "co": "Propojení e-mailů a schůzek s obchody",
+          "funkce": "posta-kalendar"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.51.0",
+      "datum": "2026-10-25",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.51.0",
+      "zmeny": [
+        {
+          "co": "Přepisy schůzek z Teams se shrnutím AI",
+          "funkce": "zapisniky-schuzek"
+        },
+        {
+          "co": "Nový editor textu"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.50.0",
+      "datum": "2026-10-21",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.50.0",
+      "zmeny": [
+        {
+          "co": "Kredity za uživatele",
+          "funkce": "ai-kredity"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.49.0",
+      "datum": "2026-10-19",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.49.0",
+      "zmeny": [
+        {
+          "co": "Zmínky Ady v konverzacích",
+          "funkce": "ada-tymova-schranka"
+        },
+        {
+          "co": "AI kredity a limity na uživatele",
+          "funkce": "ai-kredity"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.48.0",
+      "datum": "2026-10-16",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.48.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.47.0",
+      "datum": "2026-10-15",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.47.0",
+      "zmeny": [
+        {
+          "co": "Sdílení konverzací s AI",
+          "funkce": "ai-chat"
+        },
+        {
+          "co": "Asistent v Teams odpovídá (rozpracovaný)",
+          "funkce": "teams"
+        },
+        {
+          "co": "Export dat přes klíče pro napojené systémy",
+          "funkce": "import-export"
+        },
+        {
+          "co": "Lidský vstup v automatizacích (za přepínačem)",
+          "funkce": "schvaleni-clovekem"
+        },
+        {
+          "co": "Modely Amazon Bedrock pro vlastní klíče",
+          "funkce": "vlastni-klice-ai"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.46.0",
+      "datum": "2026-10-12",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.46.0",
+      "zmeny": [
+        {
+          "co": "Agenti mají vlastní stránky a spouštěče, umí čekat na událost nebo čas",
+          "funkce": "ai-agenti"
+        },
+        {
+          "co": "Týmová schránka s AI a schválení člověkem uvnitř agenta (za přepínačem)",
+          "funkce": [
+            "ada-tymova-schranka",
+            "schvaleni-clovekem"
+          ]
+        },
+        {
+          "co": "Záložní kódy dvoufázového přihlášení",
+          "funkce": "dvoufazove-prihlaseni"
+        },
+        {
+          "co": "Asistent pro Teams (rozpracovaný)",
+          "funkce": "teams"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.45.0",
+      "datum": "2026-10-05",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.45.0",
+      "zmeny": [
+        {
+          "co": "Vazby mnoho na mnoho",
+          "funkce": "vazby-mnoho"
+        },
+        {
+          "co": "Sdílení na úrovni jednotlivého záznamu",
+          "funkce": "soukrome-zaznamy"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.44.0",
+      "datum": "2026-10-01",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.44.0",
+      "zmeny": [
+        {
+          "co": "Přímý režim MCP",
+          "funkce": "mcp-server"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.43.0",
+      "datum": "2026-09-28",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.43.0",
+      "zmeny": [
+        {
+          "co": "Obchod s aplikacemi ve zkušebním provozu",
+          "funkce": "obchod-s-aplikacemi"
+        },
+        {
+          "co": "HTML e-maily, stránky příloh"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.42.0",
+      "datum": "2026-09-23",
+      "url": "https://twenty.com/releases",
+      "pozn": "Na GitHubu jako vydání chybí, uvedeno jen na twenty.com/releases.",
+      "zmeny": [
+        {
+          "co": "AI třídění (Classify) v automatizacích",
+          "funkce": "ai-trideni"
+        },
+        {
+          "co": "Zápisy schůzek z Granola",
+          "funkce": "zapisniky-schuzek"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.41.0",
+      "datum": "2026-09-17",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.41.0",
+      "zmeny": [
+        {
+          "co": "Základ sdílení záznamů",
+          "funkce": "soukrome-zaznamy"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.40.0",
+      "datum": "2026-09-15",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.40.0",
+      "zmeny": [
+        {
+          "co": "Úrovně AI modelů s cenou, poskytovatelem a umístěním dat",
+          "funkce": "ai-volba-modelu"
+        },
+        {
+          "co": "Dovednosti pro AI, vyvolání přes /",
+          "funkce": "ai-dovednosti"
+        },
+        {
+          "co": "Odkazy na záznamy (@) v AI chatu",
+          "funkce": "ai-chat"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.39.0",
+      "datum": "2026-09-09",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.39.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.38.1",
+      "datum": "2026-09-06",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.38.1",
+      "zmeny": [
+        {
+          "co": "Seznamový pohled",
+          "funkce": "pohledy"
+        },
+        {
+          "co": "Diktování do AI chatu",
+          "funkce": "ai-chat"
+        },
+        {
+          "co": "Zápisy schůzek z Fathom",
+          "funkce": "zapisniky-schuzek"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.37.0",
+      "datum": "2026-08-28",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.37.0",
+      "zmeny": [
+        {
+          "co": "Kalendářový pohled po dnech a týdnech",
+          "funkce": "pohledy"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.35.0",
+      "datum": "2026-08-26",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.35.0",
+      "zmeny": [
+        {
+          "co": "E-mailové aliasy",
+          "funkce": "posta-kalendar"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.34.0",
+      "datum": "2026-08-24",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.34.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.32.0",
+      "datum": "2026-08-27",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.32.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.30.0",
+      "datum": "2026-08-11",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.30.0",
+      "zmeny": [
+        {
+          "co": "AI chat na celou obrazovku",
+          "funkce": "ai-chat"
+        },
+        {
+          "co": "Asistent ve Slacku jedná za člena, který ho označil",
+          "funkce": "slack"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.29.0",
+      "datum": "2026-08-11",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.29.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.28.0",
+      "datum": "2026-08-11",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.28.0",
+      "zmeny": [
+        {
+          "co": "Vazby přes dva kroky na kartě záznamu, přehled přihlášených zařízení"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.27.0",
+      "datum": "2026-08-04",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.27.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.26.0",
+      "datum": "2026-07-31",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.26.0",
+      "zmeny": [
+        {
+          "co": "Asistent Twenty ve Slacku",
+          "funkce": "slack"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.25.0",
+      "datum": "2026-07-29",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.25.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.24.0",
+      "datum": "2026-07-24",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.24.0",
+      "zmeny": [
+        {
+          "co": "Pohledy na dashboardech",
+          "funkce": "dashboardy"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.23.2",
+      "datum": "2026-07-22",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.23.2",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.22.0",
+      "datum": "2026-07-17",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.22.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.21.0",
+      "datum": "2026-07-16",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.21.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.20.0",
+      "datum": "2026-07-10",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.20.0",
+      "zmeny": [
+        {
+          "co": "AI staví dashboardy a pohledy",
+          "funkce": "ai-dashboardy"
+        },
+        {
+          "co": "Doporučené aplikace: obohacení údajů, poslední kontakt, nahrávání hovorů",
+          "funkce": "aplikace"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.19.0",
+      "datum": "2026-07-08",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.19.0",
+      "zmeny": [
+        {
+          "co": "Obrazovka pro nastavení napojení AI nástrojů (MCP)",
+          "funkce": "mcp-server"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.18.0",
+      "datum": "2026-07-02",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.18.0",
+      "zmeny": [
+        {
+          "co": "Import s pomocí AI",
+          "funkce": [
+            "ai-import",
+            "import-export"
+          ]
+        },
+        {
+          "co": "Události v kalendáři z AI a z automatizací",
+          "funkce": "automatizace"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.17.0",
+      "datum": "2026-06-29",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.17.0",
+      "zmeny": [
+        {
+          "co": "Nahrávání a přepis schůzek",
+          "funkce": "nahravani-schuzek"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.16.0",
+      "datum": "2026-06-25",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.16.0",
+      "zmeny": [
+        {
+          "co": "Rozdělování záznamů mezi lidi dokola",
+          "funkce": "pridelovani-dokola"
+        },
+        {
+          "co": "Živé záložky e-mailů na kartě",
+          "funkce": "posta-kalendar"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.15.0",
+      "datum": "2026-06-24",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.15.0",
+      "zmeny": [
+        {
+          "co": "Rychlejší analýzy a práce se soubory v AI chatu",
+          "funkce": "ai-chat"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.14.0",
+      "datum": "2026-06-15",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.14.0",
+      "zmeny": [
+        {
+          "co": "Opakování automatizace od chybného kroku",
+          "funkce": "automatizace"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.13.0",
+      "datum": "2026-06-15",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.13.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.12.0",
+      "datum": "2026-06-12",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.12.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.11.0",
+      "datum": "2026-06-09",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.11.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.10.0",
+      "datum": "2026-06-09",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.10.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.9.0",
+      "datum": "2026-06-05",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v2.9.0",
+      "zmeny": [
+        {
+          "co": "Záznam průběhu jednotlivých kroků automatizace",
+          "funkce": "automatizace"
+        },
+        {
+          "co": "Oprávnění aplikací",
+          "funkce": "aplikace"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.8.0",
+      "datum": "2026-05-26",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v2.8.0",
+      "zmeny": [],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.7.0",
+      "datum": "2026-05-25",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v2.7.0",
+      "zmeny": [
+        {
+          "co": "Zápisy schůzek z Fireflies",
+          "funkce": "zapisniky-schuzek"
+        },
+        {
+          "co": "Spouštění automatizací ze Slacku",
+          "funkce": "slack"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.6.0",
+      "datum": "2026-05-19",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v2.6.0",
+      "zmeny": [
+        {
+          "co": "Nahrávání souborů do AI chatu",
+          "funkce": "ai-chat"
+        },
+        {
+          "co": "Označení nástrojů MCP: které data jen čtou a které je mění",
+          "funkce": "mcp-oznaceni-akci"
+        },
+        {
+          "co": "Filtry přes vazby mezi záznamy",
+          "funkce": "pohledy"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.5.0",
+      "datum": "2026-05-19",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v2.5.0",
+      "zmeny": [
+        {
+          "co": "Balíček dovedností pro stavbu aplikací s Claude Code",
+          "funkce": "aplikace"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.4.0",
+      "datum": "2026-05-14",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v2.4.0",
+      "zmeny": [
+        {
+          "co": "Sdílené schránky přeposíláním",
+          "funkce": "sdilena-schranka"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.3.0",
+      "datum": "2026-05-14",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v2.3.0",
+      "zmeny": [
+        {
+          "co": "Modely z Azure Foundry pro vlastní klíče",
+          "funkce": "vlastni-klice-ai"
+        },
+        {
+          "co": "Přihlášení k dalším službám pro aplikace",
+          "funkce": "aplikace"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.2.0",
+      "datum": "2026-05-04",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v2.2.0",
+      "zmeny": [
+        {
+          "co": "Opakované události z Google kalendáře",
+          "funkce": "posta-kalendar"
+        },
+        {
+          "co": "Správa konverzací s AI",
+          "funkce": "ai-chat"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.1.0",
+      "datum": "2026-04-24",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v2.1.0",
+      "zmeny": [
+        {
+          "co": "AI chat pro všechny, bez přepínače",
+          "funkce": "ai-chat"
+        },
+        {
+          "co": "Úvodní stránky typů záznamů, předinstalované aplikace",
+          "funkce": "aplikace"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "2.0.0",
+      "datum": "2026-04-21",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v2.0.0",
+      "zmeny": [
+        {
+          "co": "Aplikace nad Twenty a vlastní rozvržení karet",
+          "funkce": "aplikace"
+        },
+        {
+          "co": "AI agenti a AI krok v automatizacích, volba AI modelu",
+          "funkce": [
+            "ai-agenti",
+            "ai-krok-automatizace"
+          ]
+        },
+        {
+          "co": "Twenty dostupné pro AI nástroje přes MCP",
+          "funkce": "mcp-server"
+        },
+        {
+          "co": "Dashboardy",
+          "funkce": "dashboardy"
+        }
+      ],
+      "zpracovano": "2026-11-12"
+    }
+  ]
+}

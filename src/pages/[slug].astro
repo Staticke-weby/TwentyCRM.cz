@@ -1,0 +1,9 @@
+---
+import Stranka from '../layouts/Stranka.astro';
+import { cestyVeSlozce } from '../lib/stranky';
+
+export const getStaticPaths = () => cestyVeSlozce('');
+const { stranka } = Astro.props;
+---
+
+<Stranka stranka={stranka} />

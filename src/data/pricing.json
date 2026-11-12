@@ -1,0 +1,106 @@
+{
+  "currency": "Kč",
+  "vat_note": "Všechny ceny jsou bez DPH.",
+  "implementation": {
+    "price": 34990,
+    "label": "Nasazení Twenty CRM",
+    "one_time": true,
+    "includes": [
+      "Nasazení hotového řešení — Twenty Sales pro obchod, nebo Twenty Servis pro práci u zákazníka",
+      "Doplnění polí a číselníků vašeho oboru nad hotovou kostru — ne přestavba systému",
+      "Automatizace a fáze procesů — systém hlídá termíny a posouvá práci za vás",
+      "Načítání firem z ARES po IČO — zadáte IČO, doplní se název, DIČ, adresa",
+      "Šablona nabídky nebo zakázkového listu s vaším logem",
+      "Nasazení na vyhrazený server v Německu, který pro vás zajistíme",
+      "Dokumentace v češtině, psaná pro vaše lidi"
+    ],
+    "adaptation_program": {
+      "items": [
+        "Rychlý start — CRM zavedeme do vaší každodenní práce, ne jen nainstalujeme",
+        "Až 3 hodiny praktického školení na vašich reálných datech",
+        "Aktivní podpora při rozjezdu — jsme na telefonu i e-mailu"
+      ],
+      "highlight": "První měsíc provozu na vyhrazeném serveru zdarma"
+    }
+  },
+  "retainer_selfhost": {
+    "price": 4990,
+    "label": "Provoz na vyhrazeném serveru",
+    "monthly": true,
+    "billing_note": "Jen jedna faktura v korunách. Twenty má otevřený zdrojový kód — neplatíte za licence.",
+    "includes": [
+      "Provoz na serveru v Německu, který pro vás zařídíme",
+      "Úložiště pro soubory 1 TB (s možností rozšíření)",
+      "Zálohy 7 dní zpět (do jiného datacentra)",
+      "1 hodina měsíčně v ceně — drobné úpravy, konzultace nebo nasazení nové verze Twenty (nevyčerpané se nepřevádí do dalšího měsíce)",
+      "Odpovídáme na dotazy (e-mail i telefon)",
+      "Bez poplatků za uživatele — neomezený počet",
+      "Škálovatelný výkon pro AI agenty napojené přes MCP"
+    ]
+  },
+  "retainer_cloud": {
+    "price": 3990,
+    "label": "Provoz v cloudu",
+    "monthly": true,
+    "billing_note": "Toto je naše faktura. Licenci Twenty Cloud (cca 200–900 Kč na uživatele za měsíc) si platíte přímo výrobci.",
+    "includes": [
+      "Odpovídáme na dotazy (e-mail i telefon)",
+      "1 hodina měsíčně v ceně — drobné úpravy, konzultace nebo aktualizace nastavení (nevyčerpané se nepřevádí do dalšího měsíce)",
+      "Sledujeme nové verze Twenty, dáváme vám vědět",
+      "Hlídáme náklady na umělou inteligenci (pokud ji používáte)"
+    ]
+  },
+  "twenty_cloud_external": {
+    "pro_usd": 9,
+    "organization_usd": 39,
+    "currency": "USD",
+    "billing": "yearly (-25% discount)",
+    "note": "Klient hradí přímo Twenty Inc. (USD platba), ne přes nás. Aktuální ceník: twenty.com/pricing"
+  },
+  "addons": [
+    {
+      "name": "Performance PLUS",
+      "price_from": 1000,
+      "price_unit": "monthly",
+      "description": "Zdvojnásobení výkonu serveru pro větší instalace"
+    },
+    {
+      "name": "DataStorage PLUS",
+      "price": 1000,
+      "price_unit": "monthly_per_tb",
+      "description": "S3 úložiště, 1 000 Kč / 1 TB / měsíc"
+    },
+    {
+      "name": "Backup PLUS",
+      "price": null,
+      "price_unit": "individual",
+      "description": "Externí zálohování — cena individuální"
+    }
+  ],
+  "sla_packages": [
+    { "name": "Basic",        "price": 5000,  "credit": 5000,  "bonus_pct": 0,  "savings": 0 },
+    { "name": "Standard",     "price": 10000, "credit": 11000, "bonus_pct": 10, "savings": 1000 },
+    { "name": "Professional", "price": 20000, "credit": 23000, "bonus_pct": 15, "savings": 3000 },
+    { "name": "Premium",      "price": 50000, "credit": 60000, "bonus_pct": 20, "savings": 10000 }
+  ],
+  "hourly_rate": {
+    "price": 2000,
+    "description": "Konzultace, školení i úpravy CRM"
+  },
+  "comparison_examples": [
+    {
+      "users": 10,
+      "competitor_yearly": 95880,
+      "twenty_selfhost_yearly": 59880,
+      "twenty_cloud_pro_yearly": 72924,
+      "savings_vs_competitor": 36000
+    },
+    {
+      "users": 20,
+      "competitor_yearly": 191760,
+      "twenty_selfhost_yearly": 59880,
+      "twenty_cloud_pro_yearly": 97560,
+      "savings_vs_competitor": 131880
+    }
+  ]
+}
