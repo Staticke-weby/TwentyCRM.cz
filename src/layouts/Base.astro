@@ -22,6 +22,8 @@ const { title, description, pageId, mailto = 'generic', noindex = false, overlay
 const globalNoindex = import.meta.env.NOINDEX === '1' || process.env.NOINDEX === '1';
 const robots = noindex || globalNoindex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large';
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
+// Textová verze stránky pro AI asistenty (scripts/markdown-verze.mjs): /cenik/ → /cenik.md
+const markdownUrl = Astro.url.pathname === '/' ? '/index.md' : Astro.url.pathname.replace(/\/$/, '') + '.md';
 const ogImage = new URL('/og-image.jpg', Astro.site).href;
 const produkce = import.meta.env.PROD && !globalNoindex;
 
@@ -85,6 +87,7 @@ const organizace = {
 
     <link rel="icon" type="image/svg+xml" href="/brand/logo.svg" />
     <link rel="sitemap" href="/sitemap-index.xml" />
+    {!noindex && <link rel="alternate" type="text/markdown" href={markdownUrl} />}
     <link rel="preload" href="/fonts/Inter-roman.var.woff2" as="font" type="font/woff2" crossorigin />
 
     {

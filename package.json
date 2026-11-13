@@ -7,8 +7,8 @@
   },
   "scripts": {
     "dev": "node scripts/vycistit-cache.mjs && astro dev",
-    "build": "node scripts/vycistit-cache.mjs && astro build && pagefind --site dist",
-    "build:staging": "node scripts/vycistit-cache.mjs && cross-env NOINDEX=1 KONCEPTY=1 astro build && pagefind --site dist",
+    "build": "node scripts/vycistit-cache.mjs && astro build && node scripts/markdown-verze.mjs && pagefind --site dist",
+    "build:staging": "node scripts/vycistit-cache.mjs && cross-env NOINDEX=1 KONCEPTY=1 astro build && node scripts/markdown-verze.mjs && pagefind --site dist",
     "preview": "astro preview",
     "inventar": "node scripts/url-inventar.mjs",
     "astro": "astro",
