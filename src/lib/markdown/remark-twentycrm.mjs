@@ -377,7 +377,20 @@ function nahradEmoji(tree, file) {
       node.children.unshift(html(ikonaNeboChyba(m[1], 'stredni', file, node)));
       return;
     }
-    parent.children[index] = html(ikonaNeboChyba(m[1], 'velka', file, node));
+    const ikona = html(ikonaNeboChyba(m[1], 'velka', file, node));
+    // Karta bez nadpisu začíná tučnou větou → ta stojí vedle ikony jako název, zbytek odstavce pod ní
+    // (ikona vedle názvu, ne nad ním — rozhodnutí uživatele 2026-11-13).
+    const dalsi = parent.children[index + 1];
+    if (dalsi?.type === 'paragraph' && dalsi.children[0]?.type === 'strong') {
+      const [tucne, ...zbytek] = dalsi.children;
+      if (zbytek[0]?.type === 'text') zbytek[0] = { ...zbytek[0], value: zbytek[0].value.replace(/^\s+/, '') };
+      if (zbytek[0]?.type === 'text' && !zbytek[0].value) zbytek.shift();
+      const nazev = obal('div', ['karta__nazev', 'karta__nazev--uvod'], [ikona, obal('p', [], [tucne])]);
+      const nove = zbytek.length ? [nazev, { ...dalsi, children: zbytek }] : [nazev];
+      parent.children.splice(index, 2, ...nove);
+      return [SKIP, index + nove.length];
+    }
+    parent.children[index] = ikona;
     return [SKIP, index + 1];
   });
 

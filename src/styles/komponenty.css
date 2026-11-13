@@ -501,6 +501,8 @@
 .karta__nazev { display: flex; align-items: center; gap: 0.85rem; margin: 0 0 0.6rem; }
 .karta__nazev .ikona--velka { margin: 0; }
 .karta__nazev :is(h2, h3, h4) { margin: 0 !important; }
+/* karta bez nadpisu: tučná úvodní věta stojí vedle ikony jako název */
+.karta__nazev--uvod p { margin: 0 !important; font-size: 1rem; line-height: 1.4; }
 /* malá a střední stojí v řádku textu. Jako inline-grid by měly účaří u spodku ikony (svg),
    ne u spodku odznaku, a vertical-align níž je stáhl o ~0,3em pod střed textu. Inline-block bez
    obsahu v toku má účaří na spodním okraji, takže posun níž sedí a ikona je s textem na střed. */
