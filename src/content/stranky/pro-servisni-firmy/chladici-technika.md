@@ -123,7 +123,7 @@ a doplněné chladivo hned po zásahu — ne v pondělí po paměti.
 
 ### 🗓 Prohlídky, které nespadnou pod stůl
 
-Na zařízení nastavíte interval prohlídek a systém v noci vytvoří zakázku i výjezd.
+Na zařízení nastavíte interval prohlídek a systém podle nastaveného pravidla vytvoří zakázku i výjezd.
 Plánovaná práce tak nezmizí pod náporem havárií.
 
 - Intervaly zadáváte vy podle typu zařízení a smlouvy — systém je jen hlídá

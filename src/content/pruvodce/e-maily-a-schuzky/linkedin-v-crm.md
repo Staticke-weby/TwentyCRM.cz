@@ -72,8 +72,8 @@ rozměry. Ví, co bylo dohodnuto, a nemusí obchodníkovi volat.
   měsíčně až za deset účtů (ověřeno 12. 11. 2026). Platí se přímo jim.
 - **Server dostupný z internetu.** Unipile posílá nové zprávy na adresu vašeho serveru, ta proto
   musí být veřejně dostupná pro tuto službu.
-- **Zprovoznění obrazovky pro připojení účtů**, která je ve verzi 2.57 za přepínačem. Stav
-  ověříme před nasazením.
+- **Obrazovka pro připojení účtů** je ve verzi 2.57 zatím za přepínačem — proto vedeme LinkedIn
+  jako funkci, která se připravuje.
 - **Adresy profilů u kontaktů.** Čím víc kontaktních osob má vyplněné pole LinkedIn, tím víc
   zpráv se přiřadí správně.
 - **Posouzení ochrany osobních údajů.** Zprávy tečou přes servery Unipile, s tím je potřeba

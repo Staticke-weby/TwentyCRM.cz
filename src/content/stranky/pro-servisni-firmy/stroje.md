@@ -111,7 +111,7 @@ V ceně {{cena.implementation}} nasazení + měsíční paušál.
 ### 🔁 Servisní plán běží sám
 
 - Na zařízení nastavíte frekvenci (měsíčně / čtvrtletně / pololetně / ročně)
-- V noci se vygeneruje další zakázka + výjezd v plánovaný termín
+- Podle nastaveného pravidla se vygeneruje další zakázka + výjezd v plánovaný termín
 - Záruka zařízení se počítá sama; živý widget „zbývá X dní"
 
 ### ⏱️ Hodiny pro fakturaci

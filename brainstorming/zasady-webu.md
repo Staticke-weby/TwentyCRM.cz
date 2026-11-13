@@ -442,6 +442,25 @@ jádru nebo o licenci.
 
 ---
 
+## 14c. Popisujeme, co uvádí Twenty — nerozvádíme, co jsme sami nezkoušeli
+
+**Pravidlo:** o funkcích Twenty píšeme to, co uvádí samo Twenty (dokumentace, poznámky k vydáním,
+twenty.com). Provozní detaily, které dokumentace nepopisuje a které jsme v praxi nepotřebovali my ani
+naši klienti, **nedohledáváme v kódu a nerozvádíme** — žádné „na vlastním serveru je potřeba ještě
+služba X", „cestu vybereme při nasazení", „ověříme před nasazením". Buď to je v podkladech výrobce,
+nebo to na webu není.
+
+**Proč:** popisujeme platformu, ne vlastní zkušenost s každou její funkcí. Detail vyčtený z kódu
+čtenáře zatíží, může být zastaralý a vzbuzuje dojem, že funkce je složitá nebo že ji máme vyzkoušenou.
+
+**Případ (2026-11-13):** článek o sdílené schránce a o e-mailu rozváděl, že přeposílání na vlastním
+serveru potřebuje Amazon SES (vyčteno z konfigurace v kódu, dokumentace o tom mlčí). Odstraněno.
+Stejně tak u servisního plánu web tvrdil „systém v noci vytvoří zakázku" — správně je **„podle
+nastaveného pravidla"**, bez uvádění času (opraveno na stránce Twenty Servis, 9 oborových stránkách,
+v reseni.json a v průvodci).
+
+---
+
 ## 15. Technické zásady, které se osvědčily
 
 **Build je dvoukrokový a dělá se lokálně.** Na Svethostingu není npm ani PHP build —

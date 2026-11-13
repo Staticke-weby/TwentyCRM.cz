@@ -597,8 +597,7 @@
       "hledat": [
         "forwarding",
         "shared inbox"
-      ],
-      "pozn": "Interní: na vlastním serveru příjem přeposlané pošty vyžaduje nastavení na straně serveru (Amazon SES, INBOUND_EMAIL_DOMAIN) — dokumentace pro vlastní server to nepopisuje; alternativa je připojit info@ jako běžnou schránku. Ověřit při nasazení."
+      ]
     },
     {
       "id": "nahravani-schuzek",

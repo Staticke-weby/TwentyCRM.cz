@@ -138,7 +138,7 @@ zaver:
 
 **8:15** Volá klient, že klimatizace v sále nechladí. Otevřu jeho kartu → **pobočku → konkrétní jednotku**. Vidím model, sériové číslo, kdo ji montoval a že prevence proběhla minulý týden bez závad. Založím zakázku, navěsím výjezd, přidám Pavla do plánovače.
 
-**10:30** Procházím zakázky, které se **v noci vygenerovaly ze servisních plánů**. U tří klientů se blíží termín pravidelné prevence. Přiřadím techniky a domluvím termíny. Čtyři minuty práce místo hodiny v tabulce.
+**10:30** Procházím zakázky, které se **vygenerovaly ze servisních plánů**. U tří klientů se blíží termín pravidelné prevence. Přiřadím techniky a domluvím termíny. Čtyři minuty práce místo hodiny v tabulce.
 
 **13:00** Vidím v přehledu **Kolize slotů** — Jakubovi se překrývají dvě zakázky. Systém to našel dřív než já a dřív, než by mi volal naštvaný klient.
 

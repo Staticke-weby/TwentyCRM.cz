@@ -37,7 +37,7 @@ AI krok **třídění** rozhodne, jestli jde o požadavek na servis, obchodní d
 u servisu další AI krok založí **Zakázku** navázanou na **Klienta** a do popisu shrne, co klient
 chce. Dispečer zakázku zkontroluje, doplní a naplánuje **Výjezd**. *Dnes: automatizace s AI,
 nastavuje se podle toho, kam vám požadavky chodí — do schránky dispečera, nebo na společnou
-adresu typu servis@ (cestu vybereme při nasazení).*
+adresu typu servis@.*
 
 **2. Popis práce z výkazů.** Technici do **Výkazu práce** píšou krátce: „vyměněno těsnění,
 vyčištěna sítka". Na zakázce je tlačítko, které z hotových výkazů sestaví souvislý popis provedené
@@ -45,7 +45,7 @@ práce pro zakázkový list. *Dnes: hotové v Twenty Servis.* Podrobně v člán
 [Servisní výkaz](/twenty/servis/servisni-vykaz/).
 
 **3. Připomínky prevencí.** Pravidelné prohlídky zakládá Twenty Servis samo — **Servisní plán**
-v noci vytvoří zakázku i výjezd na plánovaný termín. To není AI, ale pravidlo, které nastavíte
+vytvoří zakázku i výjezd podle pravidla, jak je u zařízení nastavené. To není AI, ale pravidlo, které nastavíte
 u zařízení. AI k tomu může přidat dopis: automatizace podle plánu jednou týdně vezme výjezdy
 na další týdny a ke každému připraví e-mail klientovi s navrženým termínem. Zpráva se uloží jako
 **koncept**, dispečer ji zkontroluje a odešle sám. *Dnes: Servisní plán je součást Twenty Servis,

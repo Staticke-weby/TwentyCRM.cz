@@ -114,7 +114,8 @@
     "30 minut online projděme si váš obor ukážeme jak nasazujeme twenty doporučíme jestli má smysl pokračovat"
   ],
   "/jak-to-vypada-v-praxi/": [
-    "upravuju ceník nakupní ceny šly nahoru"
+    "upravuju ceník nakupní ceny šly nahoru",
+    "procházím zakázky které se v noci vygenerovaly ze servisních plánů"
   ],
   "/crm-open-source-cesky/": [
     "twenty je nejen crm ale aplikační platformu",
@@ -197,19 +198,25 @@
   ],
   "/pro-servisni-firmy/hvac/": [
     "pokud aspoň 3 z 6 přikývlo jsme přesně pro vás",
-    "generický crm má jen klient + příležitost + aktivita"
+    "generický crm má jen klient + příležitost + aktivita",
+    "systém v noci kontroluje kde se blíží termín a vytvoří zakázku s výjezdem"
   ],
   "/pro-servisni-firmy/revize/": [
     "pokud aspoň 3 z 5 přikývlo jsme přesně pro vás",
+    "systém v noci kontroluje termíny a generuje další zakázku sám",
+    "v noci se vygeneruje další zakázka + výjezd v plánovaný termín",
     "žádný crm klienti kontakty faktury jsou jinde máte 2 systémy"
   ],
   "/pro-servisni-firmy/stroje/": [
-    "pokud aspoň 3 z 6 přikývlo jsme přesně pro vás"
+    "pokud aspoň 3 z 6 přikývlo jsme přesně pro vás",
+    "v noci se vygeneruje další zakázka + výjezd v plánovaný termín"
   ],
   "/pro-servisni-firmy/kotle-a-plynova-zarizeni/": [
-    "od září zvoní telefon bez přestání prohlídky se kupí a mezi tím padají poruchy"
+    "od září zvoní telefon bez přestání prohlídky se kupí a mezi tím padají poruchy",
+    "systém v noci vytváří zakázky s výjezdem na termín takže v srpnu vidíte kolik práce vás na podzim čeká a máte čas obvolat klienty"
   ],
   "/pro-servisni-firmy/chladici-technika/": [
+    "na zařízení nastavíte interval prohlídek a systém v noci vytvoří zakázku i výjezd",
     "samotný výklad co a kdy se musí evidovat a hlásit je odbornost vaše a vašeho oborového software do toho vám nemluvíme"
   ],
   "/migrace/": [
@@ -434,6 +441,16 @@
     "kdo na co vidí se řídí typem záznamu poli a filtrovanými pohledy moje zakázky přesné omezení vidím jen své záznamy vyžaduje vyšší tarif v cloudu"
   ],
   "/pro-servisni-firmy/": [
+    "v noci se vygeneruje další zakázka i výjezd na plánovaný termín",
     "dispečerka má plný přístup technici a účetní mají omezené pohledy podle typu záznamů a polí přesné uživatel vidí jen své záznamy vyžaduje vyšší tarif v cloudu pro tuhle firmu to nebylo nutné"
+  ],
+  "/pro-servisni-firmy/elektro-a-zabezpeceni/": [
+    "systém v noci sám vytvoří zakázku i výjezd na termín"
+  ],
+  "/pro-servisni-firmy/gastro-technika/": [
+    "systém v noci vytvoří zakázku i výjezd a přiřadí technika který stroj zná"
+  ],
+  "/pro-servisni-firmy/vytahy/": [
+    "systém v noci vytvoří zakázku i výjezd na termín a přiřadí technika který dům zná"
   ]
 }

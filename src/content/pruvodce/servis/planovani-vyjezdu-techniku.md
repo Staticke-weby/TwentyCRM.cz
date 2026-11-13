@@ -58,7 +58,7 @@ práce**, který navazuje na **Klienta**, jeho **Místa** (pobočky s adresou) a
 - **Přesun.** Výjezd vyberete, kliknete na nový den a potvrdíte. Víkendy a státní svátky
   systém přeskočí sám.
 - **Servisní plán.** U zařízení nastavíte, jak často se na něj jezdí — měsíčně, čtvrtletně,
-  pololetně, ročně, jednou za dva nebo tři roky. Systém v noci sám založí další zakázku i výjezd
+  pololetně, ročně, jednou za dva nebo tři roky. Systém podle nastaveného pravidla sám založí další zakázku i výjezd
   na plánovaný termín a přiřadí je technikovi, který má zařízení na starosti. Vyřazené zařízení nebo pozastavený plán
   se přeskočí; po výpadku se zameškané termíny nezakládají zpětně, plán pokračuje nejbližším
   budoucím.

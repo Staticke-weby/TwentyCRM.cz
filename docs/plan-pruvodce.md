@@ -291,8 +291,7 @@ klíče k AI) označit „Pro správce" a držet zvlášť, aby nerušily hlavn�
 **Stav 2026-11-12: vlna 1 napsaná jako koncepty** — vstupní stránka, 15 článků (článek „Vyhrazený server, nebo cloud“
 vypuštěn: ceny cloudu jen na `/cloud-vs-selfhost/`, oblast Provoz tam odkazuje) a úvody 8 oblastí; zdroje převedeny do
 registru (78), nové funkce `cekani-na-udalost` a `koncept-emailu`. Prochází se na dočasném webu (staticke-weby.github.io/TwentyCRM.cz, zobrazuje i koncepty); otevřené body k ověření:
-Gartner (web blokuje automatické stahování — ověřit ručně), sdílená schránka přeposíláním na vlastním serveru
-(potřebuje Amazon SES, viz `funkce.json` → `sdilena-schranka.pozn`), kdy servisní plán zakládá zakázku (příručka si odporuje).
+vyřešeno 2026-11-13 — Gartner ověřen ručně; Amazon SES z textů odstraněn (zásada 14c: nerozvádět, co Twenty neuvádí); servisní plán zakládá zakázku podle nastaveného pravidla.
 
 **Stav 2026-11-12 (večer): vlny 2 a 3 napsané jako koncepty** — celkem 61 stránek průvodce (155 zdrojů, 56 funkcí v registru),
 včetně Kam Twenty míří, Novinek (říjen, listopad 2026) a slovníku na jedné stránce. Oproti kap. 3.2: „AI kredity v Twenty“

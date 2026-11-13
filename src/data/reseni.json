@@ -88,7 +88,7 @@
         "Zadáte IČO, zbytek doplní ARES — název, DIČ, adresa, plátce DPH",
         "Montáž i servis jsou typ zakázky — co namontujete, to pak servisujete",
         "Karta zařízení se sériovým číslem, datem instalace a živým stavem záruky",
-        "Servisní plán generuje opakované zakázky sám, v noci",
+        "Servisní plán generuje opakované zakázky sám, podle nastaveného pravidla",
         "Týdenní plánovač výjezdů, který sám označí kolize v čase technika",
         "Technik vyplní výkaz v telefonu — hodiny, kilometry, materiál, popis práce",
         "Razítko podpisu zákazníka i technika přímo na zakázce",

@@ -45,6 +45,8 @@ We are an *independent implementation agency*, **not the creators of Twenty**, a
 
 When in doubt, fetch the source and quote/link rather than paraphrasing from memory.
 
+**Describe what Twenty itself states — do not elaborate on what we have not tried (decided 2026-11-13).** Operational details that Twenty's docs do not describe and that neither we nor our clients have needed (server-side configuration read from source code, e.g. Amazon SES for forwarded mail) do not go on the website or into the guide — no „na vlastním serveru je potřeba…", „vybereme při nasazení", „ověříme před nasazením". Either it is in the vendor's material, or it is not on the site. Twenty Servis: the Servisní plán creates zakázka + výjezd **„podle nastaveného pravidla"** — never state a time („v noci"). Detail in `zasady-webu.md` 14c.
+
 ## ⚠️ Než začneš psát cokoli na web
 
 Přečti si **[`brainstorming/zasady-webu.md`](brainstorming/zasady-webu.md)**. Je to jediný dokument,

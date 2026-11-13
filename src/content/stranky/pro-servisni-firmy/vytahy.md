@@ -112,7 +112,7 @@ v telefonu — nemusí volat do kanceláře a kancelář nemusí hledat ve slož
 
 ### 🗓 Termíny, které nehlídá jeden člověk
 
-Na každém zařízení nastavíte servisní plán s vlastním intervalem. Systém v noci vytvoří zakázku
+Na každém zařízení nastavíte servisní plán s vlastním intervalem. Systém podle nastaveného pravidla vytvoří zakázku
 i výjezd na termín a přiřadí technika, který dům zná.
 
 - Intervaly zadáváte vy podle typu zařízení a smlouvy — systém je jen hlídá

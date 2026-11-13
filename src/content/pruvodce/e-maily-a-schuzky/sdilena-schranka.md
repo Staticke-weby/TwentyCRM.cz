@@ -50,19 +50,15 @@ Na čem záleží:
 - **Odpovídání z adresy kanálu** je volitelný druhý krok: správce vaší domény přidá do jejího
   nastavení (DNS) pět ověřovacích záznamů. Pro samotný příjem pošty se na doméně nic nemění.
 
-V cloudu výrobce se přeposílá na adresu u Twenty. **Na vyhrazeném serveru** potřebuje příjem
-přeposlané pošty ještě nastavení na straně serveru, které dokumentace pro vlastní server
-nepopisuje. Kterou cestu u vás zvolit, proto vybereme při nasazení.
-
 ### Cesta 2: info@ jako běžná schránka
 
 Jeden z uživatelů — asistentka, dispečer, vedoucí obchodu — si sdílenou adresu připojí vedle své
 osobní schránky. Twenty umí u jednoho uživatele víc schránek najednou a s info@ pak zachází
 stejně jako s osobní poštou: Gmail a Microsoft 365 přihlášením účtem, ostatní poskytovatelé přes
-otevřený standard IMAP. Na vyhrazeném serveru funguje stejně jako u osobních schránek.
+otevřený standard IMAP.
 
 - **Podmínka:** info@ musí být skutečná schránka s vlastním přihlášením, ne alias, který poštu
-  jen přeposílá jinam. Jestli to u vaší schránky platí, ověříme při nasazení.
+  jen přeposílá jinam.
 - **Nastavení jako u osobní schránky:** které složky se ukládají a co kolegové uvidí.
 - **Pozor na zakládání kontaktů.** Na info@ chodí i obchodní nabídky a newslettery. U sdílené
   adresy se vyplatí zakládat kontakty jen z odeslaných e-mailů, ať se CRM nezaplní cizími adresami.
@@ -73,7 +69,6 @@ otevřený standard IMAP. Na vyhrazeném serveru funguje stejně jako u osobníc
 
 - **Chcete jen vidět poštu u klientů** a odpovídat dál z Outlooku: stačí cesta 1 bez zásahu do domény.
 - **Chcete odpovídat z Twenty jako info@:** cesta 1 s ověřením domény, nebo cesta 2.
-- **Vyhrazený server:** cesta 2 funguje hned, cesta 1 po nastavení serveru.
 
 Návody výrobce jsou v [dokumentaci k e-mailovým kanálům](https://docs.twenty.com/user-guide/calendar-emails/capabilities/email-channels)
 (česky zatím není).
@@ -97,8 +92,6 @@ protože přeposílání ponechává kopii ve schránce.
   sdílená adresa běží.
 - **U odpovídání z kanálu přístup k nastavení domény** — kdo spravuje DNS vaší domény.
 - **V Twenty oprávnění ke správě nastavení** — e-mailový kanál zakládá správce.
-- **Na vyhrazeném serveru rozhodnutí o cestě** — vybereme ji při nasazení podle toho, jak máte
-  poštu zřízenou.
 
 V řešeních [Twenty Sales](/pro-obchodni-tymy/) i [Twenty Servis](/pro-servisni-firmy/) — našich
 nadstavbách nad open-source Twenty — se zprávy ze sdílené adresy zobrazí u klienta a kontaktní

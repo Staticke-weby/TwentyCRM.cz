@@ -66,9 +66,8 @@ Událost vznikne přímo v připojeném kalendáři a je navázaná na klienta, 
 
 **Sdílená schránka info@ nebo servis@** se dá připojit dvěma způsoby. Buď jako běžná schránka
 jednoho z uživatelů, nebo — od verze 2.4 — přeposíláním do takzvaného e-mailového kanálu, bez
-připojování celé schránky. Twenty pak zprávy páruje ke klientům podle odesílatele. Na vyhrazeném
-serveru potřebuje příjem přeposlané pošty ještě nastavení na straně serveru, takže vhodnější
-cestu vybereme při nasazení.
+připojování celé schránky. Twenty pak zprávy páruje ke klientům podle odesílatele. Obě cesty
+popisuje článek [Sdílená schránka v CRM](/twenty/e-maily-a-schuzky/sdilena-schranka/).
 
 Podrobnosti najdete v [dokumentaci výrobce](https://docs.twenty.com/cs/user-guide/calendar-emails/overview).
 

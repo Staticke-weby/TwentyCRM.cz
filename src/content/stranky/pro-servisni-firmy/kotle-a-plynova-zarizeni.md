@@ -105,7 +105,7 @@ V ceně nasazení a měsíčního provozu — cena je stejná jako u ostatních 
 
 ### 🍂 Sezónu naplánujete v létě
 
-Na každém kotli je nastavený interval prohlídek. Systém v noci vytváří zakázky s výjezdem
+Na každém kotli je nastavený interval prohlídek. Systém podle nastaveného pravidla vytváří zakázky s výjezdem
 na termín — takže v srpnu vidíte, kolik práce vás na podzim čeká, a máte čas obvolat klienty.
 
 - Intervaly zadáváte vy podle typu zařízení a smlouvy — systém je jen hlídá

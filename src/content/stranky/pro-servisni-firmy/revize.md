@@ -80,7 +80,7 @@ Každého konkrétního zařízení napříč lety a techniky. Vyhledávání po
 
 ### Servisní plán hlídá lhůty
 
-Na zařízení založíte servisní plán s frekvencí (ročně / po 2 / 3 letech). Systém v noci kontroluje termíny a generuje další zakázku sám.
+Na zařízení založíte servisní plán s frekvencí (ročně / po 2 / 3 letech). Systém podle nastaveného pravidla hlídá termíny a generuje další zakázku sám.
 
 ### Archiv PDF zápisů
 
@@ -110,7 +110,7 @@ V ceně {{cena.implementation}} nasazení + měsíční paušál.
 ### 🔁 Servisní plán běží sám
 
 - Na zařízení nastavíte frekvenci (ročně / po 2 / 3 / 5 letech)
-- V noci se vygeneruje další zakázka + výjezd v plánovaný termín
+- Podle nastaveného pravidla se vygeneruje další zakázka + výjezd v plánovaný termín
 - Po výpadku negeneruje retroaktivně — posune termín na nejbližší budoucí
 
 ### 📱 Mobil pro revizní techniky v terénu

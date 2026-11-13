@@ -111,7 +111,7 @@ přehled přizpůsobený malému displeji.
 Pro každé zařízení založíte servisní plán — měsíčně, čtvrtletně, pololetně, ročně, jednou
 za 2 nebo 3 roky. Systém ho hlídá místo vás.
 
-- V noci se vygeneruje další zakázka i výjezd na plánovaný termín
+- Podle nastaveného pravidla se vygeneruje další zakázka i výjezd na plánovaný termín
 - Přiřadí stejného technika, který má zařízení na starosti
 - Po výpadku negeneruje zpětně — posune se na nejbližší budoucí termín
 - Vyřazené zařízení nebo pozastavený plán přeskočí
