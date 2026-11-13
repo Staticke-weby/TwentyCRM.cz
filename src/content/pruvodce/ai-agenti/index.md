@@ -2,7 +2,6 @@
 title: "AI kolegové s jasnými pravidly"
 description: "AI agenti v Twenty: co umí převzít v obchodě a servisu, pod jakou rolí pracují, kdo je hlídá a kde je potřeba schválení člověkem. Co funguje dnes a co se připravuje."
 vMenu: "AI agenti"
-draft: true
 poradi: 3
 overeno: 2026-11-12
 verzeTwenty: '2.57'

@@ -300,6 +300,8 @@ vypuštěny (pokrývají `/bezpecnost/` a `/crm-open-source-cesky/`), trendy a s
 Opraveno při kontrole: pravidla pro kontrolu dat (a tím povinná pole) jsou jen v tarifu Organization; LinkedIn = připravuje se
 (připojení účtu za přepínačem); import s AI = import přes AI chat. Gartner (2025 i doplněné zprávy z 2026) a čísla článků GDPR ověřeny ručně ve vestavěném prohlížeči 2026-11-12.
 
+**2026-11-13: průvodce zveřejněn** — `draft` zrušen u všech 61 stránek (rozhodnutí uživatele), odkaz v menu a v patičce se zobrazuje; doplněn do `public/llms.txt`.
+
 **Vlna 1 — 14 článků + vstupní stránka (2–3 týdny)**: články označené „1" v kap. 3.2. Mix: tři pilíře prodeje
 (automatický záznam, agenti, MCP) + SEO mezery (plánování výjezdů, evidence zakázek, AI Act, ceny AI agentů, MCP srovnání).
 Po vlně 1 průvodce zveřejnit (zrušit `draft`) a zapnout odkaz v menu.

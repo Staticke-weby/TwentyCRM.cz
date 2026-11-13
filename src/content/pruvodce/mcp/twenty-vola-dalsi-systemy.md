@@ -2,7 +2,6 @@
 title: Twenty použije další firemní systémy přes MCP — co se připravuje a co to firmě přinese
 description: Dnes se přes MCP připojují k Twenty AI asistenti zvenčí. Připravuje se opačný směr — AI v Twenty si sama sáhne do dalších systémů, aniž by se data kopírovala. Kde je vývoj v listopadu 2026, co to firmě umožní a jak propojit systémy už dnes.
 vMenu: Twenty volá další systémy
-draft: true
 poradi: 6
 overeno: 2026-11-12
 verzeTwenty: '2.57'

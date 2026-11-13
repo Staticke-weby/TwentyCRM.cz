@@ -2,7 +2,6 @@
 title: AI recepční, plánovač a asistent technika — kam jde AI v servisu ve světě
 description: Co dnes nabízejí velcí dodavatelé softwaru pro servis v terénu — AI, která bere telefony a objednává výjezdy, agent, který přeskládá plán techniků, a asistent v mobilu technika. Stav dostupnosti, co z toho plyne pro českou servisní firmu a co jde s Twenty už dnes.
 vMenu: AI v servisu ve světě
-draft: true
 poradi: 5
 overeno: 2026-11-12
 verzeTwenty: '2.57'

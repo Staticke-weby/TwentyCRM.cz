@@ -112,7 +112,7 @@ instalace. Technik ho vidí v mobilu, ještě než vystoupí z auta.
 ### 🗓 Kontroly podle lhůt, které si nastavíte
 
 Na zařízení nastavíte, jak často se tam má jezdit — měsíčně, čtvrtletně, pololetně, ročně,
-po dvou nebo třech letech. Systém podle nastaveného pravidla sám vytvoří zakázku i výjezd na termín.
+po dvou nebo třech letech, nebo po zadaném počtu dní. Systém podle nastaveného pravidla sám vytvoří zakázku i výjezd na termín.
 
 - Lhůty zadáváte vy podle smlouvy a typu techniky — systém je jen hlídá
 - Přiřadí technika, který má objekt na starosti

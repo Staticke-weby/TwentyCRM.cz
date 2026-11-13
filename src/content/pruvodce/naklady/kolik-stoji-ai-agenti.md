@@ -2,7 +2,6 @@
 title: Kolik stojí AI agenti v CRM a jak útratu odhadnout předem
 description: Salesforce účtuje akce agenta v kreditech, HubSpot vyřešené konverzace, Microsoft kredity Copilotu, Zoho tokeny modelu. Jak jednotlivé modely účtování fungují, jak je to v Twenty a jak útratu odhadnout dřív, než přijde faktura.
 vMenu: Kolik stojí AI agenti
-draft: true
 poradi: 1
 overeno: 2026-11-12
 verzeTwenty: '2.57'

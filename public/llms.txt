@@ -73,6 +73,24 @@ Obor **není** rozhodovací osa — je to kontext. Rozhoduje, jestli firma říd
 - [Twenty vs Vtiger CRM](https://www.twentycrm.cz/open-source-crm-srovnani/twenty-vs-vtiger-crm/)
 - [Twenty vs Odoo CRM](https://www.twentycrm.cz/open-source-crm-srovnani/twenty-vs-odoo-crm/)
 
+## Průvodce Twenty — agentní CRM (/twenty/)
+
+Znalostní část webu: co open-source Twenty firmě umožní, co z toho funguje dnes, co se připravuje a kam vývoj směřuje.
+Stav každé funkce se bere z ověřovaného registru (poznámky k vydáním a dokumentace Twenty); u článků je datum ověření a zdroje.
+
+- [Úvod průvodce](https://www.twentycrm.cz/twenty/): agentní firma — CRM, které pracuje za vás
+- [E-maily a schůzky](https://www.twentycrm.cz/twenty/e-maily-a-schuzky/): e-mail, kalendář, přepisy schůzek, sdílená schránka, LinkedIn
+- [Po jednání](https://www.twentycrm.cz/twenty/po-jednani/): úkol a návrh e-mailu po schůzce, příprava na schůzku, schválení člověkem
+- [AI agenti](https://www.twentycrm.cz/twenty/ai-agenti/): co je AI agent, agenti v Twenty, úlohy pro agenta, bezpečnost, srovnání agentů v CRM
+- [MCP](https://www.twentycrm.cz/twenty/mcp/): co je MCP, připojení Claude a ChatGPT, které CRM mají MCP server, AI chat v Twenty
+- [Obchod](https://www.twentycrm.cz/twenty/obchod/): třídění a rozdělování poptávek, nabídka s marží, přehledy, obchodní plán (Twenty Sales)
+- [Servis](https://www.twentycrm.cz/twenty/servis/): plánování výjezdů, evidence zakázek, servisní výkaz, AI v servisní firmě (Twenty Servis)
+- [Na míru](https://www.twentycrm.cz/twenty/na-miru/): vlastní typy záznamů a pole, aplikace nad Twenty
+- [Čistá data](https://www.twentycrm.cz/twenty/data/): proč agenti selhávají na datech, kontrolní seznam, přechod z Excelu
+- [Provoz](https://www.twentycrm.cz/twenty/provoz/): vlastní klíče k AI, GDPR a AI agenti, AI Act a CRM
+- [Náklady](https://www.twentycrm.cz/twenty/naklady/): kolik stojí AI agenti, jak začít pilotem, jak hlídat útratu
+- [Kam Twenty míří](https://www.twentycrm.cz/twenty/kam-twenty-miri/) · [Novinky v Twenty](https://www.twentycrm.cz/twenty/novinky/) · [Slovník pojmů](https://www.twentycrm.cz/twenty/slovnik/) · [Jak průvodce ověřujeme](https://www.twentycrm.cz/twenty/jak-overujeme/)
+
 ## Migrace
 
 - [Migrace](https://www.twentycrm.cz/migrace/): migrační playbook (fáze 1–3, paralelní běh, bez výpadku)
@@ -108,4 +126,4 @@ Markdown verze obsahuje YAML frontmatter (title, url, description) a čistý tex
 ## Právní
 
 - [Zásady zpracování osobních údajů (GDPR)](https://www.twentycrm.cz/zasady-zpracovani-osobnich-udaju/): plné zásady (kategorie subjektů, sub-zpracovatelé Hetzner/Netcup/Elestio s certifikacemi, mezinárodní předání, čl. 32 GDPR technická opatření, čl. 33–34 postup při incidentu, čl. 30 záznamy). Účinnost 1. června 2026. Vztah zpracovatel-správce řešíme konkludentně (zaplacením první faktury klient akceptuje veřejné dokumenty); samostatnou DPA dle čl. 28 GDPR vystavíme na žádost.
-- [Obchodní podmínky](https://www.twentycrm.cz/obchodni-podminky/): VOP verze 1.1, účinnost 1. června 2026. Smluvní vztah vzniká objednávkou nebo zaplacením první faktury / zahájením užívání služby (konkludentní přijetí). Odpovědnost Poskytovatele omezena na 60 000 Kč (zaokrouhleně dvanáct měsíčních odměn za provoz). Vyloučeno: jednání Zákazníka, výpadky třetích stran, AI nástroje s BYOK klíči, akce AI agentů přes MCP/API, breaking changes Twenty Inc., vyšší moc.
+- [Obchodní podmínky](https://www.twentycrm.cz/obchodni-podminky/): VOP verze 1.2, účinnost 17. srpna 2026. Smluvní vztah vzniká objednávkou nebo zaplacením první faktury / zahájením užívání služby (konkludentní přijetí). Odpovědnost Poskytovatele omezena na 60 000 Kč (zaokrouhleně dvanáct měsíčních odměn za provoz). Vyloučeno: jednání Zákazníka, výpadky třetích stran, AI nástroje s BYOK klíči, akce AI agentů přes MCP/API, breaking changes Twenty Inc., vyšší moc.

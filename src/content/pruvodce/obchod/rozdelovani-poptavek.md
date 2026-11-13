@@ -2,7 +2,6 @@
 title: Jak spravedlivě rozdělovat poptávky mezi obchodníky
 description: Twenty od verze 2.16 umí v automatizaci vybrat obchodníka dokola, podle vytížení nebo náhodně a nového zájemce mu rovnou přidělit. Kdy se hodí která cesta, jak to doplňuje frontu zájemců v Twenty Sales a co je k tomu potřeba.
 vMenu: Rozdělování poptávek
-draft: true
 poradi: 2
 overeno: 2026-11-12
 verzeTwenty: '2.57'

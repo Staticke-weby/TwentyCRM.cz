@@ -2,7 +2,6 @@
 title: Vlastní klíče k AI — jak si na vyhrazeném serveru vybrat AI model a platit ho napřímo
 description: Na vyhrazeném serveru zadáte do Twenty vlastní klíč k AI od Anthropic, OpenAI, Google, Mistral nebo xAI a spotřebu platíte přímo poskytovateli. Jak se volí model, co Twenty ukazuje o ceně a umístění dat a co se připravuje.
 vMenu: Vlastní klíče k AI
-draft: true
 poradi: 2
 overeno: 2026-11-12
 verzeTwenty: '2.57'

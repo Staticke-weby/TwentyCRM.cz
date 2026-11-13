@@ -2,17 +2,63 @@
 title: Twenty CRM vs SuiteCRM — kterou platformu vybrat | TwentyCRM.cz
 description: "Srovnání Twenty CRM a SuiteCRM pro českou firmu. Kdy která platforma sedne — moderní vestavěná AI a česká lokalizace (Twenty) vs. roky prověřený CRM s velkou komunitou (SuiteCRM). Upřímný pohled bez marketingu."
 pageId: srovnani-twenty-vs-suitecrm
+overeno: 2026-11-13
+zdroje:
+  - url: https://suitecrm.com/
+    nazev: SuiteCRM — úvodní stránka (5 milionů+ uživatelů, SuiteASSURED)
+  - url: https://suitecrm.com/pricing/
+    nazev: SuiteCRM — ceník (hosting, podpora, SuiteASSURED)
+  - url: https://suitecrm.com/suitecrm-roadmap/
+    nazev: SuiteCRM — plán vývoje (7.15 s opravami do ledna 2028)
+  - url: https://suitecrm.com/suitecrm-8-10-release/
+    nazev: SuiteCRM — vydání 8.10 (30. 4. 2026)
+  - url: https://github.com/SuiteCRM/SuiteCRM-Core/releases
+    nazev: SuiteCRM 8 — vydání (8.0.0 v listopadu 2021, 8.10.2 z 31. 7. 2026)
+  - url: https://github.com/SuiteCRM/SuiteCRM/releases
+    nazev: SuiteCRM 7 — vydání (7.15.2 z 31. 7. 2026)
+  - url: https://docs.suitecrm.com/user/introduction/
+    nazev: SuiteCRM — dokumentace, úvod (první verze 21. 10. 2013)
+  - url: https://docs.suitecrm.com/community/contributing-to-docs/contributing-to-translation
+    nazev: SuiteCRM — překlady (komunita, Crowdin)
+  - url: https://docs.suitecrm.com/8.x/admin/configuration/saml-configuration/
+    nazev: SuiteCRM 8 — přihlášení přes SAML
+  - url: https://docs.suitecrm.com/8.x/admin/configuration/ldap-configuration/
+    nazev: SuiteCRM 8 — přihlášení přes LDAP
+  - url: https://docs.suitecrm.com/8.x/admin/releases/8.2/
+    nazev: SuiteCRM 8.2 — přihlášení příchozí pošty účtem (OAuth)
+  - url: https://docs.suitecrm.com/8.x/user/integrations/calendar-sync/
+    nazev: SuiteCRM — synchronizace kalendáře
+  - url: https://pre-release.docs.suitecrm.com/admin/migration/to-suitecrm-8/
+    nazev: SuiteCRM — přechod na verzi 8
+  - url: https://store.suitecrm.com/
+    nazev: SuiteCRM Store — doplňky od jiných vývojářů
+  - url: https://twenty.com/pricing
+    nazev: Twenty — ceník cloudu
+  - url: https://docs.twenty.com/user-guide/billing/capabilities/pricing-plans
+    nazev: Twenty — tarify a co obsahují
+  - url: https://docs.twenty.com/user-guide/permissions-access/capabilities/permissions
+    nazev: Twenty — role a oprávnění
+  - url: https://docs.twenty.com/user-guide/calendar-emails/overview
+    nazev: Twenty — e-maily a kalendář
+  - url: https://docs.twenty.com/developers/self-host/capabilities/setup
+    nazev: Twenty — vlastní server (připojení Gmailu a Microsoft 365)
+  - url: https://docs.twenty.com/user-guide/ai/how-tos/ai-faq
+    nazev: Twenty — AI FAQ (vlastní klíče jen na vlastním serveru)
+  - url: https://docs.twenty.com/user-guide/workflows/capabilities/workflow-actions
+    nazev: Twenty — kroky automatizací
+  - url: https://docs.twenty.com/developers/extend/apps/getting-started/quick-start
+    nazev: Twenty — vlastní aplikace
 hero:
   stitek: Srovnání dvou open source CRM
   nadpis: Twenty CRM vs SuiteCRM — kterou platformu vybrat
   perex: >-
     Twenty a SuiteCRM jsou populární open source CRM, ale každý sedne jiné firmě. SuiteCRM je veterán
-    (od roku 2013, fork SugarCRM Community z roku 2014). Twenty je mnohem mladší moderní platforma
+    (od roku 2013, vznikl odbočením z komunitní verze SugarCRM). Twenty je mnohem mladší moderní platforma
     (od roku 2023) navržená s ohledem na umělou inteligenci a rychlý vývoj.
   text:
     - >-
-      Na téhle stránce najdete férové srovnání pro českou firmu — včetně skutečných omezení obou open source verzí
-      (na věci, které výrobci nerádi přiznávají).
+      Na téhle stránce najdete férové srovnání pro českou firmu — včetně toho, co je v open source verzi
+      obou systémů a za co se platí navíc.
 zaver:
   nadpis: Pomůžeme vám rozhodnout
   text: >-
@@ -28,32 +74,31 @@ zaver:
 
 ### Vyberte Twenty když:
 
-- Chcete moderní aplikaci, ne software, který vypadá jako z roku 2015
+- Chcete moderní, vzdušné rozhraní
 - Vyžadujete plnou českou lokalizaci od výrobce (ne komunitní)
 - Potřebujete vestavěnou umělou inteligenci v aplikaci
 - Hledáte aktivně vyvíjenou platformu (nové verze každý týden)
 - Plánujete stavět vlastní typy záznamů pro váš obor — bez programátora
-- Nechcete narážet na zastaralé pluginy z éry SugarCRM 6.5 (2010)
 - Hledáte českého implementátora, který se v tom denně pohybuje
 
 ### Vyberte SuiteCRM když:
 
-- Chcete CRM s nejdelší historií a největší světovou komunitou (přes 10 let, desetitisíce instalací)
+- Chcete CRM s dlouhou historií a velkou světovou komunitou (přes 10 let, výrobce uvádí přes 5 milionů uživatelů)
 - Máte vlastního IT člověka, který se vyzná v PHP a klasické webové architektuře
-- Vyhovuje vám klasické funkcionalisticky-bohaté rozhraní (i za cenu starší optiky)
-- Potřebujete vestavěnou agendu, kterou Twenty nemá (servisní cases, lehký inventory)
+- Vyhovuje vám klasické rozhraní bohaté na funkce
+- Potřebujete vestavěnou agendu, kterou Twenty v základu nemá (požadavky zákazníků, nabídky, faktury, smlouvy)
 - AI vestavěná v aplikaci pro vás teď není priorita
-- Chcete CRM se samostatnou nativní mobilní aplikací
-- Vám stačí komunitní česká lokalizace s občas lehce zaostávající kvalitou
+- Chcete platit za hosting od výrobce paušálně za celou instanci, ne za uživatele
+- Vám stačí komunitní česká lokalizace
 
 :::
 
 ::::sekce{pozadi="svetle"}
 
-## Co opravdu dostanete v open source verzi (a kdy se začíná platit)
+## Co dostanete v open source verzi (a kdy se začíná platit)
 
-Klíčová věc, kterou marketingová komunikace zatemňuje: **open source verze obou systémů má
-omezení proti placeným variantám.** Tady je upřímné srovnání.
+Při rozhodování pomůže vědět, co je **v open source verzi obou systémů a co se platí navíc.**
+Tady je upřímné srovnání.
 
 :::karty{sloupce="2"}
 
@@ -63,93 +108,89 @@ Co máte zdarma a co je v placené variantě
 
 #### V open source verzi máte
 
-- Vestavěný AI chat v aplikaci (BYOK — vlastní klíče k Anthropicu, OpenAI, Google, xAI)
-- Workflow automatizace (vytváření, úpravy záznamů, e-maily, plánované spuštění)
-- MCP server pro propojení s Claude/ChatGPT/Cursor (vy si připojíte svého asistenta)
+- Vestavěný AI chat v aplikaci (vlastní klíče k Anthropicu, OpenAI, Google, Mistralu, xAI)
+- Automatizace (vytváření a úpravy záznamů, e-maily, plánované spuštění, AI jako krok)
+- Napojení pro AI nástroje (MCP) — Claude, ChatGPT nebo Cursor (vy si připojíte svého asistenta)
 - Vlastní typy záznamů, polí, pohledů — bez omezení, přímo v nastavení
 - Práva a viditelnost na úrovni typů záznamů a polí
 - Pokročilé filtrované pohledy („Moje zakázky", „Můj plán na dnešek")
 - E-maily a kalendář: Gmail a Microsoft 365 přihlášením účtem, ostatní poskytovatelé přes IMAP/SMTP/CalDAV
-- Odesílání e-mailů přímo z workflow přes SMTP (funguje všude)
+- Odesílání e-mailů přímo z automatizace z připojené schránky
 - Více e-mailových účtů a kalendářů na jednoho uživatele
 
 #### Za příplatek: tarif Organization od Twenty (v cloudu i jako licence pro vlastní server)
 
 - ⚠️ Omezení „vidím jen své záznamy“ (uživatel *nesmí* vidět cizí záznamy — vynucená restrikce)
-- ⚠️ Single Sign-On (SSO přes SAML / OIDC)
-- ⚠️ Audit log (kdo co kdy upravil)
+- ⚠️ Jednotné přihlášení firemním účtem (SSO přes SAML / OIDC)
+- ⚠️ Záznam změn (audit log — kdo co kdy upravil)
+- ⚠️ Pravidla pro kontrolu dat a povinná pole
 
 ### SuiteCRM — open source na vyhrazeném serveru
 
-Co máte zdarma a co je v placené variantě / placených modulech
+Co máte zdarma a co je v placené variantě / placených doplňcích
 
 #### V open source verzi máte
 
-- Kontakty, firmy, leady, příležitosti (klasický prodejní cyklus)
+- Kontakty, firmy, poptávky, obchodní případy (klasický prodejní cyklus)
 - Aktivity (hovory, e-maily, schůzky, úkoly)
-- Cases (helpdesk / podpora)
-- Lehký inventory (produkty, ceník, quotes, invoices)
-- Workflow modul (od verze 7.x — Process Definitions)
-- Reports modul
-- Custom modules (Module Builder)
-- E-mail (POP3/IMAP přes Inbound Email)
-- REST API + SOAP API
+- Požadavky zákazníků (helpdesk / podpora)
+- Produkty, ceníky, nabídky, faktury, smlouvy
+- Automatizace (modul Workflow)
+- Reporty
+- Vlastní moduly a pole (Module Builder, Studio)
+- E-mail (IMAP), u Microsoftu i přihlášením účtem
+- Synchronizace kalendáře (včetně Google)
+- Bezpečnostní skupiny, záznam změn, přihlášení přes SAML a LDAP
+- Rozhraní pro napojení dalších systémů
 
-#### Open source nemá / vyžaduje placené moduly nebo SuiteCRM Hosted
+#### Open source nemá / platí se navíc
 
-- ⚠️ **AI nemá vůbec v open source verzi** (placené moduly v SuiteCRM Store, např. FynRahbar Chatbot — externí)
-- ⚠️ Nativní mobilní aplikace — placená SuiteCRM Mobile licence
-- ⚠️ Pokročilé reporty (např. Crystal Reports) — placené nadstavby
-- ⚠️ Outlook plugin — placený
-- ⚠️ Microsoft 365 / Google Workspace integrace — placené nadstavby
-- ⚠️ Pokročilé Kanban / Drag & Drop — placené (např. MTS Kanban v SuiteCRM Store)
-- ⚠️ Pokročilé telefonní integrace (VoIP) — placené nadstavby
-- ⚠️ SuiteAssured (oficiální podpora a dlouhodobé patche) — placená služba
-- ⚠️ SuiteCRM Hosted (managed cloud) — placený, podmínky individuální
+- ⚠️ **AI v základu není** (jen doplňky od jiných vývojářů v SuiteCRM Store)
+- ⚠️ Oficiální mobilní aplikace není — aplikace od jiných vývojářů (SuiteCRM Store, většinou placené)
+- ⚠️ Další doplňky ze SuiteCRM Store (od jiných vývojářů) — cena podle doplňku
+- ⚠️ Podpora od výrobce — Standard Support 1 200 GBP za 10 hodin
+- ⚠️ SuiteASSURED (záruka, garance údržby, právní odškodnění, prioritní podpora) — od 3 350 GBP ročně
+- ⚠️ Hosting od výrobce (Fully Managed Hosting) — od 50 GBP měsíčně, vyžaduje placenou podporu
 
-**SuiteCRM Hosted i většina pokročilých modulů má placený model** — výrobce ceník
-standardně nezveřejňuje, vyžaduje individuální poptávku.
+**Hosting od výrobce se platí za celou instanci, ne za uživatele** — od 50 GBP (~1 450 Kč)
+měsíčně, k tomu podpora (s hostingem za 960 GBP ročně za 10 hodin). Ceník k 13. 11. 2026.
 
 :::
 
 ::::
 
-## Specifické riziko SuiteCRM: stárnoucí ekosystém a verze 8 vs 7
+## Na co se u SuiteCRM připravit: verze 7 a 8 a doplňky od jiných vývojářů
 
-U SuiteCRM je nutné vědět dvě věci, které ostatní open source CRM (včetně Twenty) tolik netrápí:
+U SuiteCRM je dobré vědět dvě věci předem:
 
-:::poznamka[Verze 7.x vs 8.x — větší změna architektury]{ton="varovani"}
+:::poznamka[Verze 7.x vs 8.x — větší změna architektury]{ton="info"}
 
-SuiteCRM 8 (vydaná v roce 2022) přinesla zásadní přechod — nové frontendové rozhraní postavené
-na moderní technologii (Angular). Architektura backendu se taky změnila. Výrobce explicitně
-dokumentuje migrační proces 7.x → 8.x včetně specifických návodů — není to triviální update,
-protože: **spousta hotových komunitních modulů z verze 7.x (a starší ze SugarCRM éry)
-ve verzi 8 nefunguje bez úprav.**
+SuiteCRM 8 (první verze v listopadu 2021) přinesla zásadní přechod — nové rozhraní postavené
+na moderní technologii (Angular), původní verze 7 v ní běží jako vnitřní vrstva. Výrobce popisuje
+přechod ze 7.x na 8.x jako **migraci, ne běžnou aktualizaci** — vyžaduje novou instalaci verze 8
+a doporučuje předem ověřit kompatibilitu doplňků a projít vlastní úpravy z verze 7.
 
-Pro firmu to znamená: pokud nasadíte SuiteCRM 8 a chcete využít moduly z marketplace, ověřte
-si konkrétní kompatibilitu — některé jsou stále jen pro 7.x.
-
-:::
-
-:::poznamka[Stárnoucí komunitní moduly z éry SugarCRM]{ton="varovani"}
-
-SuiteCRM zdědil ekosystém modulů ze SugarCRM Community Edition (2004–2014). Mnoho
-modulů, které najdete na fóru nebo v SuiteCRM Store, je **velmi staré
-(psané pro PHP 5.6, jQuery z 2012, opuštěné autory)**. Funkční mohou být, ale představují
-bezpečnostní a kompatibilní riziko. Aktivně udržované a moderní moduly existují, ale je jich
-řádově méně. Před použitím každého modulu doporučujeme ověřit poslední aktualizaci a kompatibilitu
-s vaší verzí SuiteCRM.
+Pro firmu to znamená: pokud nasazujete SuiteCRM 8 a chcete využít doplňky ze SuiteCRM Store, ověřte
+si u každého kompatibilitu s vaší verzí. Kdo zůstává na verzi 7, má u řady 7.15 bezpečnostní opravy
+do ledna 2028.
 
 :::
 
-:::poznamka[Twenty: nemá tenhle problém (ale je to mladý projekt)]{ton="uspech"}
+:::poznamka[Doplňky od jiných vývojářů]{ton="info"}
 
-Twenty existuje od 2023 a má jednotnou architekturu od počátku. Žádný „dědictví ze starého CRM",
-žádné PHP 5 moduly, žádný plugin marketplace plný opuštěných modulů. To je plus.
-Druhá strana: **Twenty je mladý — má řádově méně hotových rozšíření než SuiteCRM.**
-Pokud potřebujete obskurní integraci (např. „Salesforce-to-Twenty migrace one-click"), pravděpodobně
-ji ještě nikdo neudělal. To řeší naše individuální vývojářská práce, ale je to fakticky více práce
-než „stáhnu hotový plugin".
+SuiteCRM má za sebou dlouhou historii a k ní velký katalog doplňků v SuiteCRM Store a na fórech
+— od jiných vývojářů, s různou mírou údržby. Před použitím každého doplňku doporučujeme ověřit
+poslední aktualizaci a kompatibilitu s vaší verzí SuiteCRM.
+
+:::
+
+:::poznamka[Twenty: jednotná architektura (a mladý projekt)]{ton="uspech"}
+
+Twenty existuje od 2023 a má jednotnou architekturu od počátku — bez vrstev převzatých ze
+staršího systému. Druhá strana: **Twenty je mladý — má řádově méně hotových rozšíření než SuiteCRM**
+a vlastní obchod s aplikacemi výrobce se teprve připravuje. Pokud potřebujete konkrétní napojení,
+ozvěte se — projdeme spolu, jestli ho pokryjí automatizace, rozhraní pro napojení, nebo systém,
+který už máte.
 
 :::
 
@@ -162,42 +203,43 @@ Co se konkrétně liší v praxi (open source verze obou systémů, ne placené 
 | Co srovnáváme | Twenty (open source) | SuiteCRM (open source) |
 |---|---|---|
 | **Základ** | | |
-| **Stáří projektu** | Mladý (od 2023) | Veterán (od 2013, kořeny v SugarCRM od 2004) |
-| **Vzhled aplikace** | Moderní, čistý, vzdušný | Funkční, místy vypadá starší (z roku 2015); SuiteCRM 8 je modernější |
-| **Frekvence nových verzí** | Prakticky každý týden | Větší verze párkrát ročně (např. 8.10 v dubnu 2026, 7.15.1) |
-| **Česká lokalizace** | Plná, oficiální (udržuje výrobce) | Komunitní (přes SourceForge), kvalita kolísá podle verze |
+| **Stáří projektu** | Mladý (od 2023) | Veterán (od 2013, kořeny v SugarCRM) |
+| **Vzhled aplikace** | Moderní, čistý, vzdušný | Funkční, klasický; SuiteCRM 8 má obnovené rozhraní |
+| **Frekvence nových verzí** | Prakticky každý týden | Větší verze párkrát ročně (8.10 v dubnu 2026; opravné 8.10.2 a 7.15.2 z 31. 7. 2026) |
+| **Česká lokalizace** | Plná, oficiální (přímo v aplikaci od výrobce) | Komunitní (překlady přes Crowdin), kvalita kolísá podle verze |
 | **Mobil** | | |
 | **Mobilní použití** | Web v prohlížeči mobilu (přidá se na plochu) | Web v prohlížeči mobilu |
-| **Nativní mobilní aplikace** | Není | SuiteCRM Mobile — placená licence (ne v open source) |
-| **Offline režim** | Ne (vyžaduje internet) | V open source ne; v placené mobilní aplikaci omezeně |
+| **Nativní mobilní aplikace** | Není | Oficiální není; aplikace od jiných vývojářů (většinou placené) |
 | **Umělá inteligence** | | |
-| **AI vestavěná v open source verzi** | AI chat v aplikaci (BYOK), napojení pro externí AI nástroje, AI v automatizacích | Není (jen placené moduly v SuiteCRM Store) |
-| **Napojení na Claude / ChatGPT / Cursor / Google** | Vestavěné | Není standardně; jen externí scriptování přes rozhraní |
-| **Kdo platí AI tokeny** | Vy přímo poskytovateli (BYOK, žádný markup) | N/A v open source verzi |
-| **Customizace a vývoj** | | |
-| **Vlastní typy záznamů bez kódu** | Neomezeně, přímo v nastavení | Ano (Module Builder), ale složitější UX |
+| **AI vestavěná v open source verzi** | AI chat v aplikaci (vlastní klíče k AI), napojení pro AI nástroje, AI jako krok automatizace | Není (jen doplňky od jiných vývojářů v SuiteCRM Store) |
+| **Napojení na Claude / ChatGPT / Cursor** | Vestavěné (MCP) | Není v základu |
+| **Kdo platí AI tokeny** | Vy přímo poskytovateli (vlastní klíče, bez přirážky) | N/A v open source verzi |
+| **Přizpůsobení a vývoj** | | |
+| **Vlastní typy záznamů bez kódu** | Neomezeně, přímo v nastavení | Ano (Module Builder), ovládání je složitější |
 | **Vlastní pole bez kódu** | Neomezeně | Ano (Studio) |
-| **Workflow / automatizace** | Vestavěný moderní workflow engine + AI v krocích | Process Definitions (od 7.x); méně bohatý než moderní workflow |
-| **Plánované spuštění (cron)** | Ano (interval i cron expression) | Ano (přes scheduled jobs) |
-| **REST / GraphQL API** | REST + GraphQL (moderní) | REST + SOAP (klasické) |
-| **Custom React komponenty (extension framework)** | Oficiální Rozšíření Twenty (npx create-twenty-app) | Custom moduly v PHP (klasický přístup) |
+| **Automatizace** | Vestavěné automatizace + AI jako krok | Modul Workflow |
+| **Plánované spuštění** | Ano (interval i přesný čas) | Ano (přes plánované úlohy) |
+| **Rozhraní pro napojení dalších systémů** | REST + GraphQL | REST |
+| **Vlastní obrazovky a rozšíření** | Vlastní aplikace nad Twenty (oficiální nástroje výrobce) | Vlastní moduly v PHP (klasický přístup) |
 | **E-mail a kalendář** | | |
-| **Synchronizace osobní pošty (Gmail / M365)** | Přihlášením účtem i na vlastním serveru; jinak IMAP / CalDAV | Inbound Email (POP3/IMAP); plná OAuth ne v open source |
-| **Odesílání e-mailů ze systému přes SMTP** | Ano, ve všech variantách | Ano |
-| **Více e-mailových účtů na uživatele** | Neomezeně | Ano (více účtů na uživatele) |
+| **Synchronizace osobní pošty (Gmail / M365)** | Přihlášením účtem i na vlastním serveru; jinak IMAP / CalDAV | IMAP; u Microsoftu i přihlášením účtem; synchronizace kalendáře včetně Google |
+| **Odesílání e-mailů ze systému** | Ano, z připojené schránky | Ano |
+| **Více e-mailových účtů na uživatele** | Ano | Ano (více účtů na uživatele) |
 | **Bezpečnost a oprávnění** | | |
-| **Role na úrovni typů záznamů a polí** | Ano | Ano (Roles, Security Suite) |
-| **Row-level (uživatel *nesmí* vidět cizí záznamy)** | Tarif Organization (cloud i vlastní server) | Ano (Security Groups Module) |
-| **SSO (SAML / OIDC)** | Tarif Organization (cloud i vlastní server) | Ano (přes moduly, např. SAML SSO) |
-| **Audit log** | Tarif Organization (cloud i vlastní server) | Ano (vestavěný audit trail) |
+| **Role na úrovni typů záznamů a polí** | Ano | Ano (role, bezpečnostní skupiny) |
+| **„Vidím jen své záznamy“** | Tarif Organization (cloud i vlastní server) | Ano (bezpečnostní skupiny) |
+| **Jednotné přihlášení (SSO)** | Tarif Organization (cloud i vlastní server) | SAML a LDAP v základu |
+| **Záznam změn (audit log)** | Tarif Organization (cloud i vlastní server) | Ano (vestavěný) |
 | **Ekosystém a údržba** | | |
-| **Marketplace pluginů** | Mladý ekosystém (Twenty Apps) | SuiteCRM Store (rozsáhlý, ale mnoho starších modulů) |
-| **Riziko zastaralých pluginů** | Nízké (mladý a uniformní ekosystém) | Vysoké (PHP 5.6 éra, opuštění autoři) |
-| **Migrace mezi major verzemi** | Plynulé (týdenní release) | 7.x → 8.x je netriviální (změna architektury) |
-| **Český implementátor** | **Ano (TwentyCRM.cz)** | Pár implementátorů, různá kvalita a dostupnost |
+| **Katalog rozšíření** | Vlastní aplikace nad Twenty; obchod s aplikacemi výrobce se připravuje | SuiteCRM Store (rozsáhlý, doplňky od jiných vývojářů) |
+| **Přechod na novou hlavní verzi** | Průběžné aktualizace po menších verzích | 7.x → 8.x je migrace s novou instalací; 7.15 s opravami do ledna 2028 |
+| **Český implementátor** | **Ano (TwentyCRM.cz)** | Podle dostupnosti partnera |
 | **Cloud (placená varianta)** | | |
-| **Cloud cena (od výrobce)** | Od ~200 Kč na uživ./měs (Pro) | SuiteCRM Hosted (cena dle plánu, nezveřejněná) |
-| **Co Cloud přidává nad open source** | Hosting a aktualizace od výrobce | Hosting, automatické zálohy, podpora, SuiteAssured (LTS) |
+| **Cloud cena (od výrobce)** | Od ~200 Kč na uživ./měs (Pro) | Hosting od 50 GBP (~1 450 Kč) měsíčně za instanci + povinná placená podpora |
+| **Co hosting přidává nad open source** | Hosting a aktualizace od výrobce | Hosting, zabezpečení, aktualizace, zálohy, podpora, nepřetržitý dohled |
+
+Ceny SuiteCRM podle ceníku výrobce k 13. 11. 2026; přepočet na Kč je přibližný (~29 Kč za GBP,
+~23 Kč za USD).
 
 ::::
 
@@ -214,20 +256,19 @@ co se obvykle do rozpočtu zapomíná.
 - 💰 SSL certifikát — typicky zdarma (Let's Encrypt)
 - 💰 AI tokeny u poskytovatele (Anthropic, OpenAI) — dle reálné spotřeby
 - 💰 Někdo, kdo se stará o server (vlastní IT člověk nebo paušál implementátorovi)
-- 💰 Pokud potřebujete row-level / SSO / audit log → tarif Organization od Twenty (v cloudu i jako licence pro vlastní server)
-- 💰 Custom extension (vlastní React komponenta) — individuální cena
+- 💰 Pokud potřebujete „vidím jen své" / SSO / záznam změn / pravidla pro kontrolu dat → tarif Organization od Twenty (v cloudu i jako licence pro vlastní server)
 
 ### SuiteCRM (open source)
 
 - 💰 Vyhrazený server (cena dle poskytovatele a požadované konfigurace)
 - 💰 SSL — zdarma
-- 💰 SuiteAssured (oficiální podpora, LTS) — placená služba dle plánu
-- 💰 SuiteCRM Mobile licence — placená
-- 💰 Pokročilé moduly ze SuiteCRM Store — placené (cena dle modulu)
-- 💰 Microsoft 365 / Outlook integrace — placené nadstavby
-- 💰 AI moduly (např. FynRahbar Chatbot) — placené
+- 💰 Podpora od výrobce — 1 200 GBP za 10 hodin
+- 💰 SuiteASSURED (záruka, garance údržby, prioritní podpora) — od 3 350 GBP ročně
+- 💰 Mobilní aplikace od jiných vývojářů — placené
+- 💰 Doplňky ze SuiteCRM Store — placené (cena dle doplňku)
+- 💰 AI doplňky od jiných vývojářů — placené
 - 💰 PHP vývojář pro vlastní moduly — hodinová sazba dle dodavatele
-- 💰 Migrace 7.x → 8.x s úpravou starých modulů — projektová cena
+- 💰 Migrace 7.x → 8.x s úpravou starších doplňků — projektová cena
 
 :::
 
@@ -240,15 +281,15 @@ co se obvykle do rozpočtu zapomíná.
 ### „SuiteCRM je tu déle, není to bezpečnější volba?"
 
 Délka existence není sama o sobě záruka kvality dnes. SuiteCRM má za sebou roky práce
-a velkou komunitu — to je plus. Ale architektura SuiteCRM odráží dobu, kdy vznikala.
-Twenty má sice méně historie, ale staví v moderních technologiích a má zajištěné financování
-(sérii A) — není to víkendový projekt.
+a velkou komunitu — to je plus. Architektura SuiteCRM ale nese stopy doby, kdy vznikala.
+Twenty má sice méně historie, ale staví v moderních technologiích, stojí za ním firma
+s vlastním vývojovým týmem a vývoj je veřejný na GitHubu — není to víkendový projekt.
 
 ### „Kolik z té široké funkcionality SuiteCRM reálně potkám v praxi?"
 
-SuiteCRM open source verze má v základu hodně modulů — kontakty, leady, příležitosti,
-accounts, cases, products, quotes, invoices, contracts, projects, calendar, reports.
-Většina firem ale využije 5–10 z nich. Twenty má v základu méně, ale jednodušeji nasaditelné
+SuiteCRM open source verze má v základu hodně modulů — kontakty, poptávky, obchodní případy,
+firmy, požadavky zákazníků, produkty, nabídky, faktury, smlouvy, projekty, kalendář, reporty.
+Většina firem ale využije jen část z nich. Twenty má v základu méně, ale jednodušeji nasaditelné,
 a vlastní typy záznamů přidáte v nastavení podle potřeby. **Klíčová otázka:**
 potřebujete „velký balík všeho hned", nebo „jen co používám, a budu si přidávat postupně"?
 
@@ -261,23 +302,22 @@ databázi a vždy zůstanou vaše. Stejné pravidlo platí pro SuiteCRM — oba 
 
 ### „Lze přejít z SuiteCRM na Twenty (nebo naopak)?"
 
-Ano — oba systémy umějí export i import dat (CSV, JSON, REST API). Migrace mezi nimi není
+Ano — oba systémy umějí export i import dat (CSV, JSON, rozhraní pro napojení). Migrace mezi nimi není
 instantní (datové modely se liší), ale jde to. Pro přechod ze SuiteCRM na Twenty máme
 připravený postup — projdeme s vámi datový model, namapujeme pole a postupně přesuneme.
 
-### „SuiteCRM má samostatnou mobilní aplikaci, Twenty ne — je to problém?"
+### „Má SuiteCRM mobilní aplikaci?"
 
-Pokud techniky pošlete na výjezdy do oblastí bez signálu (podzemí, vesnice bez pokrytí),
-ano — SuiteCRM Mobile (placená licence!) má lepší šanci fungovat než web. Pro většinu firem
-(s pokrytým 4G/5G po ČR) ale rozdíl v praxi nepoznáte. Mobilní web Twenty se chová jako aplikace
-(přidá se na plochu telefonu, fotí, kreslí podpis).
+Oficiální mobilní aplikaci SuiteCRM nemá — běží v prohlížeči telefonu a v SuiteCRM Store
+jsou aplikace od jiných vývojářů (většinou placené, s různou podporou verzí). Twenty běží
+ve webovém prohlížeči telefonu a přidá se na plochu jako ikona — stejně jako většina srovnatelných
+systémů. Pro denní práci je to obvykle vše, co je potřeba.
 
-### „Co je pravda na tom, že SuiteCRM má staré pluginy?"
+### „Jak je to s doplňky do SuiteCRM?"
 
-Je to pravda — SuiteCRM zdědil ekosystém ze SugarCRM CE (2004–2014). V SuiteCRM Store i komunitních
-fórech najdete moduly, které nebyly aktualizovány roky, jsou psané pro PHP 5 a jejich autoři
-dávno přestali odpovídat. Před nasazením modulu si vždy ověřte: kdy byl naposledy aktualizovaný,
-s jakou verzí SuiteCRM funguje, jestli má aktivního správce. Aktivně udržované moderní moduly
-existují, ale je nutné je vybírat opatrně.
+SuiteCRM má díky dlouhé historii velký katalog doplňků v SuiteCRM Store i na komunitních fórech.
+Jsou od jiných vývojářů a liší se tím, jak pravidelně je autoři udržují. Před nasazením doplňku
+si vždy ověřte: kdy byl naposledy aktualizovaný, s jakou verzí SuiteCRM funguje a jestli má
+aktivního správce. Aktivně udržované doplňky existují, jen je potřeba je vybírat pečlivě.
 
 ::::

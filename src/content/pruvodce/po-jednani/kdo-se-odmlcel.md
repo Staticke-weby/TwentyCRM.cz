@@ -2,7 +2,6 @@
 title: Kdo se odmlčel — CRM vám samo řekne, komu se ozvat
 description: Twenty umí každé ráno najít klienty a obchodní případy, u kterých se dlouho nic nestalo, a vlastníkovi založit úkol — i s návrhem, jak navázat. Jak to funguje, co je k tomu potřeba a jak nastavit, kolik dní je moc.
 vMenu: Kdo se odmlčel
-draft: true
 poradi: 3
 overeno: 2026-11-12
 verzeTwenty: '2.57'

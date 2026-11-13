@@ -2,7 +2,6 @@
 title: "Agentní firma: co se v roce 2026 mění v práci s CRM"
 description: "Velcí dodavatelé popisují firmu, ve které část práce dělají AI agenti a lidé je řídí. Pět posunů, které jsou v roce 2026 doložené daty výrobců a statistik, co z nich platí pro malou a střední firmu a kde v tom stojí Twenty."
 vMenu: Agentní firma 2026
-draft: true
 poradi: 6
 overeno: 2026-11-12
 verzeTwenty: '2.57'

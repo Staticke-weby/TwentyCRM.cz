@@ -2,7 +2,6 @@
 title: Aplikace nad Twenty — co to je a kdy se vyplatí
 description: Aplikace v Twenty je balíček, který do systému najednou přidá vlastní záznamy, logiku, obrazovky i AI agenty. Jak se liší od polí a automatizací, které aplikace už v Twenty jsou, co je obchod s aplikacemi a kdy má aplikace pro firmu smysl.
 vMenu: Aplikace nad Twenty
-draft: true
 poradi: 2
 overeno: 2026-11-12
 verzeTwenty: '2.57'

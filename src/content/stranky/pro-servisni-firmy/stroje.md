@@ -59,11 +59,11 @@ Stejná kostra, kterou používáme pro HVAC servis. Páteř je **Zařízení** 
 stroj se sériovým číslem: historie zásahů, hodiny techniků, materiál.
 
 ```
-Klient (Tatra Trucks a.s.)
+Klient (Strojírna Modelov a.s. — ukázková firma)
   ↓
-  Místo (výrobní hala 3, Kopřivnice)
+  Místo (výrobní hala 3)
        ↓
-       Zařízení: CNC frézka XYZ (s.č. T-2024-001, instalace 2024-03)
+       Zařízení: CNC frézka XYZ (s.č. SM-2024-001, instalace 2024-03)
               ↓
               Servisní plán: údržba 1× kvartálně (běží sám)
                     ↓
@@ -110,7 +110,7 @@ V ceně {{cena.implementation}} nasazení + měsíční paušál.
 
 ### 🔁 Servisní plán běží sám
 
-- Na zařízení nastavíte frekvenci (měsíčně / čtvrtletně / pololetně / ročně)
+- Na zařízení nastavíte frekvenci (měsíčně / čtvrtletně / pololetně / ročně / po zadaném počtu dní)
 - Podle nastaveného pravidla se vygeneruje další zakázka + výjezd v plánovaný termín
 - Záruka zařízení se počítá sama; živý widget „zbývá X dní"
 
@@ -143,7 +143,7 @@ V ceně {{cena.implementation}} nasazení + měsíční paušál.
 
 ### Proti zahraničním servisním systémům
 
-HaloPSA, ConnectWise a podobné jsou silné na americkém trhu a tomu odpovídá i cena za každého uživatele. Chybí jim ale české reálie — načtení z ARES i napojení na tuzemskou fakturaci.
+Zahraniční servisní systémy jako HaloPSA se platí za každého technika — HaloPSA uvádí cenu za agenta a měsíc ([ceník výrobce](https://www.usehalo.com/pricing), k 13. 11. 2026). Twenty Servis má naopak paušál bez poplatků za uživatele a české reálie, jako načtení firem z ARES, hotové.
 
 ### Proti internímu řešení v Excelu
 

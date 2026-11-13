@@ -2,7 +2,6 @@
 title: Které úlohy může AI agent převzít v obchodě a servisu — a co z toho jde dnes
 description: Patnáct konkrétních úloh pro AI v obchodě a servisu — třídění poptávek, příprava na schůzku, zakázka z e-mailu, souhrn z výkazů, hlídání obchodů bez pohybu. U každé poctivě, jestli jde v Twenty dnes a čím, nebo se teprve připravuje.
 vMenu: Úlohy pro AI agenta
-draft: true
 poradi: 3
 overeno: 2026-11-12
 verzeTwenty: '2.57'

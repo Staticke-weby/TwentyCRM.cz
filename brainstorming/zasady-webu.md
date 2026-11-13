@@ -538,6 +538,6 @@ a validitu ověřit až potom.
   z něj nejde udělat pouhým přejmenováním — až vznikne, vrátit oba `<link>` zpátky.
 - **Prezentace `pdf-prezentace-hvac*.latte`** stále obsahují slib „Sklad, HR, klientský portál —
   přidáme nad stejnou kostrou", který je proti zásadě č. 1.
-- **K potvrzení u Twenty Servis:** má prověření rizika klienta (DPH, insolvence)?
-  Má uživatelsky editovatelné šablony dokumentů? Má marži na nabídce? Web to dnes uvádí jako
-  „jen Sales" u prvních dvou a jako společné u třetího, odvozeno z dokumentace.
+- ~~K potvrzení u Twenty Servis~~ — **ověřeno v repozitáři servis-hvac 2026-11-13:** šablony dokumentů má i Servis
+  (od 1.30.22, převzaté ze Sales) — opraveno v `reseni.json`; marži na nabídce má i Servis; prověření rizika klienta
+  (insolvence) je jen v Sales (Servis má z ARES DIČ a přenesenou daňovou povinnost).

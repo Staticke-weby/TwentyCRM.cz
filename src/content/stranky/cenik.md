@@ -115,6 +115,8 @@ Srovnání Twenty (s námi) s běžným konkurenčním CRM pro firmu s 10 a 20 z
 Celkem za 5 let pro firmu se 20 zaměstnanci: úspora cca 660 000 Kč oproti konkurenci.
 Jednorázové nasazení {{cena.implementation}} není v tabulce zahrnuto (porovnáváme jen roční provoz).
 **Všechny částky jsou bez DPH.**
+Konkurenční CRM počítáme s cenou {{cena.competitor_basis.price_per_user_month}} za uživatele a měsíc —
+tarif Professional u Raynetu při roční platbě, podle [ceníku výrobce](https://raynet.cz/cena/) k 13. 11. 2026.
 
 ::demo-cta
 

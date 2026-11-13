@@ -2,7 +2,6 @@
 title: Jak přejít z Excelu do CRM s pomocí AI — import, duplicity a cesta zpět
 description: Tabulky z Excelu se do Twenty nahrají importem s automatickým přiřazením sloupců a kontrolou duplicit na obrazovce. Kde do přechodu vstupuje AI — import přes AI chat, slučování duplicit, pravidla pro nová data — a jak data kdykoli vyexportovat zpět.
 vMenu: Z Excelu s AI
-draft: true
 poradi: 3
 overeno: 2026-11-12
 verzeTwenty: '2.57'

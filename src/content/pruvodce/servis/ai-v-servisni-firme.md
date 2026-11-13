@@ -2,7 +2,6 @@
 title: Co může AI v servisní firmě převzít už dnes — a co zůstává dispečerovi
 description: Zakázka z e-mailu klienta, popis práce z výkazů techniků, připomínky prevencí a odpovědi z dat bez hledání. Co z toho v Twenty a Twenty Servis funguje dnes, co se připravuje a co dál rozhoduje člověk.
 vMenu: AI v servisní firmě
-draft: true
 poradi: 4
 overeno: 2026-11-12
 verzeTwenty: '2.57'

@@ -252,7 +252,7 @@ export function platformaVsCustom() {
 <div class="karta"><h3>Vlastní vývoj od nuly jen s AI agentem</h3><ul class="fajfky">${varovani.map((v) => `<li>${odznakLucide('triangle-alert')}<span>${v}</span></li>`).join('')}</ul></div>
 <div class="karta"><h3>Twenty s lidsky hlídaným jádrem + naše konfigurace</h3>${seznamFajfekHtml(plusy)}</div>
 </div></div>
-<div class="zvyrazneni"><p><strong>Co děláme my:</strong> tu specifickou vrstvu nad Twenty — přejmenování objektů, pár polí podle vašeho oboru, automatizace v Twenty workflow engine, propojení s ARES, Fakturoidem a vaším e-mailem. <strong>AI dnes pomáhá nám i vám — ale staví na jádru, které někdo zkontroloval.</strong> Vy nejste beta tester platformy, jste klient, který využívá vyzkoušený systém upravený pro váš obor.</p></div>
+<div class="zvyrazneni"><p><strong>Co děláme my:</strong> tu specifickou vrstvu nad Twenty — přejmenování objektů, pár polí podle vašeho oboru, automatizace v Twenty workflow engine, propojení s ARES a vaším e-mailem, na přání i napojení na váš fakturační program. <strong>AI dnes pomáhá nám i vám — ale staví na jádru, které někdo zkontroloval.</strong> Vy nejste beta tester platformy, jste klient, který využívá vyzkoušený systém upravený pro váš obor.</p></div>
 </div>`;
 }
 

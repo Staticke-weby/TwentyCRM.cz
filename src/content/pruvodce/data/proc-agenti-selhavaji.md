@@ -2,7 +2,6 @@
 title: Proč AI agenti v CRM chybují na zdvojených a neúplných datech — a jak tomu předejít
 description: AI agent rozhoduje podle toho, co v CRM najde. Dvakrát založený klient, prázdná pole a volně psané hodnoty ho svedou ke špatné odpovědi. Co se konkrétně pokazí a co proti tomu nabízí Twenty — slučování duplicit, pravidla pro kontrolu dat a role.
 vMenu: Proč agenti chybují
-draft: true
 poradi: 1
 overeno: 2026-11-12
 verzeTwenty: '2.57'

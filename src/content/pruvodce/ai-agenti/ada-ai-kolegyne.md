@@ -2,7 +2,6 @@
 title: "Ada: AI kolegyně v týmové schránce Twenty — co se připravuje"
 description: "Twenty připravuje týmovou schránku, kde kolegové spolu s AI asistentkou Adou řeší konverzace a předávají jí úkoly jako člověku. Co ohlásila vydání 2.46–2.57.1, co to firmě umožní, až to bude, a co jde už dnes. Zatím za přepínačem."
 vMenu: Ada v týmové schránce
-draft: true
 poradi: 5
 overeno: 2026-11-12
 verzeTwenty: '2.57'

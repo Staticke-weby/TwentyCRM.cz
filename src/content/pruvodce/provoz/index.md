@@ -2,7 +2,6 @@
 title: "Vaše data, váš server, váš AI model"
 description: "Kde běží CRM a data zákazníků, kdo volí AI model a jak AI v CRM držet pod kontrolou — vlastní klíče k AI, role a oprávnění, záznam změn a co pro firmu znamená AI Act."
 vMenu: "Provoz"
-draft: true
 poradi: 9
 overeno: 2026-11-12
 verzeTwenty: '2.57'

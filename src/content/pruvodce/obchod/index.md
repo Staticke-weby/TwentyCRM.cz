@@ -2,7 +2,6 @@
 title: "Obchodníci prodávají místo vyplňování polí"
 description: "Třídění poptávek, rozdělování mezi obchodníky, nabídky s marží, obchodní plán a přehledy bez správce systému — co z toho umí Twenty a co je hotové v Twenty Sales, naší nadstavbě nad open-source Twenty."
 vMenu: "Obchod"
-draft: true
 poradi: 5
 overeno: 2026-11-12
 verzeTwenty: '2.57'

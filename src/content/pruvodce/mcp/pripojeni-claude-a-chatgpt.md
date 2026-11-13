@@ -2,7 +2,6 @@
 title: Jak připojit Claude a ChatGPT k Twenty a co pak zvládnou
 description: Claude i ChatGPT se k Twenty připojí přes MCP — přidáte adresu systému a přihlásíte se v prohlížeči. Co pak asistent v CRM udělá, v kterých tarifech to jde a co je potřeba na vyhrazeném serveru.
 vMenu: Připojení Claude a ChatGPT
-draft: true
 poradi: 2
 overeno: 2026-11-12
 verzeTwenty: '2.57'

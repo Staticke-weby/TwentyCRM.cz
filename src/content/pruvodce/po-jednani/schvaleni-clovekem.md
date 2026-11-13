@@ -2,7 +2,6 @@
 title: Schválení člověkem — proč AI agent v CRM nic neodešle sám
 description: AI v Twenty připraví e-mail, úkol nebo shrnutí, ale ven nic nepošle bez člověka. Jak to dnes zajišťují koncepty e-mailů, role a označení akcí — a co se připravuje, aby se agent mohl zeptat a počkat na schválení přímo v Twenty.
 vMenu: Schválení člověkem
-draft: true
 poradi: 4
 overeno: 2026-11-12
 verzeTwenty: '2.57'

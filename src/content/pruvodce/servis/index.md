@@ -2,7 +2,6 @@
 title: "Servis od poptávky po podklad k fakturaci"
 description: "Evidence zakázek, plánování výjezdů techniků a výkaz práce v telefonu — jak to funguje v Twenty Servis, naší nadstavbě nad open-source Twenty, a co nad tím zvládne AI."
 vMenu: "Servis"
-draft: true
 poradi: 6
 overeno: 2026-11-12
 verzeTwenty: '2.57'

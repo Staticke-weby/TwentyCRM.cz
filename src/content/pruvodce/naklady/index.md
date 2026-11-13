@@ -2,7 +2,6 @@
 title: "Předvídatelné náklady a měřitelný přínos"
 description: "Kolik stojí AI agenti v CRM, jak je účtují velcí dodavatelé a jak útratu odhadnout předem. Proč začít pilotem na jedné úloze a jak změřit, že se AI vyplácí."
 vMenu: "Náklady"
-draft: true
 poradi: 10
 overeno: 2026-11-12
 verzeTwenty: '2.57'

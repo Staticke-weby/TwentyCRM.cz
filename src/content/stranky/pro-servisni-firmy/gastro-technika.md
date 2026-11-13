@@ -111,7 +111,7 @@ kdo ho instaloval a co se na něm naposledy dělalo.
 
 ### 🔁 Prevence se plánuje sama
 
-Na stroji nastavíte, jak často se má jezdit — měsíčně, čtvrtletně, pololetně, ročně.
+Na stroji nastavíte, jak často se má jezdit — měsíčně, čtvrtletně, pololetně, ročně, nebo po zadaném počtu dní.
 Systém podle nastaveného pravidla vytvoří zakázku i výjezd a přiřadí technika, který stroj zná.
 
 - Klient si na dva měsíce dal pauzu? Plán vypnete a zase zapnete

@@ -27,35 +27,38 @@ Odpověď do 1 pracovního dne
 
 ::::sekce{pozadi="svetle"}
 
-## Co se stane potom
+## Proč se nám ozvat
 
-:::sloupce{sloupce="4"}
+Nemusíte mít hotové zadání ani vědět, co přesně chcete. Stačí popsat, jak dnes pracujete —
+zbytek probereme spolu.
 
-### 1.
+:::karty{sloupce="2"}
 
-#### Do hodiny
+### 🧭 Poradíme, co u vás dává smysl
 
-Dostanete potvrzení přijetí.
+Podíváme se, jak dnes vedete klienty, nabídky nebo zakázky, a řekneme vám, které řešení
+vám sedne — Twenty Sales, nebo Twenty Servis. A taky co nechat v systému, který už máte
+a funguje.
 
-### 2.
+### 🎯 Uvidíte, jak by to vypadalo u vás
 
-#### Do 1 pracovního dne
+Ukážeme řešení přesně tak, jak ho dodáváme, a spolu najdeme, co je potřeba doplnit —
+pole pro váš obor, pohledy, automatizace nebo napojení na fakturační program.
 
-Pošleme návrh termínu schůzky.
+### 💰 Víte předem, kolik zaplatíte
 
-### 3.
+Nasazení {{cena.implementation}}, provoz {{cena.retainer_selfhost|mesicne}} bez ohledu
+na počet uživatelů. Řekneme vám rovnou, co je v ceně a co by šlo navíc.
 
-#### 30 minut online
+### 🤝 Bez závazku
 
-Google Meet nebo Microsoft Teams.
-
-### 4.
-
-#### Bez závazku
-
-Společně rozhodneme, jestli má smysl pokračovat.
+Rozhodnete se, až budete mít jasno. Když zjistíme, že vám Twenty nepomůže, řekneme
+vám to taky.
 
 :::
+
+Odpovídáme do 1 pracovního dne s návrhem termínu. Schůzka trvá 30 minut online,
+přes Google Meet nebo Microsoft Teams.
 
 ::::
 

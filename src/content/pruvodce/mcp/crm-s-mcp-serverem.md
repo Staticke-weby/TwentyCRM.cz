@@ -2,7 +2,6 @@
 title: Která CRM mají MCP server — Twenty, Raynet, Pipedrive, HubSpot, Salesforce, Attio
 description: Srovnání šesti CRM podle toho, jak se k nim připojí Claude nebo ChatGPT přes MCP — čtení a zápis, oprávnění, tarif a kde server běží. Jen fakta z dokumentace výrobců, ověřeno 12. 11. 2026.
 vMenu: CRM s MCP serverem
-draft: true
 poradi: 3
 overeno: 2026-11-12
 verzeTwenty: '2.57'

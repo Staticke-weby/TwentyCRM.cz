@@ -2,7 +2,6 @@
 title: "Agenti v Twenty: kdy se sami spustí, co smějí a kdo je hlídá"
 description: AI agenti v Twenty se spouštějí sami při změně záznamu nebo podle plánu, pracují pod vlastní rolí a drží se firemních postupů. Co umí ve verzi 2.57 — spouštěče, dovednosti, AI krok a třídění v automatizacích — a co se připravuje.
 vMenu: Agenti v Twenty
-draft: true
 poradi: 2
 overeno: 2026-11-12
 verzeTwenty: '2.57'

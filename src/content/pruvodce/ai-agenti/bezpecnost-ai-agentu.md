@@ -2,7 +2,6 @@
 title: Jak mít AI agenta v CRM pod kontrolou — oprávnění, záznam změn a podstrčené pokyny
 description: "AI agent v CRM smí jen to, co mu dovolí role, jeho práci je možné zpětně dohledat a text zvenčí pro něj není pokyn. Co se dá naučit z případu ForcedLeak u Salesforce Agentforce (2025), co k tomu nabízí Twenty a co nastavujeme my."
 vMenu: Bezpečnost AI agentů
-draft: true
 poradi: 4
 overeno: 2026-11-12
 verzeTwenty: '2.57'

@@ -2,7 +2,6 @@
 title: Evidence zakázek v Excelu, nebo v aplikaci? Kdy tabulka stačí a kdy už ne
 description: Kdy evidence servisních zakázek v Excelu stačí, podle čeho poznáte, že přestává (víc techniků, historie zařízení, termíny prohlídek, sdílení), a jak vypadá evidence zakázek v Twenty Servis.
 vMenu: Evidence zakázek
-draft: true
 poradi: 2
 overeno: 2026-11-12
 verzeTwenty: '2.57'

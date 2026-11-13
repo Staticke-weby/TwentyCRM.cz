@@ -43,7 +43,7 @@ Pokud jste aspoň u 3 z 5 přikývli, jsme přesně pro vás.
 
 ### 💸
 
-**Specializovaný revizní software** (RevizeOnline, Revize.eu) je drahý, uzavřený, a pořád neřeší obchodní stránku — klienty, nabídky, smlouvy. Vedete tak dva systémy vedle sebe.
+**Specializovaný revizní software** se soustředí na revizní zprávy a obchodní stránku — klienty, nabídky, smlouvy — obvykle neřeší. Vedete tak dva systémy vedle sebe.
 
 :::
 
@@ -80,7 +80,7 @@ Každého konkrétního zařízení napříč lety a techniky. Vyhledávání po
 
 ### Servisní plán hlídá lhůty
 
-Na zařízení založíte servisní plán s frekvencí (ročně / po 2 / 3 letech). Systém podle nastaveného pravidla hlídá termíny a generuje další zakázku sám.
+Na zařízení založíte servisní plán s frekvencí (ročně / po 2 / 3 letech / po zadaném počtu dní). Systém podle nastaveného pravidla hlídá termíny a generuje další zakázku sám.
 
 ### Archiv PDF zápisů
 
@@ -109,7 +109,7 @@ V ceně {{cena.implementation}} nasazení + měsíční paušál.
 
 ### 🔁 Servisní plán běží sám
 
-- Na zařízení nastavíte frekvenci (ročně / po 2 / 3 / 5 letech)
+- Na zařízení nastavíte frekvenci (ročně / po 2 / 3 letech / po zadaném počtu dní)
 - Podle nastaveného pravidla se vygeneruje další zakázka + výjezd v plánovaný termín
 - Po výpadku negeneruje retroaktivně — posune termín na nejbližší budoucí
 
@@ -140,11 +140,10 @@ V ceně {{cena.implementation}} nasazení + měsíční paušál.
 
 :::karty{sloupce="1"}
 
-### RevizeOnline / Revize.eu — silnější v hotových formulářích, ale:
+### Specializovaný revizní software — silnější v hotových formulářích, ale:
 
-- ❌ Drahé (často 500+ Kč/měs/uživatel) a uzavřené
-- ❌ Žádné CRM — klienti, kontakty, faktury jsou jinde, máte 2 systémy
-- ❌ Závislost na dodavateli a uzavřený formát dat
+- ❌ Obvykle bez CRM — klienti, kontakty a nabídky jsou jinde, máte 2 systémy
+- ❌ Data ve formátu dodavatele, ne ve vaší vlastní databázi
 
 **Náš přístup:** jeden otevřený systém pro klienty, plánování
 i evidenci zásahů, bez poplatků za uživatele. Zápis z revize u nás vzniká jako dokument

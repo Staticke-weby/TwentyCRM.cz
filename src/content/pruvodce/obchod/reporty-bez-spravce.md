@@ -2,7 +2,6 @@
 title: Přehledy a grafy bez správce systému — dashboard vám postaví AI
 description: Od verze 2.20 stačí v Twenty říct AI, co chcete vidět, a ta sestaví nebo upraví dashboard či filtrovaný pohled. Co dashboardy v Twenty umí, co se v nich podle dokumentace připravuje a které přehledy jsou hotové v Twenty Sales.
 vMenu: Reporty bez správce
-draft: true
 poradi: 4
 overeno: 2026-11-12
 verzeTwenty: '2.57'

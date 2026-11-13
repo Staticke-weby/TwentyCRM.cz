@@ -2,7 +2,6 @@
 title: Příprava na schůzku — AI vám shrne historii klienta
 description: Před schůzkou se zeptáte AI v Twenty, nebo v Claude či ChatGPT, a dostanete shrnutí klienta z e-mailů, schůzek, obchodních případů a poznámek v CRM. Jak to funguje, co je k tomu potřeba a jak výsledek ověřit.
 vMenu: Příprava na schůzku
-draft: true
 poradi: 2
 overeno: 2026-11-12
 verzeTwenty: '2.57'

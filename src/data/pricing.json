@@ -78,10 +78,34 @@
     }
   ],
   "sla_packages": [
-    { "name": "Basic",        "price": 5000,  "credit": 5000,  "bonus_pct": 0,  "savings": 0 },
-    { "name": "Standard",     "price": 10000, "credit": 11000, "bonus_pct": 10, "savings": 1000 },
-    { "name": "Professional", "price": 20000, "credit": 23000, "bonus_pct": 15, "savings": 3000 },
-    { "name": "Premium",      "price": 50000, "credit": 60000, "bonus_pct": 20, "savings": 10000 }
+    {
+      "name": "Basic",
+      "price": 5000,
+      "credit": 5000,
+      "bonus_pct": 0,
+      "savings": 0
+    },
+    {
+      "name": "Standard",
+      "price": 10000,
+      "credit": 11000,
+      "bonus_pct": 10,
+      "savings": 1000
+    },
+    {
+      "name": "Professional",
+      "price": 20000,
+      "credit": 23000,
+      "bonus_pct": 15,
+      "savings": 3000
+    },
+    {
+      "name": "Premium",
+      "price": 50000,
+      "credit": 60000,
+      "bonus_pct": 20,
+      "savings": 10000
+    }
   ],
   "hourly_rate": {
     "price": 2000,
@@ -102,5 +126,11 @@
       "twenty_cloud_pro_yearly": 97560,
       "savings_vs_competitor": 131880
     }
-  ]
+  ],
+  "competitor_basis": {
+    "price_per_user_month": 799,
+    "popis": "Raynet Professional, cena za uživatele a měsíc při roční platbě, bez DPH",
+    "zdroj": "https://raynet.cz/cena/",
+    "overeno": "2026-11-13"
+  }
 }

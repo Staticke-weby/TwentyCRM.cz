@@ -2,7 +2,6 @@
 title: "Čistá data, pak agenti"
 description: "Proč AI agenti chybují na neúplných a zdvojených datech a jak CRM připravit: slučování duplicit, pravidla pro kontrolu dat, datový model, role a přechod z Excelu s pomocí AI."
 vMenu: "Čistá data"
-draft: true
 poradi: 8
 overeno: 2026-11-12
 verzeTwenty: '2.57'

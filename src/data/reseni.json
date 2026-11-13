@@ -82,6 +82,9 @@
         "Výkaz práce",
         "Nabídka",
         "Položka nabídky",
+        "Náklad",
+        "Produkt (ceník)",
+        "Šablona dokumentu",
         "Úkol"
       ],
       "klicoveSchopnosti": [
@@ -147,7 +150,7 @@
     {
       "label": "Šablony dokumentů, které si přepíšete sami",
       "sales": "ano",
-      "servis": "ne — PDF nabídka a zakázkový list mají pevnou sazbu"
+      "servis": "ano"
     },
     {
       "label": "Místa (pobočky) a karty zařízení",

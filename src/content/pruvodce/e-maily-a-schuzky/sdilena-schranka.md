@@ -2,7 +2,6 @@
 title: Jak dostat poštu ze sdílené adresy info@ nebo servis@ ke klientům v CRM
 description: Sdílenou adresu jako info@ nebo servis@ připojíte k Twenty dvěma cestami — přeposíláním do e-mailového kanálu, nebo jako běžnou schránku jednoho z uživatelů. Jak se obě cesty liší, na co si dát pozor u Microsoft 365 a co platí na vyhrazeném serveru.
 vMenu: Sdílená schránka
-draft: true
 poradi: 4
 overeno: 2026-11-12
 verzeTwenty: '2.57'

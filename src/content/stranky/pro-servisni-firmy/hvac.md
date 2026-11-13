@@ -117,7 +117,7 @@ Technik na střeše nebo v kotelně otevře dnešní výjezd, vyplní výkaz.
 ### 🔁 Servisní plán běží sám
 
 Na zařízení nastavíte frekvenci prevence (měsíčně / čtvrtletně / pololetně / ročně /
-po 2 nebo 3 letech). Systém podle nastaveného pravidla hlídá, kde se blíží termín, a vytvoří zakázku
+po 2 nebo 3 letech / po zadaném počtu dní). Systém podle nastaveného pravidla hlídá, kde se blíží termín, a vytvoří zakázku
 s výjezdem.
 
 - Roční prevence tepelných čerpadel, čtvrtletní kontrola filtrů, kontrola po 1 / 2 / 5 letech

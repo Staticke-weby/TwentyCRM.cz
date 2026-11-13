@@ -2,7 +2,6 @@
 title: Servisní výkaz — co má obsahovat a jak ho technik vyplní v mobilu
 description: Co patří do servisního výkazu, aby z něj šlo fakturovat a za rok dohledat, co se na zařízení dělalo. A jak technik vyplní Výkaz práce v Twenty Servis přímo v telefonu — hodiny, kilometry, materiál, popis práce a podpis.
 vMenu: Servisní výkaz
-draft: true
 poradi: 3
 overeno: 2026-11-12
 verzeTwenty: '2.57'

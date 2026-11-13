@@ -2,7 +2,6 @@
 title: "Kontrolní seznam: jsou data ve vašem CRM připravená na AI?"
 description: Než AI v CRM svěříte první úlohu, projděte pět oblastí — duplicity, úplnost údajů, jednotné hodnoty, datový model a oprávnění. Co v každé zkontrolovat a jak to v Twenty ověřit pohledem nebo dotazem v AI chatu.
 vMenu: Kontrolní seznam
-draft: true
 poradi: 2
 overeno: 2026-11-12
 verzeTwenty: '2.57'

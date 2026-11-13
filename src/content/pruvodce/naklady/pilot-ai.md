@@ -2,7 +2,6 @@
 title: Proč velká část AI projektů skončí a jak začít pilotem na jedné úloze
 description: Gartner čeká, že přes 40 % projektů s AI agenty bude do konce roku 2027 zrušeno. Proč se to děje a jak začít s AI v CRM bezpečně — jedna úloha, měřitelný cíl, schválení člověkem a čistá data.
 vMenu: Pilot na jedné úloze
-draft: true
 poradi: 2
 overeno: 2026-11-12
 verzeTwenty: '2.57'

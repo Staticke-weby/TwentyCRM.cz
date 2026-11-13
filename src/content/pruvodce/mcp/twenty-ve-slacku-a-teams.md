@@ -2,7 +2,6 @@
 title: Twenty ve Slacku a v Microsoft Teams — CRM tam, kde tým píše
 description: Ve Slacku se dnes zeptáte Twenty na klienta nebo založíte úkol jednou zprávou; asistent jedná s vašimi oprávněními. Z Teams dnes Twenty přebírá přepisy schůzek, asistent pro Teams se připravuje. Co jde, co je potřeba a na co si dát pozor.
 vMenu: Twenty ve Slacku a Teams
-draft: true
 poradi: 5
 overeno: 2026-11-12
 verzeTwenty: '2.57'

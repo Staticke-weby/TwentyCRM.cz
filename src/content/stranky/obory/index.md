@@ -134,7 +134,7 @@ Konkrétní obor přidává svá specifika nad tímto základem.
 - Připomínky lhůt a termínů
 - Generování PDF dokumentů ze šablony
 - Propojení s firemním e-mailem (Gmail, Microsoft 365, IMAP/SMTP)
-- Napojení na Fakturoid, iDoklad nebo Pohodu
+- Stav fakturace přímo v CRM — co je vyfakturováno a uhrazeno; [napojení na váš fakturační program](/napojeni-na-fakturaci/) jako placené rozšíření
 
 ### 📱 Práce na cestě
 

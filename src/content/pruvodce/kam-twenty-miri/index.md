@@ -2,7 +2,6 @@
 title: "Kam Twenty míří"
 description: "Pět směrů, kterými se open-source Twenty vyvíjí: agentní pracovní prostor, aplikace, MCP oběma směry, konverzace v CRM a připravenost pro větší firmy. U každého co funguje dnes, co se připravuje a důkaz."
 vMenu: "Kam Twenty míří"
-draft: true
 poradi: 11
 overeno: 2026-11-12
 verzeTwenty: '2.57'

@@ -2,7 +2,6 @@
 title: Jak hlídat útratu za AI na vyhrazeném serveru, aby faktura nepřekvapila
 description: Na vyhrazeném serveru platíte AI přímo poskytovateli. Jak nastavit strop útraty a upozornění u Anthropic a OpenAI, proč volit levnější model na jednoduché úlohy, jak útratu změřit pilotem a hlídat automatizace, které AI spouštějí.
 vMenu: Hlídání útraty za AI
-draft: true
 poradi: 3
 overeno: 2026-11-12
 verzeTwenty: '2.57'

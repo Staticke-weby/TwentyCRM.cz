@@ -2,7 +2,6 @@
 title: Kdo má v roce 2026 AI agenty v CRM — Raynet, Pipedrive, HubSpot, Salesforce a Twenty
 description: "Věcné srovnání pěti CRM podle toho, co jejich AI dnes dělá, jestli pracuje sama, nebo na vyžádání, kde běží a jak se účtuje. Jen z oznámení a dokumentace výrobců, ověřeno 12. 11. 2026."
 vMenu: Srovnání AI agentů v CRM
-draft: true
 poradi: 8
 overeno: 2026-11-12
 verzeTwenty: '2.57'

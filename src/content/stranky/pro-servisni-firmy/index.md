@@ -109,7 +109,7 @@ přehled přizpůsobený malému displeji.
 ### 🔁 Opakované zakázky se generují samy
 
 Pro každé zařízení založíte servisní plán — měsíčně, čtvrtletně, pololetně, ročně, jednou
-za 2 nebo 3 roky. Systém ho hlídá místo vás.
+za 2 nebo 3 roky, nebo po zadaném počtu dní. Systém ho hlídá místo vás.
 
 - Podle nastaveného pravidla se vygeneruje další zakázka i výjezd na plánovaný termín
 - Přiřadí stejného technika, který má zařízení na starosti
@@ -131,7 +131,7 @@ Nabídka i zakázkový list v PDF — vaše hlavička, vaše patička. Logo nahr
 
 ## Co v systému najdete
 
-Devět typů záznamů, které spolu drží. Nic z toho nemusíte nastavovat — přijde to hotové.
+Typy záznamů, které spolu drží. Nic z toho nemusíte nastavovat — přijde to hotové.
 
 ::entity{produkt="servis"}
 

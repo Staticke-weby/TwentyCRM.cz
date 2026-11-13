@@ -1,6 +1,6 @@
 ---
 title: Obchodní podmínky | TwentyCRM.cz
-description: Všeobecné obchodní podmínky služby twentycrm.cz — implementace, provoz Twenty, ceník, odpovědnost. Účinnost 1. června 2026.
+description: Všeobecné obchodní podmínky služby twentycrm.cz — implementace, provoz Twenty, ceník, odpovědnost. Verze 1.2, účinnost 17. srpna 2026.
 pageId: vop
 hero:
   pozadi: svetle

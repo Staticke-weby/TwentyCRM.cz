@@ -2,7 +2,6 @@
 title: Jak mít zprávy z LinkedInu u klienta v CRM — a co k tomu potřebujete
 description: Aplikace LinkedIn pro Twenty ukládá konverzace z LinkedInu ke kontaktní osobě a klientovi vedle e-mailů a umí na ně odpovědět z CRM. K LinkedInu se připojuje přes službu třetí strany Unipile. Co umí, jaká má omezení a co je potřeba na vyhrazeném serveru.
 vMenu: LinkedIn v CRM
-draft: true
 poradi: 3
 overeno: 2026-11-12
 verzeTwenty: '2.57'

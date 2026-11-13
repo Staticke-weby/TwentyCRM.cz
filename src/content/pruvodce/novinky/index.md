@@ -2,7 +2,6 @@
 title: "Novinky v Twenty"
 description: "Co přinesla která verze Twenty — česky, jednou měsíčně a jen to, co je podstatné pro firmy. U každé novinky verze, odkaz na poznámky k vydání a štítek, jestli funguje dnes, nebo se připravuje."
 vMenu: "Novinky"
-draft: true
 poradi: 12
 overeno: 2026-11-12
 verzeTwenty: '2.57'

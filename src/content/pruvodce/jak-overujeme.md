@@ -2,7 +2,6 @@
 title: Jak průvodce ověřujeme
 description: Odkud bereme informace o Twenty, co znamenají štítky „Funguje dnes“ a „Připravuje se“ a jak často průvodce kontrolujeme proti novým verzím.
 vMenu: Jak ověřujeme
-draft: true
 poradi: 99
 overeno: 2026-11-12
 verzeTwenty: '2.57'
