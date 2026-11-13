@@ -149,6 +149,15 @@ export default function remarkTwentycrm() {
             const { uvod, skupiny } = rozdelPodleH3(node.children);
             if (!skupiny.length) chyba(file, node, `:::${node.name} — uvnitř chybí ### nadpisy, podle kterých se dělí na ${node.name}`);
             const trida = node.name === 'karty' ? 'karta' : 'sloupec';
+            // ### 01 + #### Nadpis → jeden nadpis „01 Nadpis" (číslo před nadpisem, ne nad ním — 2026-11-13)
+            for (const s of skupiny) {
+              const [h3, h4] = s;
+              const cislo = h3.children.length === 1 && h3.children[0].type === 'text' && h3.children[0].value.trim().match(/^\d{1,2}\.?$/);
+              if (cislo && h4?.type === 'heading' && h4.depth === 4) {
+                h4.children.unshift(html(`<span class="cislo-nadpisu">${cislo[0]}</span> `));
+                s.shift();
+              }
+            }
             node.data = { hName: 'div', hProperties: { className: [`${node.name}-blok`] } };
             node.children = [
               ...uvod,

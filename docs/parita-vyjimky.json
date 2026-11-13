@@ -665,6 +665,9 @@
     "samotný výklad co a kdy se musí evidovat a hlásit je odbornost vaše a vašeho oborového software do toho vám nemluvíme"
   ],
   "/migrace/": [
+    "fáze 1 analýza a export",
+    "fáze 2 datový model + import",
+    "fáze 3 workflows + školení",
     "některá pole ze starého systému nedávají v novém smysl"
   ],
   "/migrace-z-konkurence/": [

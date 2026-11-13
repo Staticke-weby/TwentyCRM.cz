@@ -221,6 +221,11 @@
 }
 .karta > :where(h3:first-child), .sloupec > :where(h3:first-child) { margin-top: 0; }
 .karta > :where(:last-child), .sloupec > :where(:last-child) { margin-bottom: 0; }
+/* číslo kroku v řádku před nadpisem (### 01 + #### Nadpis v :::sloupce / :::karty) */
+.cislo-nadpisu { color: var(--tc-accent); font-variant-numeric: tabular-nums; margin-right: 0.55em; flex: none; }
+/* zalomený nadpis pokračuje pod textem, ne pod číslem */
+:is(h3, h4):has(> .cislo-nadpisu) { display: flex; }
+.karta > :where(h4:first-child), .sloupec > :where(h4:first-child) { margin-top: 0; }
 .karta :where(h3) { font-size: 1.0625rem; font-weight: 550; }
 .karta :where(p, li) { font-size: 0.9375rem; color: var(--tc-muted); }
 .karta :where(strong) { color: var(--tc-ink); }

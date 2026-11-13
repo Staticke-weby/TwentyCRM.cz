@@ -55,19 +55,19 @@ Ať už migrujete z čehokoliv, postup je podobný.
 
 ### 1.
 
-#### Fáze 1 — Analýza a export
+#### Analýza a export
 
 Schůzka, projdeme váš datový model. Identifikujeme co migrovat (kontakty, příležitosti, aktivity, dokumenty) a co ne (zastaralá data, duplicity). Vy uděláte CSV export, my vás provedeme. Mapujeme pole.
 
 ### 2.
 
-#### Fáze 2 — Datový model + import
+#### Datový model + import
 
 Nasadíme připravené oborové řešení a doladíme typy záznamů (pro servisní firmy: Místo, Zařízení, Zakázka). Naimportujeme kontakty a firmy, historii (jako poznámky a úkoly). Připravíme vlastní pohledy dle role.
 
 ### 3.
 
-#### Fáze 3 — Workflows + školení
+#### Workflows + školení
 
 ARES auto-fill, e-mail sync, klíčové automatizace. Školení dispečera + techniků (1h). **Paralelní běh** — váš stávající systém máte ještě aktivní, Twenty ostře testujete na vzorku. Odpojení starého systému (po vašem souhlasu).
 
