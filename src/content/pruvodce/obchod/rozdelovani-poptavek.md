@@ -82,7 +82,10 @@ se rozdělí mezi zbylé.
 - **Twenty od verze 2.16**, pro čekání na čas nebo změnu záznamu od verze 2.46. Na vyhrazeném
   serveru aktualizace nasazujeme v rámci měsíčního paušálu.
 - **Pravidla dělení.** Kdo dostává jaké poptávky, v jakém pořadí, co se stane s nevyřízenými.
-  Domluvíme je s vedoucím obchodu a automatizaci nastavíme při nasazení.
+  Rozhoduje o nich vedoucí obchodu; automatizaci podle nich lze v Twenty nastavit. Hotová je
+  v Twenty Sales fronta zájemců bez vlastníka, rozdělování automatizací se nastavuje navíc —
+  drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem
+  (viz [SLA balíčky](/sla-balicky/)).
 - **Zájemci na jednom místě.** Rozdělovat jde jen to, co do CRM opravdu přijde — formulář,
   schránka nebo import. Na tom stojí i [třídění poptávek](/twenty/obchod/trideni-poptavek-s-ai/).
 - **Kontrola, co se nehýbe.** Přidělená poptávka bez kontaktu se dá hlídat pohledem i automatizací —

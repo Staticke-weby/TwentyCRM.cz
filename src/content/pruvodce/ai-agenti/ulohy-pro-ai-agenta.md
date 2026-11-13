@@ -31,21 +31,21 @@ jde dnes a jestli ji v [Twenty Sales](/pro-obchodni-tymy/) nebo [Twenty Servis](
 
 1. **Třídění nových poptávek.** Když přibude **Zájemce**, AI odpoví na otázky, které nastavíte —
    poptávka, nebo dotaz? jak konkrétní zájem? — a automatizace ho přidělí dalšímu obchodníkovi
-   v pořadí. *Dnes: agent sám — třídění (Classify) a rozdělování dokola v automatizaci.*
+   v pořadí. *Dnes lze nastavit: agent sám — třídění (Classify) a rozdělování dokola v automatizaci.*
 2. **Doplnění údajů o firmě.** Údaje z ARES se načtou podle IČO; AI krok z textu poptávky vyplní
    další pole, třeba obor nebo předmět zájmu. *Dnes: načtení z ARES je součást Twenty Sales
-   i Twenty Servis, doplnění polí dělá AI krok.*
+   i Twenty Servis, doplnění dalších polí lze nastavit jako AI krok.*
 3. **Příprava na schůzku.** Shrnutí historie klienta — obchodní případy, nabídky, poslední e-maily —
    za pár desítek vteřin. *Dnes: na vyžádání v AI chatu (odkaz na záznam přes @) nebo v Claude či
    ChatGPT přes MCP.* Podrobně v článku [Příprava na schůzku](/twenty/po-jednani/priprava-na-schuzku/).
 4. **Souhrn obchodního případu s doporučením.** AI projde pole případu, nabídky, poznámky a e-maily
    s kontaktní osobou a navrhne, co udělat teď. *Dnes: hotové v Twenty Sales, na tlačítko.*
 5. **Návrh e-mailu po schůzce.** Ze zápisu schůzky připraví AI shrnutí, úkol a návrh e-mailu klientovi,
-   který čeká ve schránce jako koncept. *Dnes: agent sám — AI krok a krok Koncept e-mailu; zápis
+   který čeká ve schránce jako koncept. *Dnes lze nastavit: agent sám — AI krok a krok Koncept e-mailu; zápis
    z nahrávání schůzek nebo z nástrojů jako Fireflies a Granola.* Viz
    [Ze schůzky úkol a e-mail](/twenty/po-jednani/ukol-a-e-mail-po-schuzce/).
 6. **Hlídání obchodů bez pohybu.** Každé pondělí AI projde **Obchodní případy** a **Nabídky**, které se
-   dlouho nepohnuly, a vlastníkům založí úkol se shrnutím poslední komunikace. *Dnes: agent sám,
+   dlouho nepohnuly, a vlastníkům založí úkol se shrnutím poslední komunikace. *Dnes lze nastavit: agent sám,
    spouštěč podle plánu.*
 7. **Rozpracovaná nabídka z podkladů.** Obchodník zadá, co klient chce, a AI z ceníku sestaví
    **Nabídku** jako rozpracovanou. Obchodník zkontroluje ceny a teprve pak ji vystaví.
@@ -55,14 +55,14 @@ jde dnes a jestli ji v [Twenty Sales](/pro-obchodni-tymy/) nebo [Twenty Servis](
 
 8. **Zakázka z e-mailu klienta.** E-mail na servis@ nebo do schránky dispečera AI vyhodnotí; když jde
    o požadavek na servis, založí **Zakázku** navázanou na **Klienta** a **Místo** a shrne, co klient
-   chce. *Dnes: agent sám — spouštěč na příchozí e-mail, třídění a AI krok; dispečer zakázku
+   chce. *Dnes lze nastavit: agent sám — spouštěč na příchozí e-mail, třídění a AI krok; dispečer zakázku
    zkontroluje a naplánuje **Výjezd**.*
 9. **Souhrn z výkazů pro klienta.** Z krátkých poznámek techniků ve **Výkazech práce** vznikne
    srozumitelný popis provedené práce do zakázkového listu. *Dnes: hotové v Twenty Servis,
    na tlačítko.*
 10. **Domluva termínu prevence.** Zakázku a výjezd podle **Servisního plánu** založí Twenty Servis samo;
     AI k tomu připraví koncept e-mailu klientovi s navrženým termínem. *Dnes: Servisní plán je součást
-    Twenty Servis, koncept e-mailu přidá automatizace s AI krokem.*
+    Twenty Servis, koncept e-mailu lze doplnit automatizací s AI krokem.*
 11. **Odpovědi dispečerovi nad daty.** „U kterých **Zařízení** končí záruka do 30 dnů?" nebo „Kolik
     výjezdů měl Klient X letos?" *Dnes: na vyžádání v AI chatu nebo přes MCP.*
 12. **Zpracování přiložené objednávky nebo protokolu.** Dispečer nahraje PDF do AI chatu a požádá
@@ -103,8 +103,8 @@ domluvu termínů prevence.
   a [kolik stojí AI agenti](/twenty/naklady/kolik-stoji-ai-agenti/).
 - **Napojenou poštu.** Úlohy 5, 6 a 8 potřebují e-maily na kartě klienta —
   [synchronizace e-mailů a kalendáře](/twenty/e-maily-a-schuzky/synchronizace-e-mailu-a-kalendare/).
-- **Zadání a role.** Co má AI udělat, co smí měnit a co jen navrhnout. Nastavíme při nasazení;
-  hotové části (souhrny, ARES, Servisní plán) přicházejí s řešením.
+- **Zadání a role.** Co má AI udělat, co smí měnit a co jen navrhnout. Hotové části (souhrny, ARES,
+  Servisní plán) přicházejí s řešením; ostatní úlohy lze v Twenty nastavit. Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 :::otazky
 

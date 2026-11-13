@@ -1,6 +1,6 @@
 ---
 title: Co může AI v servisní firmě převzít už dnes — a co zůstává dispečerovi
-description: Zakázka z e-mailu klienta, popis práce z výkazů techniků, připomínky prevencí a odpovědi z dat bez hledání. Co z toho v Twenty a Twenty Servis funguje dnes, co se připravuje a co dál rozhoduje člověk.
+description: Zakázka z e-mailu klienta, popis práce z výkazů techniků, připomínky prevencí a odpovědi z dat bez hledání. Co z toho je hotové v Twenty Servis, co lze v Twenty nastavit dnes, co se připravuje a co dál rozhoduje člověk.
 vMenu: AI v servisní firmě
 poradi: 4
 overeno: 2026-11-12
@@ -22,20 +22,20 @@ automatizace v Twenty a co se teprve připravuje.
 
 ## Co vám to umožní
 
-- **Dispečer** dostává požadavky klientů jako rozpracované zakázky se shrnutím, ne jako
+- **Dispečer** může dostávat požadavky klientů jako rozpracované zakázky se shrnutím, ne jako
   e-maily k přepsání.
 - **Technik** po výjezdu zapíše pár řádků a srozumitelný text pro klienta za něj sestaví AI.
 - **Majitel** se zeptá běžnou řečí — „u kterých zařízení končí záruka do měsíce?" — a nemusí
   čekat, až mu někdo udělá tabulku.
-- **Klient** dostane návrh termínu prevence dřív, než si na ni sám vzpomene.
+- **Klient** může dostat návrh termínu prevence dřív, než si na ni sám vzpomene.
 
 ## Co jde dnes
 
 **1. Zakázka z e-mailu klienta.** Automatizace v Twenty se umí spustit i příchozím e-mailem.
 AI krok **třídění** rozhodne, jestli jde o požadavek na servis, obchodní dotaz, nebo něco jiného;
 u servisu další AI krok založí **Zakázku** navázanou na **Klienta** a do popisu shrne, co klient
-chce. Dispečer zakázku zkontroluje, doplní a naplánuje **Výjezd**. *Dnes: automatizace s AI,
-nastavuje se podle toho, kam vám požadavky chodí — do schránky dispečera, nebo na společnou
+chce. Dispečer zakázku zkontroluje, doplní a naplánuje **Výjezd**. *Dnes lze nastavit: automatizace s AI,
+podle toho, kam vám požadavky chodí — do schránky dispečera, nebo na společnou
 adresu typu servis@.*
 
 **2. Popis práce z výkazů.** Technici do **Výkazu práce** píšou krátce: „vyměněno těsnění,
@@ -48,7 +48,7 @@ vytvoří zakázku i výjezd podle pravidla, jak je u zařízení nastavené. To
 u zařízení. AI k tomu může přidat dopis: automatizace podle plánu jednou týdně vezme výjezdy
 na další týdny a ke každému připraví e-mail klientovi s navrženým termínem. Zpráva se uloží jako
 **koncept**, dispečer ji zkontroluje a odešle sám. *Dnes: Servisní plán je součást Twenty Servis,
-koncepty e-mailů přidá automatizace s AI krokem.*
+koncepty e-mailů lze doplnit automatizací s AI krokem.*
 
 **4. Odpovědi z dat bez hledání.** V AI chatu přímo v Twenty se dispečer zeptá: „Kdy u nás byl
 naposledy technik na kávovaru v kavárně na náměstí a co měnil?" nebo „Kolik výjezdů měl tento
@@ -57,8 +57,8 @@ Dispečer může do chatu nahrát i PDF objednávku a požádat o shrnutí. *Dne
 stejně tak Claude nebo ChatGPT připojený přes MCP.*
 
 **5. Týdenní přehled pro majitele.** AI agent se spustí podle plánu — třeba v pondělí ráno —
-projde otevřené zakázky a výjezdy, ke kterým chybí výkaz, a připraví krátké shrnutí. *Dnes: agent
-se spouštěčem podle plánu; co přesně má hlídat, se nastavuje při nasazení.*
+projde otevřené zakázky a výjezdy, ke kterým chybí výkaz, a připraví krátké shrnutí. *Dnes lze nastavit: agent
+se spouštěčem podle plánu; co přesně má hlídat, určíte vy.*
 
 Jak jsou agenti, spouštěče a AI kroky poskládané, vysvětluje článek
 [Agenti v Twenty](/twenty/ai-agenti/agenti-v-twenty/). Kroky automatizací popisuje
@@ -109,7 +109,9 @@ Druhý den technik vyplní výkaz, Eva nechá z výkazu sestavit popis práce a 
 - **Napojenou poštu**, pokud chcete zakázky z e-mailů —
   [synchronizace e-mailů a kalendáře](/twenty/e-maily-a-schuzky/synchronizace-e-mailu-a-kalendare/).
 - **Jednu úlohu na začátek.** Nejlépe tu, která se často opakuje a dá se snadno zkontrolovat.
-  Postup popisuje [pilot na jedné úloze](/twenty/naklady/pilot-ai/).
+  Postup popisuje [pilot na jedné úloze](/twenty/naklady/pilot-ai/). Automatizace a agenti nad rámec
+  hotového řešení se nastavují navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu
+  odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 :::otazky
 

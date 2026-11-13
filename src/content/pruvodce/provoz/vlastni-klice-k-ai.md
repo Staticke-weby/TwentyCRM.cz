@@ -80,8 +80,10 @@ Po měsíci firma z vyúčtování poskytovatele vidí, kolik stála která úlo
 - **Strop útraty** nastavený u poskytovatele hned na začátku — postup popisuje článek
   [Jak hlídat útratu za AI](/twenty/naklady/hlidani-utraty-za-ai/).
 - **Rozhodnutí, kam smějí data** — u kterého poskytovatele a v jaké oblasti se smějí zpracovávat.
-- **Nastavení** — klíče, výchozí model a modely pro jednotlivé agenty nastavíme při nasazení nebo
-  v rámci předplacených hodin podpory.
+- **Nastavení** — klíč k AI a výchozí model se do Twenty zadávají při nasazení, protože AI chat je
+  součástí Twenty Sales i Twenty Servis. Modely pro jednotlivé agenty se nastavují spolu s agenty;
+  to je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem —
+  viz [SLA balíčky](/sla-balicky/).
 
 Na čem závisí, kolik AI za měsíc stojí, rozebírá článek
 [Kolik stojí AI agenti v CRM](/twenty/naklady/kolik-stoji-ai-agenti/).

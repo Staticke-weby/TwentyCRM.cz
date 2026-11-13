@@ -82,6 +82,7 @@ cenu jednoho třídění, vynásobí ji měsíčním objemem a nastaví strop o 
   v článku [Jak hlídat útratu za AI](/twenty/naklady/hlidani-utraty-za-ai/).
 - **Rozumná volba modelu.** Třídění a doplnění údajů zvládne levnější model; dražší nechte na úlohy,
   kde záleží na kvalitě textu.
+- **Nastavení úlohy.** Agenta nebo automatizaci s AI je potřeba v Twenty nastavit; nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 Co agent v CRM vlastně dělá a čím se liší od chatu, vysvětluje článek
 [Co je AI agent](/twenty/ai-agenti/co-je-ai-agent/).

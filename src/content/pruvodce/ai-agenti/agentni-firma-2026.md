@@ -81,7 +81,7 @@ v článku [Kolik českých firem používá AI](/twenty/ai-agenti/ai-v-ceskych-
 ## Kde v tom stojí Twenty
 
 Twenty jde stejným směrem a je to vidět ve vydáních od verze 2.0 (duben 2026) po 2.57 (listopad 2026).
-**Dnes funguje:** agenti, kteří se sami spouštějí při změně záznamu nebo podle plánu, AI kroky
+**Lze nastavit dnes:** agenti, kteří se sami spouštějí při změně záznamu nebo podle plánu, AI kroky
 v automatizacích s vlastním omezeným oprávněním, role pro agenty, MCP server pro Claude, ChatGPT
 a další asistenty a e-maily, kalendář a zápisy schůzek na kartě klienta. **Připravuje se:**
 týmová schránka s AI asistentkou Adou a agent, který se zeptá a počká na schválení člověkem —

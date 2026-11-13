@@ -1,6 +1,6 @@
 ---
 title: "Kam Twenty míří"
-description: "Pět směrů, kterými se open-source Twenty vyvíjí: agentní pracovní prostor, aplikace, MCP oběma směry, konverzace v CRM a připravenost pro větší firmy. U každého co funguje dnes, co se připravuje a důkaz."
+description: "Pět směrů, kterými se open-source Twenty vyvíjí: agentní pracovní prostor, aplikace, MCP oběma směry, konverzace v CRM a připravenost pro větší firmy. U každého co lze nastavit dnes, co se připravuje a důkaz."
 vMenu: "Kam Twenty míří"
 poradi: 11
 overeno: 2026-11-12
@@ -11,7 +11,7 @@ zdroje: [gh-vydani, twenty-vydani, gh-prepinace, gh-pr-29762, gh-pr-29957, gh-pr
 
 **Twenty se mění z CRM, do kterého se kliká, v pracovní prostředí, kde vedle lidí pracují AI agenti
 a kam se připojí AI asistent, kterého ve firmě už používáte.** Je to vidět na pěti směrech, kterými
-jdou vydání od dubna do listopadu 2026 — u každého níže najdete, co funguje dnes, co se připravuje
+jdou vydání od dubna do listopadu 2026 — u každého níže najdete, co lze nastavit dnes, co se připravuje
 a z čeho to víme.
 
 Výrobce nezveřejňuje plán vývoje s termíny. Směr proto čteme z toho, co je ověřitelné: z poznámek
@@ -22,7 +22,8 @@ s [Novinkami](/twenty/novinky/).
 
 Tři štítky, které tu používáme:
 
-- **Funguje dnes** — vyšlo jako hotové, bez přepínače.
+- **Lze nastavit dnes** — vyšlo jako hotové, bez přepínače, a dá se nastavit. Neznamená to, že je to
+  hotové v našem řešení.
 - **Připravuje se** — výrobce to ohlásil ve vydání, ale ve vývoji je to zatím vypnuté, nebo to běží
   ve zkušebním provozu.
 - **Směr vývoje** — rozpracovaná změna v kódu, která ještě v žádném vydání není. Může se změnit
@@ -33,7 +34,7 @@ Tři štítky, které tu používáme:
 AI v Twenty se posouvá od chatu, kterého se ptáte, k agentům, kteří pracují vedle týmu a člověk
 jim zadává a schvaluje práci.
 
-- **Funguje dnes:** AI chat přímo v Twenty (bez přepínače od v2.1); agenti s vlastními stránkami
+- **Lze nastavit dnes:** AI chat přímo v Twenty (bez přepínače od v2.1); agenti s vlastními stránkami
   a spouštěči, kteří umí počkat na událost nebo čas (v2.46); dovednosti se zapsanými firemními postupy
   (v2.40); AI krok v automatizacích s vlastním omezeným oprávněním (v2.56); AI třídění poptávek
   a e-mailů (v2.42); AI postaví dashboard nebo pohled (v2.20); e-mail napsaný AI jako koncept, který
@@ -58,7 +59,7 @@ Víc v článcích [Agenti v Twenty](/twenty/ai-agenti/agenti-v-twenty/) a
 Twenty se staví jako základ, na který se instalují oborová rozšíření: vlastní typy záznamů, logika,
 obrazovky, automatizace i agenti v jednom balíčku.
 
-- **Funguje dnes:** aplikace nad Twenty (od v2.0); nástroje pro vývojáře včetně příkazové řádky
+- **Lze nastavit dnes:** aplikace nad Twenty (od v2.0); nástroje pro vývojáře včetně příkazové řádky
   (v2.46); automatizace, agenti a dovednosti se dají z jedné instalace vytáhnout a přenést do jiné
   (v2.53.1); vlastní typy záznamů, pole a vazby mnoho na mnoho (v2.45).
 - **Připravuje se:** obchod s aplikacemi (zkušební provoz od v2.43, výpis aplikací v2.54); AI, která
@@ -77,7 +78,7 @@ MCP je otevřený standard, přes který se AI asistent připojí k firemnímu s
 ([co je MCP](/twenty/mcp/co-je-mcp/)). Twenty ho používá v obou směrech: asistent zvenčí pracuje
 s CRM a připravuje se, aby AI v Twenty sáhla do dalších systémů.
 
-- **Funguje dnes:** Claude, ChatGPT nebo Cursor pracují s daty v Twenty pod rolí uživatele (od v2.0,
+- **Lze nastavit dnes:** Claude, ChatGPT nebo Cursor pracují s daty v Twenty pod rolí uživatele (od v2.0,
   obrazovka nastavení v2.19); Twenty asistentovi označí, které akce data jen čtou a které je mění
   (v2.6); přihlášený uživatel nechá asistenta spustit připravenou automatizaci (v2.57).
 - **Připravuje se:** AI chat v Twenty použije nástroje jiných systémů přes MCP (zkušební provoz,
@@ -97,7 +98,7 @@ Víc v článcích [Jak připojit Claude a ChatGPT](/twenty/mcp/pripojeni-claude
 Cíl je, aby se v CRM objevila každá konverzace s klientem bez přepisování — e-mail, schůzka, hovor,
 zpráva.
 
-- **Funguje dnes:** e-maily a kalendář na kartě klienta (Gmail, Microsoft 365, ostatní přes IMAP);
+- **Lze nastavit dnes:** e-maily a kalendář na kartě klienta (Gmail, Microsoft 365, ostatní přes IMAP);
   ruční přiřazení e-mailů a schůzek firmy k obchodu (v2.51); sdílená schránka přeposíláním (v2.4);
   nahrávání a přepis schůzek (v2.17); zápisy z Fireflies, Fathom, Granola a přepisy z Teams se shrnutím
   od AI (v2.7–v2.51); konverzace z LinkedInu včetně odpovědí z CRM přes aplikaci třetí strany
@@ -117,11 +118,10 @@ Víc v oblasti [CRM, které se vyplní samo](/twenty/e-maily-a-schuzky/).
 Spolu s AI přibývá to, co chtějí firmy s víc týmy a s přísnějšími pravidly: kdo co vidí, jaká data
 smějí do AI a kdo co změnil.
 
-- **Funguje dnes:** role a oprávnění na typy záznamů a pole i pro AI agenty; sdílení jednotlivého
-  záznamu (v2.45); soukromé záznamy, které vidí jen autor a ti, s kým je sdílí (v2.55, bez přepínače
-  od v2.56); pravidla pro kontrolu dat, která nepustí neúplný záznam lidem ani AI (v2.56, tarif Organization); záložní kódy
+- **Lze nastavit dnes:** role a oprávnění na typy záznamů a pole i pro AI agenty; pravidla pro kontrolu dat, která nepustí neúplný záznam lidem ani AI (v2.56, tarif Organization); záložní kódy
   dvoufázového přihlášení (v2.46). Jednotné přihlášení a záznam změn jsou v tarifu Organization.
-- **Připravuje se:** pravidla pro data v AI — zpracování jen v EU a bez uchovávání u poskytovatele
+- **Připravuje se:** sdílení jednotlivého záznamu (v2.45) a soukromé záznamy, které vidí jen autor a ti, s kým je sdílí (v2.55–v2.57, za
+  přepínačem); pravidla pro data v AI — zpracování jen v EU a bez uchovávání u poskytovatele
   (v2.57, za přepínačem; popisuje je právní FAQ výrobce).
 - **Směr vývoje:** přístupové skupiny a jemnější pravidla, kdo vidí které záznamy (přepínače v kódu,
   [#30252](https://github.com/twentyhq/twenty/pull/30252) rozpracováno).
@@ -133,8 +133,9 @@ Víc v článcích [Bezpečnost AI agentů](/twenty/ai-agenti/bezpecnost-ai-agen
 
 ## Co z toho plyne pro vás
 
-- **Rozhodujte podle toho, co funguje dnes.** Všechno ve sloupci „Funguje dnes“ si můžete vyzkoušet
-  v demu. Co se připravuje, je dobrá zpráva do budoucna, ne důvod k nákupu.
+- **Rozhodujte podle toho, co lze nastavit dnes.** Co je z toho hotové v Twenty Sales a Twenty Servis,
+  uvidíte v demu; ostatní ze seznamu „Lze nastavit dnes“ se dá doplnit. Co se připravuje, je dobrá zpráva
+  do budoucna, ne důvod k nákupu.
 - **Platforma roste s vámi.** Nové schopnosti přicházejí do stejného systému, ke stejným datům.
   Neplatíte za ně druhý software ani licenci — open-source Twenty je na vyhrazeném serveru bez licenčních
   poplatků; výjimkou jsou funkce tarifu Organization.
@@ -144,7 +145,7 @@ Víc v článcích [Bezpečnost AI agentů](/twenty/ai-agenti/bezpecnost-ai-agen
 
 Twenty Sales a Twenty Servis — naše nadstavby nad open-source Twenty pro
 [řízení obchodu](/pro-obchodni-tymy/) a [montáže a servis u zákazníka](/pro-servisni-firmy/) —
-stojí na funkcích, které fungují dnes. Prodejní přehled AI v obou řešeních je na stránce
+stojí na tom, co Twenty umí dnes. Prodejní přehled AI v obou řešeních je na stránce
 [Agentské CRM](/agentske-crm/).
 
 ## Přehled stavu funkcí
@@ -175,6 +176,8 @@ nepopisujeme jako slib a u každé položky uvádíme odkaz, podle kterého si t
 
 Nová verze open-source Twenty je na vyhrazeném serveru bez licenčních poplatků. Zvlášť se platí
 jen funkce tarifu Organization (například jednotné přihlášení) a AI — tu na vyhrazeném serveru platíte
-přímo poskytovateli přes vlastní klíče.
+přímo poskytovateli přes vlastní klíče. Nastavit novou funkci pro váš provoz je práce navíc —
+drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem
+(viz [SLA balíčky](/sla-balicky/)).
 
 :::

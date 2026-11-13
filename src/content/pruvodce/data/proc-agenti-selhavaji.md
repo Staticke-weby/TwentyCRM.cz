@@ -101,7 +101,8 @@ se v přehledu objeví. Aby se to neopakovalo, správce označí IČO jako jedin
 - **Jednorázový úklid** dat, se kterými bude AI v první úloze pracovat. Postup krok za krokem
   je v [kontrolním seznamu před nasazením AI](/twenty/data/kontrolni-seznam-dat/).
 - **Rozhodnutí, co je povinné a kdy.** Které údaje musí mít poptávka, klient nebo zakázka, je
-  obchodní rozhodnutí, ne technické. Pravidla podle něj pak nastavíme.
+  obchodní rozhodnutí, ne technické. Pravidla podle něj pak lze v Twenty nastavit.
+  Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 - **Tarif Organization** jen pro pravidla kontroly dat. Slučování duplicit, jedinečná pole
   a vlastní role jsou na vyhrazeném serveru součástí Twenty.
 - **Začít malou úlohou.** Jak vybrat první úlohu a změřit výsledek, popisuje [Pilot AI](/twenty/naklady/pilot-ai/).

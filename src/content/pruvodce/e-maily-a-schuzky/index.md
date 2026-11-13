@@ -10,15 +10,15 @@ funkce: [posta-kalendar, sdilena-schranka, nahravani-schuzek, zapisniky-schuzek,
 ---
 
 **CRM je jen tak dobré, jak úplná jsou data v něm. Obchodník má poštu v Outlooku, schůzky
-v kalendáři a dohody v hlavě — a co se musí přepisovat ručně, do CRM se často nedostane.** Twenty tuhle práci bere
-lidem z rukou: e-maily, schůzky i jejich přepisy se ke klientovi ukládají samy.
+v kalendáři a dohody v hlavě — a co se musí přepisovat ručně, do CRM se často nedostane.** Twenty umožňuje tuhle práci
+vzít lidem z rukou: e-maily, schůzky i jejich přepisy se dají nastavit tak, aby se ke klientovi ukládaly samy.
 
 Pro firmu to znamená, že historie klienta je kompletní a patří firmě, ne schránce jednoho
 obchodníka. Kolega, který přebírá klienta, vidí, co se psalo a co se dohodlo. Vedoucí nemusí
 svolávat poradu, aby zjistil stav obchodu. A AI, která má pomáhat s přípravou schůzek nebo
 s návrhy e-mailů, pracuje s tím, co klient opravdu řekl.
 
-**Co jde v Twenty dnes:** synchronizace pošty a kalendáře (Gmail a Microsoft 365 přihlášením
+**Co lze v Twenty nastavit dnes:** synchronizace pošty a kalendáře (Gmail a Microsoft 365 přihlášením
 účtem, ostatní přes IMAP a CalDAV), sdílená schránka typu info@ přes přeposílání, nahrávání
 a přepis online schůzek a převzetí přepisů a shrnutí z Microsoft Teams, Fireflies, Fathomu
 a Granoly. Co se do CRM uloží a co zůstane soukromé, si určí každý uživatel u své schránky.

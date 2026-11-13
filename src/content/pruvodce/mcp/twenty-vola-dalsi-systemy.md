@@ -13,7 +13,7 @@ zdroje: [gh-vydani, gh-prepinace, gh-pr-29957, docs-dovednosti, docs-akce, docs-
 **Připravuje se: AI uvnitř Twenty si bude moci přes MCP sáhnout do dalších firemních systémů —
 přečíst z nich údaje nebo v nich něco udělat — aniž by se data musela do CRM kopírovat.** Výrobce
 tuhle část v listopadu 2026 vede jako zkušební provoz, který ještě není spuštěný; v kódu je za
-přepínačem. Dnes funguje opačný směr: k Twenty se přes MCP připojují Claude, ChatGPT a další
+přepínačem. Už dnes lze nastavit opačný směr: k Twenty se přes MCP připojují Claude, ChatGPT a další
 asistenti.
 
 MCP je otevřený standard, přes který AI nástroje pracují s firemními systémy (vysvětluje ho
@@ -61,7 +61,7 @@ Na zkušební provoz čekat nemusíte:
   systémům s MCP serverem zároveň. Odpověď z více systémů tak dostanete v asistentovi, jen ne
   v chatu uvnitř Twenty. Viz [jak připojit Claude a ChatGPT](/twenty/mcp/pripojeni-claude-a-chatgpt/).
 - **Automatizace v Twenty.** Krok s požadavkem na jiný systém pošle nebo načte data přes jeho
-  rozhraní; jiný systém zase může automatizaci v Twenty spustit sám. Tak se napojí většina
+  rozhraní; jiný systém zase může automatizaci v Twenty spustit sám. Tak lze napojit většinu
   běžných nástrojů.
 - **Napojení na fakturaci.** Pohoda, Money, ABRA, iDoklad nebo Fakturoid — to je naše hotové
   rozšíření, viz [napojení na fakturaci](/napojeni-na-fakturaci/).
@@ -87,6 +87,9 @@ systémy nekopíruje a obchodník nemusí nikomu volat, jak to na stavbě vypad�
 - **Aktuální verzi Twenty.** Na vyhrazeném serveru nové verze nasazujeme v rámci
   [měsíčního paušálu](/sla-balicky/), takže se k funkci dostanete s verzí, ve které ji výrobce
   spustí.
+- **Nastavení napojení.** Propojení s dalším systémem — dnes automatizací, později přes MCP — je
+  práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz
+  [SLA balíčky](/sla-balicky/).
 
 Obě naše nadstavby nad open-source Twenty, [Twenty Sales](/pro-obchodni-tymy/)
 i [Twenty Servis](/pro-servisni-firmy/), stojí na stejném jádru a funkci dostanou stejně.

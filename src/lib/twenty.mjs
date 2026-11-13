@@ -8,7 +8,7 @@ import zdrojeData from '../data/twenty/zdroje.json' with { type: 'json' };
 import { escapeHtml } from './site.mjs';
 
 export const STAVY = {
-  dnes: 'Funguje dnes',
+  dnes: 'Lze nastavit dnes',
   'pripravuje-se': 'Připravuje se',
   smer: 'Směr vývoje',
 };
@@ -160,7 +160,7 @@ export function verzeKratce(verze) {
   return 'v' + verze.replace(/\.0$/, '');
 }
 
-/** Text štítku stavu: „Funguje dnes · od v2.19". */
+/** Text štítku stavu: „Lze nastavit · od v2.19" (v seznamech zkráceně, plné „Lze nastavit dnes" v nadpisu skupiny). */
 export function textStavu(f) {
   if (f.stav === 'dnes') return STAVY.dnes + (f.od ? ` · od ${verzeKratce(f.od)}` : '');
   return STAVY[f.stav];
@@ -190,7 +190,7 @@ function polozka(f) {
  */
 export function stavFunkciBlok(vybrane, { smer = false } = {}) {
   const skupiny = [
-    ['dnes', 'Funguje dnes'],
+    ['dnes', 'Lze nastavit dnes'],
     ['pripravuje-se', 'Připravuje se'],
     ...(smer ? [['smer', 'Směr vývoje']] : []),
   ];
@@ -203,6 +203,7 @@ export function stavFunkciBlok(vybrane, { smer = false } = {}) {
     .join('');
   const overeno = vybrane.map((f) => f.overeno).sort().at(0);
   const posledni = posledniZpracovane();
+  const vysvetlivka = `<p class="stav-funkci__pata">„Lze nastavit“ znamená, že to Twenty dnes umí. Co mají <a href="/pro-obchodni-tymy/">Twenty Sales</a> a <a href="/pro-servisni-firmy/">Twenty Servis</a> hotové hned po nasazení, popisujeme u řešení. Nastavení dalších věcí je práce navíc — drobnou úpravu zvládneme z hodiny měsíčně v paušálu, větší vám předem odhadneme (<a href="/sla-balicky/">SLA balíčky</a>).</p>`;
   const pata = `<p class="stav-funkci__pata">Stav ověřený ${datumCesky(overeno)} proti Twenty ${verzeKratce(posledni.verze)} — podle <a href="https://github.com/twentyhq/twenty/releases" rel="noopener" target="_blank">poznámek k vydáním</a> a <a href="https://docs.twenty.com/cs/user-guide/introduction" rel="noopener" target="_blank">dokumentace výrobce</a>.</p>`;
-  return `<section class="stav-funkci reveal not-prose" data-pagefind-ignore><div class="stav-funkci__mrizka">${sloupce}</div>${pata}</section>`;
+  return `<section class="stav-funkci reveal not-prose" data-pagefind-ignore><div class="stav-funkci__mrizka">${sloupce}</div>${vybrane.some((f) => f.stav === 'dnes') ? vysvetlivka : ''}${pata}</section>`;
 }

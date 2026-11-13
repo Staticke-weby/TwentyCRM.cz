@@ -626,6 +626,7 @@
   "/pro-servisni-firmy/hvac/": [
     "pokud aspoň 3 z 6 přikývlo jsme přesně pro vás",
     "generický crm má jen klient + příležitost + aktivita",
+    "roční / pololetní prevence se generuje sama každou noc neřešíte připomínky v kalendáři",
     "systém v noci kontroluje kde se blíží termín a vytvoří zakázku s výjezdem"
   ],
   "/pro-servisni-firmy/revize/": [
@@ -904,6 +905,8 @@
     "šablony dokumentů které si přepíšete sami ano ne pdf nabídka a zakázkový list mají pevnou sazbu"
   ],
   "/obory/realizace-a-instalace/": [
+    "na zařízení nastavíte kdy se má přijet po roce po dvou po pěti",
+    "systém v noci vytvoří zakázku i výjezd a přiřadí technika který instalaci zná",
     "tu specifickou vrstvu nad twenty přejmenování objektů pár polí podle vašeho oboru automatizace v twenty workflow engine propojení s ares fakturoidem a vaším e mailem"
   ],
   "/obory/velkoobchod-a-distribuce/": [

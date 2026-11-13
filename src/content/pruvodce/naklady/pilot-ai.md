@@ -83,8 +83,8 @@ jestli přidá další úlohu.
 - **Změřený výchozí stav** — bez něj se přínos nedá doložit.
 - **AI model a klíč** — na vyhrazeném serveru vlastní klíč k AI, za spotřebu platíte poskytovateli.
 - **Uklizená data** — sloučené duplicity a vyplněná pole, ze kterých AI vychází.
-- **Nastavení** — automatizaci, roli pro AI a strop útraty připravíme při nasazení nebo v rámci
-  předplacených hodin podpory.
+- **Nastavení** — automatizaci s AI krokem a roli pro AI lze v Twenty nastavit, strop útraty
+  u poskytovatele AI. Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 Které úlohy se na pilot hodí nejlépe, ukazuje článek
 [Úlohy pro AI agenta](/twenty/ai-agenti/ulohy-pro-ai-agenta/).

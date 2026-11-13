@@ -39,7 +39,7 @@ který agent.
 
 **Schválení tlačítkem.** AI připraví návrh do poznámky nebo pole a další krok — odeslání,
 změnu fáze — spustí až člověk tlačítkem u záznamu. Ruční spouštění automatizací na vybraných
-záznamech Twenty umí; takhle postavené schválení nastavujeme tam, kde je potřeba.
+záznamech Twenty umí; takhle postavené schválení lze nastavit tam, kde je potřeba.
 
 **Asistenti zvenčí.** Když s Twenty pracuje Claude nebo ChatGPT přes MCP (otevřený standard
 pro napojení AI nástrojů), Twenty jim od verze 2.6 u každé akce označí, jestli data jen čte, nebo
@@ -79,7 +79,7 @@ na nové poptávky návrh odpovědi jako koncept v Outlooku — doplní cenu dop
 - **Role pro každého agenta** — co vidí a co smí měnit.
 - **Připojené schránky** — koncept vzniká ve schránce, kterou má automatizace nastavenou, proto
   se nastavuje pro každého obchodníka zvlášť.
-- **Nastavení při nasazení** — zadání, role a místa, kde má být tlačítko, připravíme spolu.
+- **Nastavení** — zadání, role a místa, kde má být tlačítko, lze v Twenty nastavit. Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 V [Twenty Sales](/pro-obchodni-tymy/), naší nadstavbě nad open-source Twenty, agent v chatu
 nejdřív ukáže, co chce zapsat, a počká na potvrzení. V [Twenty Servis](/pro-servisni-firmy/)

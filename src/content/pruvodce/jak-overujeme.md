@@ -1,6 +1,6 @@
 ---
 title: Jak průvodce ověřujeme
-description: Odkud bereme informace o Twenty, co znamenají štítky „Funguje dnes“ a „Připravuje se“ a jak často průvodce kontrolujeme proti novým verzím.
+description: Odkud bereme informace o Twenty, co znamenají štítky „Lze nastavit dnes“ a „Připravuje se“ a jak často průvodce kontrolujeme proti novým verzím.
 vMenu: Jak ověřujeme
 poradi: 99
 overeno: 2026-11-12
@@ -31,7 +31,9 @@ zveřejní.
 
 Každá funkce Twenty, o které píšeme, je v jednom ze tří stavů:
 
-- **Funguje dnes** — výrobce ji vydal a dá se používat. Uvádíme i verzi, od které ji Twenty má.
+- **Lze nastavit dnes** — Twenty to dnes umí a dá se to nastavit; neznamená to, že je to hotové v našem řešení.
+  Uvádíme i verzi, od které to Twenty má. Co je hotové v Twenty Sales a Twenty Servis, popisují
+  [stránky řešení](/ktere-crm-vybrat/).
 - **Připravuje se** — výrobce ji ohlásil, ale ještě ji nevydal jako hotovou pro všechny. Štítek
   u ní říká proč: **ve vývoji** (v kódu je, ale zatím vypnutá), **zkušební provoz**, **ohlášeno
   v dokumentaci** nebo **rozpracováno**. Nikdy ji nepopisujeme jako hotovou.

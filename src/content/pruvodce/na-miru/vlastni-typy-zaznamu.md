@@ -11,8 +11,8 @@ zdroje: [twenty-capabilities-objects, twenty-data-model-overview, twenty-capabil
 ---
 
 **Twenty přizpůsobíte oboru v nastavení, bez programování: přidáte vlastní pole, vlastní typy
-záznamů a vazby mezi nimi a nastavíte pravidla, která nepustí neúplná data. Cena se tím nemění —
-pole a typů záznamů může být, kolik potřebujete.**
+záznamů a vazby mezi nimi a nastavíte pravidla, která nepustí neúplná data. Twenty za pole ani
+typy záznamů nic neúčtuje — může jich být, kolik potřebujete.**
 
 U našich řešení [Twenty Sales](/pro-obchodni-tymy/) a [Twenty Servis](/pro-servisni-firmy/) —
 nadstaveb nad open-source Twenty — je hlavní kostra hotová. Přizpůsobení oboru proto znamená
@@ -92,8 +92,8 @@ chatu se zeptá, kolik takových zařízení má technik Pavel na starosti. Nic 
 - **Tarif Organization**, pokud chcete pravidla pro kontrolu dat.
 - **Role** — kdo smí datový model měnit. Obvykle jen jeden správce; ostatní pracují s daty.
 
-Drobné úpravy během provozu — pole, pohled, číselník, automatizace — se řeší z hodin podpory,
-viz [SLA balíčky](/sla-balicky/). Když nastavení nestačí, další krok popisuje článek
+Úpravy během provozu — pole, pohled, číselník, automatizace — jsou práce navíc: drobnost se vejde
+do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/). Když nastavení nestačí, další krok popisuje článek
 [Aplikace nad Twenty](/twenty/na-miru/aplikace-nad-twenty/).
 
 :::otazky
@@ -101,7 +101,7 @@ viz [SLA balíčky](/sla-balicky/). Když nastavení nestačí, další krok pop
 ### Stojí každé pole nebo typ záznamu navíc?
 
 Ne. Twenty neúčtuje podle počtu polí ani typů záznamů. Pole vašeho oboru doplníme v rámci
-nasazení; pozdější drobné úpravy jdou z hodin podpory.
+nasazení; pozdější drobné úpravy se vejdou do hodiny měsíčně v paušálu.
 
 ### Můžeme si pole přidávat sami?
 

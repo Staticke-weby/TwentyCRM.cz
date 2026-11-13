@@ -57,8 +57,8 @@ pracuje AI chat přímo v systému i asistent jako Claude nebo ChatGPT připojen
   AI najde záznamy a vrátí seznam.
 - **První verze nabídky.** Na pokyn obchodníka založí nabídku k obchodnímu případu a přidá položky
   z ceníku. Marži dopočítá systém stejně jako u ručně založené nabídky.
-- **Průvodní e-mail.** Z nabídky a šablony připraví text, který automatizace uloží jako koncept
-  do schránky obchodníka — odešle ho člověk.
+- **Průvodní e-mail.** Z nabídky a šablony připraví text. Lze nastavit automatizaci, která ho uloží
+  jako koncept do schránky obchodníka — odešle ho člověk.
 
 AI přitom jede pod rolí toho, kdo se ptá. Co nesmí obchodník, nesmí ani ona: u ceníku, který
 obchodník měnit nesmí, AI zapisovací možnosti vůbec nevidí. Twenty navíc AI nástrojům označuje,
@@ -91,6 +91,8 @@ kliknutím a průvodní e-mail najde jako koncept v Outlooku.
   [jak připojit Claude a ChatGPT](/twenty/mcp/pripojeni-claude-a-chatgpt/).
 - **Role** — kdo smí měnit ceník a co smí AI zapisovat. Čtyři role (čtenář, obchodník, vedoucí,
   správce) jsou v Twenty Sales nastavené.
+- **Automatizace navíc** — například uložení průvodního e-mailu jako konceptu lze v Twenty nastavit;
+  nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 Nabídky, položky nabídek a ceník produktů najdete stejné i v [Twenty Servis](/pro-servisni-firmy/),
 našem řešení pro montáž a servis u zákazníka.

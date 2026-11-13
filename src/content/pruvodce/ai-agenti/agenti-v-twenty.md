@@ -20,10 +20,10 @@ Tady je, z čeho se agenti v Twenty skládají ve verzi 2.57 (listopad 2026).
 
 ## Co vám to umožní
 
-- **Obchodník dostane poptávky už roztříděné.** Nový Zájemce se sám zařadí podle toho, o co má
-  zájem, a přidělí se dalšímu obchodníkovi v pořadí.
-- **Dispečer nemusí přepisovat e-maily.** Požadavek klienta se promění v zakázku se shrnutím,
-  kterou stačí zkontrolovat a naplánovat.
+- **Poptávky mohou chodit obchodníkovi už roztříděné.** V Twenty lze nastavit, aby se nový Zájemce
+  sám zařadil podle toho, o co má zájem, a přidělil se dalšímu obchodníkovi v pořadí.
+- **Dispečer nemusí přepisovat e-maily.** Lze nastavit, aby se požadavek klienta proměnil v zakázku
+  se shrnutím, kterou stačí zkontrolovat a naplánovat.
 - **Vedoucí nastaví jednotný postup.** Jak se shrnuje obchodní případ nebo jak se píše odpověď
   klientovi, se zapíše jednou a AI to dělá pokaždé stejně.
 - **Majitel ví, na co AI sáhne.** Každý agent i každý AI krok má vlastní oprávnění a u agenta je
@@ -96,8 +96,9 @@ nepohnuly, a vlastníkům založí úkol s krátkým shrnutím poslední komunik
   [vyhrazený server, nebo cloud](/cloud-vs-selfhost/).
 - **Pro třídění zvláštní model.** Krok Classify běží na hodnoticím modelu Jev přes službu
   TypeSafe AI, kterou musí správce zapnout a nastavit k ní klíč. Bez toho krok neproběhne.
-- **Zadání, dovednosti a role.** Co má agent dělat, podle jakého postupu a na co smí sáhnout.
-  Připravíme spolu s vámi při nasazení.
+- **Zadání, dovednosti a role.** Co má agent dělat, podle jakého postupu a na co smí sáhnout —
+  to se nastavuje podle vašeho provozu. V Twenty Sales je hotový průvodce pro AI agenta a osm
+  připravených zadání; další agenty a automatizace s AI lze nastavit. Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 Které úlohy se pro agenty v obchodě a servisu hodí, ukazuje [přehled úloh](/twenty/ai-agenti/ulohy-pro-ai-agenta/).
 AI v obou našich nadstavbách nad open-source Twenty, [Twenty Sales](/pro-obchodni-tymy/) i [Twenty Servis](/pro-servisni-firmy/),

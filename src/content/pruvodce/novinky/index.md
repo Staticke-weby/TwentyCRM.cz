@@ -1,6 +1,6 @@
 ---
 title: "Novinky v Twenty"
-description: "Co přinesla která verze Twenty — česky, jednou měsíčně a jen to, co je podstatné pro firmy. U každé novinky verze, odkaz na poznámky k vydání a štítek, jestli funguje dnes, nebo se připravuje."
+description: "Co přinesla která verze Twenty — česky, jednou měsíčně a jen to, co je podstatné pro firmy. U každé novinky verze, odkaz na poznámky k vydání a štítek, jestli lze nastavit dnes, nebo se připravuje."
 vMenu: "Novinky"
 poradi: 12
 overeno: 2026-11-12
@@ -23,6 +23,8 @@ vynecháváme. Kde k novince existuje článek průvodce, odkazujeme na něj.
 - [Co je nového v Twenty — listopad 2026](/twenty/novinky/2026-11/) — verze 2.55 až 2.57.1,
   stav k 12. 11. 2026
 - [Co je nového v Twenty — říjen 2026](/twenty/novinky/2026-10/) — verze 2.44 až 2.54
+- [Co přineslo Twenty od verze 2.0 — duben až září 2026](/twenty/novinky/2026-04-az-09/) — verze 2.0
+  až 2.43, souhrn za půl roku
 
 ## Jak s novinkami naložit
 

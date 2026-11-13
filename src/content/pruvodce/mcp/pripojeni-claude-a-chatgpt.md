@@ -87,8 +87,10 @@ u zakázky, jako by ji zapsal on sám.
   počítače, ale ze svých serverů, a to i z aplikace na ploše. Na vyhrazeném serveru proto
   zpřístupníme adresy pro napojení AI jen z jejich rozsahů IP adres; zbytek systému může zůstat
   dostupný jen vašemu týmu. Asistenti běžící přímo v počítači, jako Claude Code, žádnou otevřenou
-  adresu nepotřebují. Tohle i role nastavujeme při nasazení — víc o zabezpečení na stránce
-  [Bezpečnost](/bezpecnost/).
+  adresu nepotřebují. Zpřístupnění adres nastavujeme při nasazení serveru — víc o zabezpečení na stránce
+  [Bezpečnost](/bezpecnost/). Role uživatelů jsou v Twenty Sales i Twenty Servis hotové; další roli,
+  třeba jen pro čtení, lze doplnit — taková drobnost se vejde do hodiny měsíčně v paušálu
+  ([SLA balíčky](/sla-balicky/)).
 
 Jak si napojení přes MCP stojí u jiných CRM, ukazuje [srovnání šesti systémů](/twenty/mcp/crm-s-mcp-serverem/).
 

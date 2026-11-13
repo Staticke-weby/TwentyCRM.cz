@@ -84,7 +84,7 @@ Kdo na něm dělal posledně, co měnil, kdy je další prevence, kolik dní zb�
 
 ### Servisní plán
 
-Roční / pololetní prevence se generuje sama každou noc — neřešíte připomínky v kalendáři
+Roční / pololetní prevence se generuje sama podle nastaveného pravidla — neřešíte připomínky v kalendáři
 
 :::
 

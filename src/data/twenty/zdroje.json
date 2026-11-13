@@ -1407,7 +1407,8 @@
       "typ": "studie",
       "vydavatel": "Gartner",
       "zkontrolovano": "2026-11-12",
-      "stav": "ok"
+      "stav": "ok",
+      "rucniKontrola": true
     },
     {
       "id": "gartner-press-releases-2026-07-28-gartner-predicts-ai-agents",
@@ -1416,7 +1417,8 @@
       "typ": "studie",
       "vydavatel": "Gartner",
       "zkontrolovano": "2026-11-12",
-      "stav": "ok"
+      "stav": "ok",
+      "rucniKontrola": true
     },
     {
       "id": "gartner-press-releases-2026-08-17-gartner-predicts-ai-infere",
@@ -1424,6 +1426,97 @@
       "nazev": "Gartner — náklady na běh agentních postupů (17. 8. 2026)",
       "typ": "studie",
       "vydavatel": "Gartner",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok",
+      "rucniKontrola": true
+    },
+    {
+      "id": "twenty-workflows-overview",
+      "url": "https://docs.twenty.com/user-guide/workflows/overview",
+      "nazev": "Twenty — automatizace (přehled a první kroky)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-workflow-branches",
+      "url": "https://docs.twenty.com/user-guide/workflows/capabilities/workflow-branches",
+      "nazev": "Twenty — větvení automatizací (když – jinak)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-workflow-runs",
+      "url": "https://docs.twenty.com/user-guide/workflows/capabilities/workflow-runs",
+      "nazev": "Twenty — záznam průběhu automatizací",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-need-more-help-workflows-faq",
+      "url": "https://docs.twenty.com/user-guide/workflows/how-tos/need-more-help/workflows-faq",
+      "nazev": "Twenty — časté otázky k automatizacím (limity, import, opakování)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-views-pipelines-overview",
+      "url": "https://docs.twenty.com/user-guide/views-pipelines/overview",
+      "nazev": "Twenty — pohledy (typy, ukládání, viditelnost)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-table-views",
+      "url": "https://docs.twenty.com/user-guide/views-pipelines/capabilities/table-views",
+      "nazev": "Twenty — tabulkový pohled a seskupení",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-kanban-views",
+      "url": "https://docs.twenty.com/user-guide/views-pipelines/capabilities/kanban-views",
+      "nazev": "Twenty — nástěnka (kanban) a součty ve sloupcích",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "twenty-capabilities-navigation",
+      "url": "https://docs.twenty.com/user-guide/layout/capabilities/navigation",
+      "nazev": "Twenty — boční menu, složky a oblíbené",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-41-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.41.0",
+      "nazev": "Twenty v2.41 — základ sdílení záznamů, sdílení jako placená funkce",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-12",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-45-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.45.0",
+      "nazev": "Twenty v2.45 — sdílení na úrovni jednotlivého záznamu",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
       "zkontrolovano": "2026-11-12",
       "stav": "ok"
     }

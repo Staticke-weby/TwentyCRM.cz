@@ -53,7 +53,7 @@ na vašem serveru, takže **data, paměť firmy i volba AI modelu zůstávají u
 
 - **Otevřený kód a vlastní server.** Data a historie komunikace neleží u dodavatele CRM.
 - **Vlastní klíče k AI.** Na vyhrazeném serveru si vyberete poskytovatele a model a platíte mu napřímo.
-- **Napojení pro AI v ceně.** MCP server je součástí Twenty, bez příplatku za „AI modul“.
+- **Napojení pro AI bez licenčního příplatku.** MCP server je součástí Twenty, žádný placený „AI modul“ navíc.
 - **Hotová řešení nad Twenty.** Pro řízení obchodu [Twenty Sales](/pro-obchodni-tymy/), pro montáže
   a servis u zákazníka [Twenty Servis](/pro-servisni-firmy/) — obě jsou naše nadstavby nad open-source Twenty.
 

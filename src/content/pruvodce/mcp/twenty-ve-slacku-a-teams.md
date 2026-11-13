@@ -77,7 +77,7 @@ který k obchodům tohoto klienta přístup nemá, by na stejnou otázku odpově
 
 - **Slack.** Aplikace se nainstaluje do Twenty a propojí se se Slackem. Na vyhrazeném serveru
   k tomu správce založí vlastní aplikaci ve Slacku a Twenty musí být pro Slack dosažitelné
-  z internetu. To nastavíme při nasazení.
+  z internetu. Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 - **Tarif Slacku.** Zmínky v kanálu a přímé zprávy fungují i v bezplatném Slacku. Postranní
   panel asistenta vedle konverzací vyžaduje placený tarif Slacku.
 - **AI model.** Aplikace sama nic nestojí, odpovědi asistenta ale spotřebují AI — na vyhrazeném
@@ -88,8 +88,8 @@ který k obchodům tohoto klienta přístup nemá, by na stejnou otázku odpově
   i tohle.
 
 Obě naše nadstavby nad open-source Twenty, [Twenty Sales](/pro-obchodni-tymy/)
-i [Twenty Servis](/pro-servisni-firmy/), mají AI chat a napojení pro AI nástroje. Asistent ve
-Slacku pracuje s jejich záznamy pod stejnými pravidly.
+i [Twenty Servis](/pro-servisni-firmy/), mají AI chat a napojení pro AI nástroje. Asistenta ve
+Slacku lze k oběma doplnit; s jejich záznamy pak pracuje pod stejnými pravidly.
 
 :::otazky
 
@@ -104,7 +104,7 @@ je potřeba jen pro postranní panel asistenta.
 
 ### Kdy půjde Twenty používat i z Teams?
 
-Přepisy schůzek z Teams fungují dnes. Asistent pro dotazy v Teams je rozpracovaný a výrobce
+Přepisy schůzek z Teams lze nastavit už dnes. Asistent pro dotazy v Teams je rozpracovaný a výrobce
 termín neuvádí.
 
 ### Může asistent ve Slacku odpovědět špatně?

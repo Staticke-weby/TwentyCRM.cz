@@ -48,7 +48,7 @@ a [jak připojit Claude a ChatGPT](/twenty/mcp/pripojeni-claude-a-chatgpt/).
 
 **Příprava může běžet i sama.** Automatizace s plánovaným spouštěčem každé ráno projde dnešní
 schůzky v kalendáři a AI ke každé připraví shrnutí klienta do poznámky. Skládá se z běžných kroků
-automatizací Twenty; zadání a rozsah nastavíme podle vás.
+automatizací Twenty; zadání a rozsah lze nastavit podle vás.
 
 Popis AI chatu je v [dokumentaci výrobce](https://docs.twenty.com/cs/user-guide/ai/capabilities/ai-chatbot).
 
@@ -73,7 +73,10 @@ navázat.
   i model a platíte mu přímo podle spotřeby.
 - **Pro Claude nebo ChatGPT** — předplatné u jejich poskytovatele a napojení přes MCP, které
   je součástí Twenty.
-- **Role** — aby AI nevidělo víc, než má. Nastavíme je při nasazení.
+- **Role** — aby AI nevidělo víc, než má. V Twenty Sales i Twenty Servis jsou role součástí
+  hotového řešení.
+- **Automatizace a dovednosti navíc** — ranní přípravu nebo dovednost s vaší osnovou lze v Twenty
+  nastavit; nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 V [Twenty Sales](/pro-obchodni-tymy/), naší nadstavbě nad open-source Twenty, je navíc souhrn
 obchodního případu na tlačítko a sada připravených zadání pro typické situace v obchodě.

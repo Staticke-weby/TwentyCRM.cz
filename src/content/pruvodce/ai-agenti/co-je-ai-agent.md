@@ -35,6 +35,8 @@ opakovanou práci, která má jasný začátek a jasný výsledek.
 
 ## Co vám to umožní
 
+Když agenta v Twenty nastavíte, může to vypadat takto:
+
 - **Obchodník nezačíná den tříděním.** Nové poptávky jsou ráno roztříděné podle toho, o co klient
   stojí, a přidělené správnému obchodníkovi. Místo čtení rovnou volá.
 - **Dispečer nepřepisuje e-maily do zakázek.** Z požadavku klienta vznikne zakázka navázaná
@@ -85,7 +87,7 @@ Klientovi do té doby nic neodešlo bez člověka.
   a znamená dvě faktury — viz [vyhrazený server, nebo cloud](/cloud-vs-selfhost/). Kolik to dělá
   v korunách, rozebírá článek [Kolik stojí AI agenti](/twenty/naklady/kolik-stoji-ai-agenti/).
 - **Role a zadání pro agenta.** Co smí vidět, co smí měnit a co má připravit jen jako návrh.
-  Nastavíme při nasazení spolu s vámi.
+  Agenty lze v Twenty nastavit podle vašeho provozu. Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 - **Pozor na komunikaci se zákazníky.** Když AI píše přímo klientům, týkají se vás pravidla
   o označování AI — viz [AI Act a CRM](/twenty/provoz/ai-act-a-crm/).
 
@@ -98,7 +100,7 @@ v Twenty je na stránce [Agentské CRM](/agentske-crm/).
 ### Je AI agent totéž co AI asistent v CRM?
 
 Ne. Asistent odpovídá, když se ho zeptáte. Agent se spustí sám — na událost nebo podle plánu — a práci
-v datech odvede bez vašeho pokynu, v mezích své role. V Twenty máte obojí: AI chat jako asistenta
+v datech odvede bez vašeho pokynu, v mezích své role. Twenty umožňuje obojí: AI chat jako asistenta
 a agenty se spouštěči.
 
 ### Může agent udělat chybu?

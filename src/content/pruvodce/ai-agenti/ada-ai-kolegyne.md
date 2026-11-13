@@ -53,7 +53,7 @@ ještě není. Ostatní AI v Twenty (chat, agenti, AI kroky) pracuje v rámci ro
 
 ## Co jde v Twenty dnes
 
-Než schránka s Adou vyjde, podobnou práci zastanou funkce, které už fungují:
+Než schránka s Adou vyjde, podobnou práci zastanou funkce, které v Twenty lze nastavit už dnes:
 
 - **AI chat v Twenty** — zeptáte se nad záznamem, na který odkážete přes @, a AI shrne historii nebo
   na požádání záznam upraví. Pracuje s vašimi oprávněními.

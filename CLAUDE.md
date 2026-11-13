@@ -47,6 +47,8 @@ When in doubt, fetch the source and quote/link rather than paraphrasing from mem
 
 **Describe what Twenty itself states — do not elaborate on what we have not tried (decided 2026-11-13).** Operational details that Twenty's docs do not describe and that neither we nor our clients have needed (server-side configuration read from source code, e.g. Amazon SES for forwarded mail) do not go on the website or into the guide — no „na vlastním serveru je potřeba…", „vybereme při nasazení", „ověříme před nasazením". Either it is in the vendor's material, or it is not on the site. Twenty Servis: the Servisní plán creates zakázka + výjezd **„podle nastaveného pravidla"** — never state a time („v noci"). Detail in `zasady-webu.md` 14c.
 
+**„Lze nastavit" ≠ „hotové v našem řešení" ≠ „v ceně" (decided 2026-11-13).** The guide describes what the Twenty platform can do. Status label is **„Lze nastavit dnes"** (never „Funguje dnes"); prose says „v Twenty lze nastavit". Call something ready only if the Twenty Sales / Twenty Servis pages document it. „Nastavíme / při nasazení" only for items in `pricing.json` → `implementation.includes`; otherwise state that setup is extra work — small tweaks from the monthly hour in the retainer, larger ones estimated up front (`/sla-balicky/`). No „zdarma", no refusals. The explanatory note under every status block is rendered from `src/lib/twenty.mjs`. Detail in `zasady-webu.md` 14d.
+
 ## ⚠️ Než začneš psát cokoli na web
 
 Přečti si **[`brainstorming/zasady-webu.md`](brainstorming/zasady-webu.md)**. Je to jediný dokument,

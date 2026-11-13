@@ -102,7 +102,7 @@ Firma si postup nechá zkontrolovat u advokáta.
 - **Seznam, kde AI používáte** — v CRM, v e-mailu, na webu; kdo s ní pracuje a co vidí zákazník.
 - **Označení AI** všude, kde AI komunikuje se zákazníkem sama.
 - **Krátké proškolení lidí**, kteří s AI pracují, a jednoduchý vnitřní postup.
-- **Role pro AI** s nejmenšími nutnými oprávněními — nastavíme je při nasazení.
+- **Role pro AI** s nejmenšími nutnými oprávněními — v Twenty je lze nastavit; nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 - **Konzultaci s právníkem** u všeho mimo běžnou obchodní a servisní práci.
 
 Jak AI zavádět po malých krocích, popisuje článek [Jak začít pilotem](/twenty/naklady/pilot-ai/).

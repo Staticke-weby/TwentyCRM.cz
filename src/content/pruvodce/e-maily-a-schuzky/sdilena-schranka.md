@@ -10,7 +10,7 @@ funkce: [sdilena-schranka, posta-kalendar, ai-chat, ada-tymova-schranka]
 zdroje: [twenty-capabilities-email-channels, docs-posta, twenty-capabilities-mailbox, twenty-vydani, twenty-how-tos-forward-a-shared-inbox-from-any-mail-provider, twenty-how-tos-forward-a-shared-inbox-from-microsoft-365, github-twenty-v2-56-0]
 ---
 
-**Poštu ze sdílené adresy jako info@ nebo servis@ dostanete do Twenty dvěma cestami: přeposíláním
+**Poštu ze sdílené adresy jako info@ nebo servis@ lze do Twenty dostat dvěma cestami: přeposíláním
 do takzvaného e-mailového kanálu (od verze 2.4), nebo připojením adresy jako běžné schránky
 jednoho z uživatelů. V obou případech se zprávy přiřadí ke klientovi a kontaktní osobě podle
 odesílatele a kolegové je uvidí na jejich kartě.**
@@ -93,8 +93,8 @@ protože přeposílání ponechává kopii ve schránce.
 - **V Twenty oprávnění ke správě nastavení** — e-mailový kanál zakládá správce.
 
 V řešeních [Twenty Sales](/pro-obchodni-tymy/) i [Twenty Servis](/pro-servisni-firmy/) — našich
-nadstavbách nad open-source Twenty — se zprávy ze sdílené adresy zobrazí u klienta a kontaktní
-osoby stejně jako osobní pošta.
+nadstavbách nad open-source Twenty — se zprávy ze sdílené adresy po připojení zobrazí u klienta
+a kontaktní osoby stejně jako osobní pošta.
 
 :::otazky
 

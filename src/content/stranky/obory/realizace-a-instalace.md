@@ -131,8 +131,8 @@ a systém sám označí, když se někomu překrývají.
 
 ### 🔁 Prohlídky po předání běží samy
 
-Na zařízení nastavíte, kdy se má přijet — po roce, po dvou, po pěti. Systém v noci
-vytvoří zakázku i výjezd a přiřadí technika, který instalaci zná.
+Na zařízení nastavíte, kdy se má přijet — po roce, po dvou, po třech letech, nebo po zadaném
+počtu dní. Systém podle nastaveného pravidla vytvoří zakázku i výjezd a přiřadí technika, který instalaci zná.
 
 - Intervaly zadáváte vy podle smlouvy a typu zařízení
 - Po výpadku negeneruje zpětně, posune se na nejbližší termín

@@ -56,8 +56,7 @@ popisuje článek [rozdělování poptávek mezi obchodníky](/twenty/obchod/roz
 Nový → Kontaktován → Kvalifikován → Převeden, nebo Diskvalifikován s důvodem. U zájemce stačí
 IČO — název, DIČ, adresu a to, jestli je firma plátce DPH, doplní systém z ARES. Kvalifikace pak
 sama založí klienta, kontaktní osobu i obchodní případ, a známou firmu podle IČO nezaloží podruhé.
-Třídění s AI se k tomu přidává jako automatizace, kterou nastavíme při nasazení podle vašich
-pravidel.
+Třídění s AI lze k tomu nastavit jako automatizaci podle vašich pravidel.
 
 Popis obou kroků je v [dokumentaci výrobce](https://docs.twenty.com/user-guide/workflows/capabilities/workflow-actions)
 (anglicky — česká verze krok Třídění zatím nepopisuje).
@@ -83,7 +82,7 @@ i termín.
 ## Co je k tomu potřeba
 
 - **Cesta, kudy poptávky přicházejí.** Formulář na webu, připojená schránka, import ze souboru.
-  Napojení nastavíme při nasazení.
+  Napojení formuláře nebo schránky lze v Twenty nastavit.
 - **Hodnoticí model pro Třídění.** Krok Classify běží na hodnoticím modelu, který Twenty nazývá
   Jev; správce ho musí zapnout a nastavit k němu klíč ke službě TypeSafe AI. Bez toho krok
   neproběhne. Podle právních otázek výrobce se TypeSafe používá jen tehdy, když ho správce zapne —
@@ -92,8 +91,10 @@ i termín.
 - **AI model pro AI krok.** Na vyhrazeném serveru přes vaše vlastní klíče k AI; platíte přímo
   poskytovateli podle spotřeby. Jak odhadnout útratu, popisuje článek
   [kolik stojí AI agenti](/twenty/naklady/kolik-stoji-ai-agenti/).
-- **Kritéria.** Co je pro vás dobrá poptávka a co ne. Zapíšeme je spolu do otázek a na prvních
-  týdnech provozu doladíme. Začít jde i jedinou otázkou — viz [pilot AI](/twenty/naklady/pilot-ai/).
+- **Kritéria.** Co je pro vás dobrá poptávka a co ne. Zapíšou se do otázek a v prvních týdnech
+  provozu se doladí. Začít jde i jedinou otázkou — viz [pilot AI](/twenty/naklady/pilot-ai/).
+- **Nastavení automatizace.** Třídění ani napojení formuláře nejsou součástí hotového Twenty Sales.
+  Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 - **Twenty od verze 2.42** a pro omezená oprávnění AI kroku od verze 2.56. Na vyhrazeném serveru
   aktualizace nasazujeme v rámci měsíčního paušálu.
 

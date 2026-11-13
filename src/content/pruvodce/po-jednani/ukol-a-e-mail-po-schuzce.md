@@ -70,9 +70,10 @@ za schůzku, tři body, na kterých se shodli, a termín nabídky. Opraví jednu
 - **AI model** — na vyhrazeném serveru přes vaše vlastní klíče k AI (Anthropic, OpenAI, Google,
   Mistral nebo xAI). Platíte přímo poskytovateli podle spotřeby.
 - **Zadání a role pro AI** — co má e-mail obsahovat, jakým tónem, kam zakládat úkoly a co smí
-  AI měnit. To spolu nastavíme při nasazení a doladíme na prvních schůzkách.
+  AI měnit. Automatizaci podle toho lze v Twenty nastavit a na prvních schůzkách doladit.
+  Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
-V [Twenty Sales](/pro-obchodni-tymy/) se úkol zakládá k obchodnímu případu,
+V [Twenty Sales](/pro-obchodni-tymy/) lze úkol zakládat k obchodnímu případu,
 v [Twenty Servis](/pro-servisni-firmy/) ke klientovi nebo k zakázce. Obě řešení jsou naše
 nadstavby nad open-source Twenty. Jak AI agenti v Twenty fungují obecně, popisuje článek
 [agenti v Twenty](/twenty/ai-agenti/agenti-v-twenty/).

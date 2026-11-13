@@ -73,10 +73,13 @@ Vedoucí napíše *„založ obchodníkovi úkol zeptat se na termín vyjádřen
   se AI účtuje jinak, viz [vyhrazený server, nebo cloud](/cloud-vs-selfhost/).
 - **Data v CRM.** Shrnutí jsou tak dobrá, jak úplná jsou data. Nejvíc pomůže synchronizovaná pošta
   a kalendář ([e-maily a kalendář na kartě klienta](/twenty/e-maily-a-schuzky/synchronizace-e-mailu-a-kalendare/)).
-- **Role.** Aby AI každému ukázala jen to, co vidět má. Nastavíme je při nasazení.
+- **Role.** Aby AI každému ukázala jen to, co vidět má. V Twenty Sales i Twenty Servis jsou role
+  součástí hotového řešení.
 - **Výpočty nad tabulkami.** Pokud má AI v chatu počítat nad přiloženými tabulkami, zapíná se
-  na vyhrazeném serveru zvlášť prostředí pro spouštění výpočtů. Nastavíme ho při nasazení.
-- **Dovednosti.** Firemní postupy (příprava na schůzku, shrnutí obchodu) zapíšeme spolu s vámi.
+  na vyhrazeném serveru zvlášť prostředí pro spouštění výpočtů.
+- **Dovednosti.** Firemní postupy (příprava na schůzku, shrnutí obchodu) lze v Twenty zapsat
+  jako dovednosti. Zapnutí prostředí pro výpočty i zápis dovedností je práce navíc: drobnost se vejde
+  do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 AI chat a napojení pro AI nástroje mají obě naše nadstavby nad open-source Twenty —
 [Twenty Sales](/pro-obchodni-tymy/) i [Twenty Servis](/pro-servisni-firmy/). Twenty Sales k tomu

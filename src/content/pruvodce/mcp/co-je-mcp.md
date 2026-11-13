@@ -59,8 +59,9 @@ pozná, že jde o změnu dat, a před založením se zeptá.
 - **Twenty** — napojení pro AI je součástí Twenty, ve všech tarifech i na vyhrazeném serveru.
 - **AI nástroj s podporou MCP** — například Claude (aplikace i Claude Code), ChatGPT nebo Cursor,
   podle toho, co ve firmě používáte. Za asistenta platíte jeho poskytovateli podle svého tarifu.
-- **Role pro AI** — u sdíleného použití je dobré rozmyslet, co smí AI vidět a měnit. Role a klíče
-  nastavíme při nasazení.
+- **Role pro AI** — u sdíleného použití je dobré rozmyslet, co smí AI vidět a měnit. Při přihlášení
+  pracuje AI pod rolí uživatele a ty jsou v Twenty Sales i Twenty Servis hotové. Klíč s vlastní rolí
+  pro napojený systém lze v Twenty nastavit; nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 - **Přístup zvenku** — asistenti běžící v cloudu (Claude, ChatGPT) se musí k Twenty dostat
   z internetu. Na vyhrazeném serveru zpřístupníme jen adresy, které napojení potřebuje.
 
@@ -76,8 +77,8 @@ v prohlížeči a heslo se nikam neukládá. Co smí AI měnit, omezíte rolí �
 
 ### Potřebuji k tomu programátora?
 
-Ne. V Twenty zkopírujete připravené nastavení a vložíte ho do AI nástroje. Při nasazení to
-nastavíme za vás, včetně rolí.
+Ne. V Twenty zkopírujete připravené nastavení a vložíte ho do AI nástroje. Napojení pro AI nástroje
+je součástí Twenty Sales i Twenty Servis a role, pod kterými AI pracuje, jsou v nich hotové.
 
 ### Platí se za MCP v Twenty něco navíc?
 

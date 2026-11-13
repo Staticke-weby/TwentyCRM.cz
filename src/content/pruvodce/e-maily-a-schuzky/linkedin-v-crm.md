@@ -77,12 +77,13 @@ rozměry. Ví, co bylo dohodnuto, a nemusí obchodníkovi volat.
   zpráv se přiřadí správně.
 - **Posouzení ochrany osobních údajů.** Zprávy tečou přes servery Unipile, s tím je potřeba
   počítat — víc v článku [GDPR a AI agenti](/twenty/provoz/gdpr-a-ai-agenti/).
+- **Nastavení aplikace na vyhrazeném serveru.** Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 V cloudu výrobce je napojení na Unipile podle návodu aplikace připravené a aplikace se platí
 výrobci zvlášť — rozdíl obou variant je na stránce [Vyhrazený server, nebo cloud](/cloud-vs-selfhost/).
 
-V řešení [Twenty Sales](/pro-obchodni-tymy/) — naší nadstavbě nad open-source Twenty — se zprávy
-z LinkedInu zobrazí u kontaktní osoby a klienta stejně jako e-maily. Jak se do CRM dostávají
+K řešení [Twenty Sales](/pro-obchodni-tymy/) — naší nadstavbě nad open-source Twenty — lze aplikaci
+doplnit; zprávy z LinkedInu se pak zobrazí u kontaktní osoby a klienta stejně jako e-maily. Jak se do CRM dostávají
 e-maily a schůzky, popisuje článek [E-maily a kalendář na kartě klienta](/twenty/e-maily-a-schuzky/synchronizace-e-mailu-a-kalendare/).
 
 :::otazky

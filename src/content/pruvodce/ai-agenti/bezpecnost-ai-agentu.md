@@ -98,8 +98,8 @@ divnou větu, poptávku označí jako podvrh a smaže.
 
 ## Co je k tomu potřeba
 
-- **Role ušité na úlohu.** Každý agent a každý AI krok dostane jen práva, která potřebuje. Role
-  připravíme při nasazení spolu s vámi.
+- **Role ušité na úlohu.** Každý agent a každý AI krok má mít jen práva, která potřebuje.
+  Takové role lze v Twenty nastavit, vždy spolu s agentem, pro kterého jsou. Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 - **Výstupy ven přes člověka.** Zprávy psané AI ukládat jako koncepty, dokud nevíte, jak se agent
   v ostrém provozu chová. Aby se agent sám zeptal a počkal na schválení, se v Twenty připravuje.
 - **Opatrnost u textu zvenčí.** Agenti, kteří čtou webové formuláře a cizí e-maily, nemají mít

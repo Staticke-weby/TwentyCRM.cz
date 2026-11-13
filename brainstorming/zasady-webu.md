@@ -461,6 +461,23 @@ v reseni.json a v průvodci).
 
 ---
 
+## 14d. „Lze nastavit" není „máte hotové" — a nastavení není automaticky v ceně
+
+**Pravidlo:** průvodce popisuje, co umí **platforma Twenty**. To je něco jiného než to, co mají hotové naše řešení
+Twenty Sales a Twenty Servis. Štítek stavu proto zní **„Lze nastavit dnes"** (ne „Funguje dnes") a v textu
+píšeme „v Twenty lze nastavit", „Twenty umožňuje". Jako hotové uvádíme jen to, co je doložené na stránkách řešení.
+„Nastavíme / připravíme / při nasazení" jen u věcí z rozsahu nasazení (`pricing.json` → `implementation.includes`);
+jinak poctivě: **nastavení je práce navíc** — drobnost z hodiny měsíčně v paušálu, větší úprava po odhadu předem
+([SLA balíčky](/sla-balicky/)). Bez „zdarma", bez cen v hodinách v článcích, bez odmítání.
+
+**Proč:** čtenář bral „funguje dnes" jako „dostanu to", a „nastavíme spolu s vámi" jako službu v ceně.
+Obojí by vedlo ke sporu po podpisu.
+
+**Kde je to zapsané v kódu:** štítky a vysvětlivka pod každým blokem stavu (`src/lib/twenty.mjs`) —
+změna se projeví všude najednou, včetně `/agentske-crm/`.
+
+---
+
 ## 15. Technické zásady, které se osvědčily
 
 **Build je dvoukrokový a dělá se lokálně.** Na Svethostingu není npm ani PHP build —

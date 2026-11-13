@@ -67,7 +67,7 @@ než česká čísla za rok 2026. Srovnání zemí EU za rok 2026 ČSÚ ohlásil
 ## Jak to vypadá v Twenty
 
 V Twenty má AI k dispozici data CRM — klienty, obchodní případy, zakázky a e-maily se schůzkami,
-které se ke klientovi ukládají samy. Dnes funguje:
+které se ke klientovi ukládají samy. V Twenty lze nastavit už dnes:
 
 - **AI chat** přímo v Twenty, kterého se zeptáte lidskou řečí a který pracuje s vašimi oprávněními,
 - **agenti a AI kroky v automatizacích**, kteří sami roztřídí poptávku nebo doplní údaje,
@@ -94,7 +94,8 @@ chtěl, a navrhni text nabídky."* AI má historii před sebou a obchodník jen 
 - **Data na jednom místě.** Klienti, obchody a komunikace v CRM, ne v e-mailech a tabulkách.
   Přechod popisuje stránka [Migrace z Excelu](/migrace-z-excelu/).
 - **Jedna úloha na začátek.** Ta, která se často opakuje a dá se snadno zkontrolovat —
-  viz [pilot na jedné úloze](/twenty/naklady/pilot-ai/).
+  viz [pilot na jedné úloze](/twenty/naklady/pilot-ai/). Agenta nebo AI krok pro ni lze v Twenty
+  nastavit; nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 - **AI model.** Na vyhrazeném serveru s vlastními klíči; kolik to stojí, rozebírá
   [Kolik stojí AI agenti](/twenty/naklady/kolik-stoji-ai-agenti/).
 

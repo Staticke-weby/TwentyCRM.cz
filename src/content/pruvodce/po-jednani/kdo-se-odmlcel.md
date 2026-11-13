@@ -80,7 +80,8 @@ v pondělním přehledu i vedoucí.
 - **Aplikace Last Contact** — pro datum posledního e-mailu nebo schůzky. Je zdarma a potřebuje
   synchronizovanou poštu nebo kalendář (Google, Outlook nebo CalDAV).
 - **Pravidla, kolik dní je moc** — jiná pro nového zájemce, jiná pro rozjednanou nabídku. Kdo
-  dostane úkol a kdy se přidá vedoucí. Nastavíme spolu při nasazení.
+  dostane úkol a kdy se přidá vedoucí. Automatizaci podle nich lze v Twenty nastavit;
+  nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 - **AI model pro návrh dalšího kroku** — na vyhrazeném serveru přes vaše vlastní klíče k AI,
   platíte přímo poskytovateli. Upozornění samotná AI nepotřebují.
 

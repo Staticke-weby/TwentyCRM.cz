@@ -77,9 +77,9 @@ Jde o průzkum dodavatele, který tyto nástroje prodává, a nerozlišuje velik
   vyplatí se předem určit, co se má zlepšit — třeba za jak dlouho se z požadavku stane
   naplánovaný výjezd — a změřit to před spuštěním i po něm.
 
-V Twenty dnes AI pracuje přímo s daty v CRM: agenti se spouštějí sami na událost nebo podle plánu,
-AI kroky v automatizacích třídí a zakládají záznamy a zprávy pro klienty ukládají jako koncepty
-ke kontrole. V Twenty Servis je hotový popis práce sestavený z výkazů techniků a plán sestavuje
+V Twenty lze dnes nastavit AI, která pracuje přímo s daty v CRM: agenty, kteří se spouštějí sami
+na událost nebo podle plánu, a AI kroky v automatizacích, které třídí a zakládají záznamy a zprávy
+pro klienty ukládají jako koncepty ke kontrole. V Twenty Servis je hotový popis práce sestavený z výkazů techniků a plán sestavuje
 dispečer v plánovači, který mu hlídá kolize. Schválení člověkem přímo v běhu agenta se připravuje.
 
 :::poznamka[Ilustrační příklad]{ton="info"}
@@ -95,8 +95,9 @@ kontroluje, a k telefonům se vrátí, až bude vědět, jak se AI v jejích dat
 
 ### Co z toho jde s Twenty už dnes?
 
-Příjem požadavků z e-mailu: automatizace s AI z nich připraví zakázku se shrnutím, kterou
-dispečer zkontroluje. Dál popis práce z výkazů techniků a odpovědi nad daty v AI chatu.
+Příjem požadavků z e-mailu: lze nastavit automatizaci s AI, která z nich připraví zakázku se
+shrnutím ke kontrole dispečerem. Hotový je v Twenty Servis popis práce z výkazů techniků
+a odpovědi nad daty dává AI chat.
 Podrobně v článku [Co může AI v servisní firmě převzít](/twenty/servis/ai-v-servisni-firme/).
 
 ### Naplánuje AI výjezdy lépe než dispečer?

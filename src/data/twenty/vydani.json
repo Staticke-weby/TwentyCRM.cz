@@ -40,6 +40,10 @@
         {
           "co": "Přímé zprávy (za přepínačem)",
           "funkce": "ada-tymova-schranka"
+        },
+        {
+          "co": "Soukromé záznamy za novým přepínačem",
+          "funkce": "soukrome-zaznamy"
         }
       ],
       "zpracovano": "2026-11-12"
@@ -69,7 +73,7 @@
           "funkce": "linkedin"
         },
         {
-          "co": "Soukromé záznamy pro všechny (přepínač zrušen)",
+          "co": "Zrušen první přepínač soukromých záznamů (ve v2.57 nahrazen novým — stále za přepínačem)",
           "funkce": "soukrome-zaznamy"
         },
         {
@@ -101,7 +105,7 @@
           "funkce": "ai-obrazovky"
         },
         {
-          "co": "Soukromé záznamy",
+          "co": "Soukromé záznamy (za přepínačem)",
           "funkce": "soukrome-zaznamy"
         },
         {

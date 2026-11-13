@@ -6,7 +6,7 @@ poradi: 7
 overeno: 2026-11-12
 verzeTwenty: '2.57'
 temata: [data, aplikace]
-funkce: [vlastni-zaznamy, vazby-mnoho, kontrola-dat, pohledy, aplikace, obchod-s-aplikacemi, ai-obrazovky]
+funkce: [vlastni-zaznamy, vazby-mnoho, kontrola-dat, pohledy, aplikace, obchod-s-aplikacemi, ai-obrazovky, automatizace, rozvrzeni-karty, soukrome-zaznamy]
 ---
 
 **Twenty se přizpůsobuje oboru nastavením, ne programováním: přidáte pole, typy záznamů a vazby,
@@ -21,7 +21,7 @@ Nasazení ve vašem oboru pak znamená rozhodnout, **jaká pole přidat**, ne co
 **Co jde dnes:**
 
 - **Vlastní pole a typy záznamů** — výkon zařízení, typ smlouvy, region, cokoli, co sledujete;
-  bez příplatku za každé pole navíc.
+  Twenty za pole navíc nic neúčtuje.
 - **Vazby mezi záznamy**, od verze 2.45 i „mnoho na mnoho" — třeba jedna kontaktní osoba u více
   zařízení.
 - **Pravidla pro kontrolu dat** (od verze 2.56, v tarifu Organization), která nepustí neúplný

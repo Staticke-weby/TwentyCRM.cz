@@ -116,7 +116,7 @@ a do informací pro zákazníky a ověří, že obchodníci používají Claude 
 - **Smlouva s poskytovatelem AI** a ověření, kde zpracovává data a jak dlouho je uchovává.
 - **Doplnění záznamů o činnostech zpracování** (čl. 30) a informací pro zákazníky (čl. 13 a 14),
   které zahrnují i příjemce a předání do třetích zemí.
-- **Role pro AI s nejmenšími nutnými oprávněními** — nastavíme je při nasazení.
+- **Role pro AI s nejmenšími nutnými oprávněními** — v Twenty je lze nastavit; nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 - **Konzultaci s pověřencem nebo advokátem.** Dozorovým úřadem je v Česku
   [Úřad pro ochranu osobních údajů](https://uoou.gov.cz/).
 

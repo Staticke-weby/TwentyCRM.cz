@@ -25,7 +25,7 @@ Výsledek, ke kterému míří:
   hlídá, jestli tempo stačí.
 
 **Co jde dnes:** třídění poptávek s AI (od verze 2.42), rozdělování dokola (od verze 2.16)
-a dashboardy, které sestaví AI (od verze 2.20), jsou součást open-source Twenty.
+a dashboardy, které sestaví AI (od verze 2.20), jsou součást open-source Twenty a lze je nastavit.
 Zájemci s vlastním stavem, načtení údajů z ARES, nabídky s marží, šablony dokumentů a obchodní plán
 se semaforem jsou hotové v [Twenty Sales](/pro-obchodni-tymy/) — našem řešení pro řízení obchodu,
 postaveném jako nadstavba nad open-source Twenty.

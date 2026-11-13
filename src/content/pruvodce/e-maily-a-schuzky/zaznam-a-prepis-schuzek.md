@@ -76,15 +76,15 @@ obchodníka ptal.
   [e-maily a kalendář na kartě klienta](/twenty/e-maily-a-schuzky/synchronizace-e-mailu-a-kalendare/).
 - **Volba zdroje** — nahrávací asistent Twenty, nebo napojení na nástroj, který máte.
   Za Fireflies, Fathom nebo Granolu platíte jejich výrobci podle svého tarifu.
-- **Nastavení na vyhrazeném serveru** — napojení zapneme při nasazení: u nahrávacího asistenta
+- **Nastavení na vyhrazeném serveru** — napojení je potřeba zapnout: u nahrávacího asistenta
   účet u služby Recall.ai, která nahrávání zajišťuje a účtuje podle svého ceníku, u Teams
   registraci v Microsoft 365, u ostatních klíč k jejich službě. Server musí být dosažitelný
-  z internetu, aby mu služby mohly hotové přepisy posílat.
+  z internetu, aby mu služby mohly hotové přepisy posílat. Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 - **AI pro shrnutí** — na vyhrazeném serveru přes vaše vlastní klíče k AI, platíte přímo
   poskytovateli podle spotřeby.
 
 Open-source Twenty je platforma pod oběma našimi nadstavbami, [Twenty Sales](/pro-obchodni-tymy/)
-i [Twenty Servis](/pro-servisni-firmy/), takže tyto možnosti mají obě.
+i [Twenty Servis](/pro-servisni-firmy/), takže tyto možnosti lze doplnit k oběma.
 
 :::otazky
 

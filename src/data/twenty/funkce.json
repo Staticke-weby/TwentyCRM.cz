@@ -868,21 +868,24 @@
     {
       "id": "soukrome-zaznamy",
       "nazev": "Soukromé záznamy a sdílení",
-      "prinos": "Důvěrný obchod nebo záznam vidí jen ten, kdo ho založil, a ti, s kým ho výslovně sdílí.",
-      "stav": "dnes",
-      "od": "2.55.0",
+      "prinos": "Důvěrný obchod nebo záznam uvidí jen ten, kdo ho založil, a ti, s kým ho výslovně sdílí.",
+      "stav": "pripravuje-se",
+      "od": null,
       "omezeni": [],
       "zdroje": [
-        "gh-vydani"
+        "gh-vydani",
+        "gh-prepinace"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "opravneni"
       ],
       "hledat": [
         "private record",
         "sharing"
-      ]
+      ],
+      "duvod": "prepinac",
+      "pozn": "Interní: v2.56 zrušen přepínač IS_PRIVATE_RECORD_ENABLED, ve v2.57 přibyl nový IS_PRIVATE_RECORDS_ENABLED; sdílení konkrétním lidem za IS_RECORD_LEVEL_SHARING_ENABLED (ověřeno v FeatureFlagKey.ts 2026-11-13). Sdílení výrobce v2.41 označil jako placenou funkci."
     },
     {
       "id": "sso",

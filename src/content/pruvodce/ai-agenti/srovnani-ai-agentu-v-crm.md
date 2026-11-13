@@ -96,6 +96,8 @@ dispečerka zakázku ráno zkontroluje.
 - **Rozhodnout, kde mají data být.** U čtyř výrobců běží AI v jejich cloudu. Kdo chce mít CRM i AI
   pod vlastní kontrolou, potřebuje systém, který jde provozovat na vlastním serveru. Cloud Twenty je
   druhá varianta se dvěma fakturami — viz [vyhrazený server, nebo cloud](/cloud-vs-selfhost/).
+- **Nastavení agenta na vaši úlohu.** V Twenty se agent skládá ze stavebnice, ne kupuje hotový.
+  Nastavení je práce navíc: drobnost se vejde do hodiny měsíčně v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 :::otazky
 

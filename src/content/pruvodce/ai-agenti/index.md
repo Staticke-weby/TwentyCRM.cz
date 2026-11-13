@@ -1,6 +1,6 @@
 ---
 title: "AI kolegové s jasnými pravidly"
-description: "AI agenti v Twenty: co umí převzít v obchodě a servisu, pod jakou rolí pracují, kdo je hlídá a kde je potřeba schválení člověkem. Co funguje dnes a co se připravuje."
+description: "AI agenti v Twenty: co umí převzít v obchodě a servisu, pod jakou rolí pracují, kdo je hlídá a kde je potřeba schválení člověkem. Co lze nastavit dnes a co se připravuje."
 vMenu: "AI agenti"
 poradi: 3
 overeno: 2026-11-12
@@ -13,11 +13,11 @@ funkce: [ai-agenti, ai-krok-automatizace, ai-trideni, ai-dovednosti, role-opravn
 nebo naplánovaný čas — a odvede rutinní práci: roztřídí, doplní, shrne, připraví návrh. Lidé
 rozhodují a schvalují.**
 
-Pro firmu to znamená méně přepisování a méně věcí, které usnou. Obchodník dostane poptávky
-roztříděné a přidělené, dispečer místo e-mailů zakázky se shrnutím, technik nepíše dlouhé popisy
+Pro firmu to může znamenat méně přepisování a méně věcí, které usnou. Obchodník může dostávat
+poptávky roztříděné a přidělené, dispečer místo e-mailů zakázky se shrnutím, technik nepíše dlouhé popisy
 pro klienta a majitel ví, že obchodní případy ani zakázky neusnou bez povšimnutí.
 
-**Co jde v Twenty dnes:** agenti, kteří se sami spouštějí při změně záznamu nebo podle plánu,
+**Co lze v Twenty nastavit dnes:** agenti, kteří se sami spouštějí při změně záznamu nebo podle plánu,
 dovednosti se zapsanými firemními postupy, AI krok v automatizacích s vlastním omezeným oprávněním
 a třídění poptávek a e-mailů do kategorií. Každý agent pracuje pod rolí, která určuje, co smí vidět
 a měnit — stejně jako u kolegy.

@@ -85,8 +85,10 @@ zhruba na dvojnásobek a každý měsíc porovná útratu s časem, který obcho
 - **Odhad objemu** — kolik poptávek, schůzek nebo zakázek má AI měsíčně zpracovat.
 - **Strop nebo upozornění** nastavené před spuštěním první automatizace s AI.
 - **Člověka, který se jednou měsíčně podívá do vyúčtování** a porovná ho s přínosem.
-- **Nastavení** — oddělený klíč, volbu modelů a omezení spouštěčů připravíme při nasazení nebo
-  v rámci předplacených hodin podpory.
+- **Nastavení** — klíč k AI a výchozí model se do Twenty zadávají při nasazení, protože AI chat je
+  součástí Twenty Sales i Twenty Servis. Omezení spouštěčů patří k automatizaci, pro kterou je;
+  automatizace s AI navíc a jejich nastavení jsou práce navíc: drobnost se vejde do hodiny měsíčně
+  v paušálu, větší úpravu odhadneme předem — viz [SLA balíčky](/sla-balicky/).
 
 Jak AI účtují velcí dodavatelé CRM a jak útratu odhadnout předem, rozebírá článek
 [Kolik stojí AI agenti v CRM](/twenty/naklady/kolik-stoji-ai-agenti/).
