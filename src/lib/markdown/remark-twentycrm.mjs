@@ -52,6 +52,7 @@
 
 import { visit, SKIP } from 'unist-util-visit';
 import { toString } from 'mdast-util-to-string';
+import { slug } from 'github-slugger';
 import { faq, zPricing, dosadHodnoty, escapeHtml } from '../site.mjs';
 import { EMOJI_RE, odznak, nahradEmojiVHtml, stitekPoznamky } from '../ikony.mjs';
 import { najdiFunkci, vyberFunkce, stavFunkciBlok } from '../twenty.mjs';
@@ -79,6 +80,20 @@ function chyba(file, node, zprava) {
 }
 
 const html = (value) => ({ type: 'html', value });
+
+/**
+ * Číslo kroku v řádku před nadpisem („1 Nadpis"), ne nad ním (rozhodnutí uživatele 2026-11-13).
+ * Kotva nadpisu zůstává podle textu bez čísla — jako před změnou.
+ */
+function cisloPredNadpis(nadpis, cislo) {
+  const props = { ...(nadpis.data?.hProperties ?? {}) };
+  props.id ??= slug(toString(nadpis));
+  nadpis.data = { ...nadpis.data, hProperties: props };
+  nadpis.children.unshift(
+    { type: 'cisloNadpisu', data: { hName: 'span', hProperties: { className: ['cislo-nadpisu'] } }, children: [{ type: 'text', value: cislo }] },
+    { type: 'text', value: ' ' },
+  );
+}
 
 /** mdast uzel, který se vykreslí jako <tag class="…"> s danými potomky. */
 function obal(tag, className, children, props = {}) {
@@ -154,8 +169,11 @@ export default function remarkTwentycrm() {
               const [h3, h4] = s;
               const cislo = h3.children.length === 1 && h3.children[0].type === 'text' && h3.children[0].value.trim().match(/^\d{1,2}\.?$/);
               if (cislo && h4?.type === 'heading' && h4.depth === 4) {
-                h4.children.unshift(html(`<span class="cislo-nadpisu">${cislo[0]}</span> `));
+                cisloPredNadpis(h4, cislo[0]);
                 s.shift();
+              } else if (cislo) {
+                // ### 12 + popis → statistika: velké číslo, pod ním popis
+                h3.data = { ...h3.data, hProperties: { ...(h3.data?.hProperties ?? {}), className: ['karta__cislo', 'tnum'] } };
               }
             }
             node.data = { hName: 'div', hProperties: { className: [`${node.name}-blok`] } };
@@ -265,6 +283,13 @@ export default function remarkTwentycrm() {
           case 'stitek': {
             const text = node.children?.map((c) => c.value ?? '').join('') || a.text;
             if (!text) chyba(file, node, '::stitek[Text štítku] — chybí text v hranatých závorkách');
+            // ::stitek[1] + ### Otázka → číslo v řádku před nadpisem, ne nad ním (2026-11-13)
+            const dalsi = parent.children[index + 1];
+            if (/^\d{1,2}\.?$/.test(text.trim()) && dalsi?.type === 'heading') {
+              cisloPredNadpis(dalsi, text.trim());
+              parent.children.splice(index, 1);
+              return [SKIP, index];
+            }
             vystup = `<p class="stitek">${escapeHtml(dosad(text, file, node))}</p>`;
             break;
           }

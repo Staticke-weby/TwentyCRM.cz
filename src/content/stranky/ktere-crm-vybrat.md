@@ -42,6 +42,8 @@ Pokračujte druhou otázkou.
 
 ::::
 
+::::zvyrazneni
+
 ::stitek[2]
 
 ### Řídíte obchod — poptávky, nabídky, marže, plnění plánu?
@@ -60,6 +62,8 @@ Chcete **Twenty Sales**.
 Pak vám možná stačí samotné Twenty bez naší nadstavby. Řekneme to rovnou na konzultaci — nemá smysl vám prodávat něco, co nevyužijete.
 
 :::
+
+::::
 
 :::poznamka[A když děláme obojí?]{ton="info"}
 

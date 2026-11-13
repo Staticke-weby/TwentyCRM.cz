@@ -224,7 +224,9 @@
 /* číslo kroku v řádku před nadpisem (### 01 + #### Nadpis v :::sloupce / :::karty) */
 .cislo-nadpisu { color: var(--tc-accent); font-variant-numeric: tabular-nums; margin-right: 0.55em; flex: none; }
 /* zalomený nadpis pokračuje pod textem, ne pod číslem */
-:is(h3, h4):has(> .cislo-nadpisu) { display: flex; }
+:is(h2, h3, h4):has(> .cislo-nadpisu) { display: flex; }
+/* statistika v kartě (### 12 + popis): velké číslo jako u ceny */
+.karta > h3.karta__cislo { font-size: var(--tc-display-md); font-weight: 450; letter-spacing: -0.04em; line-height: 1; color: var(--tc-ink); margin: 0 0 0.6rem; }
 .karta > :where(h4:first-child), .sloupec > :where(h4:first-child) { margin-top: 0; }
 .karta :where(h3) { font-size: 1.0625rem; font-weight: 550; }
 .karta :where(p, li) { font-size: 0.9375rem; color: var(--tc-muted); }
@@ -242,6 +244,8 @@
 .sekce--svetle .zvyrazneni { background: var(--tc-page); }
 .zvyrazneni > :where(:first-child) { margin-top: 0; }
 .zvyrazneni > :where(:last-child) { margin-bottom: 0; }
+/* sloupce na konci rámečku: mřížka uvnitř nesmí přidat okraj pod sebe */
+.zvyrazneni > :where(:last-child) > .mrizka:last-child { margin-bottom: 0; }
 
 /* ===== ::cenovka ===== */
 .cenovka { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.25rem 0.75rem; margin: 0.25rem 0 1.25rem; }
