@@ -496,6 +496,15 @@
 /* velká: nad nadpisem karty */
 .ikona--velka { display: grid; width: 2.5rem; height: 2.5rem; border-radius: 0.75rem; margin: 0 0 1rem; }
 .ikona--velka + :is(h2, h3, h4) { margin-top: 0 !important; }
+/* název řešení: velká ikona vedle nadpisu, ne nad ním */
+.karta__nazev { display: flex; align-items: center; gap: 0.85rem; margin: 0 0 0.6rem; }
+.karta__nazev .ikona--velka { margin: 0; }
+.karta__nazev :is(h2, h3, h4) { margin: 0 !important; }
+/* malá a střední stojí v řádku textu. Jako inline-grid by měly účaří u spodku ikony (svg),
+   ne u spodku odznaku, a vertical-align níž je stáhl o ~0,3em pod střed textu. Inline-block bez
+   obsahu v toku má účaří na spodním okraji, takže posun níž sedí a ikona je s textem na střed. */
+.ikona--stredni:not(.ikona--text), .ikona--mala:not(.ikona--text) { display: inline-block; position: relative; }
+:is(.ikona--stredni, .ikona--mala):not(.ikona--text) svg { position: absolute; inset: 21%; }
 /* střední: uvnitř nadpisu ## */
 .ikona--stredni { width: 0.95em; height: 0.95em; border-radius: 0.24em; vertical-align: -0.08em; margin-right: 0.3em; }
 /* malá: v textu, odrážce, tabulce */

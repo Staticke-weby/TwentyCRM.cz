@@ -31,6 +31,10 @@
     scroll-padding-top: calc(var(--tc-header-h) + 1.5rem);
     -webkit-text-size-adjust: 100%;
     color-scheme: light;
+    /* Plné pruhy sekcí (margin-inline: calc(50% - 50vw)) počítají i šířku posuvníku —
+       na Windows by stránka šla o pár pixelů posunout do strany. clip na rozdíl od hidden
+       nerozbije position: sticky. */
+    overflow-x: clip;
   }
   @media (prefers-reduced-motion: no-preference) {
     html { scroll-behavior: smooth; }

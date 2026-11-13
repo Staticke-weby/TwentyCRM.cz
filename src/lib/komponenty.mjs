@@ -111,6 +111,8 @@ export function faqVse() {
 }
 
 const inl = (s) => (s ? marked.parseInline(s) : '');
+/** Název řešení s ikonou vedle něj (ne nad ním) — rozhodnutí uživatele 2026-11-13. */
+const nazevReseni = (p) => `<div class="karta__nazev">${odznak(p.icon, 'velka')}<h3>${e(p.name)}</h3></div>`;
 const produkt = (klic) => reseni.produkty.find((p) => p.key === klic);
 
 /** „Které řešení pro vás" — doporučené + alternativa (obory, migrace). */
@@ -119,13 +121,13 @@ export function reseniVolba({ doporuceno, proc, alternativa }) {
   const druhe = produkt(doporuceno === 'sales' ? 'servis' : 'sales');
   if (!dop) throw new Error(`::reseni-volba doporuceno="${doporuceno}" — povoleno sales | servis`);
   const druhaKarta = alternativa
-    ? `<div class="karta"><p class="stitek stitek--sedy">Nebo naopak</p>${odznak(druhe.icon, 'velka')}<h3>${e(druhe.name)}</h3><p>${inl(alternativa)}</p><p><a href="${druhe.url}" class="btn btn-secondary">Co ${e(druhe.name)} umí →</a></p></div>`
+    ? `<div class="karta"><p class="stitek stitek--sedy">Nebo naopak</p>${nazevReseni(druhe)}<p>${inl(alternativa)}</p><p><a href="${druhe.url}" class="btn btn-secondary">Co ${e(druhe.name)} umí →</a></p></div>`
     : `<div class="karta"><p class="stitek stitek--sedy">Nejste si jistí?</p><h3>Dvě otázky a máte jasno</h3><p>Rozhoduje jediná věc — jestli od vás někdo jezdí k zákazníkovi, nebo jestli řídíte obchodní tým. Projděte si krátké srovnání obou řešení vedle sebe.</p><p><a href="/ktere-crm-vybrat/" class="btn btn-secondary">Porovnat obě řešení →</a></p></div>`;
   return `<div class="reseni-volba">
 <h2 class="reveal">Které řešení pro vás</h2>
 <p class="perex">Nabízíme dvě hotová řešení. Nekupujete obě — vybíráte podle toho, co ve firmě řešíte.</p>
 <div class="karty-blok"><div class="mrizka mrizka--2 reveal">
-<div class="karta karta--zvyraznena"><p class="stitek">Pro tento obor doporučujeme</p>${odznak(dop.icon, 'velka')}<h3>${e(dop.name)}</h3><p>${inl(proc)}</p><p><a href="${dop.url}" class="btn btn-primary btn-sipka">Co ${e(dop.name)} umí<span class="btn-sipka__ikona">${sipka}</span></a></p></div>
+<div class="karta karta--zvyraznena"><p class="stitek">Pro tento obor doporučujeme</p>${nazevReseni(dop)}<p>${inl(proc)}</p><p><a href="${dop.url}" class="btn btn-primary btn-sipka">Co ${e(dop.name)} umí<span class="btn-sipka__ikona">${sipka}</span></a></p></div>
 ${druhaKarta}
 </div></div>
 <p class="drobny">Cena nasazení i měsíčního provozu je u obou řešení stejná — <a href="/cenik/">podrobný ceník</a>.</p>
@@ -137,7 +139,7 @@ export function reseniKarty() {
   const karty = reseni.produkty
     .map(
       (p) => `<div class="karta">
-  ${odznak(p.icon, 'velka')}<h3>${e(p.name)}</h3>
+  ${nazevReseni(p)}
   <p class="drobny">${e(p.subtitle)}</p>
   <p>${e(p.claim)}</p>
   <p class="stitek stitek--sedy">Sedne vám, když</p>
