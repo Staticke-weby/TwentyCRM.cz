@@ -156,7 +156,7 @@ export function znamaEmoji(emoji) {
 }
 
 /**
- * Odznak s ikonou. velikost: 'velka' (karta, nad nadpisem) · 'stredni' (v nadpisu ##) · 'mala' (v textu, seznamu, tabulce)
+ * Odznak s ikonou. velikost: 'velka' (karta: vedle názvu, nebo místo nadpisu) · 'stredni' (v nadpisu ##) · 'mala' (v textu, seznamu, tabulce)
  * Vyhodí Error pro emoji, které není v tabulce.
  */
 export function odznak(emoji, velikost = 'mala') {

@@ -175,8 +175,7 @@ export function oboryKarty({ reseni: klic, objekty = false, odkaz = 'Detail obor
   return `<div class="karty-blok"><div class="mrizka mrizka--3 reveal">${polozky
     .map(
       (o) => `<a href="${o.url}" class="karta karta--odkaz">
-  ${odznak(o.emoji, 'velka')}
-  <h3>${e(o.title)}</h3>
+  <div class="karta__nazev">${odznak(o.emoji, 'velka')}<h3>${e(o.title)}</h3></div>
   <p class="drobny">${e(o.subtitle)}</p>
   <p>${e(o.tagline)}</p>
   ${objekty ? `<p class="stitek stitek--sedy">Co se v CRM eviduje</p><p class="drobny">${o.objects.map(e).join(' · ')}</p>` : ''}
