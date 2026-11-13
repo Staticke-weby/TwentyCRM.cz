@@ -49,12 +49,7 @@ co nevyčerpáte. U větších balíčků dostanete navíc bonus 10–20 % kredi
 
 :::
 
-| Balíček | Cena | Bonus | Celkový kredit | Úspora |
-|---|---:|---:|---:|---:|
-| SLA Basic | {{cena.sla_packages.0}} | — | **{{cena.sla_packages.0.credit}}** | — |
-| SLA Standard | {{cena.sla_packages.1}} | +{{data.sla_packages.1.bonus_pct}} % | **{{cena.sla_packages.1.credit}}** | {{cena.sla_packages.1.savings}} |
-| SLA Professional | {{cena.sla_packages.2}} | +{{data.sla_packages.2.bonus_pct}} % | **{{cena.sla_packages.2.credit}}** | {{cena.sla_packages.2.savings}} |
-| SLA Premium | {{cena.sla_packages.3}} | +{{data.sla_packages.3.bonus_pct}} % | **{{cena.sla_packages.3.credit}}** | {{cena.sla_packages.3.savings}} |
+::sla-balicky
 
 Všechny ceny jsou v korunách českých **bez DPH**. K cenám se připočítává DPH dle platných sazeb.
 

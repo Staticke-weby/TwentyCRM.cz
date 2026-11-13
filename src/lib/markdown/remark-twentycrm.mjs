@@ -28,6 +28,7 @@
 //   ::tym                                            karty týmu (team.json)
 //   ::rozsireni{kontext="servis|sales"}              napojení na fakturaci + „co když nám něco chybí"
 //   ::platforma-vs-custom                            proč hotová platforma vs. vývoj s AI agentem
+//   ::sla-balicky                                    SLA balíčky jako cenové karty (pricing.json → sla_packages)
 //   ::video{youtube="ILmFLiFd16A" nazev="…"}         video z YouTube (youtube-nocookie)
 //   ::stav-funkci{temata="ai,mcp" funkce="sso" bez="ai-kredity" smer}
 //        co z Twenty funguje dnes a co se připravuje — z registru src/data/twenty/funkce.json
@@ -69,6 +70,7 @@ import {
   tym,
   rozsireni,
   platformaVsCustom,
+  slaBalicky,
 } from '../komponenty.mjs';
 
 function chyba(file, node, zprava) {
@@ -303,6 +305,9 @@ export default function remarkTwentycrm() {
           case 'platforma-vs-custom':
             vystup = platformaVsCustom();
             break;
+          case 'sla-balicky':
+            vystup = slaBalicky();
+            break;
           case 'video': {
             // YouTube přes youtube-nocookie (bez cookies), načítá se až při scrollu
             if (!/^[\w-]{6,20}$/.test(a.youtube ?? '')) chyba(file, node, '::video potřebuje youtube="ID videa"');
@@ -336,7 +341,14 @@ export default function remarkTwentycrm() {
       }
     });
 
-    // 4) Emoji → ikony Lucide ve stylu Payday (tabulka v src/lib/ikony.mjs)
+    // 4) Tabulky do obalu .tabulka — na úzké obrazovce se posouvá obal, tabulka sama vyplní šířku
+    visit(tree, 'table', (node, index, parent) => {
+      if (!parent || index === undefined) return;
+      parent.children[index] = obal('div', ['tabulka'], [node]);
+      return [SKIP, index + 1];
+    });
+
+    // 5) Emoji → ikony Lucide ve stylu Payday (tabulka v src/lib/ikony.mjs)
     nahradEmoji(tree, file);
   };
 }

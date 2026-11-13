@@ -164,9 +164,19 @@
 .obsah :where(hr) { border: 0; border-top: 1px solid var(--tc-line); margin: 3rem 0; }
 .obsah :where(blockquote) { border-left: 2px solid var(--tc-accent); padding: 0.25rem 0 0.25rem 1.25rem; margin: 1.5rem 0; font-size: var(--tc-lead); }
 .obsah :where(table) { width: 100%; border-collapse: collapse; margin: 1.5rem 0 2rem; font-size: 0.95rem; display: block; overflow-x: auto; }
-.obsah :where(th, td) { text-align: left; padding: 0.8rem 1rem 0.8rem 0; border-bottom: 1px solid var(--tc-line); vertical-align: top; }
+/* Markdown tabulky jsou v obalu .tabulka: posouvá se obal, tabulka vyplní šířku a sloupce se nesrazí */
+.obsah .tabulka { overflow-x: auto; margin: 1.5rem 0 2rem; -webkit-overflow-scrolling: touch; }
+.obsah .tabulka > table { display: table; margin: 0; font-variant-numeric: tabular-nums; }
+/* číselné tabulky (druhý sloupec zarovnaný doprava) se neroztahují přes celou stránku */
+.obsah .tabulka:has(> table > thead th:nth-child(2)[align='right']) { max-width: 48rem; }
+.obsah :where(th, td) { text-align: left; padding: 0.85rem 1rem; border-bottom: 1px solid var(--tc-line); vertical-align: top; }
+.obsah :where(th:first-child, td:first-child) { padding-left: 0; }
+.obsah :where(th:last-child, td:last-child) { padding-right: 0; }
+.obsah :where(thead th) { border-bottom-color: var(--tc-line-strong); }
 .obsah :where(th) { font-weight: 500; color: var(--tc-muted); font-size: 0.85rem; white-space: nowrap; }
-.obsah :where(td[align='right'], th[align='right']) { text-align: right; padding-right: 0; }
+.obsah :where(td[align='right'], th[align='right']) { text-align: right; white-space: nowrap; }
+.obsah :where(tbody tr:last-child td) { border-bottom: 0; }
+.obsah :where(td:first-child) { color: var(--tc-ink); font-weight: 500; }
 
 /* ===== :::sekce — přes celou šíři ===== */
 .sekce {
@@ -619,3 +629,30 @@ td > .ikona--mala:only-child, th > .ikona--mala:only-child { margin-right: 0; }
 .stav-stitek--smer { background: var(--tc-card); color: var(--tc-ink-2); }
 .stav-stitek--omezeni { box-shadow: inset 0 0 0 1px var(--tc-line-strong); color: var(--tc-ink-2); }
 .stav-funkci__pata { font-size: 0.8125rem; color: var(--tc-muted); margin: 0.85rem 0 0; }
+
+/* ===== ::sla-balicky — SLA balíčky jako cenové karty ===== */
+.sla-balicky { display: grid; gap: 1rem; margin: 2rem 0; }
+@media (min-width: 640px) { .sla-balicky { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1100px) { .sla-balicky { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.sla-karta {
+  display: flex;
+  flex-direction: column;
+  background: var(--tc-page);
+  border-radius: var(--tc-radius);
+  box-shadow: inset 0 0 0 1px var(--tc-line);
+  padding: clamp(1.25rem, 1rem + 1vw, 1.75rem);
+}
+.sla-karta--zvyraznena { box-shadow: inset 0 0 0 1.5px var(--tc-ink); }
+.sla-karta__nazev {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+  margin: 0 0 1rem; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--tc-ink);
+}
+.sla-karta__stitek {
+  padding: 0.15rem 0.55rem; border-radius: 999px; background: var(--tc-accent-soft); color: var(--tc-accent);
+  font-size: 0.7rem; letter-spacing: 0.02em; text-transform: none; font-weight: 500;
+}
+.sla-karta__cena { margin: 0; font-size: var(--tc-display-md); font-weight: 450; letter-spacing: -0.04em; line-height: 1; color: var(--tc-ink); }
+.sla-karta__pozn { margin: 0.4rem 0 1.25rem; font-size: 0.85rem; color: var(--tc-muted); }
+.sla-karta__body { list-style: none; margin: auto 0 0; padding: 1rem 0 0; border-top: 1px solid var(--tc-line); display: grid; gap: 0.55rem; font-size: 0.9rem; color: var(--tc-ink-2); }
+.sla-karta__body li { margin: 0; }
+.sla-karta__body strong { color: var(--tc-ink); font-weight: 600; }

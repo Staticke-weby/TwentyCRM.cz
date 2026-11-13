@@ -1,7 +1,7 @@
 // HTML bloky, které se vkládají do Markdownu direktivami (viz remark-twentycrm.mjs)
 // a zároveň je používají Astro šablony. Jeden zdroj = stejný vzhled všude.
 import { marked } from 'marked';
-import { KONTAKT, mailtoOdkaz, telOdkaz, escapeHtml as e, faq, reseni, obory, team } from './site.mjs';
+import { KONTAKT, mailtoOdkaz, telOdkaz, escapeHtml as e, faq, reseni, obory, team, pricing, formatCena } from './site.mjs';
 import { odznak, odznakLucide, stitekPoznamky } from './ikony.mjs';
 
 const ikonaTelefon =
@@ -259,4 +259,35 @@ export function platformaVsCustom() {
 /** Seznam s fajfkami, položky už obsahují bezpečné HTML (z kódu, ne od čtenáře). */
 function seznamFajfekHtml(polozky) {
   return `<ul class="fajfky">${polozky.map((p) => `<li>${odznakLucide('check')}<span>${p}</span></li>`).join('')}</ul>`;
+}
+
+/**
+ * SLA balíčky jako cenové karty (pricing.json → sla_packages, hourly_rate).
+ * U každého: cena, kredit, kolik hodin práce za něj zhruba je, bonus a efektivní sazba za hodinu.
+ * Balíček s nejvyšším bonusem dostane výraznější rámeček.
+ */
+export function slaBalicky() {
+  const sazba = pricing.hourly_rate.price;
+  const baliky = pricing.sla_packages;
+  const maxBonus = Math.max(...baliky.map((b) => b.bonus_pct));
+  const cislo = (n) => String(Math.round(n * 10) / 10).replace('.', ',');
+  const hodiny = (h) => `${cislo(h)} ${Number.isInteger(h) && h >= 5 ? 'hodin' : 'hodiny'}`;
+  const karty = baliky
+    .map((b) => {
+      const h = b.credit / sazba;
+      const efektivne = Math.round(b.price / h);
+      const nejvyssi = b.bonus_pct === maxBonus && maxBonus > 0;
+      return `<article class="sla-karta${nejvyssi ? ' sla-karta--zvyraznena' : ''}">
+<p class="sla-karta__nazev">SLA ${e(b.name)}${nejvyssi ? ' <span class="sla-karta__stitek">nejvyšší bonus</span>' : ''}</p>
+<p class="sla-karta__cena tnum">${formatCena(b.price)}</p>
+<p class="sla-karta__pozn">jednorázově, bez DPH</p>
+<ul class="sla-karta__body">
+<li><strong class="tnum">${formatCena(b.credit)}</strong> kreditu — zhruba ${hodiny(h)} práce</li>
+<li>${b.bonus_pct ? `bonus <strong>+${b.bonus_pct} %</strong>, ušetříte ${formatCena(b.savings)}` : 'bez bonusu'}</li>
+<li>vychází na <strong class="tnum">${formatCena(efektivne)}</strong> za hodinu</li>
+</ul>
+</article>`;
+    })
+    .join('\n');
+  return `<div class="sla-balicky reveal not-prose not-content">${karty}</div>`;
 }
