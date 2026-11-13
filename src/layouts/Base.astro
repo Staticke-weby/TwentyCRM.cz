@@ -24,7 +24,8 @@ const robots = noindex || globalNoindex ? 'noindex, nofollow' : 'index, follow, 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 // Textová verze stránky pro AI asistenty (scripts/markdown-verze.mjs): /cenik/ → /cenik.md
 const markdownUrl = Astro.url.pathname === '/' ? '/index.md' : Astro.url.pathname.replace(/\/$/, '') + '.md';
-const ogImage = new URL('/og-image.jpg', Astro.site).href;
+// ?v= při každé změně obrázku — sociální sítě si náhled pamatují podle adresy.
+const ogImage = new URL('/og-image.jpg?v=2026-11-13', Astro.site).href;
 const produkce = import.meta.env.PROD && !globalNoindex;
 
 const organizace = {
@@ -78,7 +79,7 @@ const organizace = {
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Twenty CRM — moderní open source CRM v češtině" />
+    <meta property="og:image:alt" content="TwentyCRM.cz — Open source CRM. AI pomáhá, vy rozhodujete." />
     <meta property="og:site_name" content="TwentyCRM.cz" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content={title} />

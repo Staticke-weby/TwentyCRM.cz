@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<!-- Obrázek pro sdílení odkazu (public/og-image.jpg). Vykreslení: node scripts/og-obrazek/vykreslit.mjs
+     Varianta „usvit“ zvolena 2026-11-13 (čitelnější); #soumrak = tmavá varianta. -->
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: 'Inter'; font-weight: 100 900; src: url('../../public/fonts/Inter-roman.var.woff2') format('woff2'); }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body { font-family: 'Inter', sans-serif; -webkit-font-smoothing: antialiased; }
+  .plocha { position: relative; width: 1200px; height: 630px; padding: 64px 80px 60px; display: flex; flex-direction: column; isolation: isolate; }
+  .plocha::after { content: ''; position: absolute; inset: 0; z-index: -1; opacity: .07; pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+  .horni { display: flex; align-items: center; justify-content: space-between; }
+  .logo { height: 44px; }
+  .stitek { font-size: 19px; font-weight: 550; letter-spacing: .08em; text-transform: uppercase; }
+  h1 { margin-top: auto; font-size: 86px; line-height: 1.02; letter-spacing: -0.045em; font-weight: 450; max-width: 980px; }
+  h1 em { font-style: normal; display: block; }
+  .dole { margin-top: 44px; display: flex; align-items: center; justify-content: space-between; }
+  .reseni { display: flex; gap: 14px; }
+  .pilulka { font-size: 22px; font-weight: 500; padding: 12px 22px; border-radius: 999px; letter-spacing: -0.01em; }
+  .pilulka b { font-weight: 650; }
+  .domena { font-size: 24px; font-weight: 550; letter-spacing: -0.01em; }
+
+  /* A — soumrak (tmavý gradient jako hero webu) */
+  .soumrak { color: #fff; background: linear-gradient(180deg, #110d27 0%, #1d1647 30%, #33246a 55%, #5d3f8e 74%, #a36a9c 88%, #e9997f 100%); }
+  .soumrak .logo { filter: brightness(0) invert(1); }
+  .soumrak .stitek { color: #c4c1de; }
+  .soumrak h1 em { color: #c4c1de; }
+  .soumrak .pilulka { background: rgb(255 255 255 / .14); border: 1px solid rgb(255 255 255 / .28); color: #fff; }
+  .soumrak .domena { color: #fff; }
+
+  /* B — úsvit (světlý gradient) */
+  .usvit { color: #1d1b26; background: linear-gradient(180deg, #e8e2fb 0%, #efe6f5 40%, #f8e6ea 72%, #fde4d6 100%); }
+  .usvit .stitek { color: #5b4bc4; }
+  .usvit h1 em { color: #5b4bc4; }
+  .usvit .pilulka { background: #fff; border: 1px solid #d5d2cb; color: #1d1b26; }
+  .usvit .domena { color: #1d1b26; }
+</style>
+</head>
+<body>
+  <div class="plocha" id="plocha">
+    <div class="horni">
+      <img class="logo" src="../../public/brand/logo.svg" alt="">
+      <span class="stitek">Český implementátor Twenty CRM</span>
+    </div>
+    <h1>Open source CRM. <em>AI pomáhá, vy rozhodujete.</em></h1>
+    <div class="dole">
+      <div class="reseni">
+        <span class="pilulka"><b>Twenty Sales</b> · řízení obchodu</span>
+        <span class="pilulka"><b>Twenty Servis</b> · montáže a servis</span>
+      </div>
+      <span class="domena">TwentyCRM.cz</span>
+    </div>
+  </div>
+  <script>document.getElementById('plocha').classList.add(location.hash.slice(1) || 'usvit');</script>
+</body>
+</html>
