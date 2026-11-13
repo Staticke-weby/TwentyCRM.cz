@@ -165,7 +165,7 @@ All planning material lives in `brainstorming/`. Each doc has a focused purpose;
 
 - Treat them as living planning documents. When the user makes a new decision in conversation, update the relevant `.md` rather than starting a third doc.
 - When `proc-my.md` and `twenty-capabilities.md` disagree, **`twenty-capabilities.md` wins** — it is the sourced fact base.
-- Hero slogan: **"Open source CRM. I pro vaše AI agenty."** (open-source + BYOK AI / MCP přes selfhost). Předchozí "Neplaťte za licence, plaťte za výsledky" je obsolete — nepoužívat. Cenový argument (žádné per-user licence) zůstává v podpůrném textu hero a na ceníku.
+- Hero slogan (změna 2026-11-13): **"Open source CRM. AI pomáhá, vy rozhodujete."** — AI jako pomocník pod kontrolou člověka, ne náhrada lidí ani složitá technika; vlastní AI (Claude, ChatGPT přes MCP) nese podpůrný text hero. Dřívější „I pro vaše AI agenty." ani „Neplaťte za licence, plaťte za výsledky" nepoužívat. Předchozí "Neplaťte za licence, plaťte za výsledky" je obsolete — nepoužívat. Cenový argument (žádné per-user licence) zůstává v podpůrném textu hero a na ceníku.
 - Czech-market automation scenarios (ARES/IČO lookup, Fakturoid/iDoklad/Pohoda invoicing) are key differentiators — keep them concrete, not generic.
 - **Sitemap.md** is the integration point: every brainstorming insight should map to an actual web section there. If a doc's content has no place in `sitemap.md`, either update sitemap or question whether the content is needed.
 

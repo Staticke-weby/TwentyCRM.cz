@@ -66,7 +66,7 @@ Struktura držící Raynet etalon, redukovaná o věci, které pro nás Phase 1 
 
 | Rozhodnutí | Stav | Detail |
 |---|---|---|
-| Hero slogan | ✅ Locked | „Open source CRM. I pro vaše AI agenty." |
+| Hero slogan | ✅ Locked (2026-11-13) | „Open source CRM. AI pomáhá, vy rozhodujete." |
 | Brandové e-maily | ✅ Locked | `@twentycrm.cz` aliasy (info@, obchod@, podpora@, osobní) |
 | Phase 1 oborové segmenty | ✅ Locked | HVAC, Revize, Stroje |
 | MDA reference použití | ✅ Locked | Anonymizovaně, atribuce na agenturu, na `/o-nas/` |
@@ -86,7 +86,7 @@ Cíl: do 5 sekund klient ví, **co prodáváme, komu, a co tím získá**. Pak p
 
 | # | Sekce | Obsah | Zdroj |
 |---|---|---|---|
-| 1 | **Hero** | H1: „Open source CRM. I pro vaše AI agenty." H2: „Open-source Twenty CRM v češtině — oborové řešení pro servisní firmy do 50 lidí." [CTA: Konzultace zdarma] [CTA2: Co Twenty umí →] | proc-my.md, Linka C |
+| 1 | **Hero** | H1: „Open source CRM. AI pomáhá, vy rozhodujete." H2: „Open-source Twenty CRM v češtině — oborové řešení pro servisní firmy do 50 lidí." [CTA: Konzultace zdarma] [CTA2: Co Twenty umí →] | proc-my.md, Linka C |
 | 2 | **3 hlavní bolesti** (kterou Twenty řeší) | Krátká visualizace: „Konec papírů a Excelu", „Servisní historie zařízení v jednom místě", „Bez per-user licencí" | proc-my.md vrstva 3 |
 | 2b | **Platforma, ne jednorázový SW** | Vizuální timeline: Phase 1 CRM+FS → Phase 2 projekty → Phase 3 helpdesk → Phase 4 HR. „Když porostete, Twenty poroste s vámi — bez druhého softwaru." | proc-my.md vrstva 1, twenty-capabilities.md sekce 9 |
 | 3 | **Pro koho** (rychlý pohled) | 4 persony karty: Majitel / Dispečer / Technik / Účetní — co každý získá. Link „Pro koho podrobně →" | proc-my.md vrstva 3 |

@@ -290,7 +290,8 @@ v cloudu i jako licenci pro vlastní server. Pokud je potřebujete, ozvěte se, 
 
 Twenty má vestavěný AI chat s BYOK (vlastní klíče k Anthropicu, OpenAI, Google, xAI) i napojení
 pro AI nástroje zvenčí — Claude Desktop, ChatGPT, Cursor i nově vypuštěný desktop nástroj od Googlu
-se připojí pár kliky a začnou s vašimi daty pracovat v běžné češtině.
+se připojí pár kliky a začnou s vašimi daty pracovat v běžné češtině. AI připraví, vy rozhodujete:
+vidí jen to, na co máte oprávnění, a u každé akce Twenty označí, jestli data jen čte, nebo je mění.
 
 - **AI chat přímo v Twenty** — vyhledávání, zakládání záznamů, dashboardů i automatizací v přirozené řeči. Klíče k AI jsou vaše (BYOK), tokeny platíte přímo poskytovateli.
 - **Napojení Twenty na AI nástroje zvenčí** — Claude Desktop, ChatGPT, Cursor, Google. Přihlášení pár kliky, AI vidí jen to, na co máte vy oprávnění.

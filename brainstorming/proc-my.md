@@ -200,7 +200,7 @@ Cílíme klienty, kteří mají v hlavě „CRM = drahý SaaS jako Salesforce ne
 ## Hero (✅ locknuto)
 
 **H1:**
-> **„Open source CRM. I pro vaše AI agenty."**
+> **„Open source CRM. AI pomáhá, vy rozhodujete."** (změna 2026-11-13; dřív „I pro vaše AI agenty.")
 
 **H2 / podtitul:**
 > Open-source Twenty CRM v češtině, postavený na míru servisním firmám. Implementujeme, spravujeme, rosteme s vámi.
@@ -209,7 +209,8 @@ Cílíme klienty, kteří mají v hlavě „CRM = drahý SaaS jako Salesforce ne
 > Český implementátor Twenty CRM. Bez per-user licencí. Data u vás. Platforma, která roste s vaší firmou.
 
 **Důvody pro tuto kombinaci:**
-- Hlavní slogan staví na dvou diferenciátorech, které jsou v roce 2026 v segmentu klíčové: **open-source** (žádné licence, data u vás, selfhost) a **AI agenti přes MCP/BYOK** (vlastní klíče Anthropic/OpenAI, škálovatelný výkon na vyhrazeném serveru). „I pro vaše" naznačuje, že AI si zákazník přivede sám — neprodáváme mu ji.
+- **Změna 2026-11-13:** „I pro vaše AI agenty" mluvilo k technikům a nebralo obavu, že AI lidi nahradí nebo že to bude složité. Nový slogan říká, kdo má navrch: AI připraví, člověk rozhodne. Že si zákazník připojí vlastní AI (Claude, ChatGPT přes MCP), nese podpůrný text hero.
+- Původní zdůvodnění: hlavní slogan stavěl na dvou diferenciátorech, které jsou v roce 2026 v segmentu klíčové: **open-source** (žádné licence, data u vás, selfhost) a **AI agenti přes MCP/BYOK** (vlastní klíče Anthropic/OpenAI, škálovatelný výkon na vyhrazeném serveru). „I pro vaše" naznačuje, že AI si zákazník přivede sám — neprodáváme mu ji.
 - Podtitul nese další 3 diferenciátory: čeština / oborové řešení / dlouhodobý vztah.
 - Pod-podtitul řeší 3 nejčastější obavy: licence, data ownership, future-proofing.
 - Předchozí slogan „Neplaťte za licence, plaťte za výsledky" je obsolete — cenový argument zůstává v podpůrném textu hero a na ceníku.

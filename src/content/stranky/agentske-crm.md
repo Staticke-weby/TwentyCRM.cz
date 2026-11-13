@@ -1,6 +1,6 @@
 ---
 title: Agentské CRM — Twenty CRM pro AI agenty | TwentyCRM.cz
-description: AI agent, který CRM ovládá — čte data, zakládá záznamy a odpovídá napříč e-maily. Claude i ChatGPT se napojí na vaši instanci a jedou pod rolí toho, kdo se ptá.
+description: AI, která v CRM pomáhá — najde data, připraví záznam nebo nabídku a odpoví napříč e-maily. Claude i ChatGPT se napojí na vaši instanci a pracují pod rolí toho, kdo se ptá. Rozhodujete vy.
 pageId: agentske-crm
 overeno: 2026-11-13
 verzeTwenty: '2.58'
@@ -8,13 +8,13 @@ temata: [ai, mcp, agenti]
 zdroje: [docs-mcp, docs-ai-chat, docs-ai-faq, docs-akce, gh-pr-20672]
 hero:
   stitek: Agentské CRM
-  nadpis: Twenty otevřené pro AI agenty
+  nadpis: AI v CRM, kterou máte pod kontrolou
   perex: >-
     Twenty je **středobod vašich dat** — a má v sobě napojení pro běžné AI nástroje
     (Claude, ChatGPT, Cursor). Každý ve firmě si vybere svého AI asistenta podle toho,
-    kde už pracuje, a všichni přitom pracují **nad stejnou databází**. Hledají,
-    zapisují, zakládají zakázky, sestavují nabídky. Klíče k AI jsou vaše (BYOK), tokeny platíte
-    přímo poskytovateli — žádná přirážka.
+    kde už pracuje, a všichni přitom pracují **nad stejnou databází**. AI hledá, zapisuje,
+    připraví zakázku nebo nabídku — a vidí i mění jen to, co smí ten, kdo se ptá. Klíče k AI
+    jsou vaše (BYOK), za využití AI platíte přímo poskytovateli — žádná přirážka.
   text:
     - >-
       **Na vyhrazeném serveru** doporučujeme proto, že AI agenti pracují s daty přímo u vás

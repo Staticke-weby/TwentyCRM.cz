@@ -4,11 +4,13 @@ description: Dvě hotová CRM řešení nad open-source Twenty — jedno pro ř�
 pageId: homepage
 hero:
   stitek: Český CRM pro malé a střední firmy
-  nadpis: Open source CRM. *I pro vaše AI agenty.*
+  nadpis: Open source CRM. *AI pomáhá, vy rozhodujete.*
   perex: >-
     Máme dvě hotová řešení — jedno pro **řízení obchodu**, druhé pro
     **montáže a servis u zákazníka**. Nekupujete vývoj, kupujete systém, který běží.
   text: >-
+    AI v něm shrne historii klienta a data z CRM máte i v Claude nebo ChatGPT,
+    které už používáte — AI vidí a mění jen to, co jí dovolíte.
     Žádné poplatky za každého uživatele. Vaše data zůstávají u vás.
     Nasazení je otázka dnů, ne měsíců — protože se nic nestaví od nuly.
   kontakt: true

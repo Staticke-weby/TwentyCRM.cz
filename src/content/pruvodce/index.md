@@ -1,5 +1,5 @@
 ---
-title: "Agentní firma: CRM, které pracuje za vás"
+title: "Agentní firma: AI v CRM pomáhá, vy rozhodujete"
 description: Jak se CRM mění z databáze, do které se kliká, v pracovní prostředí, kde část práce odvedou AI agenti a lidé ji schvalují. Co z toho jde s open-source Twenty dnes, co se připravuje a kde začít.
 overeno: 2026-11-13
 verzeTwenty: '2.58'
@@ -18,7 +18,7 @@ na otevřeném standardu MCP, který od prosince 2025 spravuje nezávislá nadac
 Twenty jde stejnou cestou a je to vidět vydání po vydání — s jedním rozdílem: má otevřený kód a běží
 na vašem serveru, takže **data, paměť firmy i volba AI modelu zůstávají u vás**.
 
-## Jak vypadá CRM, které pracuje za vás
+## Jak vypadá CRM, ve kterém AI pomáhá
 
 ```
   e-maily · schůzky · hovory ─────► zapisují se samy

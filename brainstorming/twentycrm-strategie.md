@@ -17,7 +17,7 @@
 
 ### Hero / slogan
 
-**H1:** „Open source CRM. I pro vaše AI agenty."
+**H1:** „Open source CRM. AI pomáhá, vy rozhodujete." (změna 2026-11-13; dřív „I pro vaše AI agenty.")
 **H2:** „Open-source Twenty CRM v češtině, postavený na míru servisním firmám. Implementujeme, spravujeme, rosteme s vámi."
 
 ### Brandové e-maily
