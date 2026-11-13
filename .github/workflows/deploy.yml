@@ -25,11 +25,9 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      # Dočasně na https://staticke-weby.github.io/TwentyCRM.cz/ — build:staging (noindex + i koncepty průvodce,
-      # web slouží k procházení před spuštěním) a cesty předsazené podsložkou.
-      # Po přepnutí na doménu www.twentycrm.cz: „npm run build" místo build:staging a smazat krok „docasna-adresa".
-      - run: npm run build:staging
-      - run: node scripts/docasna-adresa.mjs /TwentyCRM.cz
+      # Ostrý web na https://www.twentycrm.cz/ (vlastní doména v nastavení Pages, od 2026-11-13).
+      # Pro náhled v podsložce github.io by šlo: npm run build:staging + node scripts/docasna-adresa.mjs /TwentyCRM.cz
+      - run: npm run build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
