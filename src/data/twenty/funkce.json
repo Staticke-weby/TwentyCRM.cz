@@ -11,7 +11,7 @@
       "zdroje": [
         "docs-ai-chat"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai"
       ],
@@ -31,7 +31,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "reporty"
@@ -50,7 +50,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "data"
@@ -70,7 +70,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "data"
@@ -91,7 +91,7 @@
         "twenty-vydani",
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "agenti"
@@ -112,7 +112,7 @@
         "docs-dovednosti",
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "agenti"
@@ -132,7 +132,7 @@
         "twenty-vydani",
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "provoz"
@@ -153,7 +153,7 @@
       "zdroje": [
         "docs-ai-faq"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "provoz",
@@ -177,7 +177,7 @@
       "zdroje": [
         "docs-kredity"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "naklady"
@@ -198,7 +198,7 @@
         "docs-akce",
         "twenty-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "agenti",
@@ -220,7 +220,7 @@
       "zdroje": [
         "docs-akce"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "automatizace",
@@ -241,7 +241,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "automatizace",
         "agenti"
@@ -261,7 +261,7 @@
       "zdroje": [
         "docs-akce"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "automatizace",
         "komunikace",
@@ -283,7 +283,7 @@
         "gh-vydani",
         "gh-prepinace"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "agenti"
@@ -306,7 +306,7 @@
         "gh-vydani",
         "gh-prepinace"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "agenti"
@@ -329,7 +329,7 @@
         "gh-vydani",
         "gh-prepinace"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "aplikace"
@@ -351,7 +351,7 @@
         "docs-pravni-faq",
         "gh-prepinace"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "bezpecnost"
@@ -371,7 +371,7 @@
       "zdroje": [
         "docs-mcp"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "mcp",
         "ai"
@@ -390,7 +390,7 @@
       "zdroje": [
         "gh-pr-20672"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "mcp",
         "bezpecnost"
@@ -409,7 +409,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "mcp",
         "automatizace"
@@ -431,7 +431,7 @@
         "gh-vydani",
         "gh-prepinace"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "mcp",
         "ai"
@@ -452,7 +452,7 @@
         "docs-spoustece",
         "docs-akce"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "automatizace"
       ],
@@ -470,7 +470,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "automatizace"
       ],
@@ -489,7 +489,7 @@
       "zdroje": [
         "docs-akce"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "automatizace",
         "obchod"
@@ -510,7 +510,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "komunikace",
         "ai"
@@ -530,7 +530,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "komunikace",
         "ai"
@@ -550,7 +550,7 @@
         "docs-posta",
         "docs-server-nastaveni"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "komunikace"
       ],
@@ -571,7 +571,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "komunikace",
         "obchod"
@@ -590,7 +590,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "komunikace"
       ],
@@ -609,7 +609,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "komunikace",
         "ai"
@@ -631,7 +631,7 @@
         "twenty-vydani",
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "komunikace",
         "ai"
@@ -653,7 +653,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "komunikace",
         "obchod"
@@ -676,7 +676,7 @@
       "zdroje": [
         "docs-kampane"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "komunikace"
       ],
@@ -694,7 +694,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "data",
         "aplikace"
@@ -714,7 +714,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "data"
       ],
@@ -736,7 +736,7 @@
         "twenty-capabilities-validation-rules",
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "data"
       ],
@@ -754,7 +754,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "data"
       ],
@@ -772,7 +772,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "data",
         "reporty"
@@ -793,7 +793,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "data",
         "aplikace"
@@ -813,7 +813,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "reporty"
       ],
@@ -833,7 +833,7 @@
       "zdroje": [
         "docs-opravneni"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "opravneni",
         "bezpecnost"
@@ -855,7 +855,7 @@
       "zdroje": [
         "docs-opravneni"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "opravneni",
         "bezpecnost"
@@ -899,7 +899,7 @@
       "zdroje": [
         "docs-tarify"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "bezpecnost"
       ],
@@ -921,7 +921,7 @@
       "zdroje": [
         "docs-tarify"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "bezpecnost"
       ],
@@ -939,7 +939,7 @@
       "zdroje": [
         "twenty-cenik"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "bezpecnost"
       ],
@@ -959,7 +959,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "data"
       ],
@@ -980,7 +980,7 @@
       "zdroje": [
         "docs-aplikace"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "aplikace"
       ],
@@ -1000,7 +1000,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "aplikace"
       ],
@@ -1020,7 +1020,7 @@
       "zdroje": [
         "docs-pravni-faq"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "provoz",
         "bezpecnost"
@@ -1043,7 +1043,7 @@
         "docs-tarify",
         "twenty-cenik"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "provoz",
         "naklady"
@@ -1063,7 +1063,7 @@
       "zdroje": [
         "gh-pr-29762"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "mcp"
@@ -1083,7 +1083,7 @@
       "zdroje": [
         "gh-pr-29957"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "mcp",
         "automatizace"
@@ -1102,7 +1102,7 @@
       "zdroje": [
         "gh-pr-30083"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "agenti"
@@ -1121,7 +1121,7 @@
       "zdroje": [
         "gh-pr-30128"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "ai",
         "agenti"
@@ -1141,7 +1141,7 @@
         "gh-pr-30252",
         "gh-prepinace"
       ],
-      "overeno": "2026-11-12",
+      "overeno": "2026-11-13",
       "temata": [
         "opravneni"
       ],

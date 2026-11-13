@@ -2,8 +2,8 @@
 title: Na vyhrazeném serveru, nebo v cloudu? | TwentyCRM.cz
 description: Proč Twenty CRM doporučujeme provozovat na vyhrazeném serveru a kdy dává smysl cloud výrobce. Ceny obou variant, od kolika lidí se vyplatí server, vlastní klíče k AI.
 pageId: cloud-vs-selfhost
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 zdroje:
   - url: https://twenty.com/pricing
     nazev: Twenty — ceník cloudu
@@ -63,16 +63,16 @@ po dohodě s vámi.
 
 | Měsíčně, bez DPH | 🖥 Vyhrazený server | ☁️ Cloud Pro | ☁️ Cloud Organization |
 |---|---:|---:|---:|
-| Licence Twenty za uživatele | 0 Kč (otevřený zdrojový kód) | ~207 Kč ({{data.twenty_cloud_external.pro_usd}} USD) | ~900 Kč ({{data.twenty_cloud_external.organization_usd}} USD) |
+| Licence Twenty za uživatele | 0 Kč (otevřený zdrojový kód) | ~200 Kč ({{data.twenty_cloud_external.pro_usd}} USD) | ~860 Kč ({{data.twenty_cloud_external.organization_usd}} USD) |
 | Náš paušál | {{cena.retainer_selfhost}} | {{cena.retainer_cloud}} | {{cena.retainer_cloud}} |
-| **Celkem pro 10 lidí** | **{{cena.retainer_selfhost}}** | ~6 060 Kč | ~12 990 Kč |
+| **Celkem pro 10 lidí** | **{{cena.retainer_selfhost}}** | ~5 970 Kč | ~12 580 Kč |
 | Faktury | jedna, v korunách | dvě (naše v Kč + výrobce v USD) | dvě (naše v Kč + výrobce v USD) |
 
 Vyhrazený server je stejně drahý nebo levnější **od pěti uživatelů** proti Cloud Pro a **od dvou uživatelů**
 proti Cloud Organization — a každý další uživatel rozdíl prohlubuje. Nasazení stojí v obou variantách {{cena.implementation}}.
 
 Ceny licencí Twenty Cloud jsou podle twenty.com při ročním předplatném a odvíjejí se od kurzu dolaru
-(počítáno ~23 Kč/USD). Licenci platíte přímo výrobci.
+(počítáno ~22 Kč/USD, kurz ČNB z 12. 11. 2026). Licenci platíte přímo výrobci.
 
 ::::
 

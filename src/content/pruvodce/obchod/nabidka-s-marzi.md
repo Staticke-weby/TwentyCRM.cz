@@ -3,8 +3,8 @@ title: Nabídka, u které víte, kolik vyděláte — a co k ní připraví AI
 description: V Twenty Sales se nabídka skládá z ceníku s nákupní cenou, takže hrubou i čistou marži vidíte před odesláním. Co k tomu umí šablony dokumentů, co z nabídek připraví AI v chatu nebo v Claude a ChatGPT a co je k tomu potřeba.
 vMenu: Nabídka s marží
 poradi: 3
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [obchod, ai]
 funkce: [vlastni-zaznamy, ai-chat, mcp-server, mcp-oznaceni-akci, mcp-spousti-automatizaci, role-opravneni, koncept-emailu]
 zdroje: [docs-ai-chat, docs-mcp, docs-opravneni, gh-pr-20672, gh-vydani]

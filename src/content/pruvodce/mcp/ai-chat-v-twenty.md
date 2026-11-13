@@ -3,8 +3,8 @@ title: AI chat v Twenty — zeptejte se CRM lidskou řečí
 description: V Twenty je AI chat, kterému napíšete otázku běžnou řečí. Najde záznamy, spočítá, shrne historii klienta a na požádání záznam založí nebo upraví — pod vaší rolí. Co umí ve verzi 2.57 a co je k tomu potřeba.
 vMenu: AI chat v Twenty
 poradi: 4
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, mcp]
 funkce: [ai-chat, ai-dovednosti, ai-dashboardy, ai-volba-modelu, vlastni-klice-ai, role-opravneni, mcp-server]
 zdroje: [docs-ai-chat, twenty-ai-overview, twenty-vydani, gh-vydani, docs-ai-faq, docs-opravneni, docs-server-nastaveni]

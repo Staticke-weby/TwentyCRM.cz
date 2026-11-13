@@ -3,8 +3,8 @@ title: "Novinky v Twenty"
 description: "Co přinesla která verze Twenty — česky, jednou měsíčně a jen to, co je podstatné pro firmy. U každé novinky verze, odkaz na poznámky k vydání a štítek, jestli lze nastavit dnes, nebo se připravuje."
 vMenu: "Novinky"
 poradi: 12
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, mcp, agenti, automatizace, komunikace, data]
 zdroje: [gh-vydani, twenty-vydani]
 ---

@@ -3,8 +3,8 @@ title: Vlastní klíče k AI — jak si na vyhrazeném serveru vybrat AI model a
 description: Na vyhrazeném serveru zadáte do Twenty vlastní klíč k AI od Anthropic, OpenAI, Google, Mistral nebo xAI a spotřebu platíte přímo poskytovateli. Jak se volí model, co Twenty ukazuje o ceně a umístění dat a co se připravuje.
 vMenu: Vlastní klíče k AI
 poradi: 2
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [provoz, ai, naklady]
 funkce: [vlastni-klice-ai, ai-volba-modelu, ai-agenti, ai-krok-automatizace, ai-chat, ai-pravidla-dat]
 zdroje: [docs-ai-faq, twenty-vydani, github-twenty-v2-40-0, github-twenty-v2-56-0, docs-pravni-faq, gh-prepinace, github-pull-29553, github-twenty-v2-57-0, claude-build-with-claude-effort, claude-manage-claude-data-residency]

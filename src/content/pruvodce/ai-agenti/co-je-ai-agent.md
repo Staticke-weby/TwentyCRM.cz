@@ -3,8 +3,8 @@ title: Co je AI agent v CRM a čím se liší od chatbota
 description: AI agent v CRM sám odvede zadanou práci, když přijde poptávka, změní se zakázka nebo nastane čas — pod vlastní rolí a s kontrolou člověka. Chatbot jen odpovídá. Rozdíl, příklady z obchodu a servisu a jak to funguje v Twenty.
 vMenu: Co je AI agent
 poradi: 1
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, agenti]
 funkce: [ai-agenti, ai-krok-automatizace, role-opravneni, ai-chat, mcp-server, schvaleni-clovekem]
 zdroje: [docs-akce, docs-opravneni, gh-vydani, twenty-vydani, twenty-capabilities-ai-agents, gartner-press-releases-2025-08-26-gartner-predicts-40-percen, microsoft-work-trend-index-2025-the-year-the-frontier-firm-i]

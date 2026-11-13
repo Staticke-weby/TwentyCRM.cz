@@ -3,8 +3,8 @@ title: AI recepční, plánovač a asistent technika — kam jde AI v servisu ve
 description: Co dnes nabízejí velcí dodavatelé softwaru pro servis v terénu — AI, která bere telefony a objednává výjezdy, agent, který přeskládá plán techniků, a asistent v mobilu technika. Stav dostupnosti, co z toho plyne pro českou servisní firmu a co jde s Twenty už dnes.
 vMenu: AI v servisu ve světě
 poradi: 5
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [servis, ai, agenti, trendy]
 funkce: [ai-agenti, ai-krok-automatizace, ai-chat, koncept-emailu, schvaleni-clovekem]
 zdroje: [getjobber-features-ai-receptionist, salesforce-stories-agentforce-for-field-service-announcement, learn-field-service-soa-overview, servicetitan-press-servicetitan-introducing-the-next-evoluti, salesforce-stories-field-service-growing-talent-crisis, ai-act-service-desk-ai-act-article-50]

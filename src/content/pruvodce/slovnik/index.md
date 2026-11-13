@@ -3,8 +3,8 @@ title: "Slovník pojmů"
 description: "AI agent, MCP, dovednost, automatizace, vlastní klíče k AI, schválení člověkem a další pojmy kolem AI v CRM vysvětlené bez žargonu — s odkazem na článek, kde je víc."
 vMenu: "Slovník"
 poradi: 13
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, agenti, mcp, provoz]
 funkce: [ai-agenti, mcp-server, vlastni-klice-ai, role-opravneni, schvaleni-clovekem]
 zdroje: [docs-ai-faq, docs-mcp, docs-opravneni, docs-kredity, anthropic-mcp-nadace]

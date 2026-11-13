@@ -3,8 +3,8 @@ title: AI vám postaví vlastní obrazovku — co Twenty připravuje a co jde u�
 description: Twenty připravuje funkci, kdy v AI chatu popíšete, co chcete na kartě záznamu vidět, a AI navrhne vlastní panel, ukáže ho na vašich datech a po schválení zveřejní. Zatím je za přepínačem. Co jde dnes — dashboardy a pohledy od AI a vlastní rozvržení karty.
 vMenu: AI postaví obrazovku
 poradi: 3
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, aplikace]
 funkce: [ai-obrazovky, ai-dashboardy, ai-chat, dashboardy, pohledy, aplikace]
 zdroje: [github-tag-twenty-2fv2-55-0, gh-prepinace, twenty-capabilities-record-pages, twenty-layout-front-components, docs-ai-chat, twenty-vydani]

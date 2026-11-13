@@ -3,8 +3,8 @@ title: Jak mít AI agenta v CRM pod kontrolou — oprávnění, záznam změn a 
 description: "AI agent v CRM smí jen to, co mu dovolí role, jeho práci je možné zpětně dohledat a text zvenčí pro něj není pokyn. Co se dá naučit z případu ForcedLeak u Salesforce Agentforce (2025), co k tomu nabízí Twenty a co nastavujeme my."
 vMenu: Bezpečnost AI agentů
 poradi: 4
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, agenti, bezpecnost, opravneni]
 funkce: [role-opravneni, ai-krok-automatizace, ai-agenti, mcp-oznaceni-akci, mcp-server, koncept-emailu, kontrola-dat, audit-log, licence-organization-server, ai-volba-modelu, ai-pravidla-dat, schvaleni-clovekem]
 zdroje: [docs-opravneni, twenty-capabilities-permissions-access-control, docs-mcp, docs-server-bezpecnost, docs-tarify, gh-pr-20672, github-twenty-v2-56-0, docs-akce, noma-blog-forcedleak-agent-risks-exposed-in-salesforce-agent, gartner-press-releases-2026-05-26-gartner-says-applying-unif]

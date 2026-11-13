@@ -70,7 +70,7 @@ zaver:
 - Chcete CRM s nejdelší historií (přes 20 let, 5+ milionů stažení)
 - Potřebujete také evidenci produktů, služeb a ceníků (Vtiger ji má v základu)
 - Vyhovuje vám klasické rozhraní
-- Chcete cloud od výrobce — Vtiger One má bezplatný tarif do 10 uživatelů a placené od ~280 Kč/uživ./měs
+- Chcete cloud od výrobce — Vtiger One má bezplatný tarif do 10 uživatelů a placené od ~260 Kč/uživ./měs
 - Vám nevadí Vtiger Public License (vlastní licence, ne standardní AGPL)
 
 :::
@@ -149,7 +149,7 @@ pokryje všechno zdarma, vyplatí se ho projít.
 Open source verze Vtigeru pokrývá **jádro CRM** — kontakty, obchodní případy, helpdesk,
 produkty a ceníky, automatizace a reporty. Pokud chcete mobilní aplikaci, AI, telefonii,
 napojení na další služby a globální vyhledávání, **vede cesta přes cloud Vtiger One**
-(bezplatný tarif One Pilot do 10 uživatelů a 3 000 záznamů, placené tarify od ~280 Kč
+(bezplatný tarif One Pilot do 10 uživatelů a 3 000 záznamů, placené tarify od ~260 Kč
 na uživatele/měsíc).
 
 :::
@@ -225,11 +225,11 @@ Co se konkrétně liší v **open source verzích** obou systémů.
 | **Produkty, ceníky, daně** | Není v základu | Vestavěné (produkty, služby, ceníky, daně) |
 | **Konfigurátor nabídek (CPQ)** | Není v základu | Jen v cloudu |
 | **Cloud (placená varianta)** | | |
-| **Cloud cena (od výrobce)** | Od ~200 Kč na uživ./měs (Pro) | One Pilot zdarma (do 10 uživatelů, 3 000 záznamů); One Growth ~280 Kč (12 USD), One Professional ~690 Kč (30 USD) na uživ./měs |
+| **Cloud cena (od výrobce)** | Od ~200 Kč na uživ./měs (Pro) | One Pilot zdarma (do 10 uživatelů, 3 000 záznamů); One Growth ~260 Kč (12 USD), One Professional ~660 Kč (30 USD) na uživ./měs |
 | **Český implementátor** | **Ano (TwentyCRM.cz)** | Podle dostupnosti partnera |
 
 Ceny Vtiger One podle ceníku výrobce k 13. 11. 2026 při roční platbě; přepočet na Kč je přibližný
-(~23 Kč za USD).
+(~22 Kč za USD; kurz ČNB z 12. 11. 2026).
 
 ::::
 
@@ -270,7 +270,7 @@ právní oddělení běžně znají (soubory placených funkcí tarifu Organizat
 - 💰 Vyhrazený server (cena dle poskytovatele a požadované konfigurace)
 - 💰 SSL — zdarma
 - 💰 PHP vývojář pro vlastní moduly — hodinová sazba dle dodavatele
-- 💰 **Pokud chcete mobilní aplikaci → cloud (bezplatný tarif do 10 uživatelů, jinak od ~280 Kč/uživ./měs)**
+- 💰 **Pokud chcete mobilní aplikaci → cloud (bezplatný tarif do 10 uživatelů, jinak od ~260 Kč/uživ./měs)**
 - 💰 **Pokud chcete AI → cloud (od tarifu One Growth)**
 - 💰 **Pokud chcete telefonní integrace → cloud**
 - 💰 **Pokud chcete napojení na Gmail / Outlook → cloud**
@@ -315,8 +315,8 @@ pod standardní AGPL-3.0 ze seznamu OSI.
 ### „Kolik stojí cloud Vtigeru?"
 
 Podle ceníku výrobce (13. 11. 2026, roční platba) je tarif One Pilot zdarma pro nejvýš 10 uživatelů
-a 3 000 záznamů, One Growth stojí ~280 Kč (12 USD), One Professional ~690 Kč (30 USD),
-One Enterprise ~970 Kč (42 USD) a One AI ~1 150 Kč (50 USD) na uživatele a měsíc. Jak u Twenty
+a 3 000 záznamů, One Growth stojí ~260 Kč (12 USD), One Professional ~660 Kč (30 USD),
+One Enterprise ~920 Kč (42 USD) a One AI ~1 100 Kč (50 USD) na uživatele a měsíc. Jak u Twenty
 vychází vyhrazený server proti cloudu, najdete v [srovnání vyhrazeného serveru a cloudu](/cloud-vs-selfhost/).
 
 ### „Vtiger má mobilní aplikaci, Twenty ne — to je problém?"

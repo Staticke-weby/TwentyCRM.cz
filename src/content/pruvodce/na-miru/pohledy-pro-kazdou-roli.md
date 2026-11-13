@@ -4,7 +4,7 @@ description: V Twenty si ze stejných dat každý uloží svou obrazovku — tab
 vMenu: Pohledy pro každou roli
 poradi: 5
 overeno: 2026-11-13
-verzeTwenty: '2.57'
+verzeTwenty: '2.58'
 temata: [data, reporty, opravneni]
 funkce: [pohledy, rozvrzeni-karty, dashboardy, ai-dashboardy, role-opravneni, jen-sve-zaznamy]
 zdroje: [twenty-vydani, twenty-capabilities-filters-and-sorting, twenty-capabilities-calendar-view, twenty-capabilities-record-pages, twenty-capabilities-dashboards, docs-opravneni, twenty-views-pipelines-overview, twenty-capabilities-table-views, twenty-capabilities-kanban-views, twenty-capabilities-navigation]

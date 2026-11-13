@@ -4,7 +4,7 @@ description: "Twenty připravuje soukromé záznamy: důvěrný obchod nebo pers
 vMenu: Soukromé záznamy
 poradi: 6
 overeno: 2026-11-13
-verzeTwenty: '2.57'
+verzeTwenty: '2.58'
 temata: [opravneni, bezpecnost, data]
 funkce: [soukrome-zaznamy, role-opravneni, jen-sve-zaznamy]
 zdroje: [github-twenty-v2-55-0, github-twenty-v2-56-0, github-twenty-v2-57-0, gh-prepinace, docs-opravneni, twenty-capabilities-permissions-access-control, github-twenty-v2-41-0, github-twenty-v2-45-0]

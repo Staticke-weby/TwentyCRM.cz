@@ -3,8 +3,8 @@ title: Aplikace nad Twenty — co to je a kdy se vyplatí
 description: Aplikace v Twenty je balíček, který do systému najednou přidá vlastní záznamy, logiku, obrazovky i AI agenty. Jak se liší od polí a automatizací, které aplikace už v Twenty jsou, co je obchod s aplikacemi a kdy má aplikace pro firmu smysl.
 vMenu: Aplikace nad Twenty
 poradi: 2
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [aplikace]
 funkce: [aplikace, obchod-s-aplikacemi, vlastni-zaznamy, automatizace, ai-agenti, ai-dovednosti, role-opravneni, zapisniky-schuzek, nahravani-schuzek, linkedin]
 zdroje: [docs-aplikace, docs-dovednosti, twenty-core-concepts-apps, twenty-operations-publishing, twenty-operations-marketplace-review, github-public-call-recorder, github-public-fireflies, gh-vydani, twenty-vydani]

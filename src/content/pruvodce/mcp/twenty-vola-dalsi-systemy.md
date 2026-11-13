@@ -3,8 +3,8 @@ title: Twenty použije další firemní systémy přes MCP — co se připravuje
 description: Dnes se přes MCP připojují k Twenty AI asistenti zvenčí. Připravuje se opačný směr — AI v Twenty si sama sáhne do dalších systémů, aniž by se data kopírovala. Kde je vývoj v listopadu 2026, co to firmě umožní a jak propojit systémy už dnes.
 vMenu: Twenty volá další systémy
 poradi: 6
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [mcp, ai, automatizace]
 funkce: [mcp-klient, smer-mcp-v-automatizacich, mcp-server, automatizace, aplikace]
 zdroje: [gh-vydani, gh-prepinace, gh-pr-29957, docs-dovednosti, docs-akce, docs-spoustece, docs-mcp, github-twenty-v2-53-1, github-twenty-v2-54-0, github-twenty-v2-57-0]

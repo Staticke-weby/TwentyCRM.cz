@@ -3,8 +3,8 @@ title: Jak nechat AI roztřídit a ohodnotit nové poptávky
 description: Twenty od verze 2.42 umí novou poptávku roztřídit a ohodnotit krokem Třídění v automatizaci, AI krok z ní vytáhne údaje do polí. Co to obchodu přinese, jak to funguje, co je hotové v Twenty Sales a co je k tomu potřeba.
 vMenu: Třídění poptávek s AI
 poradi: 1
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [obchod, ai, automatizace]
 funkce: [ai-trideni, ai-krok-automatizace, automatizace, pridelovani-dokola, posta-kalendar, koncept-emailu, role-opravneni, vlastni-klice-ai]
 zdroje: [docs-akce, docs-spoustece, twenty-vydani, docs-pravni-faq, twenty-capabilities-ai-agents]

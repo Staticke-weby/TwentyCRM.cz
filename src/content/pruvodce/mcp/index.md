@@ -3,8 +3,8 @@ title: "Jedna paměť firmy pro lidi i AI"
 description: "Jak se Claude, ChatGPT a další AI asistenti připojí k Twenty přes MCP a pracují s daty v CRM pod rolí toho, kdo se ptá — bez kopírování dat. Co jde dnes a které CRM MCP server mají."
 vMenu: "MCP"
 poradi: 4
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [mcp]
 funkce: [mcp-server, mcp-oznaceni-akci, mcp-spousti-automatizaci, role-opravneni, mcp-klient]
 ---

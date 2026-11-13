@@ -3,8 +3,8 @@ title: Jak dostat poštu ze sdílené adresy info@ nebo servis@ ke klientům v C
 description: Sdílenou adresu jako info@ nebo servis@ připojíte k Twenty dvěma cestami — přeposíláním do e-mailového kanálu, nebo jako běžnou schránku jednoho z uživatelů. Jak se obě cesty liší, na co si dát pozor u Microsoft 365 a co platí na vyhrazeném serveru.
 vMenu: Sdílená schránka
 poradi: 4
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [komunikace]
 funkce: [sdilena-schranka, posta-kalendar, ai-chat, ada-tymova-schranka]
 zdroje: [twenty-capabilities-email-channels, docs-posta, twenty-capabilities-mailbox, twenty-vydani, twenty-how-tos-forward-a-shared-inbox-from-any-mail-provider, twenty-how-tos-forward-a-shared-inbox-from-microsoft-365, github-twenty-v2-56-0]
@@ -73,7 +73,7 @@ Návody výrobce jsou v [dokumentaci k e-mailovým kanálům](https://docs.twent
 (česky zatím není).
 
 Twenty navíc připravuje týmovou schránku, ve které s konverzacemi pracují kolegové společně
-s AI asistentkou Adou. Ve verzi 2.57 je za přepínačem, stav najdete v přehledu níže.
+s AI asistentkou Adou. Ve verzi 2.58 je za přepínačem, stav najdete v přehledu níže.
 
 :::poznamka[Ilustrační příklad]{ton="info"}
 

@@ -144,7 +144,7 @@ rozšíření nebo součást cloudu výrobce. Twenty má většinu těchto věc�
 - ⚠️ MailChimp, Stripe, Zoom
 - ⚠️ Meeting Scheduler (online rezervace schůzek)
 
-**Cloud EspoCRM začíná na ~320 Kč na uživatele/měsíc** (Basic, 12,90 EUR, min. 3 uživatelé)
+**Cloud EspoCRM začíná na ~310 Kč na uživatele/měsíc** (Basic, 12,90 EUR, min. 3 uživatelé)
 a obsahuje **všechna rozšíření v ceně**. Bezplatná verze na vyhrazeném serveru je zdarma,
 ale jakmile potřebujete automatizace nebo reporty, je potřeba dokoupit Advanced Pack.
 
@@ -204,12 +204,12 @@ obou systémů.
 | **„Vidím jen své záznamy“** | Tarif Organization (cloud i vlastní server) | Ano (úrovně vše / tým / vlastní) |
 | **Jednotné přihlášení (SSO)** | Tarif Organization (cloud i vlastní server) | LDAP a OpenID Connect v základu |
 | **Cloud (placená varianta)** | | |
-| **Cloud cena (od výrobce)** | Od ~200 Kč na uživ./měs (Pro) | Basic ~320 Kč (12,90 EUR) / Enterprise ~550 Kč (22 EUR) / Ultimate ~1 480 Kč (59 EUR) |
+| **Cloud cena (od výrobce)** | Od ~200 Kč na uživ./měs (Pro) | Basic ~310 Kč (12,90 EUR) / Enterprise ~540 Kč (22 EUR) / Ultimate ~1 440 Kč (59 EUR) |
 | **Min. počet uživatelů v cloudu** | — | Min. 3 (Basic), 5 (Enterprise), 10 (Ultimate) |
 | **Český implementátor** | **Ano (TwentyCRM.cz)** | Podle dostupnosti partnera |
 
 Ceny podle ceníků výrobců k 13. 11. 2026, na uživatele a měsíc; přepočet na Kč je přibližný
-(~23 Kč za USD, ~25 Kč za EUR). EspoCRM účtuje cloud Basic a Enterprise na 6 nebo 12 měsíců.
+(~22 Kč za USD, ~24,4 Kč za EUR; kurz ČNB z 12. 11. 2026). EspoCRM účtuje cloud Basic a Enterprise na 6 nebo 12 měsíců.
 
 ::::sekce{pozadi="svetle"}
 
@@ -263,8 +263,8 @@ Pro firmu, které česká lokalizace fakt záleží, je Twenty bezpečnější v
 
 ### „Kolik stojí cloud EspoCRM?"
 
-Podle ceníku výrobce (13. 11. 2026) Basic ~320 Kč (12,90 EUR) na uživatele a měsíc s minimem
-3 uživatelů, Enterprise ~550 Kč (22 EUR) s minimem 5 a Ultimate ~1 480 Kč (59 EUR) s minimem 10;
+Podle ceníku výrobce (13. 11. 2026) Basic ~310 Kč (12,90 EUR) na uživatele a měsíc s minimem
+3 uživatelů, Enterprise ~540 Kč (22 EUR) s minimem 5 a Ultimate ~1 440 Kč (59 EUR) s minimem 10;
 Basic a Enterprise se platí na 6 nebo 12 měsíců. Všechna rozšíření jsou v ceně. Jak u Twenty
 vychází vyhrazený server proti cloudu, najdete v [srovnání vyhrazeného serveru a cloudu](/cloud-vs-selfhost/).
 

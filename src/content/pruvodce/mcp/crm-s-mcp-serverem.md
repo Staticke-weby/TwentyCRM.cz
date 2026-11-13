@@ -3,8 +3,8 @@ title: Která CRM mají MCP server — Twenty, Raynet, Pipedrive, HubSpot, Sales
 description: Srovnání šesti CRM podle toho, jak se k nim připojí Claude nebo ChatGPT přes MCP — čtení a zápis, oprávnění, tarif a kde server běží. Jen fakta z dokumentace výrobců, ověřeno 12. 11. 2026.
 vMenu: CRM s MCP serverem
 poradi: 3
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [mcp, ai]
 funkce: [mcp-server, mcp-oznaceni-akci, mcp-spousti-automatizaci, role-opravneni, vlastni-klice-ai]
 zdroje: [docs-mcp, docs-opravneni, twenty-cenik, raynet-blog-mcp-server-raynet, pipedrive-newsroom-pipedrive-launches-native-mcp-server-brin, hubspot-changelog-remote-hubspot-mcp-server-is-now-generally, hubspot-build-apps-integrate-with-the-remote-hubspot-mcp-ser, salesforce-04-salesforce-hosted-mcp-servers-are-now-generall, attio-mcp-overview]

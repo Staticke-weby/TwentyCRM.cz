@@ -3,8 +3,8 @@ title: Jak dostat e-maily a schůzky ke klientovi do CRM bez přepisování
 description: Twenty se připojí k poště a kalendáři každého uživatele a e-maily i schůzky s klienty ukládá k jejich kartě samo. Gmail a Microsoft 365, Seznam a další přes IMAP, sdílená schránka info@ — co se ukládá a co zůstane soukromé.
 vMenu: E-maily a kalendář
 poradi: 1
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [komunikace]
 funkce: [posta-kalendar, sdilena-schranka, ai-chat]
 zdroje: [docs-posta, twenty-capabilities-mailbox, twenty-capabilities-calendar, twenty-capabilities-email-channels, docs-server-nastaveni, twenty-vydani]

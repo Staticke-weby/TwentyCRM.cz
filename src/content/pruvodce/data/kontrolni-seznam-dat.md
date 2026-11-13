@@ -3,8 +3,8 @@ title: "Kontrolní seznam: jsou data ve vašem CRM připravená na AI?"
 description: Než AI v CRM svěříte první úlohu, projděte pět oblastí — duplicity, úplnost údajů, jednotné hodnoty, datový model a oprávnění. Co v každé zkontrolovat a jak to v Twenty ověřit pohledem nebo dotazem v AI chatu.
 vMenu: Kontrolní seznam
 poradi: 2
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [data, ai]
 funkce: [slucovani-duplicit, kontrola-dat, vlastni-zaznamy, pohledy, role-opravneni, ai-chat]
 zdroje: [docs-opravneni, docs-ai-chat, twenty-capabilities-objects, twenty-capabilities-validation-rules, twenty-capabilities-fields, twenty-capabilities-uniqueness-constraints, github-twenty-v2-53-1, github-twenty-v2-47-0]

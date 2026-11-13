@@ -3,8 +3,8 @@ title: Které úlohy může AI agent převzít v obchodě a servisu — a co z t
 description: Patnáct konkrétních úloh pro AI v obchodě a servisu — třídění poptávek, příprava na schůzku, zakázka z e-mailu, souhrn z výkazů, hlídání obchodů bez pohybu. U každé poctivě, jestli jde v Twenty dnes a čím, nebo se teprve připravuje.
 vMenu: Úlohy pro AI agenta
 poradi: 3
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, agenti, obchod, servis]
 funkce: [ai-agenti, ai-krok-automatizace, ai-trideni, pridelovani-dokola, ai-chat, mcp-server, posta-kalendar, sdilena-schranka, zapisniky-schuzek, slucovani-duplicit, ada-tymova-schranka, schvaleni-clovekem, mcp-klient, smer-agent-cte-prilohy]
 zdroje: [docs-akce, docs-spoustece, docs-ai-chat, docs-mcp, gh-vydani, gh-prepinace, twenty-capabilities-ai-agents]

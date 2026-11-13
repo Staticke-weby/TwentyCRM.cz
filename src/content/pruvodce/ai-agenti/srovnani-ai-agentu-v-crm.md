@@ -3,8 +3,8 @@ title: Kdo má v roce 2026 AI agenty v CRM — Raynet, Pipedrive, HubSpot, Sales
 description: "Věcné srovnání pěti CRM podle toho, co jejich AI dnes dělá, jestli pracuje sama, nebo na vyžádání, kde běží a jak se účtuje. Jen z oznámení a dokumentace výrobců, ověřeno 12. 11. 2026."
 vMenu: Srovnání AI agentů v CRM
 poradi: 8
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, agenti, srovnani]
 funkce: [ai-agenti, ai-krok-automatizace, ai-trideni, ai-chat, mcp-server, vlastni-klice-ai, ai-volba-modelu, koncept-emailu, schvaleni-clovekem]
 zdroje: [raynetcrm-know-how-raynet-ai-2026, pipedrive-newsroom-pipedrive-unveils-next-generation-ai-crm-, pipedrive-newsroom-pipedrive-launches-nova-to-turn-sales-mee, knowledge-ai-understand-breeze, hubspot-company-news-spring-2026-spotlight, salesforce-sales-ai-sales-agent, salesforce-agentforce-pricing, salesforce-13-agentic-enterprise-announcement, docs-akce, docs-ai-faq, github-twenty-v2-46-0, github-twenty-v2-56-0]

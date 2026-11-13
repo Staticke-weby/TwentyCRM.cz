@@ -3,8 +3,8 @@ title: "CRM, které se vyplní samo"
 description: "E-maily, schůzky a jejich přepisy se v Twenty ukládají ke klientovi samy. Konec přepisování do CRM — a podklad, ze kterého může pracovat AI. Co jde dnes a co je k tomu potřeba."
 vMenu: "E-maily a schůzky"
 poradi: 1
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [komunikace]
 funkce: [posta-kalendar, sdilena-schranka, nahravani-schuzek, zapisniky-schuzek, linkedin]
 ---

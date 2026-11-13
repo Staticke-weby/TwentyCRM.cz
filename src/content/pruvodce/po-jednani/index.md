@@ -3,8 +3,8 @@ title: "Po každém jednání hotový další krok"
 description: "Shrnutí schůzky, návrh e-mailu a úkol připraví AI, člověk jen zkontroluje a odešle. Před schůzkou AI shrne historii klienta. Co z toho lze v Twenty nastavit dnes a co se připravuje."
 vMenu: "Po jednání"
 poradi: 2
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, automatizace]
 funkce: [ai-chat, ai-krok-automatizace, automatizace, ai-dovednosti, schvaleni-clovekem]
 ---

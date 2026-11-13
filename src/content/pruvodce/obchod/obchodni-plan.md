@@ -3,8 +3,8 @@ title: Obchodní plán se semaforem — víte včas, jestli tempo stačí
 description: V Twenty Sales je obchodní plán samostatný záznam s cílem obratu, plněním z potvrzených nabídek a semaforem, který měří tempo vůči uplynulému času. Jak funguje, co z něj vyčte vedoucí i AI a co je k tomu potřeba.
 vMenu: Obchodní plán
 poradi: 5
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [obchod, reporty]
 funkce: [vlastni-zaznamy, pohledy, dashboardy, ai-chat, mcp-server]
 zdroje: [twenty-capabilities-objects, docs-ai-chat, docs-mcp]

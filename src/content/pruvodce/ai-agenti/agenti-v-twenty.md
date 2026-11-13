@@ -3,8 +3,8 @@ title: "Agenti v Twenty: kdy se sami spustí, co smějí a kdo je hlídá"
 description: AI agenti v Twenty se spouštějí sami při změně záznamu nebo podle plánu, pracují pod vlastní rolí a drží se firemních postupů. Co umí ve verzi 2.57 — spouštěče, dovednosti, AI krok a třídění v automatizacích — a co se připravuje.
 vMenu: Agenti v Twenty
 poradi: 2
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, agenti, automatizace]
 funkce: [ai-agenti, ai-dovednosti, ai-krok-automatizace, ai-trideni, cekani-na-udalost, ai-volba-modelu, role-opravneni, automatizace, pridelovani-dokola, ada-tymova-schranka, schvaleni-clovekem]
 zdroje: [docs-akce, docs-spoustece, docs-dovednosti, docs-opravneni, twenty-vydani, gh-prepinace, github-twenty-v2-40-0, github-twenty-v2-46-0, github-twenty-v2-56-0, twenty-capabilities-permissions-access-control]
@@ -16,7 +16,7 @@ být jedním krokem automatizace — přečte záznam, roztřídí ho nebo dopln
 výsledku pokračuje.**
 
 Obecný rozdíl mezi agentem a chatbotem vysvětluje článek [Co je AI agent](/twenty/ai-agenti/co-je-ai-agent/).
-Tady je, z čeho se agenti v Twenty skládají ve verzi 2.57 (listopad 2026).
+Tady je, z čeho se agenti v Twenty skládají ve verzi 2.58 (listopad 2026).
 
 ## Co vám to umožní
 

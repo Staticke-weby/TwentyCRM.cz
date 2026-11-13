@@ -3,8 +3,8 @@ title: Co může AI v servisní firmě převzít už dnes — a co zůstává di
 description: Zakázka z e-mailu klienta, popis práce z výkazů techniků, připomínky prevencí a odpovědi z dat bez hledání. Co z toho je hotové v Twenty Servis, co lze v Twenty nastavit dnes, co se připravuje a co dál rozhoduje člověk.
 vMenu: AI v servisní firmě
 poradi: 4
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [servis, ai, agenti, automatizace]
 funkce: [ai-agenti, ai-krok-automatizace, ai-trideni, koncept-emailu, automatizace, ai-chat, mcp-server, posta-kalendar, vlastni-klice-ai, ada-tymova-schranka, schvaleni-clovekem, mcp-klient, smer-agent-cte-prilohy]
 zdroje: [docs-akce, docs-spoustece, docs-ai-chat, docs-mcp, docs-ai-faq, gh-vydani, gh-prepinace]

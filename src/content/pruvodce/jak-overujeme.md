@@ -3,8 +3,8 @@ title: Jak průvodce ověřujeme
 description: Odkud bereme informace o Twenty, co znamenají štítky „Lze nastavit dnes“ a „Připravuje se“ a jak často průvodce kontrolujeme proti novým verzím.
 vMenu: Jak ověřujeme
 poradi: 99
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [platforma]
 funkce: [mcp-server, mcp-klient, smer-vestavene-asistenty]
 zdroje: [gh-vydani, twenty-vydani, docs-mcp, gh-prepinace]

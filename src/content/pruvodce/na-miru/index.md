@@ -3,8 +3,8 @@ title: "Systém podle vaší firmy — za dny, ne měsíce"
 description: "Vlastní typy záznamů, pole, vazby a pohledy, aplikace nad Twenty a obrazovky, které postaví AI: jak CRM přizpůsobit oboru bez vývoje od nuly — co jde dnes a co se připravuje."
 vMenu: "Na míru"
 poradi: 7
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [data, aplikace]
 funkce: [vlastni-zaznamy, vazby-mnoho, kontrola-dat, pohledy, aplikace, obchod-s-aplikacemi, ai-obrazovky, automatizace, rozvrzeni-karty, soukrome-zaznamy]
 ---

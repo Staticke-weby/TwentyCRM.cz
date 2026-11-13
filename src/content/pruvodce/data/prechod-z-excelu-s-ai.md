@@ -3,8 +3,8 @@ title: Jak přejít z Excelu do CRM s pomocí AI — import, duplicity a cesta z
 description: Tabulky z Excelu se do Twenty nahrají importem s automatickým přiřazením sloupců a kontrolou duplicit na obrazovce. Kde do přechodu vstupuje AI — import přes AI chat, slučování duplicit, pravidla pro nová data — a jak data kdykoli vyexportovat zpět.
 vMenu: Z Excelu s AI
 poradi: 3
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [data, ai, migrace]
 funkce: [import-export, ai-import, slucovani-duplicit, kontrola-dat, ai-chat]
 zdroje: [twenty-data-migration-overview, twenty-vydani, twenty-capabilities-file-formats, twenty-capabilities-field-mapping, twenty-capabilities-uniqueness-constraints, twenty-how-tos-export-your-data, docs-server-nastaveni, github-twenty-v2-18-0, github-twenty-v2-51-0, github-twenty-v2-53-1]

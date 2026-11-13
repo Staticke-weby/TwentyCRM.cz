@@ -4,7 +4,7 @@ description: Automatizace v Twenty se skládá z hotových kroků a spustí se s
 vMenu: Automatizace bez programování
 poradi: 4
 overeno: 2026-11-13
-verzeTwenty: '2.57'
+verzeTwenty: '2.58'
 temata: [automatizace, ai]
 funkce: [automatizace, zaznam-behu-automatizace, pridelovani-dokola, cekani-na-udalost, koncept-emailu, ai-krok-automatizace, ai-trideni, mcp-spousti-automatizaci, schvaleni-clovekem]
 zdroje: [docs-spoustece, docs-akce, twenty-vydani, github-twenty-v2-46-0, docs-opravneni, twenty-workflows-overview, twenty-capabilities-workflow-branches, twenty-capabilities-workflow-runs, twenty-need-more-help-workflows-faq]

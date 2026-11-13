@@ -3,8 +3,8 @@ title: Po schůzce rovnou úkol a návrh e-mailu — připraví je AI v CRM
 description: Jakmile se ke klientovi uloží přepis schůzky, automatizace v Twenty ho předá AI, která založí úkol s termínem a připraví koncept navazujícího e-mailu. Odeslání zůstává na člověku. Co jde dnes a co se připravuje.
 vMenu: Úkol a e-mail po schůzce
 poradi: 1
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, automatizace, komunikace]
 funkce: [automatizace, ai-krok-automatizace, koncept-emailu, zapisniky-schuzek, nahravani-schuzek, role-opravneni, vlastni-klice-ai, schvaleni-clovekem]
 zdroje: [docs-akce, docs-spoustece, twenty-ai-overview, docs-opravneni, gh-vydani]

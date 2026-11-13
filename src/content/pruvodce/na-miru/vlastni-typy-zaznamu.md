@@ -3,8 +3,8 @@ title: Jak přizpůsobit CRM oboru — vlastní typy záznamů, pole a vazby v T
 description: Twenty se oboru přizpůsobuje nastavením — vlastními poli, typy záznamů, vazbami i „mnoho na mnoho" a pravidly pro kontrolu dat. Kdy stačí pole, kdy je potřeba nový typ záznamu a proč základní pojmy nepřejmenovávat.
 vMenu: Typy záznamů a pole
 poradi: 1
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [data, aplikace]
 funkce: [vlastni-zaznamy, vazby-mnoho, kontrola-dat, pohledy, import-export, posta-kalendar, role-opravneni]
 zdroje: [twenty-capabilities-objects, twenty-data-model-overview, twenty-capabilities-fields, twenty-capabilities-relation-fields, twenty-how-tos-create-many-to-many-relations, twenty-capabilities-validation-rules, twenty-vydani]

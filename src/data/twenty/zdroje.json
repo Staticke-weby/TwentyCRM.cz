@@ -7,7 +7,7 @@
       "nazev": "Twenty — poznámky k vydáním na GitHubu",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -16,7 +16,7 @@
       "nazev": "Twenty — přehled novinek na twenty.com",
       "typ": "web-twenty",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -25,7 +25,7 @@
       "nazev": "Twenty — ceník",
       "typ": "cenik",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -34,7 +34,7 @@
       "nazev": "Twenty — tarify a co obsahují",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -43,7 +43,7 @@
       "nazev": "Twenty — AI kredity",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -52,7 +52,7 @@
       "nazev": "Twenty — AI chat",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -61,7 +61,7 @@
       "nazev": "Twenty — časté otázky k AI (vlastní klíče, modely)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -70,7 +70,7 @@
       "nazev": "Twenty — napojení AI nástrojů (MCP)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -79,7 +79,7 @@
       "nazev": "Twenty — právní otázky (umístění dat, AI a data)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -88,7 +88,7 @@
       "nazev": "Twenty — spouštěče automatizací",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -97,7 +97,7 @@
       "nazev": "Twenty — kroky automatizací (včetně AI agenta a Classify)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -106,7 +106,7 @@
       "nazev": "Twenty — role a oprávnění",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -115,7 +115,7 @@
       "nazev": "Twenty — e-maily a kalendář",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -124,7 +124,7 @@
       "nazev": "Twenty — e-mailové kampaně",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -133,7 +133,7 @@
       "nazev": "Twenty — nastavení vlastního serveru (připojení Gmailu a Microsoft 365)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -142,7 +142,7 @@
       "nazev": "Twenty — zabezpečení vlastního serveru",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -151,7 +151,7 @@
       "nazev": "Twenty — přechod na novou verzi",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -160,7 +160,7 @@
       "nazev": "Twenty — vlastní aplikace (rychlý start)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -169,7 +169,7 @@
       "nazev": "Twenty — dovednosti a agenti v aplikacích",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -178,7 +178,7 @@
       "nazev": "Twenty — seznam přepínačů rozpracovaných funkcí v kódu",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -187,7 +187,7 @@
       "nazev": "Twenty — označení nástrojů MCP (čtení / změna dat)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -196,7 +196,7 @@
       "nazev": "Twenty — ChatGPT a Claude jako vestavěné aplikace (rozpracováno)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -205,7 +205,7 @@
       "nazev": "Twenty — krok „MCP nástroj“ v automatizacích (rozpracováno)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -214,7 +214,7 @@
       "nazev": "Twenty — agenti čtou přílohy záznamů (rozpracováno)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -223,7 +223,7 @@
       "nazev": "Twenty — podmíněné spouštěče agentů (rozpracováno)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -232,7 +232,7 @@
       "nazev": "Twenty — přístupové skupiny a pravidla viditelnosti (změna uzavřena; směr dokládá přepínač v kódu)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -242,7 +242,7 @@
       "typ": "standard",
       "vydavatel": "Agentic AI Foundation (Linux Foundation)",
       "presmerovani": true,
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -251,7 +251,7 @@
       "nazev": "Anthropic — předání MCP nadaci Agentic AI Foundation (Linux Foundation)",
       "typ": "standard",
       "vydavatel": "Anthropic",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -260,7 +260,7 @@
       "nazev": "Twenty v2.40 — dovednosti a katalog AI modelů",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -269,7 +269,7 @@
       "nazev": "Twenty v2.46 — stránky a spouštěče agentů, čekání na událost",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -278,7 +278,7 @@
       "nazev": "Twenty v2.56 — AI kroky s vlastním oprávněním",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -287,7 +287,7 @@
       "nazev": "Twenty — oprávnění AI agentů",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -296,7 +296,7 @@
       "nazev": "Twenty — AI agenti v automatizacích",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -305,7 +305,7 @@
       "nazev": "Gartner — tisková zpráva 26. 8. 2025 o AI agentech v podnikových aplikacích",
       "typ": "studie",
       "vydavatel": "Gartner",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok",
       "rucniKontrola": true
     },
@@ -315,7 +315,7 @@
       "nazev": "Microsoft WorkLab — Work Trend Index 2025 (23. 4. 2025)",
       "typ": "studie",
       "vydavatel": "Microsoft",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -324,7 +324,7 @@
       "nazev": "Twenty — co se ze schránky ukládá a co ne",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -333,7 +333,7 @@
       "nazev": "Twenty — synchronizace kalendáře",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -342,7 +342,7 @@
       "nazev": "Twenty — e-mailové kanály (sdílená schránka přeposíláním)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -351,7 +351,7 @@
       "nazev": "Twenty — aplikace Call Recorder (nahrávací asistent)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -360,7 +360,7 @@
       "nazev": "Twenty — aplikace Microsoft Teams (přepisy schůzek)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -369,7 +369,7 @@
       "nazev": "Twenty — aplikace Fathom",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -378,7 +378,7 @@
       "nazev": "Twenty — aplikace Granola",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -387,7 +387,7 @@
       "nazev": "Twenty — aplikace Fireflies",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -396,7 +396,7 @@
       "nazev": "Salesforce — Agentic Enterprise (13. 10. 2025)",
       "typ": "konkurence",
       "vydavatel": "Salesforce",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -405,7 +405,7 @@
       "nazev": "Raynet — MCP server Raynet (blog výrobce, 2. 9. 2026)",
       "typ": "konkurence",
       "vydavatel": "Raynet",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -414,7 +414,7 @@
       "nazev": "Pipedrive — tisková zpráva o MCP serveru (30. 6. 2026)",
       "typ": "konkurence",
       "vydavatel": "Pipedrive",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -423,7 +423,7 @@
       "nazev": "HubSpot — MCP server obecně dostupný (13. 4. 2026)",
       "typ": "konkurence",
       "vydavatel": "HubSpot",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -432,7 +432,7 @@
       "nazev": "HubSpot — dokumentace MCP serveru (data a oprávnění)",
       "typ": "konkurence",
       "vydavatel": "HubSpot",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -441,7 +441,7 @@
       "nazev": "Salesforce — hostované MCP servery obecně dostupné (29. 4. 2026)",
       "typ": "konkurence",
       "vydavatel": "Salesforce",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -450,7 +450,7 @@
       "nazev": "Attio — dokumentace Attio MCP",
       "typ": "konkurence",
       "vydavatel": "Attio",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -459,7 +459,7 @@
       "nazev": "Anthropic — vlastní konektory přes vzdálený MCP server (tarify, síťové požadavky)",
       "typ": "dokumentace",
       "vydavatel": "Anthropic",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -468,7 +468,7 @@
       "nazev": "OpenAI — připojení vlastních MCP serverů v ChatGPT (tarify, zápis, potvrzování)",
       "typ": "dokumentace",
       "vydavatel": "OpenAI",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok",
       "rucniKontrola": true
     },
@@ -478,7 +478,7 @@
       "nazev": "Salesforce — ceník Agentforce",
       "typ": "konkurence",
       "vydavatel": "Salesforce",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -487,7 +487,7 @@
       "nazev": "Salesforce — tisková zpráva o Flex Credits (15. 5. 2025)",
       "typ": "konkurence",
       "vydavatel": "Salesforce",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -496,7 +496,7 @@
       "nazev": "HubSpot — Customer Agent a Prospecting Agent se platí za výsledek",
       "typ": "konkurence",
       "vydavatel": "HubSpot",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -505,7 +505,7 @@
       "nazev": "HubSpot — HubSpot Credits",
       "typ": "konkurence",
       "vydavatel": "HubSpot",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -514,7 +514,7 @@
       "nazev": "Microsoft — ceník Copilot Studio",
       "typ": "konkurence",
       "vydavatel": "Microsoft",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -523,7 +523,7 @@
       "nazev": "Microsoft — ceník Microsoft 365 Copilot",
       "typ": "konkurence",
       "vydavatel": "Microsoft",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -532,7 +532,7 @@
       "nazev": "Zoho — ceník Zia Agents",
       "typ": "konkurence",
       "vydavatel": "Zoho",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -541,7 +541,7 @@
       "nazev": "Anthropic — limity útraty a vlastní měsíční strop",
       "typ": "dokumentace",
       "vydavatel": "Anthropic",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -550,7 +550,7 @@
       "nazev": "Gartner — přes 40 % projektů agentní AI bude do konce roku 2027 zrušeno (tisková zpráva, 25. 6. 2025)",
       "typ": "studie",
       "vydavatel": "Gartner",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok",
       "rucniKontrola": true
     },
@@ -560,7 +560,7 @@
       "nazev": "ČSÚ — AI používají v Česku tři čtvrtiny velkých firem (5. 11. 2026)",
       "typ": "studie",
       "vydavatel": "ČSÚ",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -569,7 +569,7 @@
       "nazev": "Twenty — přehled AI",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -578,7 +578,7 @@
       "nazev": "EUR-Lex — nařízení (EU) 2024/1689 o umělé inteligenci (AI Act)",
       "typ": "legislativa",
       "vydavatel": "EUR-Lex",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -587,7 +587,7 @@
       "nazev": "EUR-Lex — nařízení (EU) 2026/1744 (Digital Omnibus on AI), kterým se mění AI Act",
       "typ": "legislativa",
       "vydavatel": "EUR-Lex",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -596,7 +596,7 @@
       "nazev": "EUR-Lex — konsolidované znění AI Actu k 27. 7. 2026",
       "typ": "legislativa",
       "vydavatel": "EUR-Lex",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -605,7 +605,7 @@
       "nazev": "Evropská komise — AI Act, harmonogram použitelnosti",
       "typ": "legislativa",
       "vydavatel": "Evropská komise",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -614,7 +614,7 @@
       "nazev": "AI Act Service Desk (Evropská komise) — článek 50, povinnosti transparentnosti",
       "typ": "legislativa",
       "vydavatel": "Evropská komise",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -623,7 +623,7 @@
       "nazev": "AI Act Service Desk (Evropská komise) — článek 4, gramotnost v oblasti AI",
       "typ": "legislativa",
       "vydavatel": "Evropská komise",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -632,7 +632,7 @@
       "nazev": "AI Act Service Desk (Evropská komise) — článek 113, data použitelnosti",
       "typ": "legislativa",
       "vydavatel": "Evropská komise",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -641,7 +641,7 @@
       "nazev": "AI Act Service Desk (Evropská komise) — článek 111, přechodná ustanovení",
       "typ": "legislativa",
       "vydavatel": "Evropská komise",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -650,7 +650,7 @@
       "nazev": "Evropská komise — pokyny k povinnostem transparentnosti (20. 7. 2026)",
       "typ": "legislativa",
       "vydavatel": "Evropská komise",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -659,7 +659,7 @@
       "nazev": "Evropská komise — politická dohoda o Digital Omnibus on AI (7. 5. 2026)",
       "typ": "legislativa",
       "vydavatel": "Evropská komise",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -668,7 +668,7 @@
       "nazev": "ČTÚ — 2. srpna 2026 jako klíčové datum pro pravidla transparentnosti (31. 7. 2026)",
       "typ": "legislativa",
       "vydavatel": "ČTÚ",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -677,7 +677,7 @@
       "nazev": "MPO — vláda schválila návrh zákona o umělé inteligenci (9. 11. 2026)",
       "typ": "legislativa",
       "vydavatel": "MPO",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -686,7 +686,7 @@
       "nazev": "Twenty — import a převod dat",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -695,7 +695,7 @@
       "nazev": "Twenty — vlastní typy záznamů (objekty)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -704,7 +704,7 @@
       "nazev": "Twenty — kalendářní pohled",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -713,7 +713,7 @@
       "nazev": "Twenty v2.49 — zmínky Ady v konverzacích, možnost ji vypnout",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -722,7 +722,7 @@
       "nazev": "Twenty v2.57 — přímé zprávy mezi členy týmu",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -731,7 +731,7 @@
       "nazev": "Twenty v2.57.1 — jméno a obrázek asistenta v týmové schránce",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -740,7 +740,7 @@
       "nazev": "Microsoft WorkLab — Work Trend Index 2026 (5. 5. 2026)",
       "typ": "studie",
       "vydavatel": "Microsoft",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -749,7 +749,7 @@
       "nazev": "Microsoft — Agent 365, správa AI agentů ve firmě (18. 11. 2025)",
       "typ": "konkurence",
       "vydavatel": "Microsoft",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -758,7 +758,7 @@
       "nazev": "Salesforce — State of Sales 2026 (3. 2. 2026)",
       "typ": "konkurence",
       "vydavatel": "Salesforce",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -767,7 +767,7 @@
       "nazev": "Eurostat — 20 % firem v EU používalo v roce 2025 AI (11. 12. 2025)",
       "typ": "legislativa",
       "vydavatel": "Evropská komise",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -776,7 +776,7 @@
       "nazev": "Eurostat — Use of artificial intelligence in enterprises (data 2025)",
       "typ": "legislativa",
       "vydavatel": "Evropská komise",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -785,7 +785,7 @@
       "nazev": "Noma Security — ForcedLeak, zranitelnost v Salesforce Agentforce (25. 9. 2025)",
       "typ": "dokumentace",
       "vydavatel": "noma.security",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -794,7 +794,7 @@
       "nazev": "Raynet — Raynet AI v roce 2026 (článek výrobce)",
       "typ": "konkurence",
       "vydavatel": "Raynet",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -803,7 +803,7 @@
       "nazev": "Pipedrive — agentní AI v betě (tisková zpráva, 4. 2. 2025)",
       "typ": "konkurence",
       "vydavatel": "Pipedrive",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -812,7 +812,7 @@
       "nazev": "Pipedrive — Nova, asistent pro obchodní schůzky (tisková zpráva, 16. 9. 2026)",
       "typ": "konkurence",
       "vydavatel": "Pipedrive",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -821,7 +821,7 @@
       "nazev": "HubSpot — přehled AI a agentů v HubSpotu (znalostní báze, aktualizace 1. 10. 2026)",
       "typ": "konkurence",
       "vydavatel": "HubSpot",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -830,7 +830,7 @@
       "nazev": "HubSpot — Spring 2026 Spotlight, agenti pro vyhledávání zákazníků a podporu (14. 4. 2026)",
       "typ": "konkurence",
       "vydavatel": "HubSpot",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -839,7 +839,7 @@
       "nazev": "Salesforce — Agentforce pro obchod (stránka výrobce)",
       "typ": "konkurence",
       "vydavatel": "Salesforce",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -848,7 +848,7 @@
       "nazev": "Twenty — pravidla pro kontrolu dat (Validation Rules)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -857,7 +857,7 @@
       "nazev": "Twenty — pole a jejich jedinečnost",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -866,7 +866,7 @@
       "nazev": "Twenty — jedinečná pole a duplicity",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -875,7 +875,7 @@
       "nazev": "Twenty v2.53.1 — slučování libovolných záznamů, i přes AI chat",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -884,7 +884,7 @@
       "nazev": "Twenty v2.47 — AI sestaví pravidlo pro kontrolu dat; pravidla v tarifu Organization",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -893,7 +893,7 @@
       "nazev": "Twenty — podporované formáty souborů pro import",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -902,7 +902,7 @@
       "nazev": "Twenty — přiřazení sloupců při importu",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -911,7 +911,7 @@
       "nazev": "Twenty — export dat",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -920,7 +920,7 @@
       "nazev": "Twenty v2.18 — spolehlivý hromadný import přes AI chat",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -929,7 +929,7 @@
       "nazev": "Twenty v2.51 — export celého pracovního prostoru",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -938,7 +938,7 @@
       "nazev": "CRMArena-Pro — test AI agentů na úlohách v CRM (Salesforce AI Research, 24. 5. 2025)",
       "typ": "dokumentace",
       "vydavatel": "arxiv.org",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -947,7 +947,7 @@
       "nazev": "Twenty — pravidla pro kontrolu dat v tarifu Organization (PR 27818)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -956,7 +956,7 @@
       "nazev": "Twenty — aplikace LinkedIn (kód a popis)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -965,7 +965,7 @@
       "nazev": "Twenty — aplikace LinkedIn, nastavení na vlastním serveru (Unipile)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -974,7 +974,7 @@
       "nazev": "Twenty v2.54 — aplikace LinkedIn (čtení zpráv přes Unipile)",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -983,7 +983,7 @@
       "nazev": "Twenty v2.55 — LinkedIn, import historie, kontaktů a příloh",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -992,7 +992,7 @@
       "nazev": "Unipile — ceník (podle počtu připojených účtů)",
       "typ": "dokumentace",
       "vydavatel": "www.unipile.com",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1001,7 +1001,7 @@
       "nazev": "Twenty — přeposílání sdílené schránky od libovolného poskytovatele",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1010,7 +1010,7 @@
       "nazev": "Twenty — přeposílání sdílené schránky z Microsoft 365",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1019,7 +1019,7 @@
       "nazev": "Twenty — uložené AI obrazovky v rozvržení stránek (rozpracováno, PR #28732)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1028,7 +1028,7 @@
       "nazev": "Twenty — propojení uživatelů Teams s členy týmu (rozpracováno, PR #30156)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1037,7 +1037,7 @@
       "nazev": "Twenty — přímé zprávy ve vlastní sekci týmové schránky (PR #30232)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1046,7 +1046,7 @@
       "nazev": "Twenty — AI a MCP spustí automatizaci (PR #29822)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1055,7 +1055,7 @@
       "nazev": "Twenty — aplikace Slack (asistent, náhledy odkazů, kroky v automatizacích)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1064,7 +1064,7 @@
       "nazev": "Twenty — nastavení aplikace Slack na vlastním serveru",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1073,7 +1073,7 @@
       "nazev": "Twenty v2.26 — konverzační asistent ve Slacku",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1082,7 +1082,7 @@
       "nazev": "Twenty v2.50 — první verze aplikace Teams jen se shrnutím přepisů",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1091,7 +1091,7 @@
       "nazev": "Twenty v2.57 — nástroje externích MCP serverů v AI chatu (za přepínačem)",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1100,7 +1100,7 @@
       "nazev": "Twenty v2.55 — AI chat staví a zveřejňuje vlastní obrazovky (3. 11. 2026)",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1109,7 +1109,7 @@
       "nazev": "Twenty — rozvržení karty záznamu (záložky a části karty)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1118,7 +1118,7 @@
       "nazev": "Twenty — vlastní obrazovky v aplikacích (ve vývoji)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1127,7 +1127,7 @@
       "nazev": "Twenty — co jsou aplikace a proč existují",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1136,7 +1136,7 @@
       "nazev": "Twenty — zveřejnění aplikace (obchod s aplikacemi i soukromé nasazení)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1145,7 +1145,7 @@
       "nazev": "Twenty — kontrola aplikací před zařazením do obchodu",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1154,7 +1154,7 @@
       "nazev": "Twenty — datový model (kdy pole, kdy nový typ záznamu)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1163,7 +1163,7 @@
       "nazev": "Twenty — vazby mezi záznamy",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1172,7 +1172,7 @@
       "nazev": "Twenty — vazby mnoho na mnoho",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1181,7 +1181,7 @@
       "nazev": "OpenAI — limity požadavků a upozornění na útratu u projektů a organizace",
       "typ": "dokumentace",
       "vydavatel": "OpenAI",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1190,7 +1190,7 @@
       "nazev": "Anthropic — úroveň úsilí modelu (effort) a spotřeba textu",
       "typ": "dokumentace",
       "vydavatel": "Anthropic",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1199,7 +1199,7 @@
       "nazev": "Anthropic — příplatek za zpracování jen v USA",
       "typ": "dokumentace",
       "vydavatel": "Anthropic",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1208,7 +1208,7 @@
       "nazev": "Twenty — AI kroky v automatizacích s vlastním nastavením a oprávněním (PR #29368)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1217,7 +1217,7 @@
       "nazev": "Twenty — dashboardy (přehled a současná omezení)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1226,7 +1226,7 @@
       "nazev": "Twenty — dashboardy, záložky, viditelnost a co se připravuje",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1235,7 +1235,7 @@
       "nazev": "Twenty — typy grafů a dlaždic na dashboardu",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1244,7 +1244,7 @@
       "nazev": "Twenty — časté otázky k dashboardům",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1253,7 +1253,7 @@
       "nazev": "Twenty — návod na upozornění na obchodní případy bez pohybu",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1262,7 +1262,7 @@
       "nazev": "Twenty — filtry a řazení v pohledech",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1271,7 +1271,7 @@
       "nazev": "Twenty — aplikace Last Contact (datum posledního kontaktu)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1280,7 +1280,7 @@
       "nazev": "EUR-Lex — nařízení (EU) 2016/679 (obecné nařízení o ochraně osobních údajů, GDPR)",
       "typ": "legislativa",
       "vydavatel": "EUR-Lex",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1289,7 +1289,7 @@
       "nazev": "EDPB — pokyny 07/2020 k pojmům správce a zpracovatel",
       "typ": "legislativa",
       "vydavatel": "EDPB",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1298,7 +1298,7 @@
       "nazev": "Úřad pro ochranu osobních údajů",
       "typ": "legislativa",
       "vydavatel": "ÚOOÚ",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1307,7 +1307,7 @@
       "nazev": "Anthropic — obchodní podmínky pro firemní služby (zákaz trénování na obsahu zákazníků)",
       "typ": "dokumentace",
       "vydavatel": "Anthropic",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1316,7 +1316,7 @@
       "nazev": "Anthropic — smlouva o zpracování (DPA) se standardními smluvními doložkami",
       "typ": "dokumentace",
       "vydavatel": "Anthropic",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1325,7 +1325,7 @@
       "nazev": "Anthropic — uchovávání dat v API a režim nulového uchovávání",
       "typ": "dokumentace",
       "vydavatel": "Anthropic",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1334,7 +1334,7 @@
       "nazev": "Anthropic — jak dlouho uchovává data firemních zákazníků",
       "typ": "dokumentace",
       "vydavatel": "Anthropic",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1343,7 +1343,7 @@
       "nazev": "OpenAI — data v API (trénování, uchovávání, zpracování v Evropě)",
       "typ": "dokumentace",
       "vydavatel": "OpenAI",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1352,7 +1352,7 @@
       "nazev": "Twenty — zjednodušená volba AI modelu (výchozí model, úroveň nebo konkrétní model)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1361,7 +1361,7 @@
       "nazev": "Jobber — AI Receptionist (stránka výrobce, ověřeno 12. 11. 2026)",
       "typ": "dokumentace",
       "vydavatel": "www.getjobber.com",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1370,7 +1370,7 @@
       "nazev": "Salesforce — Agentforce for Field Service (9. 4. 2025)",
       "typ": "konkurence",
       "vydavatel": "Salesforce",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1379,7 +1379,7 @@
       "nazev": "Microsoft Learn — Scheduling Operations Agent v Dynamics 365 Field Service (preview)",
       "typ": "konkurence",
       "vydavatel": "Microsoft",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1388,7 +1388,7 @@
       "nazev": "ServiceTitan — představení asistenta Atlas (tisková zpráva, 18. 9. 2025)",
       "typ": "dokumentace",
       "vydavatel": "www.servicetitan.com",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1397,7 +1397,7 @@
       "nazev": "Salesforce — State of Field Service, průzkum 2 317 respondentů (30. 7. 2026)",
       "typ": "konkurence",
       "vydavatel": "Salesforce",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1406,7 +1406,7 @@
       "nazev": "Gartner — řízení AI agentů podle míry samostatnosti (26. 5. 2026)",
       "typ": "studie",
       "vydavatel": "Gartner",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok",
       "rucniKontrola": true
     },
@@ -1416,7 +1416,7 @@
       "nazev": "Gartner — AI agenti v obchodě (28. 7. 2026)",
       "typ": "studie",
       "vydavatel": "Gartner",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok",
       "rucniKontrola": true
     },
@@ -1426,7 +1426,7 @@
       "nazev": "Gartner — náklady na běh agentních postupů (17. 8. 2026)",
       "typ": "studie",
       "vydavatel": "Gartner",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok",
       "rucniKontrola": true
     },
@@ -1436,7 +1436,7 @@
       "nazev": "Twenty — automatizace (přehled a první kroky)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1445,7 +1445,7 @@
       "nazev": "Twenty — větvení automatizací (když – jinak)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1454,7 +1454,7 @@
       "nazev": "Twenty — záznam průběhu automatizací",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1463,7 +1463,7 @@
       "nazev": "Twenty — časté otázky k automatizacím (limity, import, opakování)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1472,7 +1472,7 @@
       "nazev": "Twenty — pohledy (typy, ukládání, viditelnost)",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1481,7 +1481,7 @@
       "nazev": "Twenty — tabulkový pohled a seskupení",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1490,7 +1490,7 @@
       "nazev": "Twenty — nástěnka (kanban) a součty ve sloupcích",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1499,7 +1499,7 @@
       "nazev": "Twenty — boční menu, složky a oblíbené",
       "typ": "dokumentace",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1508,7 +1508,7 @@
       "nazev": "Twenty v2.41 — základ sdílení záznamů, sdílení jako placená funkce",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     },
     {
@@ -1517,7 +1517,7 @@
       "nazev": "Twenty v2.45 — sdílení na úrovni jednotlivého záznamu",
       "typ": "vydani",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-12",
+      "zkontrolovano": "2026-11-13",
       "stav": "ok"
     }
   ]

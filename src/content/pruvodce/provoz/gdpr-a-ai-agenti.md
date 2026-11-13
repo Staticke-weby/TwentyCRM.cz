@@ -3,8 +3,8 @@ title: GDPR a AI agenti — kam tečou data zákazníků, když v CRM pracuje AI
 description: Kdo je u AI v CRM správce a kdo zpracovatel, kam odcházejí data zákazníků, kde se zpracovávají a jestli na nich poskytovatel AI trénuje. Přehled z GDPR, pokynů EDPB a dokumentace Twenty, Anthropic a OpenAI. Nejde o právní radu.
 vMenu: GDPR a AI agenti
 poradi: 3
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [provoz, ai, bezpecnost, legislativa]
 funkce: [vlastni-klice-ai, ai-volba-modelu, role-opravneni, ai-krok-automatizace, audit-log, mcp-server, ai-pravidla-dat]
 zdroje: [docs-pravni-faq, docs-ai-faq, docs-opravneni, github-twenty-v2-40-0, github-twenty-v2-56-0, eur-lex-oj-ces-3, edpb-guidelines-guidelines-072020-concepts-controller-and-pr, uoou, anthropic-legal-commercial-terms, privacy-articles-7996862-how-do-i-view-and-sign-your-data-pr, claude-manage-claude-data-residency, claude-manage-claude-api-and-data-retention, privacy-articles-7996866-how-long-do-you-store-my-organizati, openai-guides-your-data]

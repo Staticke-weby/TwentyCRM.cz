@@ -3,8 +3,8 @@ title: Co je MCP a proč na něm záleží vaší firmě
 description: MCP je otevřený standard, přes který se Claude, ChatGPT nebo Cursor připojí k firemnímu CRM a pracují s jeho daty. Co to firmě umožní, jak to funguje v Twenty a co je k tomu potřeba.
 vMenu: Co je MCP
 poradi: 1
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [mcp, ai]
 funkce: [mcp-server, mcp-oznaceni-akci, mcp-spousti-automatizaci, role-opravneni, mcp-klient]
 zdroje: [mcp-standard, anthropic-mcp-nadace, docs-mcp, docs-opravneni, gh-pr-20672]

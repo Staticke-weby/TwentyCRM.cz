@@ -3,8 +3,8 @@ title: AI Act a CRM — co musí vědět firma, která v CRM používá AI
 description: Co z evropského nařízení o umělé inteligenci (AI Act) platí pro běžnou firmu s AI v CRM — gramotnost v oblasti AI od února 2025, označení komunikace s AI od 2. 8. 2026 — a co se po změně z července 2026 odkládá. Přehled ze zdrojů EU, nejde o právní radu.
 vMenu: AI Act a CRM
 poradi: 1
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [provoz, ai, legislativa]
 funkce: [role-opravneni, audit-log, ai-volba-modelu, ai-krok-automatizace, ai-pravidla-dat]
 zdroje: [eur-lex-oj-ces, eur-lex-oj-ces-2, eur-lex-2026-07-27-ces, digital-strategy-policies-regulatory-framework-ai, ai-act-service-desk-ai-act-article-50, ai-act-service-desk-ai-act-article-4, ai-act-service-desk-ai-act-article-113, ai-act-service-desk-ai-act-article-111, digital-strategy-news-commission-publishes-guidelines-transp, ec-en-ip-26-1024, ctu-tiskova-zprava-2-srpna-2026-jako-klicove-datum-pro-pravi, mpo-tiskove-zpravy-vlada-podporila-rozvoj-umele-inteligence-]

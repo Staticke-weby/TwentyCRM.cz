@@ -152,7 +152,7 @@ Co máte zdarma a co je v placené variantě / placených doplňcích
 - ⚠️ SuiteASSURED (záruka, garance údržby, právní odškodnění, prioritní podpora) — od 3 350 GBP ročně
 - ⚠️ Hosting od výrobce (Fully Managed Hosting) — od 50 GBP měsíčně, vyžaduje placenou podporu
 
-**Hosting od výrobce se platí za celou instanci, ne za uživatele** — od 50 GBP (~1 450 Kč)
+**Hosting od výrobce se platí za celou instanci, ne za uživatele** — od 50 GBP (~1 460 Kč)
 měsíčně, k tomu podpora (s hostingem za 960 GBP ročně za 10 hodin). Ceník k 13. 11. 2026.
 
 :::
@@ -235,11 +235,11 @@ Co se konkrétně liší v praxi (open source verze obou systémů, ne placené 
 | **Přechod na novou hlavní verzi** | Průběžné aktualizace po menších verzích | 7.x → 8.x je migrace s novou instalací; 7.15 s opravami do ledna 2028 |
 | **Český implementátor** | **Ano (TwentyCRM.cz)** | Podle dostupnosti partnera |
 | **Cloud (placená varianta)** | | |
-| **Cloud cena (od výrobce)** | Od ~200 Kč na uživ./měs (Pro) | Hosting od 50 GBP (~1 450 Kč) měsíčně za instanci + povinná placená podpora |
+| **Cloud cena (od výrobce)** | Od ~200 Kč na uživ./měs (Pro) | Hosting od 50 GBP (~1 460 Kč) měsíčně za instanci + povinná placená podpora |
 | **Co hosting přidává nad open source** | Hosting a aktualizace od výrobce | Hosting, zabezpečení, aktualizace, zálohy, podpora, nepřetržitý dohled |
 
-Ceny SuiteCRM podle ceníku výrobce k 13. 11. 2026; přepočet na Kč je přibližný (~29 Kč za GBP,
-~23 Kč za USD).
+Ceny SuiteCRM podle ceníku výrobce k 13. 11. 2026; přepočet na Kč je přibližný (~29,2 Kč za GBP,
+~22 Kč za USD; kurz ČNB z 12. 11. 2026).
 
 ::::
 

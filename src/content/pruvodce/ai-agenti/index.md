@@ -3,8 +3,8 @@ title: "AI kolegové s jasnými pravidly"
 description: "AI agenti v Twenty: co umí převzít v obchodě a servisu, pod jakou rolí pracují, kdo je hlídá a kde je potřeba schválení člověkem. Co lze nastavit dnes a co se připravuje."
 vMenu: "AI agenti"
 poradi: 3
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, agenti]
 funkce: [ai-agenti, ai-krok-automatizace, ai-trideni, ai-dovednosti, role-opravneni, ada-tymova-schranka, schvaleni-clovekem]
 ---

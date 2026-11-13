@@ -3,8 +3,8 @@ title: Jak hlídat útratu za AI na vyhrazeném serveru, aby faktura nepřekvapi
 description: Na vyhrazeném serveru platíte AI přímo poskytovateli. Jak nastavit strop útraty a upozornění u Anthropic a OpenAI, proč volit levnější model na jednoduché úlohy, jak útratu změřit pilotem a hlídat automatizace, které AI spouštějí.
 vMenu: Hlídání útraty za AI
 poradi: 3
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [naklady, ai, provoz]
 funkce: [vlastni-klice-ai, ai-volba-modelu, ai-krok-automatizace, ai-agenti, ai-trideni, ai-kredity]
 zdroje: [docs-ai-faq, claude-api-rate-limits, twenty-vydani, github-twenty-v2-40-0, github-twenty-v2-46-0, github-twenty-v2-56-0, docs-pravni-faq, openai-terraform-rate-limits-and-spend, claude-build-with-claude-effort, claude-manage-claude-data-residency, gartner-press-releases-2026-08-17-gartner-predicts-ai-infere]

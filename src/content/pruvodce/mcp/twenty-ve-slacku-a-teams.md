@@ -3,8 +3,8 @@ title: Twenty ve Slacku a v Microsoft Teams — CRM tam, kde tým píše
 description: Ve Slacku se dnes zeptáte Twenty na klienta nebo založíte úkol jednou zprávou; asistent jedná s vašimi oprávněními. Z Teams dnes Twenty přebírá přepisy schůzek, asistent pro Teams se připravuje. Co jde, co je potřeba a na co si dát pozor.
 vMenu: Twenty ve Slacku a Teams
 poradi: 5
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [komunikace, ai, mcp]
 funkce: [slack, teams, zapisniky-schuzek, ai-chat, role-opravneni, vlastni-klice-ai, mcp-server]
 zdroje: [gh-vydani, github-public-teams, github-public-slack, github-slack-setup, github-twenty-v2-26-0, github-twenty-v2-50-0]

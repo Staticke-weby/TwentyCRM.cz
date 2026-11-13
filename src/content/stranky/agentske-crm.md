@@ -2,8 +2,8 @@
 title: Agentské CRM — Twenty CRM pro AI agenty | TwentyCRM.cz
 description: AI agent, který CRM ovládá — čte data, zakládá záznamy a odpovídá napříč e-maily. Claude i ChatGPT se napojí na vaši instanci a jedou pod rolí toho, kdo se ptá.
 pageId: agentske-crm
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, mcp, agenti]
 zdroje: [docs-mcp, docs-ai-chat, docs-ai-faq, docs-akce, gh-pr-20672]
 hero:

@@ -3,8 +3,8 @@ title: Plánování výjezdů techniků — jak na to, aby se nic nekřížilo a
 description: Jak plánovat výjezdy servisních techniků bez kolizí a zapomenutých prohlídek — společný plán týmu, pravidelné prohlídky z karty zařízení, výkaz v telefonu. A jak to řeší Twenty Servis.
 vMenu: Plánování výjezdů
 poradi: 1
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [servis]
 funkce: [vlastni-zaznamy, pohledy, dashboardy, role-opravneni]
 zdroje: [twenty-capabilities-calendar-view, twenty-capabilities-objects, docs-opravneni]

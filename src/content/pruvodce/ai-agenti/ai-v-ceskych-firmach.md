@@ -3,8 +3,8 @@ title: Kolik českých firem používá AI v roce 2026 — a co z toho plyne pro
 description: "Podle ČSÚ používalo AI v roce 2026 35 % českých firem s deseti a více zaměstnanci, dvakrát víc než loni. Velké firmy tři čtvrtiny, malé necelou třetinu. Většinou na psaní textů. Co čísla říkají a jaký je další krok pro malou a střední firmu s CRM."
 vMenu: AI v českých firmách
 poradi: 7
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, trendy]
 funkce: [ai-chat, ai-agenti, ai-krok-automatizace, mcp-server, posta-kalendar, vlastni-klice-ai]
 zdroje: [csu-produkty-ai-pouzivaji-v-cesku-tri-ctvrtiny-velkych-firem, ec-w-ddn-20251211-2, ec-statistics-explained-index-php]

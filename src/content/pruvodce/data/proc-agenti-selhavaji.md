@@ -3,8 +3,8 @@ title: Proč AI agenti v CRM chybují na zdvojených a neúplných datech — a 
 description: AI agent rozhoduje podle toho, co v CRM najde. Dvakrát založený klient, prázdná pole a volně psané hodnoty ho svedou ke špatné odpovědi. Co se konkrétně pokazí a co proti tomu nabízí Twenty — slučování duplicit, pravidla pro kontrolu dat a role.
 vMenu: Proč agenti chybují
 poradi: 1
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [data, ai, agenti]
 funkce: [slucovani-duplicit, kontrola-dat, vlastni-zaznamy, role-opravneni, ai-krok-automatizace, posta-kalendar]
 zdroje: [docs-opravneni, gh-vydani, salesforce-stories-state-of-sales-report-announcement-2026, arxiv-abs-2505-18878, twenty-capabilities-validation-rules, twenty-capabilities-uniqueness-constraints, github-twenty-v2-53-1, github-pull-27818, gartner-press-releases-2026-07-28-gartner-predicts-ai-agents]

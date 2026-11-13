@@ -3,8 +3,8 @@ title: Kdo se odmlčel — CRM vám samo řekne, komu se ozvat
 description: Twenty umí každé ráno najít klienty a obchodní případy, u kterých se dlouho nic nestalo, a vlastníkovi založit úkol — i s návrhem, jak navázat. Jak to funguje, co je k tomu potřeba a jak nastavit, kolik dní je moc.
 vMenu: Kdo se odmlčel
 poradi: 3
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [automatizace, obchod, ai]
 funkce: [automatizace, cekani-na-udalost, posta-kalendar, pohledy, ai-krok-automatizace, koncept-emailu, ai-chat, slack]
 zdroje: [docs-spoustece, docs-akce, docs-ai-chat, twenty-crm-automations-detect-stale-opportunities, twenty-capabilities-filters-and-sorting, github-public-last-contact]

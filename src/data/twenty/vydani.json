@@ -2,6 +2,14 @@
   "_popis": "Registr vydání Twenty od v2.0. Nová vydání: npm run twenty:vydani (-- --zapis). zmeny = česky, co vydání firmě přineslo (jen podstatné), funkce = id z funkce.json (řetězec nebo seznam) — z toho se skládá historie funkce. zpracovano = kdy člověk vydání prošel (null = čeká). Výchozí stav 2.0–2.57.1 podle rešerše docs/vyzkum/2026-11-12-twenty-schopnosti-a-vydani.md.",
   "vydani": [
     {
+      "verze": "2.58.0",
+      "datum": "2026-11-12",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.58.0",
+      "pozn": "Štítek bez poznámek k vydání (ověřeno 2026-11-13); na twenty.com/releases zatím není.",
+      "zmeny": [],
+      "zpracovano": "2026-11-13"
+    },
+    {
       "verze": "2.57.1",
       "datum": "2026-11-09",
       "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.57.1",

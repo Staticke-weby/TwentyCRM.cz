@@ -3,8 +3,8 @@ title: "Agentní firma: co se v roce 2026 mění v práci s CRM"
 description: "Velcí dodavatelé popisují firmu, ve které část práce dělají AI agenti a lidé je řídí. Pět posunů, které jsou v roce 2026 doložené daty výrobců a statistik, co z nich platí pro malou a střední firmu a kde v tom stojí Twenty."
 vMenu: Agentní firma 2026
 poradi: 6
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, agenti, trendy]
 funkce: [ai-agenti, ai-krok-automatizace, role-opravneni, mcp-server, posta-kalendar, zapisniky-schuzek, koncept-emailu, ada-tymova-schranka, schvaleni-clovekem]
 zdroje: [microsoft-work-trend-index-2025-the-year-the-frontier-firm-i, microsoft-work-trend-index-agents-human-agency-and-the-oppor, salesforce-13-agentic-enterprise-announcement, microsoft-18-microsoft-agent-365-the-control-plane-for-ai-ag, anthropic-mcp-nadace, salesforce-stories-state-of-sales-report-announcement-2026, csu-produkty-ai-pouzivaji-v-cesku-tri-ctvrtiny-velkych-firem, gh-vydani]

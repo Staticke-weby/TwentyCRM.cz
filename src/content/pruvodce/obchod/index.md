@@ -3,8 +3,8 @@ title: "Obchodníci prodávají místo vyplňování polí"
 description: "Třídění poptávek, rozdělování mezi obchodníky, nabídky s marží, obchodní plán a přehledy bez správce systému — co z toho umí Twenty a co je hotové v Twenty Sales, naší nadstavbě nad open-source Twenty."
 vMenu: "Obchod"
 poradi: 5
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [obchod]
 funkce: [ai-trideni, ai-krok-automatizace, pridelovani-dokola, ai-dashboardy, dashboardy, pohledy, ai-chat, mcp-server]
 ---

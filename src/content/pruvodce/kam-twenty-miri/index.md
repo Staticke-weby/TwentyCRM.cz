@@ -3,8 +3,8 @@ title: "Kam Twenty míří"
 description: "Pět směrů, kterými se open-source Twenty vyvíjí: agentní pracovní prostor, aplikace, MCP oběma směry, konverzace v CRM a připravenost pro větší firmy. U každého co lze nastavit dnes, co se připravuje a důkaz."
 vMenu: "Kam Twenty míří"
 poradi: 11
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, mcp, agenti, aplikace, komunikace, opravneni]
 zdroje: [gh-vydani, twenty-vydani, gh-prepinace, gh-pr-29762, gh-pr-29957, gh-pr-30083, gh-pr-30128, gh-pr-30252, github-pull-28732, github-pull-30156, github-pull-30232, github-pull-29822]
 ---
@@ -15,7 +15,7 @@ jdou vydání od dubna do listopadu 2026 — u každého níže najdete, co lze 
 a z čeho to víme.
 
 Výrobce nezveřejňuje plán vývoje s termíny. Směr proto čteme z toho, co je ověřitelné: z poznámek
-k vydáním (Twenty vydává zhruba dvě verze týdně, od v2.0 21. 4. 2026 po v2.57.1 9. 11. 2026),
+k vydáním (Twenty vydává zhruba dvě verze týdně, od v2.0 21. 4. 2026 po v2.58 12. 11. 2026),
 z přepínačů rozpracovaných funkcí v kódu a z otevřených změn v kódu. Termíny budoucích verzí
 neuvádíme — nemáme je od koho mít. Stránku aktualizujeme jednou měsíčně spolu
 s [Novinkami](/twenty/novinky/).

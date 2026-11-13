@@ -3,8 +3,8 @@ title: Jak dostat záznam a přepis schůzky přímo do CRM
 description: Přepis a shrnutí schůzky se v Twenty uloží ke klientovi samy — z nahrávacího asistenta Twenty, z Microsoft Teams nebo z nástroje, který už používáte (Fireflies, Fathom, Granola). Co z toho firma má a co je k tomu potřeba.
 vMenu: Záznam a přepis schůzek
 poradi: 2
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [komunikace, ai]
 funkce: [nahravani-schuzek, zapisniky-schuzek, posta-kalendar, ai-krok-automatizace]
 zdroje: [gh-vydani, twenty-vydani, github-public-call-recorder, github-public-teams, github-public-fathom, github-public-granola, github-public-fireflies]

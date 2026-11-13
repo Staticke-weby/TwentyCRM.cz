@@ -1,8 +1,8 @@
 ---
 title: "Agentní firma: CRM, které pracuje za vás"
 description: Jak se CRM mění z databáze, do které se kliká, v pracovní prostředí, kde část práce odvedou AI agenti a lidé ji schvalují. Co z toho jde s open-source Twenty dnes, co se připravuje a kde začít.
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [ai, agenti, mcp, automatizace]
 funkce: [posta-kalendar, zapisniky-schuzek, ai-chat, ai-agenti, ai-krok-automatizace, mcp-server, vlastni-klice-ai, schvaleni-clovekem, ada-tymova-schranka]
 zdroje: [salesforce-13-agentic-enterprise-announcement, anthropic-mcp-nadace, gh-vydani]

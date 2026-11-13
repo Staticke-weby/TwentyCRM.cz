@@ -3,8 +3,8 @@ title: Jak mít zprávy z LinkedInu u klienta v CRM — a co k tomu potřebujete
 description: Aplikace LinkedIn pro Twenty ukládá konverzace z LinkedInu ke kontaktní osobě a klientovi vedle e-mailů a umí na ně odpovědět z CRM. K LinkedInu se připojuje přes službu třetí strany Unipile. Co umí, jaká má omezení a co je potřeba na vyhrazeném serveru.
 vMenu: LinkedIn v CRM
 poradi: 3
-overeno: 2026-11-12
-verzeTwenty: '2.57'
+overeno: 2026-11-13
+verzeTwenty: '2.58'
 temata: [komunikace, linkedin]
 funkce: [linkedin, posta-kalendar, ai-chat]
 zdroje: [gh-vydani, gh-prepinace, github-public-linkedin, github-linkedin-setup, github-twenty-v2-54-0, github-twenty-v2-55-0, github-twenty-v2-56-0, unipile-pricing-api]
@@ -16,7 +16,7 @@ jde přes službu třetí strany Unipile, se kterou je na vyhrazeném serveru po
 
 Aplikaci vydává výrobce Twenty a přibývala postupně: ve verzi 2.54 čtení zpráv, ve 2.55 import
 historie, kontaktů a příloh, ve 2.56 odpovědi z Twenty. Obrazovka, přes kterou si každý uživatel
-připojí svůj účet, je ve verzi 2.57 v kódu ještě mezi rozpracovanými funkcemi za přepínačem.
+připojí svůj účet, je i ve verzi 2.58 v kódu ještě mezi rozpracovanými funkcemi za přepínačem.
 Jak ji u vás zprovoznit, proto ověřujeme před nasazením.
 
 ## Co vám to umožní
@@ -71,7 +71,7 @@ rozměry. Ví, co bylo dohodnuto, a nemusí obchodníkovi volat.
   měsíčně až za deset účtů (ověřeno 12. 11. 2026). Platí se přímo jim.
 - **Server dostupný z internetu.** Unipile posílá nové zprávy na adresu vašeho serveru, ta proto
   musí být veřejně dostupná pro tuto službu.
-- **Obrazovka pro připojení účtů** je ve verzi 2.57 zatím za přepínačem — proto vedeme LinkedIn
+- **Obrazovka pro připojení účtů** je ve verzi 2.58 zatím za přepínačem — proto vedeme LinkedIn
   jako funkci, která se připravuje.
 - **Adresy profilů u kontaktů.** Čím víc kontaktních osob má vyplněné pole LinkedIn, tím víc
   zpráv se přiřadí správně.

@@ -218,14 +218,14 @@ Odoo Community Edition).
 | **Schvalování** | Není v základu | Jen v Enterprise |
 | **Cena (placená varianta)** | | |
 | **Cena samotného CRM** | Cloud od ~200 Kč na uživatele/měsíc | V cloudu Odoo Online zdarma, pokud je CRM jediná aplikace (bez omezení uživatelů) |
-| **Cena s dalšími aplikacemi (cloud)** | N/A | Standard od ~370 Kč (14,90 EUR) na uživatele/měsíc, se Studiem tarif Custom od ~700 Kč (27,90 EUR) |
+| **Cena s dalšími aplikacemi (cloud)** | N/A | Standard od ~360 Kč (14,90 EUR) na uživatele/měsíc, se Studiem tarif Custom od ~680 Kč (27,90 EUR) |
 | **Implementace** | | |
 | **Doba nasazení (typicky)** | Jednotky pracovních dní | Podle rozsahu aplikací |
 | **Cena nasazení (orientačně)** | {{cena.implementation}} jednorázově (TwentyCRM.cz) | Podle rozsahu aplikací a partnera |
 | **Český implementátor** | **Ano (TwentyCRM.cz)** | Ano (Odoo má v ČR síť partnerů) |
 
 Ceny Odoo podle ceníku výrobce k 13. 11. 2026 při roční platbě (při měsíční 18,60 EUR, resp.
-33,90 EUR); přepočet na Kč je přibližný (~25 Kč za EUR, ~23 Kč za USD).
+33,90 EUR); přepočet na Kč je přibližný (~24,4 Kč za EUR, ~22 Kč za USD; kurz ČNB z 12. 11. 2026).
 
 ::::
 
@@ -245,7 +245,7 @@ Ceny Odoo podle ceníku výrobce k 13. 11. 2026 při roční platbě (při měs�
 
 - 💰 Vyhrazený server (cena dle poskytovatele a konfigurace)
 - 💰 SSL — zdarma
-- 💰 **Pro úpravy bez kódu (Studio) → placená verze (v cloudu tarif Custom od ~700 Kč/uživ./měs)**
+- 💰 **Pro úpravy bez kódu (Studio) → placená verze (v cloudu tarif Custom od ~680 Kč/uživ./měs)**
 - 💰 **Pro mobilní aplikaci → Enterprise**
 - 💰 **Pro automatizaci marketingu, PLM, IoT, pokročilou výrobu → Enterprise**
 - 💰 **Pro plné účetnictví / OCR / mzdy → Enterprise**
@@ -269,8 +269,8 @@ chcete kompletní podnikový balík.
 Odoo má pravidlo: v cloudu Odoo Online je jedna aplikace zdarma (s neomezeným počtem uživatelů),
 za další se platí. Pokud opravdu chcete jen CRM (a fakturujete přes Fakturoid, Pohoda nebo iDoklad),
 Odoo CRM zdarma se zdá lákavé. **Ale —** jakmile přidáte druhou aplikaci, platí se tarif
-Standard od ~370 Kč (14,90 EUR) na uživatele a měsíc za celý balík, s úpravami bez programování
-tarif Custom od ~700 Kč. A CRM v Odoo je stavěné jako součást podnikového balíku — AI chat
+Standard od ~360 Kč (14,90 EUR) na uživatele a měsíc za celý balík, s úpravami bez programování
+tarif Custom od ~680 Kč. A CRM v Odoo je stavěné jako součást podnikového balíku — AI chat
 v aplikaci a napojení pro AI nástroje, které Twenty má v základu, tam v bezplatné verzi nenajdete.
 
 ### „Stavíme firmu od nuly — máme jet rovnou Odoo?"

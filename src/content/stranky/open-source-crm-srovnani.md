@@ -93,7 +93,7 @@ software, ne implementátory.
 **Datum aktualizace:** listopad 2026 (ceny a funkce ověřené na stránkách výrobců 13. 11. 2026).
 Open source CRM se vyvíjí rychle. Doporučujeme ověřit aktuální stav na oficiálních stránkách
 jednotlivých projektů — odkazy najdete u každého profilu níže. Ceny v cizí měně přepočítáváme
-přibližně (~23 Kč za USD, ~25 Kč za EUR, ~29 Kč za GBP).
+přibližně (~22 Kč za USD, ~24,4 Kč za EUR, ~29,2 Kč za GBP; kurz ČNB z 12. 11. 2026).
 
 ## Hlavní srovnání
 
@@ -108,7 +108,7 @@ co vás bude opravdu zajímat při rozhodování.
 | **Funguje v telefonu** | Web v prohlížeči mobilu | Web v prohlížeči; aplikace jen od jiných vývojářů | Web v prohlížeči; aplikace jen od jiných vývojářů | Aplikace v cloudu (i v bezplatném tarifu); open source verze v prohlížeči | Aplikace v placené verzi Enterprise; Community v prohlížeči |
 | **Umělá inteligence vestavěná** | Ano — chat v aplikaci, napojení na Claude/ChatGPT | V základu není; doplňky od jiných vývojářů | Placený doplněk Intelligence; napojení pro AI nástroje (MCP) zdarma | V cloudu od tarifu One Growth | Bodování příležitostí v CRM; další AI funkce v placené verzi |
 | **Lze přizpůsobit pro váš obor** | Ano, neomezeně, přímo přes nastavení | Ano, přes nástroje Studio a Module Builder | Ano, přes nastavení | Pole v nastavení; nástroj na vlastní moduly jen v cloudu | Ano, bez programování ale až v placené verzi (Studio) |
-| **Cena cloudu od výrobce** (orientačně, na uživatele/měsíc) | Od ~200 Kč (~9 USD) | Hosting od 50 GBP (~1 450 Kč) měsíčně za celou instanci, bez poplatku za uživatele; vyžaduje placenou podporu | Od ~320 Kč (12,90 EUR), min. 3 uživatelé | Zdarma do 10 uživatelů (omezený tarif), placené od ~280 Kč (12 USD) | Jedna aplikace zdarma, jinak od ~370 Kč (14,90 EUR) |
+| **Cena cloudu od výrobce** (orientačně, na uživatele/měsíc) | Od ~200 Kč (~9 USD) | Hosting od 50 GBP (~1 460 Kč) měsíčně za celou instanci, bez poplatku za uživatele; vyžaduje placenou podporu | Od ~310 Kč (12,90 EUR), min. 3 uživatelé | Zdarma do 10 uživatelů (omezený tarif), placené od ~260 Kč (12 USD) | Jedna aplikace zdarma, jinak od ~360 Kč (14,90 EUR) |
 | **Český implementátor a podpora** | **Ano (TwentyCRM.cz)** | Podle dostupnosti partnera | Podle dostupnosti partnera | Podle dostupnosti partnera | Ano (Odoo má v ČR síť partnerů) |
 | **Komu sedí** | Firma, která chce moderní CRM v češtině s vestavěnou AI a možností růstu podle oboru | Firma, která chce roky prověřený CRM a má vlastní IT | Firma, která chce jednoduchý a rychle nasazený CRM | Firma, která chce CRM s rozsáhlou nabídkou hotových rozšíření | Firma, která chce zároveň účetnictví, sklady a další moduly |
 
