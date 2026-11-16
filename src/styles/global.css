@@ -31,11 +31,12 @@
     scroll-padding-top: calc(var(--tc-header-h) + 1.5rem);
     -webkit-text-size-adjust: 100%;
     color-scheme: light;
-    /* Plné pruhy sekcí (margin-inline: calc(50% - 50vw)) počítají i šířku posuvníku —
-       na Windows by stránka šla o pár pixelů posunout do strany. clip na rozdíl od hidden
-       nerozbije position: sticky. */
+    /* pojistka proti posouvání stránky do strany; clip na rozdíl od hidden nerozbije position: sticky */
     overflow-x: clip;
   }
+  /* Plné pruhy sekcí počítají šířku z <main> (jednotka cqw), ne z okna (vw) — vw zahrnuje
+     posuvník, takže na Windows byl obsah šedých sekcí o půl posuvníku (~8 px) posunutý doleva. */
+  main { container-type: inline-size; }
   @media (prefers-reduced-motion: no-preference) {
     html { scroll-behavior: smooth; }
   }

@@ -171,6 +171,11 @@
 /* číselné tabulky (druhý sloupec zarovnaný doprava) se neroztahují přes celou stránku */
 .obsah .tabulka:has(> table > thead th:nth-child(2)[align='right']):not(:has(> table > thead th:nth-child(3))) { max-width: 48rem; }
 .obsah :where(th, td) { text-align: left; padding: 0.85rem 1rem; border-bottom: 1px solid var(--tc-line); vertical-align: top; }
+/* tabulky s pěti a víc sloupci (srovnání v průvodci): menší písmo, užší buňky a dělení slov,
+   ať se vejdou do sloupce článku bez posouvání do strany */
+.obsah .tabulka:has(> table > thead th:nth-child(5)) > table { font-size: 0.875rem; line-height: 1.5; hyphens: auto; -webkit-hyphens: auto; }
+.obsah .tabulka:has(> table > thead th:nth-child(5)) :where(th, td) { padding: 0.7rem 0.5rem; }
+.obsah .tabulka:has(> table > thead th:nth-child(5)) th:not([align='right']) { white-space: normal; }
 .obsah :where(th:first-child, td:first-child) { padding-left: 0; }
 .obsah :where(th:last-child, td:last-child) { padding-right: 0; }
 .obsah :where(thead th) { border-bottom-color: var(--tc-line-strong); }
@@ -181,7 +186,7 @@
 
 /* ===== :::sekce — přes celou šíři ===== */
 .sekce {
-  margin-inline: calc(50% - 50vw);
+  margin-inline: calc(50% - 50cqw);
   padding-block: clamp(4.5rem, 3rem + 5vw, 8rem);
   margin-block: clamp(3rem, 2rem + 3vw, 5rem);
 }
@@ -484,8 +489,8 @@
 /* Bloky, které měly na starém webu výchozí šedé pozadí (tone = soft).
    Když nejsou obalené v :::sekce, dostanou pozadí přes celou šířku samy. */
 .obsah > :is(.reseni-volba, .platforma-vs-custom, .rozsireni) {
-  margin-inline: calc(50% - 50vw);
-  padding: clamp(4.5rem, 3rem + 5vw, 8rem) max(var(--tc-gutter), calc(50vw - var(--tc-measure) / 2));
+  margin-inline: calc(50% - 50cqw);
+  padding: clamp(4.5rem, 3rem + 5vw, 8rem) max(var(--tc-gutter), calc(50cqw - var(--tc-measure) / 2));
   margin-block: clamp(3rem, 2rem + 3vw, 5rem);
   background: var(--tc-wash);
 }
