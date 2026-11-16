@@ -200,6 +200,8 @@
 
 /* ===== :::karty — mřížka s dělicími linkami (Payday bento) ===== */
 .mrizka { display: grid; gap: 1.25rem; margin: 2.5rem 0; }
+/* sloupce bez rámečku drží od sebe jen mezera — musí být výrazná, jinak texty splývají */
+.sloupce-blok .mrizka { column-gap: clamp(2.5rem, 1.5rem + 3vw, 4.5rem); row-gap: 2rem; }
 .karty-blok .mrizka {
   gap: 0;
   border: 1px solid var(--tc-line);
