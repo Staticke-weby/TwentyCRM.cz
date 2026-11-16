@@ -60,11 +60,11 @@ které si vyberete: [Twenty Sales](/pro-obchodni-tymy/) pro řízení obchodu, n
 Server v Německu zařídíme a spravujeme my — vy nic technicky neřešíte. Paušál je pevný
 bez ohledu na počet uživatelů a výkon serveru umíme posílit podle zátěže AI agentů napojených přes MCP.
 
-:::karty{sloupce="2"}
+:::karty{sloupce="1"}
 
 ### Vyhrazený server
 
-::stitek[Doporučujeme · jedna faktura]
+::stitek[Doporučujeme]
 
 ::cenovka{klic="retainer_selfhost" pozn="/měs, vše v ceně (bez DPH)"}
 
@@ -76,15 +76,9 @@ bez ohledu na počet uživatelů a výkon serveru umíme posílit podle zátěž
 
 ✓ {{data.retainer_selfhost.billing_note}}
 
-### A co cloud?
-
-Twenty jde provozovat i v cloudu u výrobce Twenty.com. Vedle našeho paušálu se tam ale platí
-druhá faktura — licence výrobci v dolarech za každého uživatele — a od pěti lidí tak cloud vyjde
-celkově dráž než vyhrazený server. Ceny obou variant a rozdíly rozebíráme na samostatné stránce.
+:::
 
 [Srovnání vyhrazeného serveru a cloudu →](/cloud-vs-selfhost/)
-
-:::
 
 ::::
 
