@@ -74,8 +74,6 @@ bez ohledu na počet uživatelů a výkon serveru umíme posílit podle zátěž
 
 ::seznam{data="retainer_selfhost.includes"}
 
-✓ {{data.retainer_selfhost.billing_note}}
-
 :::
 
 [Srovnání vyhrazeného serveru a cloudu →](/cloud-vs-selfhost/)
