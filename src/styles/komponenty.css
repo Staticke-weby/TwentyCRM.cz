@@ -169,7 +169,7 @@
 .obsah .tabulka { overflow-x: auto; margin: 1.5rem 0 2rem; -webkit-overflow-scrolling: touch; }
 .obsah .tabulka > table { display: table; margin: 0; font-variant-numeric: tabular-nums; }
 /* číselné tabulky (druhý sloupec zarovnaný doprava) se neroztahují přes celou stránku */
-.obsah .tabulka:has(> table > thead th:nth-child(2)[align='right']) { max-width: 48rem; }
+.obsah .tabulka:has(> table > thead th:nth-child(2)[align='right']):not(:has(> table > thead th:nth-child(3))) { max-width: 48rem; }
 .obsah :where(th, td) { text-align: left; padding: 0.85rem 1rem; border-bottom: 1px solid var(--tc-line); vertical-align: top; }
 .obsah :where(th:first-child, td:first-child) { padding-left: 0; }
 .obsah :where(th:last-child, td:last-child) { padding-right: 0; }
@@ -523,7 +523,7 @@
 .ikona--stredni { width: 0.95em; height: 0.95em; border-radius: 0.24em; vertical-align: -0.08em; margin-right: 0.3em; }
 /* malá: v textu, odrážce, tabulce */
 .ikona--mala { width: 1.3em; height: 1.3em; border-radius: 0.38em; vertical-align: -0.3em; margin-right: 0.4em; }
-td > .ikona--mala:only-child, th > .ikona--mala:only-child { margin-right: 0; }
+.ikona--sama { margin-right: 0 !important; }
 /* textový odznak (vlajky → CZ, EU) */
 .ikona--text { font-size: 0.58em; font-weight: 700; letter-spacing: 0.04em; font-family: var(--tc-font); }
 .ikona--velka.ikona--text { font-size: 0.8rem; }
@@ -533,13 +533,14 @@ td > .ikona--mala:only-child, th > .ikona--mala:only-child { margin-right: 0; }
 .stitek .ikona--mala { width: 1.5em; height: 1.5em; vertical-align: -0.45em; }
 .hero__stitky .ikona--mala { width: 1.35em; height: 1.35em; }
 /* odrážka začínající ikonou: ikona nahradí tečku, zalomený text drží odsazení */
-.obsah li:has(> .ikona--mala:first-child) {
+/* (seznam s fajfkami .fajfky má vlastní rozložení a odsazení nemá — ten se neposouvá) */
+.obsah :not(.fajfky) > li:has(> .ikona--mala:first-child) {
   list-style: none;
   position: relative;
   margin-left: -1.25rem;
   padding-left: 1.95em !important;
 }
-.obsah li:has(> .ikona--mala:first-child) > .ikona--mala:first-child {
+.obsah :not(.fajfky) > li:has(> .ikona--mala:first-child) > .ikona--mala:first-child {
   position: absolute;
   left: 0;
   top: 0.2em;

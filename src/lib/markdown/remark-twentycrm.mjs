@@ -433,9 +433,12 @@ function nahradEmoji(tree, file) {
     if (!parent || index === undefined || !EMOJI_JEDEN.test(node.value)) return;
     const casti = [];
     let posledni = 0;
+    // samotná ikona v buňce tabulky (✓, ✗) — bez mezery za sebou, ať sedí podle zarovnání sloupce
+    const sama = parent.type === 'tableCell' && parent.children.length === 1 && node.value.replace(EMOJI_RE, '').trim() === '';
     for (const m of node.value.matchAll(EMOJI_RE)) {
       if (m.index > posledni) casti.push({ type: 'text', value: node.value.slice(posledni, m.index) });
-      casti.push(html(ikonaNeboChyba(m[0], 'mala', file, node)));
+      const ikona = ikonaNeboChyba(m[0], 'mala', file, node);
+      casti.push(html(sama ? ikona.replace('class="ikona ', 'class="ikona ikona--sama ') : ikona));
       posledni = m.index + m[0].length;
       // mezera hned za emoji patří k ikoně
       if (node.value[posledni] === ' ') posledni++;
