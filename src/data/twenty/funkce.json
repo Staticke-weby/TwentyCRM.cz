@@ -91,7 +91,7 @@
         "twenty-vydani",
         "gh-vydani"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "ai",
         "agenti"
@@ -261,7 +261,7 @@
       "zdroje": [
         "docs-akce"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "automatizace",
         "komunikace",
@@ -283,7 +283,7 @@
         "gh-vydani",
         "gh-prepinace"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "ai",
         "agenti"
@@ -306,7 +306,7 @@
         "gh-vydani",
         "gh-prepinace"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "ai",
         "agenti"
@@ -371,7 +371,7 @@
       "zdroje": [
         "docs-mcp"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "mcp",
         "ai"
@@ -470,7 +470,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "automatizace"
       ],
@@ -530,7 +530,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "komunikace",
         "ai"
@@ -550,7 +550,7 @@
         "docs-posta",
         "docs-server-nastaveni"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "komunikace"
       ],
@@ -653,7 +653,7 @@
       "zdroje": [
         "gh-vydani"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "komunikace",
         "obchod"
@@ -736,7 +736,7 @@
         "twenty-capabilities-validation-rules",
         "gh-vydani"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "data"
       ],
@@ -772,7 +772,7 @@
       "zdroje": [
         "twenty-vydani"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "data",
         "reporty"
@@ -781,6 +781,29 @@
         "view",
         "kanban",
         "calendar view"
+      ]
+    },
+    {
+      "id": "sloupec-z-navazaneho-zaznamu",
+      "nazev": "Údaj z navázaného záznamu jako sloupec",
+      "prinos": "Seznam obchodních případů ukáže třeba IČO nebo segment klienta, aniž by se údaj kopíroval. Nastavuje se v definici aplikace nad Twenty, ne kliknutím v pohledu.",
+      "stav": "dnes",
+      "od": "2.59.0",
+      "omezeni": [],
+      "zdroje": [
+        "github-twenty-v2-59-0",
+        "gh-pr-30472",
+        "docs-aplikace-pohledy"
+      ],
+      "overeno": "2026-11-18",
+      "temata": [
+        "data",
+        "reporty"
+      ],
+      "hledat": [
+        "related record field",
+        "view field",
+        "non-canonical"
       ]
     },
     {
@@ -833,7 +856,7 @@
       "zdroje": [
         "docs-opravneni"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "opravneni",
         "bezpecnost"
@@ -855,7 +878,7 @@
       "zdroje": [
         "docs-opravneni"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "opravneni",
         "bezpecnost"
@@ -939,7 +962,7 @@
       "zdroje": [
         "twenty-cenik"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "bezpecnost"
       ],
@@ -1074,59 +1097,68 @@
       ]
     },
     {
-      "id": "smer-mcp-v-automatizacich",
+      "id": "mcp-krok-automatizace",
       "nazev": "Nástroje jiných systémů v automatizacích",
       "prinos": "Krok automatizace, který zavolá nástroj jiného systému přes MCP.",
-      "stav": "smer",
+      "stav": "pripravuje-se",
+      "duvod": "prepinac",
       "od": null,
       "omezeni": [],
       "zdroje": [
-        "gh-pr-29957"
+        "github-twenty-v2-58-0",
+        "gh-pr-29957",
+        "gh-prepinace"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "mcp",
         "automatizace"
       ],
       "hledat": [
+        "MCP tool workflow step",
         "MCP tool"
       ]
     },
     {
-      "id": "smer-agent-cte-prilohy",
-      "nazev": "Agenti čtou přílohy záznamů",
-      "prinos": "Agent si přečte i přiložené dokumenty — objednávku, protokol, smlouvu.",
-      "stav": "smer",
-      "od": null,
+      "id": "agent-cte-prilohy",
+      "nazev": "AI agent přečte přílohu záznamu",
+      "prinos": "Agent si sám přečte PDF nebo obrázek přiložený k záznamu nebo k e-mailu — poptávku, objednávku, smlouvu, fotku z místa.",
+      "stav": "dnes",
+      "od": "2.59.0",
       "omezeni": [],
       "zdroje": [
+        "github-twenty-v2-59-0",
         "gh-pr-30083"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "ai",
         "agenti"
       ],
       "hledat": [
-        "attachment"
+        "attachment",
+        "read file",
+        "files attached"
       ]
     },
     {
-      "id": "smer-podminene-spoustece",
+      "id": "podminene-spousteni-agenta",
       "nazev": "Agent se spustí jen za splněné podmínky",
-      "prinos": "Agent zareaguje jen na události, které odpovídají vašim pravidlům.",
-      "stav": "smer",
-      "od": null,
+      "prinos": "U spouštěče agenta nastavíte podmínku. Agent se pak rozběhne jen při změně, na které záleží — třeba když se posune fáze obchodního případu.",
+      "stav": "dnes",
+      "od": "2.59.0",
       "omezeni": [],
       "zdroje": [
+        "github-twenty-v2-59-0",
         "gh-pr-30128"
       ],
-      "overeno": "2026-11-13",
+      "overeno": "2026-11-18",
       "temata": [
         "ai",
         "agenti"
       ],
       "hledat": [
+        "trigger condition",
         "conditional trigger"
       ]
     },

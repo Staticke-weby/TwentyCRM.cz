@@ -3,8 +3,8 @@ title: "Agenti v Twenty: kdy se sami spustí, co smějí a kdo je hlídá"
 description: AI agenti v Twenty se spouštějí sami při změně záznamu nebo podle plánu, pracují pod vlastní rolí a drží se firemních postupů. Co umí ve verzi 2.57 — spouštěče, dovednosti, AI krok a třídění v automatizacích — a co se připravuje.
 vMenu: Agenti v Twenty
 poradi: 2
-overeno: 2026-11-13
-verzeTwenty: '2.58'
+overeno: 2026-11-18
+verzeTwenty: '2.59'
 temata: [ai, agenti, automatizace]
 funkce: [ai-agenti, ai-dovednosti, ai-krok-automatizace, ai-trideni, cekani-na-udalost, ai-volba-modelu, role-opravneni, automatizace, pridelovani-dokola, ada-tymova-schranka, schvaleni-clovekem]
 zdroje: [docs-akce, docs-spoustece, docs-dovednosti, docs-opravneni, twenty-vydani, gh-prepinace, github-twenty-v2-40-0, github-twenty-v2-46-0, github-twenty-v2-56-0, twenty-capabilities-permissions-access-control]
@@ -39,7 +39,13 @@ dá volit mezi levnějším a chytřejším.
 **Spouštěče.** Od verze 2.46 se agent spouští sám — při vzniku, změně nebo smazání záznamu (změnu
 jde omezit na konkrétní pole, třeba fázi obchodního případu) nebo pravidelně podle plánu. Každý
 spouštěč může nést vlastní doplňující pokyn, například „připrav plán prvního měsíce pro nového
-klienta".
+klienta". Od verze 2.59 jde ke spouštěči přidat i **podmínku**: agent se rozběhne, jen když záznam
+odpovídá pravidlu — třeba když se fáze opravdu změnila oproti předchozí hodnotě, nebo když jde
+o klienta určitého typu. Méně zbytečných běhů znamená i menší útratu za AI.
+
+**Přílohy.** Od verze 2.59 si agent sám přečte PDF nebo obrázek přiložený k záznamu nebo k e-mailu
+— poptávku, objednávku, smlouvu, fotku z místa. Jak to vypadá v praxi, ukazuje situace
+[Poptávka přišla jako PDF](/twenty/situace/#situace-poptavka-v-priloze).
 
 **Dovednosti.** Zapsaný firemní postup, který AI opakuje stejně: jak shrnout schůzku, jak připravit
 podklady k nabídce. Od verze 2.40 se v AI chatu vyvolají lomítkem a dovednosti pro agenty jsou

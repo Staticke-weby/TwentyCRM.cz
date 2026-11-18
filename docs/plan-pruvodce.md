@@ -169,6 +169,29 @@ Vazba na Twenty Servis a oborové stránky.
 - **Rozdělení s bohemiacrm.cz** (umisťuje se na „open source CRM česky", „CRM pro servisní firmy"): dohodnout, která doména vlastní
   které téma, a na druhé jen odkazovat — jinak si budou brát pozice.
 
+### 3.5 Situace z praxe `/twenty/situace/` (rozhodnutí 2026-11-18)
+Mezistupeň mezi Novinkami (pomíjivé, řazené podle vydání) a články (trvalé, dlouhé): **krátká karta = jedna situace**,
+jak ji řekne zákazník („Poptávka přišla jako PDF a nikdo nemá čas ji celou číst"), jak ji řešit v Twenty, co je
+k tomu potřeba a štítek stavu z registru. Nevznikla samostatná část webu: články průvodce už use casy jsou,
+příběhy rolí má `/jak-to-vypada-v-praxi/` a stránka pro každou novinku by byla tenká (doorway, zásada 12).
+
+- **Data:** `src/data/situace.json` (role, produkt, oblast, `funkce` z registru, `hotove` jen u věcí hotových v řešení,
+  `clanek`, `overeno`). Kontroluje `src/lib/situace.mjs` — neznámá funkce, oblast nebo článek shodí build.
+- **Kde se ukáže:** všechny na `/twenty/situace/` po oblastech (`::situace-vse`, kotva `#situace-<id>`); úvod oblasti je
+  ukáže sám pod články (layout); jinde `::situace{oblast role produkt id}` — třeba na produktové nebo oborové stránce.
+- **Vlastní URL karta nemá.** Když naroste (3+ příbuzné situace, příklad, otázky), napíše se článek a karta na něj odkáže.
+- **Štítek** se bere z první funkce; když kterákoli funkce není `dnes`, karta ukáže její stav. `obsah:zastarale`
+  hlásí karty, jejichž funkce se po `overeno` změnila.
+
+**Postup u každého vydání** (týdně, s `npm run twenty:vydani`) — každou změnu zařadit do jedné ze čtyř skupin:
+1. **Nová karta Situace** — funkce bez přepínače, která řeší konkrétní situaci zákazníka.
+2. **Úprava článku** — změna rozšiřuje to, co už článek popisuje.
+3. **Jen registr a Novinky** — drobnost, nebo věc za přepínačem („Připravuje se").
+4. **Vynechat** — nástroje pro vývojáře, rozhraní pro vývojáře, vnitřní opravy.
+
+Před zařazením do 1 nebo 2 **ověřit v kódu změny, že není za přepínačem** (`IS_…_ENABLED`) a že má obrazovku pro
+uživatele, ne jen definici v aplikaci. Shrnutí vydání (i z AI) to nerozliší — viz zásada 14e.
+
 ---
 
 ## 4. Správa zdrojů a aktuálnosti
@@ -234,6 +257,7 @@ která je v registru `pripravuje-se` (kontrola klíčových slov u štítků).
 
 **Pravidelný rytmus:**
 - **týdně** (ručně — `npm run twenty:vydani`, `zdroje:kontrola`, `obsah:zastarale`): spustit kontroly → hlášení „co se změnilo a kterých článků se to týká" → člověk rozhodne → úprava registru a textů.
+- **u každého vydání:** zařazení změn do čtyř skupin (kap. 3.5) — nové karty Situace, úpravy článků, Novinky.
 - **měsíčně:** článek Novinky + aktualizace „Kam Twenty míří".
 - **čtvrtletně:** audit všech článků starších 90 dní, cen (Twenty i konkurence) a statistik.
 
@@ -326,3 +350,6 @@ z průvodce. Po 3 měsících vyhodnotit, které oblasti přivádějí poptávky
    `naklady` · `kam-twenty-miri` · `novinky` · `slovnik` · `jak-overujeme`. Složky v `src/content/pruvodce/` jsou založené.
 4. **Šablony ke stažení: ne.** Servisní články jsou jen text.
 5. **Týdenní kontrola ručně**, bez naplánované úlohy. Web se zveřejní přes **GitHub Pages**.
+6. **Use casy jako karty „Situace z praxe" uvnitř průvodce, ne nová část webu** (2026-11-18) — kap. 3.5. První várka:
+   čtyři karty z v2.59 (přílohy, podmínka u spouštěče, IČO klienta v seznamu, Claude/ChatGPT tlačítkem) a čtyři
+   z existujících článků.

@@ -3,10 +3,10 @@ title: Které úlohy může AI agent převzít v obchodě a servisu — a co z t
 description: Patnáct konkrétních úloh pro AI v obchodě a servisu — třídění poptávek, příprava na schůzku, zakázka z e-mailu, souhrn z výkazů, hlídání obchodů bez pohybu. U každé poctivě, jestli jde v Twenty dnes a čím, nebo se teprve připravuje.
 vMenu: Úlohy pro AI agenta
 poradi: 3
-overeno: 2026-11-13
-verzeTwenty: '2.58'
+overeno: 2026-11-18
+verzeTwenty: '2.59'
 temata: [ai, agenti, obchod, servis]
-funkce: [ai-agenti, ai-krok-automatizace, ai-trideni, pridelovani-dokola, ai-chat, mcp-server, posta-kalendar, sdilena-schranka, zapisniky-schuzek, slucovani-duplicit, ada-tymova-schranka, schvaleni-clovekem, mcp-klient, smer-agent-cte-prilohy]
+funkce: [ai-agenti, ai-krok-automatizace, ai-trideni, pridelovani-dokola, ai-chat, mcp-server, posta-kalendar, sdilena-schranka, zapisniky-schuzek, slucovani-duplicit, ada-tymova-schranka, schvaleni-clovekem, mcp-klient, agent-cte-prilohy, podminene-spousteni-agenta]
 zdroje: [docs-akce, docs-spoustece, docs-ai-chat, docs-mcp, gh-vydani, gh-prepinace, twenty-capabilities-ai-agents]
 ---
 
@@ -66,8 +66,9 @@ jde dnes a jestli ji v [Twenty Sales](/pro-obchodni-tymy/) nebo [Twenty Servis](
 11. **Odpovědi dispečerovi nad daty.** „U kterých **Zařízení** končí záruka do 30 dnů?" nebo „Kolik
     výjezdů měl Klient X letos?" *Dnes: na vyžádání v AI chatu nebo přes MCP.*
 12. **Zpracování přiložené objednávky nebo protokolu.** Dispečer nahraje PDF do AI chatu a požádá
-    o založení zakázky z jeho obsahu. *Dnes: na vyžádání v AI chatu. Aby agent četl přílohy
-    záznamů sám, je zatím jen směr vývoje — v kódu rozpracované.*
+    o založení zakázky z jeho obsahu. *Dnes: na vyžádání v AI chatu; od verze 2.59 si agent sám
+    přečte i PDF nebo obrázek přiložený k záznamu nebo k e-mailu, takže to jde nastavit jako agenta
+    se spouštěčem.* Viz situace [Poptávka přišla jako PDF](/twenty/situace/#situace-poptavka-v-priloze).
 
 ## Napříč firmou
 

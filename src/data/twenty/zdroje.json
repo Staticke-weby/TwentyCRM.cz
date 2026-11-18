@@ -202,28 +202,28 @@
     {
       "id": "gh-pr-29957",
       "url": "https://github.com/twentyhq/twenty/pull/29957",
-      "nazev": "Twenty — krok „MCP nástroj“ v automatizacích (rozpracováno)",
+      "nazev": "Twenty — krok „MCP nástroj“ v automatizacích (v2.59, za přepínačem)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-13",
+      "zkontrolovano": "2026-11-18",
       "stav": "ok"
     },
     {
       "id": "gh-pr-30083",
       "url": "https://github.com/twentyhq/twenty/pull/30083",
-      "nazev": "Twenty — agenti čtou přílohy záznamů (rozpracováno)",
+      "nazev": "Twenty — agenti čtou přílohy záznamů (v2.59)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-13",
+      "zkontrolovano": "2026-11-18",
       "stav": "ok"
     },
     {
       "id": "gh-pr-30128",
       "url": "https://github.com/twentyhq/twenty/pull/30128",
-      "nazev": "Twenty — podmíněné spouštěče agentů (rozpracováno)",
+      "nazev": "Twenty — podmínky u spouštěčů agentů (v2.59)",
       "typ": "kod",
       "vydavatel": "Twenty",
-      "zkontrolovano": "2026-11-13",
+      "zkontrolovano": "2026-11-18",
       "stav": "ok"
     },
     {
@@ -1518,6 +1518,51 @@
       "typ": "vydani",
       "vydavatel": "Twenty",
       "zkontrolovano": "2026-11-13",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-58-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.58.0",
+      "nazev": "Twenty v2.58 — záložní kódy k dvoufázovému přihlášení, přehled běhů automatizací",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-18",
+      "stav": "ok"
+    },
+    {
+      "id": "github-twenty-v2-59-0",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.59.0",
+      "nazev": "Twenty v2.59 — agenti čtou přílohy, podmínky u spouštěčů agentů",
+      "typ": "vydani",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-18",
+      "stav": "ok"
+    },
+    {
+      "id": "gh-pr-30472",
+      "url": "https://github.com/twentyhq/twenty/pull/30472",
+      "nazev": "Twenty — pohled ukáže pole navázaného záznamu (v2.59)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-18",
+      "stav": "ok"
+    },
+    {
+      "id": "gh-pr-30288",
+      "url": "https://github.com/twentyhq/twenty/pull/30288",
+      "nazev": "Twenty — Claude a ChatGPT mezi aplikacemi s tlačítkem pro připojení (v2.59)",
+      "typ": "kod",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-18",
+      "stav": "ok"
+    },
+    {
+      "id": "docs-aplikace-pohledy",
+      "url": "https://docs.twenty.com/developers/extend/apps/layout/views",
+      "nazev": "Twenty — pohledy v aplikacích (dokumentace pro vývojáře)",
+      "typ": "dokumentace",
+      "vydavatel": "Twenty",
+      "zkontrolovano": "2026-11-18",
       "stav": "ok"
     }
   ]

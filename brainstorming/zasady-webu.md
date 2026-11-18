@@ -478,6 +478,25 @@ změna se projeví všude najednou, včetně `/agentske-crm/`.
 
 ---
 
+## 14e. Novinka Twenty se na web dostane jako situace zákazníka — a až po ověření v kódu
+
+**Pravidlo:** z každého vydání Twenty bereme to, co řeší konkrétní situaci ve firmě, a píšeme to jako
+**situaci** („Poptávka přišla jako PDF…"), ne jako seznam funkcí. Krátké karty žijí na `/twenty/situace/`
+(`src/data/situace.json`), delší výklad patří do článku. Každou změnu zařadíme: nová karta / úprava článku /
+jen registr a Novinky / vynechat (`docs/plan-pruvodce.md` kap. 3.5). Než změnu označíme jako „Lze nastavit",
+ověříme v kódu, že **není za přepínačem** a že ji uživatel **nastaví na obrazovce**, ne jen v definici aplikace.
+
+**Proč:** čtenáře nezajímá číslo změny, ale co se mu tím vyřeší. A shrnutí vydání — od výrobce i od AI — neříká,
+co je za přepínačem: poznámky k vydání ho uvádějí jen někdy.
+
+**Případ (2026-11-18, v2.59):** shrnutí vydání slibovalo „interní schůzky se do CRM neimportují" a sloupec
+„Další úkol" v seznamu. Kód ukázal, že přeskakování interních schůzek je za přepínačem
+(`IS_CALENDAR_INTERNAL_EVENTS_FILTER_ENABLED`), sloupec s polem navázaného záznamu jde nastavit jen v definici
+aplikace a „jeden otevřený úkol" v dokumentaci vůbec není. Na web šlo jen to ověřené; zbytek je v „Připravuje se"
+nebo vynechaný.
+
+---
+
 ## 15. Technické zásady, které se osvědčily
 
 **Build je dvoukrokový a dělá se lokálně.** Na Svethostingu není npm ani PHP build —

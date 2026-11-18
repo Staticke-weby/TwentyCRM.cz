@@ -3,10 +3,10 @@ title: Pohledy pro každou roli — ať obchodník, dispečer, technik i vedouc�
 description: V Twenty si ze stejných dat každý uloží svou obrazovku — tabulku, nástěnku podle fáze, kalendář po dnech a týdnech nebo seznam pro telefon, s filtry i přes vazby a se seskupením. Co kdo smí vidět, řídí role. Jak to vypadá pro obchod a pro servis.
 vMenu: Pohledy pro každou roli
 poradi: 5
-overeno: 2026-11-13
-verzeTwenty: '2.58'
+overeno: 2026-11-18
+verzeTwenty: '2.59'
 temata: [data, reporty, opravneni]
-funkce: [pohledy, rozvrzeni-karty, dashboardy, ai-dashboardy, role-opravneni, jen-sve-zaznamy]
+funkce: [pohledy, sloupec-z-navazaneho-zaznamu, rozvrzeni-karty, dashboardy, ai-dashboardy, role-opravneni, jen-sve-zaznamy]
 zdroje: [twenty-vydani, twenty-capabilities-filters-and-sorting, twenty-capabilities-calendar-view, twenty-capabilities-record-pages, twenty-capabilities-dashboards, docs-opravneni, twenty-views-pipelines-overview, twenty-capabilities-table-views, twenty-capabilities-kanban-views, twenty-capabilities-navigation]
 ---
 
@@ -48,6 +48,11 @@ a proto se dá jedna databáze používat celou firmou, aniž by se lidé navzá
 filtrovat **přes vazbu**: obchodní případy, jejichž klient má určitý typ, nebo výjezdy, jejichž
 zakázka je montáž. Řadit jde podle více polí za sebou.
 
+**Údaj klienta přímo v seznamu.** Od verze 2.59 může sloupec ukázat údaj z navázaného záznamu —
+v seznamu obchodních případů třeba IČO nebo segment klienta, bez kopírování do obchodního případu.
+Takový sloupec se nastavuje v definici aplikace nad Twenty, ne kliknutím v pohledu, takže ho
+připraví správce systému.
+
 **Uložení a viditelnost.** Pohled se uloží pod názvem a ikonou a je vidět buď celé firmě, nebo
 jen autorovi. Oblíbené pohledy si každý připne nahoru do menu pro sebe; sdílenou část menu jde
 uspořádat do složek, třeba Obchod, Dispečink, Vedení. Viditelnost pohledu ale není oprávnění —
@@ -62,7 +67,8 @@ typu.
 **Role.** Role určuje, které typy záznamů a která pole kdo vidí, upravuje a maže; pole jde
 i úplně skrýt. Tvrdé omezení „každý vidí jen své záznamy" patří do tarifu **Organization** —
 v cloudu i na vlastním serveru. Vlastní role pro lidi jsou na vlastním serveru bez omezení,
-v cloudu výrobce jen v tarifu Organization.
+v cloudu výrobce jen v tarifu Organization. Od verze 2.59 nabídne hromadná úprava jen pole,
+která role smí měnit.
 
 **Dashboard.** Pro vedoucího přehled s grafy a čísly; od verze 2.24 na něm mohou být i záznamy
 jako seskupená tabulka, nástěnka nebo kalendář. Pohled i dashboard umí od verze 2.20 postavit

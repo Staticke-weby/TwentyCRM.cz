@@ -3,10 +3,10 @@ title: Twenty použije další firemní systémy přes MCP — co se připravuje
 description: Dnes se přes MCP připojují k Twenty AI asistenti zvenčí. Připravuje se opačný směr — AI v Twenty si sama sáhne do dalších systémů, aniž by se data kopírovala. Kde je vývoj v listopadu 2026, co to firmě umožní a jak propojit systémy už dnes.
 vMenu: Twenty volá další systémy
 poradi: 6
-overeno: 2026-11-13
-verzeTwenty: '2.58'
+overeno: 2026-11-18
+verzeTwenty: '2.59'
 temata: [mcp, ai, automatizace]
-funkce: [mcp-klient, smer-mcp-v-automatizacich, mcp-server, automatizace, aplikace]
+funkce: [mcp-klient, mcp-krok-automatizace, mcp-server, automatizace, aplikace]
 zdroje: [gh-vydani, gh-prepinace, gh-pr-29957, docs-dovednosti, docs-akce, docs-spoustece, docs-mcp, github-twenty-v2-53-1, github-twenty-v2-54-0, github-twenty-v2-57-0]
 ---
 
@@ -28,8 +28,8 @@ Až bude funkce dostupná, změní hlavně tři věci:
   i údaje ze systému, který vede projekty nebo podporu — pokud ten systém MCP server nabízí.
 - **Bez synchronizace.** Data zůstanou tam, kde vznikají. Nic se nepřenáší v noci tabulkami,
   nic nezastará a neexistují dvě verze téže informace.
-- **Krok v jiném systému přímo z automatizace.** V kódu Twenty se rozpracovává krok automatizace
-  „MCP nástroj", který zavolá nástroj jiného systému. Zatím je to směr vývoje, ne funkce.
+- **Krok v jiném systému přímo z automatizace.** Twenty přidalo krok automatizace „MCP nástroj",
+  který zavolá nástroj jiného systému. Vyšel ve verzi 2.58, zatím je ale ve vývoji vypnutý (za přepínačem).
 
 Pro firmu je to další kus myšlenky „jedna paměť firmy": CRM nemusí obsahovat všechno, aby AI
 v CRM věděla všechno, co potřebuje.
@@ -43,7 +43,8 @@ Twenty k tomu skládá díly vydání po vydání:
 | 2.53.1 (30. 10. 2026) | Twenty umí evidovat externí MCP servery — název, adresu, způsob přihlášení, zapnuto/vypnuto |
 | 2.54 (30. 10. 2026) | Aplikace nad Twenty mohou MCP server nabídnout jako svou součást |
 | 2.57 (9. 11. 2026) | Nástroje externích MCP serverů se zpřístupní AI chatu — za přepínačem |
-| rozpracováno | krok „MCP nástroj" v automatizacích (otevřená změna kódu č. 29957) |
+| 2.58 (13. 11. 2026) | Krok „MCP nástroj" v automatizacích — za přepínačem |
+| 2.59 (16. 11. 2026) | Krok „MCP nástroj" jde před spuštěním vyzkoušet — stále za přepínačem |
 
 Dokumentace pro vývojáře aplikací to říká přímo: MCP servery jsou ve zkušebním provozu a ještě
 nejsou spuštěné — aplikace je mohou deklarovat, ale pracovní prostory jejich nástroje zatím

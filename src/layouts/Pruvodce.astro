@@ -9,6 +9,7 @@ import Base from './Base.astro';
 import { strom, poradiCteni, url, oblastClanku, type Clanek } from '../lib/pruvodce';
 import { demoCta } from '../lib/komponenty.mjs';
 import { najdiFunkci, najdiZdroj, stavFunkciBlok } from '../lib/twenty.mjs';
+import { vyberSituace, situaceBlok } from '../lib/situace.mjs';
 
 interface Props {
   clanek: Clanek;
@@ -43,6 +44,8 @@ const vRegistru = <T,>(fn: () => T): T => {
 const funkceClanku = d.funkce.map((id) => vRegistru(() => najdiFunkci(id)));
 const zdroje = d.zdroje.map((z) => (typeof z === 'string' ? vRegistru(() => najdiZdroj(z)) : z));
 const stavFunkci = funkceClanku.length ? stavFunkciBlok(funkceClanku, { smer: true }) : '';
+// Úvod oblasti ukáže pod články i situace z praxe, které k oblasti patří (src/data/situace.json).
+const situaceOblasti = jeUvodOblasti && idOblasti ? vyberSituace({ oblast: idOblasti }) : [];
 
 // Drobečková navigace + strukturovaná data
 const drobecky = [
@@ -186,6 +189,18 @@ const aktivni = (e: Clanek) => (e.id === clanek.id ? 'page' : undefined);
               ))}
             </div>
           </div>
+        )
+      }
+
+      {
+        situaceOblasti.length > 0 && (
+          <section class="pruvodce__situace" aria-labelledby="situace-z-praxe">
+            <h2 id="situace-z-praxe">Situace z praxe</h2>
+            <Fragment set:html={situaceBlok(situaceOblasti)} />
+            <p class="situace__oblast">
+              <a href="/twenty/situace/">Všechny situace z praxe →</a>
+            </p>
+          </section>
         )
       }
 

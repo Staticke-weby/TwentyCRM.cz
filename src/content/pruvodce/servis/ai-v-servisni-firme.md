@@ -3,10 +3,10 @@ title: Co může AI v servisní firmě převzít už dnes — a co zůstává di
 description: Zakázka z e-mailu klienta, popis práce z výkazů techniků, připomínky prevencí a odpovědi z dat bez hledání. Co z toho je hotové v Twenty Servis, co lze v Twenty nastavit dnes, co se připravuje a co dál rozhoduje člověk.
 vMenu: AI v servisní firmě
 poradi: 4
-overeno: 2026-11-13
-verzeTwenty: '2.58'
+overeno: 2026-11-18
+verzeTwenty: '2.59'
 temata: [servis, ai, agenti, automatizace]
-funkce: [ai-agenti, ai-krok-automatizace, ai-trideni, koncept-emailu, automatizace, ai-chat, mcp-server, posta-kalendar, vlastni-klice-ai, ada-tymova-schranka, schvaleni-clovekem, mcp-klient, smer-agent-cte-prilohy]
+funkce: [ai-agenti, ai-krok-automatizace, ai-trideni, koncept-emailu, automatizace, ai-chat, mcp-server, posta-kalendar, vlastni-klice-ai, ada-tymova-schranka, schvaleni-clovekem, mcp-klient, agent-cte-prilohy]
 zdroje: [docs-akce, docs-spoustece, docs-ai-chat, docs-mcp, docs-ai-faq, gh-vydani, gh-prepinace]
 ---
 
@@ -54,7 +54,9 @@ koncepty e-mailů lze doplnit automatizací s AI krokem.*
 naposledy technik na kávovaru v kavárně na náměstí a co měnil?" nebo „Kolik výjezdů měl tento
 klient letos?" AI chat zná stránku, na které jste, takže na kartě zařízení stačí „tohle zařízení".
 Dispečer může do chatu nahrát i PDF objednávku a požádat o shrnutí. *Dnes: AI chat v Twenty;
-stejně tak Claude nebo ChatGPT připojený přes MCP.*
+stejně tak Claude nebo ChatGPT připojený přes MCP.* Od verze 2.59 si AI agent přečte i PDF nebo
+obrázek, který už je přiložený k zakázce nebo k e-mailu klienta — objednávku, protokol, fotku
+z místa — a nikdo ho nemusí do chatu nahrávat znovu.
 
 **5. Týdenní přehled pro majitele.** AI agent se spustí podle plánu — třeba v pondělí ráno —
 projde otevřené zakázky a výjezdy, ke kterým chybí výkaz, a připraví krátké shrnutí. *Dnes lze nastavit: agent
@@ -66,7 +68,7 @@ Jak jsou agenti, spouštěče a AI kroky poskládané, vysvětluje článek
 
 ## Co se připravuje
 
-Výrobce ve vydáních 2.46–2.57 ohlásil další věci, které jsou zatím za přepínačem nebo ve zkušebním
+Výrobce ve vydáních 2.46–2.59 ohlásil další věci, které jsou zatím za přepínačem nebo ve zkušebním
 provozu, tedy ne běžně dostupné:
 
 - **Ada v týmové schránce** — dispečer v konverzaci označí AI asistentku a předá jí úkol jako
@@ -75,8 +77,6 @@ provozu, tedy ne běžně dostupné:
   odpovědi. Dnes stejnou kontrolu zajišťují koncepty a zakázky, které dispečer potvrdí.
 - **AI, která si sama sáhne do dalších systémů** přes MCP — třeba do skladového programu,
   bez kopírování dat.
-- **Agent sám přečte přílohy záznamu** — objednávku nebo protokol. Zatím jen směr vývoje,
-  rozpracovaný v kódu.
 
 ## Co zůstává člověku
 

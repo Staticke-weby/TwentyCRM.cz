@@ -1,0 +1,102 @@
+{
+  "_popis": "Situace z praxe — krátké karty „co se stane → jak to řešit v Twenty“ (rozhodnutí 2026-11-18, docs/plan-pruvodce.md kap. 3.5). Vykresluje je src/lib/situace.mjs: direktiva ::situace na libovolné stránce a ::situace-vse na /twenty/situace/. situace = věta, jak to řekne zákazník. role: obchodnik | vedouci | dispecer | technik | jednatel | spravce. produkt: sales | servis. oblast = složka průvodce. reseni a potreba smí obsahovat Markdown v řádku. funkce = id z src/data/twenty/funkce.json — štítek stavu se bere z první, omezení ze všech. hotove = sales | servis, jen když to řešení má hotové po nasazení (pak se ukáže štítek řešení místo „Lze nastavit“). clanek = článek průvodce, který situaci rozvádí. Karta, která naroste (3+ příbuzné situace, příklad, otázky), se stane článkem a karta na něj odkáže.",
+  "situace": [
+    {
+      "id": "poptavka-v-priloze",
+      "situace": "Poptávka přišla jako PDF a nikdo nemá čas ji celou číst",
+      "role": ["obchodnik", "dispecer"],
+      "produkt": ["sales", "servis"],
+      "oblast": "ai-agenti",
+      "reseni": "Od verze 2.59 si AI agent v Twenty sám přečte PDF nebo obrázek přiložený k záznamu nebo k e-mailu. Agent spuštěný u nové poptávky tak přílohu shrne, vypíše z ní termín, rozsah a kontakt a zapíše to k záznamu. Obchodník nebo dispečer začíná od shrnutí, ne od dvaceti stran.",
+      "potreba": "Agent se zadáním a spouštěčem na novou poptávku nebo zakázku. Čtení přílohy spotřebuje AI jako každý jiný úkol.",
+      "funkce": ["agent-cte-prilohy", "ai-agenti"],
+      "clanek": "/twenty/ai-agenti/ulohy-pro-ai-agenta/",
+      "overeno": "2026-11-18"
+    },
+    {
+      "id": "agent-jen-pri-zmene",
+      "situace": "Agent má pracovat, jen když se obchod opravdu pohne",
+      "role": ["vedouci", "spravce"],
+      "produkt": ["sales", "servis"],
+      "oblast": "ai-agenti",
+      "reseni": "Od verze 2.59 jde u spouštěče agenta nastavit podmínku. Agent, který po posunu obchodního případu do další fáze připraví podklady, se tak nerozběhne při každé opravě překlepu — jen když se fáze opravdu změní. V servisu stejně třeba jen při změně stavu zakázky.",
+      "potreba": "Podmínka se zapisuje krátkým výrazem nad poli záznamu a umí porovnat novou hodnotu s předchozí. Méně zbytečných běhů znamená i menší útratu za AI.",
+      "funkce": ["podminene-spousteni-agenta", "ai-agenti"],
+      "clanek": "/twenty/ai-agenti/agenti-v-twenty/",
+      "overeno": "2026-11-18"
+    },
+    {
+      "id": "ico-v-seznamu",
+      "situace": "Obchodník chce v seznamu obchodních případů vidět IČO a segment klienta",
+      "role": ["obchodnik", "vedouci"],
+      "produkt": ["sales"],
+      "oblast": "na-miru",
+      "reseni": "Od verze 2.59 může sloupec v pohledu ukázat údaj z navázaného záznamu — u obchodního případu třeba IČO nebo segment jeho klienta. Údaj se nikam nekopíruje, takže když se u klienta změní, seznam hned ukáže novou hodnotu.",
+      "potreba": "Takový sloupec se nastavuje v definici aplikace nad Twenty, ne kliknutím v pohledu. Je to drobná úprava pro správce systému.",
+      "funkce": ["sloupec-z-navazaneho-zaznamu", "pohledy"],
+      "clanek": "/twenty/na-miru/pohledy-pro-kazdou-roli/",
+      "overeno": "2026-11-18"
+    },
+    {
+      "id": "claude-k-crm",
+      "situace": "Kolega chce s CRM pracovat přímo z Claude nebo ChatGPT",
+      "role": ["obchodnik", "jednatel"],
+      "produkt": ["sales", "servis"],
+      "oblast": "mcp",
+      "reseni": "Claude i ChatGPT se k Twenty připojí přes MCP a uživatel se přihlásí svým účtem. Asistent pak v CRM hledá, shrnuje a zapisuje jen v rozsahu jeho role. Od verze 2.59 jsou Claude a ChatGPT v nastavení Twenty mezi dostupnými aplikacemi s tlačítkem pro připojení, které adresu vašeho Twenty předvyplní.",
+      "potreba": "Tarif Claude nebo ChatGPT, který vlastní připojení dovolí — podle tarifu se liší, kdo ho přidá a jestli asistent smí i zapisovat.",
+      "funkce": ["mcp-server", "mcp-spousti-automatizaci"],
+      "clanek": "/twenty/mcp/pripojeni-claude-a-chatgpt/",
+      "overeno": "2026-11-18"
+    },
+    {
+      "id": "komu-se-ozvat",
+      "situace": "Nabídka odešla, klient mlčí a nikdo si to nepohlídal",
+      "role": ["obchodnik", "vedouci"],
+      "produkt": ["sales", "servis"],
+      "oblast": "po-jednani",
+      "reseni": "Automatizace spouštěná podle plánu každé ráno najde obchodní případy a klienty, u kterých se delší dobu nic nestalo, a vlastníkovi založí úkol „ozvat se“. AI k úkolu může připsat, co klient naposledy řekl a co se mu slíbilo.",
+      "potreba": "Synchronizovaná pošta a kalendář, aby CRM vědělo o posledním kontaktu, a automatizace s počtem dní, který si určíte.",
+      "funkce": ["automatizace", "posta-kalendar", "ai-krok-automatizace"],
+      "clanek": "/twenty/po-jednani/kdo-se-odmlcel/",
+      "overeno": "2026-11-18"
+    },
+    {
+      "id": "ukol-po-schuzce",
+      "situace": "Po schůzce zbývá napsat shrnutí, úkol a e-mail klientovi",
+      "role": ["obchodnik"],
+      "produkt": ["sales"],
+      "oblast": "po-jednani",
+      "reseni": "Jakmile se ke klientovi uloží přepis nebo shrnutí schůzky, automatizace předá text AI. Ta založí úkol s termínem a připraví koncept navazujícího e-mailu. Koncept odejde, až když ho obchodník zkontroluje a odešle.",
+      "potreba": "Přepis nebo zápis schůzky v CRM — z nahrávání v Twenty nebo ze zápisníku jako Fireflies — a automatizace s AI krokem.",
+      "funkce": ["ai-krok-automatizace", "koncept-emailu", "zapisniky-schuzek"],
+      "clanek": "/twenty/po-jednani/ukol-a-e-mail-po-schuzce/",
+      "overeno": "2026-11-18"
+    },
+    {
+      "id": "nova-poptavka-bez-majitele",
+      "situace": "Nová poptávka leží, protože není jasné, čí je",
+      "role": ["vedouci"],
+      "produkt": ["sales"],
+      "oblast": "obchod",
+      "reseni": "Automatizace v Twenty vybere z obchodníků, které určíte, jednoho — dokola, toho s nejméně přidělenými záznamy, nebo náhodně — a nového zájemce mu hned přidělí. V [Twenty Sales](/pro-obchodni-tymy/) jde i druhá cesta: zájemci bez vlastníka tvoří frontu, ze které si obchodníci berou sami.",
+      "potreba": "Automatizace na nového zájemce a seznam obchodníků, mezi které se poptávky dělí.",
+      "funkce": ["pridelovani-dokola", "automatizace"],
+      "clanek": "/twenty/obchod/rozdelovani-poptavek/",
+      "overeno": "2026-11-18"
+    },
+    {
+      "id": "vykaz-na-miste",
+      "situace": "Technik píše výkaz večer z paměti a účetní pak dohledává, co fakturovat",
+      "role": ["technik", "dispecer"],
+      "produkt": ["servis"],
+      "oblast": "servis",
+      "reseni": "V [Twenty Servis](/pro-servisni-firmy/) vyplní technik **Výkaz práce** hned na místě v telefonu — u konkrétní zakázky a zařízení, s časem, cestou a popisem práce. Z výkazů vznikne zakázkový list pro klienta a podklad k fakturaci.",
+      "potreba": "Je to součást Twenty Servis. Co má výkaz u vás obsahovat navíc, se doplní jako pole.",
+      "funkce": ["vlastni-zaznamy", "pohledy"],
+      "hotove": "servis",
+      "clanek": "/twenty/servis/servisni-vykaz/",
+      "overeno": "2026-11-18"
+    }
+  ]
+}

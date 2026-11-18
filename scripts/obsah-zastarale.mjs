@@ -3,12 +3,14 @@
 //   · „overeno" starší než 90 dní,
 //   · funkce, o kterých text mluví, se po datu ověření změnila (nové vydání v registru) nebo byla přeověřena,
 //   · zdroj textu je v registru označený jako nedostupný,
+//   · totéž pro karty Situace z praxe (src/data/situace.json),
 // a stav registrů: funkce ověřené před víc než 90 dny, nezpracovaná vydání, dlouho nekontrolované zdroje.
 // --prisne = skončí chybou, když něco najde (před vydáním webu). --vse = vypíše i stránky bez data ověření.
 //
 // Spouštět týdně a před každým vydáním (docs/plan-pruvodce.md kap. 4.3).
 import { funkce, zdroje, vydani, historieFunkce, najdiFunkci } from '../src/lib/twenty.mjs';
 import { nactiObsah, funkceStranky } from './lib/obsah.mjs';
+import { situace } from '../src/lib/situace.mjs';
 
 const LIMIT_DNI = 90;
 const LIMIT_ZDROJE_DNI = 35;
@@ -55,6 +57,19 @@ for (const s of obsah) {
     else if (z.stav !== 'ok') radky.push(`zdroj „${z.nazev}" je ${z.stav} (${z.url})`);
   }
   if (radky.length) nalezy.push({ nadpis: `${s.url}${s.draft ? ' (koncept)' : ''}  ${s.soubor}`, radky });
+}
+
+// Karty Situace z praxe: text karty je psaný ručně, štítek stavu ne — po změně funkce je potřeba text přečíst.
+for (const s of situace) {
+  const radky = [];
+  if (dni(s.overeno) > LIMIT_DNI) radky.push(`ověřeno před ${dni(s.overeno)} dny (${s.overeno})`);
+  for (const id of s.funkce) {
+    const f = najdiFunkci(id);
+    const pozdejsi = historieFunkce(id).filter((h) => h.datum > s.overeno);
+    for (const h of pozdejsi) radky.push(`funkce „${f.nazev}" se změnila ve v${h.verze} (${h.datum}): ${h.co}`);
+    if (f.stav !== 'dnes') radky.push(`funkce „${f.nazev}" je ve stavu ${f.stav} — karta se ukáže jako „Připravuje se"`);
+  }
+  if (radky.length) nalezy.push({ nadpis: `/twenty/situace/#situace-${s.id}  src/data/situace.json`, radky });
 }
 
 const registr = [];

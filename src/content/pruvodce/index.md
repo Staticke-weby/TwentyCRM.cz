@@ -59,6 +59,10 @@ na vašem serveru, takže **data, paměť firmy i volba AI modelu zůstávají u
 
 ## Kde začít podle role
 
+Nejrychleji to jde přes [Situace z praxe](/twenty/situace/) — krátké karty typu „poptávka přišla jako PDF“
+nebo „klient mlčí a nikdo si to nepohlídal“, u každé jak ji řešit v Twenty a co je k tomu potřeba.
+Nebo začněte podle své role:
+
 - **Obchodník:** [příprava na schůzku](/twenty/po-jednani/priprava-na-schuzku/) ·
   [úkol a e-mail po schůzce](/twenty/po-jednani/ukol-a-e-mail-po-schuzce/) ·
   [e-maily na kartě klienta](/twenty/e-maily-a-schuzky/synchronizace-e-mailu-a-kalendare/)

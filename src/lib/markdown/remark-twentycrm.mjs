@@ -33,6 +33,9 @@
 //   ::stav-funkci{temata="ai,mcp" funkce="sso" bez="ai-kredity" smer}
 //        co z Twenty funguje dnes a co se připravuje — z registru src/data/twenty/funkce.json
 //        (temata = výběr podle témat, funkce = přidat konkrétní id, bez = vynechat id, smer = i směr vývoje)
+//   ::situace{oblast="obchod" role="obchodnik" produkt="sales" id="a,b" sloupce="2"}
+//        karty „Situace z praxe“ ze src/data/situace.json (zadané filtry musí platit všechny; id = přesný výběr)
+//   ::situace-vse                                    všechny situace po oblastech průvodce (/twenty/situace/)
 //
 // Nadpisy
 //   ## Nadpis {#kotva}                               vlastní id nadpisu pro odkazy /stranka/#kotva
@@ -56,6 +59,7 @@ import { slug } from 'github-slugger';
 import { faq, zPricing, dosadHodnoty, escapeHtml } from '../site.mjs';
 import { EMOJI_RE, odznak, nahradEmojiVHtml, stitekPoznamky } from '../ikony.mjs';
 import { najdiFunkci, vyberFunkce, stavFunkciBlok } from '../twenty.mjs';
+import { vyberSituace, situaceBlok, skupinySituaci } from '../situace.mjs';
 import {
   ctaTlacitka,
   demoCta,
@@ -366,6 +370,34 @@ export default function remarkTwentycrm() {
             if (!vybrane.length) chyba(file, node, `::stav-funkci — pro témata „${a.temata}" není v registru žádná funkce`);
             vystup = stavFunkciBlok(vybrane, { smer: a.smer !== undefined });
             break;
+          }
+          case 'situace': {
+            const ids = a.id ? a.id.split(',').map((x) => x.trim()).filter(Boolean) : [];
+            if (!ids.length && !a.oblast && !a.role && !a.produkt) chyba(file, node, '::situace potřebuje oblast="…", role="…", produkt="…" nebo id="…" (src/data/situace.json)');
+            let vybrane = [];
+            try {
+              vybrane = vyberSituace({ oblast: a.oblast, role: a.role, produkt: a.produkt, ids });
+            } catch (err) {
+              chyba(file, node, err.message);
+            }
+            if (!vybrane.length) chyba(file, node, '::situace — výběru neodpovídá žádná situace v src/data/situace.json');
+            vystup = situaceBlok(vybrane, { sloupce: Number(a.sloupce ?? 2) });
+            break;
+          }
+          case 'situace-vse': {
+            // Nadpis oblasti (do obsahu stránky) + karty; skupiny v pořadí navigace průvodce
+            const uzly = skupinySituaci().flatMap((o) => [
+              {
+                type: 'heading',
+                depth: 2,
+                data: { hProperties: { id: o.id, className: ['reveal'] } },
+                children: [{ type: 'text', value: o.nazev }],
+              },
+              html(situaceBlok(o.situace)),
+              html(`<p class="situace__oblast"><a href="/twenty/${o.id}/">Celá oblast ${escapeHtml(o.nazev)} →</a></p>`),
+            ]);
+            parent.children.splice(index, 1, ...uzly);
+            return [SKIP, index + uzly.length];
           }
           default:
             return chyba(file, node, `neznámý blok ::${node.name}`);

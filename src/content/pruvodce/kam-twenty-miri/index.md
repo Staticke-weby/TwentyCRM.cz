@@ -3,10 +3,10 @@ title: "Kam Twenty míří"
 description: "Pět směrů, kterými se open-source Twenty vyvíjí: agentní pracovní prostor, aplikace, MCP oběma směry, konverzace v CRM a připravenost pro větší firmy. U každého co lze nastavit dnes, co se připravuje a důkaz."
 vMenu: "Kam Twenty míří"
 poradi: 11
-overeno: 2026-11-13
-verzeTwenty: '2.58'
+overeno: 2026-11-18
+verzeTwenty: '2.59'
 temata: [ai, mcp, agenti, aplikace, komunikace, opravneni]
-zdroje: [gh-vydani, twenty-vydani, gh-prepinace, gh-pr-29762, gh-pr-29957, gh-pr-30083, gh-pr-30128, gh-pr-30252, github-pull-28732, github-pull-30156, github-pull-30232, github-pull-29822]
+zdroje: [gh-vydani, twenty-vydani, gh-prepinace, gh-pr-29762, gh-pr-29957, gh-pr-30083, gh-pr-30128, gh-pr-30252, github-twenty-v2-58-0, github-twenty-v2-59-0, github-pull-28732, github-pull-30156, github-pull-30232, github-pull-29822]
 ---
 
 **Twenty se mění z CRM, do kterého se kliká, v pracovní prostředí, kde vedle lidí pracují AI agenti
@@ -15,7 +15,7 @@ jdou vydání od dubna do listopadu 2026 — u každého níže najdete, co lze 
 a z čeho to víme.
 
 Výrobce nezveřejňuje plán vývoje s termíny. Směr proto čteme z toho, co je ověřitelné: z poznámek
-k vydáním (Twenty vydává zhruba dvě verze týdně, od v2.0 21. 4. 2026 po v2.58 12. 11. 2026),
+k vydáním (Twenty vydává zhruba dvě verze týdně, od v2.0 21. 4. 2026 po v2.59 16. 11. 2026),
 z přepínačů rozpracovaných funkcí v kódu a z otevřených změn v kódu. Termíny budoucích verzí
 neuvádíme — nemáme je od koho mít. Stránku aktualizujeme jednou měsíčně spolu
 s [Novinkami](/twenty/novinky/).
@@ -38,17 +38,15 @@ jim zadává a schvaluje práci.
   a spouštěči, kteří umí počkat na událost nebo čas (v2.46); dovednosti se zapsanými firemními postupy
   (v2.40); AI krok v automatizacích s vlastním omezeným oprávněním (v2.56); AI třídění poptávek
   a e-mailů (v2.42); AI postaví dashboard nebo pohled (v2.20); e-mail napsaný AI jako koncept, který
-  odešle člověk.
+  odešle člověk; agent si sám přečte PDF nebo obrázek přiložený k záznamu (v2.59) a spustí se jen
+  za splněné podmínky, třeba při změně fáze (v2.59).
 - **Připravuje se:** AI asistentka Ada v týmové schránce, které kolega předá úkol v konverzaci
   jako člověku, a přímé zprávy mezi kolegy (v2.46–v2.57.1, za přepínačem); agent, který se uprostřed
   práce zeptá člověka a počká na schválení (v2.46, za přepínačem).
-- **Směr vývoje:** agenti si přečtou i přílohy záznamů — objednávku, protokol, smlouvu
-  ([#30083](https://github.com/twentyhq/twenty/pull/30083), rozpracováno); agent se spustí jen při
-  splnění podmínek ([#30128](https://github.com/twentyhq/twenty/pull/30128), v kódu od 12. 11. 2026,
-  zatím v žádném vydání).
 - **Důkaz:** [v2.46](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.46.0),
   [v2.56](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.56.0),
-  [v2.57](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.57.0) a
+  [v2.57](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.57.0),
+  [v2.59](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.59.0) a
   [seznam přepínačů v kódu](https://github.com/twentyhq/twenty/blob/main/packages/twenty-shared/src/types/FeatureFlagKey.ts).
 
 Víc v článcích [Agenti v Twenty](/twenty/ai-agenti/agenti-v-twenty/) a
@@ -80,11 +78,12 @@ s CRM a připravuje se, aby AI v Twenty sáhla do dalších systémů.
 
 - **Lze nastavit dnes:** Claude, ChatGPT nebo Cursor pracují s daty v Twenty pod rolí uživatele (od v2.0,
   obrazovka nastavení v2.19); Twenty asistentovi označí, které akce data jen čtou a které je mění
-  (v2.6); přihlášený uživatel nechá asistenta spustit připravenou automatizaci (v2.57).
+  (v2.6); přihlášený uživatel nechá asistenta spustit připravenou automatizaci (v2.57); Claude
+  a ChatGPT jsou v nastavení mezi dostupnými aplikacemi s tlačítkem pro připojení (v2.59).
 - **Připravuje se:** AI chat v Twenty použije nástroje jiných systémů přes MCP (zkušební provoz,
-  v2.57 za přepínačem); aplikace mohou nabízet vlastní MCP servery (v2.54).
-- **Směr vývoje:** krok automatizace, který zavolá nástroj jiného systému
-  ([#29957](https://github.com/twentyhq/twenty/pull/29957), rozpracováno); ChatGPT a Claude jako
+  v2.57 za přepínačem); aplikace mohou nabízet vlastní MCP servery (v2.54); krok automatizace, který
+  zavolá nástroj jiného systému (v2.58, za přepínačem).
+- **Směr vývoje:** ChatGPT a Claude jako
   vestavěné aplikace, ke kterým si každý uživatel připojí svůj účet
   ([#29762](https://github.com/twentyhq/twenty/pull/29762), rozpracováno).
 - **Důkaz:** [v2.57](https://github.com/twentyhq/twenty/releases/tag/twenty/v2.57.0),

@@ -2,12 +2,104 @@
   "_popis": "Registr vydání Twenty od v2.0. Nová vydání: npm run twenty:vydani (-- --zapis). zmeny = česky, co vydání firmě přineslo (jen podstatné), funkce = id z funkce.json (řetězec nebo seznam) — z toho se skládá historie funkce. zpracovano = kdy člověk vydání prošel (null = čeká). Výchozí stav 2.0–2.57.1 podle rešerše docs/vyzkum/2026-11-12-twenty-schopnosti-a-vydani.md.",
   "vydani": [
     {
+      "verze": "2.59.0",
+      "datum": "2026-11-16",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.59.0",
+      "zmeny": [
+        {
+          "co": "AI agent přečte PDF nebo obrázek přiložený k záznamu nebo k e-mailu",
+          "funkce": "agent-cte-prilohy"
+        },
+        {
+          "co": "U spouštěče agenta jde nastavit podmínku — agent se spustí jen při změně, na které záleží",
+          "funkce": "podminene-spousteni-agenta"
+        },
+        {
+          "co": "Pohled ukáže údaj z navázaného záznamu a jedno pole může mít víc sloupců (nastavuje se v definici aplikace)",
+          "funkce": "sloupec-z-navazaneho-zaznamu"
+        },
+        {
+          "co": "Claude a ChatGPT mezi aplikacemi v nastavení s tlačítkem pro připojení; na obrazovce souhlasu se ukážou jako ověření",
+          "funkce": "mcp-server"
+        },
+        {
+          "co": "Vlastní role už nejsou za přepínačem (v cloudu pro členy v tarifu Organization, na vlastním serveru v každém tarifu); hromadná úprava nabídne jen pole, která role smí měnit",
+          "funkce": "role-opravneni"
+        },
+        {
+          "co": "Opravy pravidel, kdo vidí které záznamy a pole",
+          "funkce": "jen-sve-zaznamy"
+        },
+        {
+          "co": "E-mail odeslaný automatizací nebo agentem se u zprávy přiřadí odesílateli",
+          "funkce": [
+            "posta-kalendar",
+            "koncept-emailu"
+          ]
+        },
+        {
+          "co": "Automatizace, kterou se nepodařilo spustit, se zapíše jako neúspěšný běh",
+          "funkce": "zaznam-behu-automatizace"
+        },
+        {
+          "co": "Interní schůzky se neimportují, stejně jako interní e-maily (za přepínačem)",
+          "funkce": "posta-kalendar"
+        },
+        {
+          "co": "Krok „MCP nástroj“ má záložku pro vyzkoušení (za přepínačem)",
+          "funkce": "mcp-krok-automatizace"
+        },
+        {
+          "co": "Týmová schránka: citace, úprava a mazání vlastních zpráv, potvrzení o přečtení, kdo je online, obrázky v chatu (za přepínačem)",
+          "funkce": "ada-tymova-schranka"
+        },
+        {
+          "co": "Schválení více navržených záznamů najednou",
+          "funkce": "schvaleni-clovekem"
+        },
+        {
+          "co": "Microsoft Teams: spárování uživatelů ručně i podle e-mailu",
+          "funkce": "teams"
+        }
+      ],
+      "zpracovano": "2026-11-18"
+    },
+    {
       "verze": "2.58.0",
-      "datum": "2026-11-12",
+      "datum": "2026-11-13",
       "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.58.0",
-      "pozn": "Štítek bez poznámek k vydání (ověřeno 2026-11-13); na twenty.com/releases zatím není.",
-      "zmeny": [],
-      "zpracovano": "2026-11-13"
+      "pozn": "Poznámky k vydání výrobce doplnil po 13. 11.; zpracováno 18. 11.",
+      "zmeny": [
+        {
+          "co": "Záložní kódy k dvoufázovému přihlášení, které si člen vytvoří sám",
+          "funkce": "dvoufazove-prihlaseni"
+        },
+        {
+          "co": "Přehled automatizací ukazuje, jak dopadly poslední běhy",
+          "funkce": "zaznam-behu-automatizace"
+        },
+        {
+          "co": "Pravidla pro kontrolu dat umí porovnat novou hodnotu s předchozí",
+          "funkce": "kontrola-dat"
+        },
+        {
+          "co": "Synchronizaci e-mailu a kalendáře jde u připojeného účtu vypnout a zase zapnout",
+          "funkce": "posta-kalendar"
+        },
+        {
+          "co": "Krok automatizace „MCP nástroj“, který zavolá nástroj jiného systému (za přepínačem)",
+          "funkce": "mcp-krok-automatizace"
+        },
+        {
+          "co": "Seskupené pohledy jako záložky (za přepínačem)",
+          "funkce": "pohledy"
+        },
+        {
+          "co": "LinkedIn: profilové fotky a přílohy zpráv (aplikace za přepínačem)",
+          "funkce": "linkedin"
+        }
+      ],
+      "zpracovano": "2026-11-18"
     },
     {
       "verze": "2.57.1",
