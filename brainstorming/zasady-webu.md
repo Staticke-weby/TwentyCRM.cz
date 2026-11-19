@@ -431,6 +431,15 @@ FAQ „Můžu si Twenty nejdřív vyzkoušet?" mělo dvě cesty — zůstala jed
 „nejsme Twenty Inc.", v právních textech a tam, kde stránka pojednává o open source
 jádru nebo o licenci.
 
+**Partnerský měřicí odkaz (rozhodnutí 2026-11-19):** každý odkaz na twenty.com (i podstránky
+jako `/pricing`, `/releases`, `/legal`) nese `?via=bohemiacrm` a `rel="sponsored"` (Google chce
+partnerské odkazy takto označené). Doplňuje to samo `src/middleware.mjs` přes
+`partnerskeOdkazyVHtml()` ze `src/lib/site.mjs` do hotového HTML — v Markdownu, JSON
+(`zdroje.json`) ani komponentách se ručně nepíše, adresy v registru zůstávají čisté kvůli
+`zdroje:kontrola`. Netýká se docs.twenty.com ani GitHubu. Výjimka je `public/llms.txt`
+(neprochází middlewarem) — tam je parametr ručně. Partnerský odkaz nemění pravidlo výše:
+twenty.com dál jen jako zdroj, nikdy jako výzva „vyzkoušejte sami".
+
 **Provozní detaily:**
 - Šablony `demo`, `demo-sales`, `demo-servis` v `Helpers::mailtoTemplates()` — vždy 3 krátké
   kvalifikační otázky, ne dotazník.

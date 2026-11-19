@@ -27,6 +27,42 @@ export function mailtoOdkaz(sablona = 'generic') {
   return `mailto:${KONTAKT.email}?subject=${encodeURIComponent(t.subject)}&body=${encodeURIComponent(t.body)}`;
 }
 
+// Partnerský měřicí parametr Twenty (rozhodnutí uživatele 2026-11-19): každý odkaz na twenty.com
+// (ne docs.twenty.com ani GitHub) nese ?via=bohemiacrm. Doplňuje ho src/middleware.mjs do hotového
+// HTML každé stránky — v Markdownu, JSON ani komponentách ho ručně nepište.
+export const PARTNER_VIA = 'bohemiacrm';
+const PARTNER_HOSTY = new Set(['twenty.com', 'www.twenty.com']);
+
+/** https://twenty.com/pricing → https://twenty.com/pricing?via=bohemiacrm; jiné adresy beze změny. */
+export function partnerskyOdkaz(href) {
+  let url;
+  try {
+    url = new URL(href);
+  } catch {
+    return href;
+  }
+  if (!PARTNER_HOSTY.has(url.hostname) || url.searchParams.has('via')) return href;
+  url.searchParams.set('via', PARTNER_VIA);
+  return url.href;
+}
+
+/** V HTML doplní partnerský parametr do odkazů na twenty.com a označí je rel="sponsored" (pravidlo Googlu pro partnerské odkazy). */
+export function partnerskeOdkazyVHtml(html) {
+  return html.replace(/<a\b[^>]*>/gi, (tag) => {
+    const m = tag.match(/\shref=(["'])(.*?)\1/i);
+    if (!m) return tag;
+    const puvodni = m[2].replace(/&amp;/g, '&');
+    const novy = partnerskyOdkaz(puvodni);
+    if (novy === puvodni) return tag;
+    let vysledek = tag.replace(m[0], ` href=${m[1]}${novy.replace(/&/g, '&amp;')}${m[1]}`);
+    const rel = vysledek.match(/\srel=(["'])(.*?)\1/i);
+    if (!rel) vysledek = vysledek.replace(/^<a\b/i, '<a rel="sponsored"');
+    else if (!/\bsponsored\b/.test(rel[2]))
+      vysledek = vysledek.replace(rel[0], ` rel=${rel[1]}${`${rel[2]} sponsored`.trim()}${rel[1]}`);
+    return vysledek;
+  });
+}
+
 export function telOdkaz() {
   return `tel:${KONTAKT.telefon}`;
 }
