@@ -8,11 +8,15 @@ hero:
   perex: >-
     Máme dvě hotová řešení — jedno pro **řízení obchodu**, druhé pro
     **montáže a servis u zákazníka**. Nekupujete vývoj, kupujete systém, který běží.
-  text: >-
-    AI v něm shrne historii klienta a data z CRM máte i v Claude nebo ChatGPT,
-    které už používáte — AI vidí a mění jen to, co jí dovolíte.
-    Žádné poplatky za každého uživatele. Vaše data zůstávají u vás.
-    Nasazení je otázka dnů, ne měsíců — protože se nic nestaví od nuly.
+  text:
+    - >-
+      AI v něm shrne historii klienta a data z CRM máte i v Claude nebo ChatGPT,
+      které už používáte — AI vidí a mění jen to, co jí dovolíte.
+      Žádné poplatky za každého uživatele. Vaše data zůstávají u vás.
+      Nasazení je otázka dnů, ne měsíců — protože se nic nestaví od nuly.
+    - >-
+      TwentyCRM.cz je nezávislý implementační partner pro open-source
+      [Twenty](https://twenty.com/).
   kontakt: true
   velke: true
 zaver:
