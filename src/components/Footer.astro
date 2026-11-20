@@ -51,8 +51,9 @@ const sloupce = [
       <div class="paticka__znacka">
         <img src="/brand/logo.svg" alt="Twenty CRM" width="180" height="36" />
         <p>
-          Nezávislá česká agentura, která nad open-source Twenty staví hotová řešení, nasazuje je a spravuje — pro malé a
-          střední firmy napříč obory.
+          TwentyCRM.cz je nezávislý implementační partner pro open-source{' '}
+          <a class="paticka__inline" href="https://twenty.com/" rel="noopener" target="_blank">Twenty</a>. Stavíme nad ním hotová řešení, nasazujeme
+          je a spravujeme — pro malé a střední firmy napříč obory.
         </p>
         <p class="paticka__kontakt">
           <a href={telOdkaz()} class="tnum">{KONTAKT.telefonZobrazeni}</a>
@@ -86,7 +87,7 @@ const sloupce = [
       <p class="paticka__upozorneni">
         <strong>Twenty</strong> je software s otevřeným zdrojovým kódem, vyvíjený americkou společností Twenty Inc. (licence
         AGPL-3.0). Tato stránka <strong>NENÍ oficiálním zastoupením</strong> Twenty.com — provozuje ji ESHOpino s.r.o.,
-        nezávislá česká agentura, která Twenty staví a spravuje pro klienty na českém trhu.
+        nezávislý implementační partner pro Twenty, který ho nasazuje a spravuje pro klienty na českém trhu.
       </p>
       <p class="paticka__zdroje">
         Oficiální zdroje Twenty:
@@ -112,6 +113,7 @@ const sloupce = [
   }
   .paticka__znacka img { height: 1.6rem; width: auto; filter: brightness(0) invert(1); margin-bottom: 1.5rem; }
   .paticka__znacka p { margin: 0 0 1rem; max-width: 22rem; line-height: 1.6; }
+  .paticka a.paticka__inline { color: var(--tc-night-ink); text-decoration: underline; text-underline-offset: 0.2em; }
   .paticka__kontakt { display: flex; flex-direction: column; gap: 0.35rem; }
   .paticka__kontakt a { color: var(--tc-night-ink); }
   .paticka__sestra span { display: block; font-size: 0.8rem; opacity: 0.7; }
