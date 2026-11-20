@@ -831,7 +831,7 @@
       "nazev": "Dashboardy",
       "prinos": "Grafy, tabulky a čísla z CRM na jedné obrazovce.",
       "stav": "dnes",
-      "od": "2.0.0",
+      "od": "1.16.0",
       "omezeni": [],
       "zdroje": [
         "twenty-vydani"
@@ -871,7 +871,7 @@
       "nazev": "Každý vidí jen své záznamy",
       "prinos": "Tvrdé omezení: uživatel cizí záznamy vůbec neuvidí.",
       "stav": "dnes",
-      "od": null,
+      "od": "1.20.0",
       "omezeni": [
         "tarif-organization"
       ],

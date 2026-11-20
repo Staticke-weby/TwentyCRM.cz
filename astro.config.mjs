@@ -17,6 +17,12 @@ export default defineConfig({
   trailingSlash: 'always',
   build: { format: 'directory' },
 
+  // Zrušené adresy → nové (GitHub Pages neumí přesměrování na serveru, Astro vytvoří stránku s meta refresh).
+  redirects: {
+    // Půlroční souhrn Novinek rozdělený 2026-11-20 na měsíční přehledy.
+    '/twenty/novinky/2026-04-az-09/': '/twenty/novinky/2026-04/',
+  },
+
   markdown: {
     // Bloky ``` jsou na webu ASCII diagramy, ne kód — bez zvýrazňování (to jim dávalo tmavé pozadí).
     syntaxHighlight: false,

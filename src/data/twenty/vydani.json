@@ -1,5 +1,5 @@
 {
-  "_popis": "Registr vydání Twenty od v2.0. Nová vydání: npm run twenty:vydani (-- --zapis). zmeny = česky, co vydání firmě přineslo (jen podstatné), funkce = id z funkce.json (řetězec nebo seznam) — z toho se skládá historie funkce. zpracovano = kdy člověk vydání prošel (null = čeká). Výchozí stav 2.0–2.57.1 podle rešerše docs/vyzkum/2026-11-12-twenty-schopnosti-a-vydani.md.",
+  "_popis": "Registr vydání Twenty od v1.15 (leden 2026); skript twenty:vydani hlídá nová vydání od v2.0. Nová vydání: npm run twenty:vydani (-- --zapis). zmeny = česky, co vydání firmě přineslo (jen podstatné), funkce = id z funkce.json (řetězec nebo seznam) — z toho se skládá historie funkce. zpracovano = kdy člověk vydání prošel (null = čeká). Výchozí stav 2.0–2.57.1 podle rešerše docs/vyzkum/2026-11-12-twenty-schopnosti-a-vydani.md. Vydání 1.15–1.23 doplněna 2026-11-20 podle twenty.com/releases, seznamů změn na GitHubu a přepínačů v kódu (FeatureFlagKey).",
   "vydani": [
     {
       "verze": "2.59.0",
@@ -561,7 +561,16 @@
       "verze": "2.32.0",
       "datum": "2026-08-27",
       "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.32.0",
-      "zmeny": [],
+      "zmeny": [
+        {
+          "co": "AI chat na celou obrazovku pro všechny",
+          "funkce": "ai-chat"
+        },
+        {
+          "co": "Asistent ve Slacku jedná za člena, který ho označil",
+          "funkce": "slack"
+        }
+      ],
       "zpracovano": "2026-11-12"
     },
     {
@@ -570,11 +579,11 @@
       "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.30.0",
       "zmeny": [
         {
-          "co": "AI chat na celou obrazovku",
+          "co": "AI chat na celou obrazovku (zkušební funkce)",
           "funkce": "ai-chat"
         },
         {
-          "co": "Asistent ve Slacku jedná za člena, který ho označil",
+          "co": "Asistent ve Slacku odkazuje na záznamy, které založí nebo najde",
           "funkce": "slack"
         }
       ],
@@ -593,7 +602,8 @@
       "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.28.0",
       "zmeny": [
         {
-          "co": "Vazby přes dva kroky na kartě záznamu, přehled přihlášených zařízení"
+          "co": "Související záznamy přes dvě vazby na kartě záznamu",
+          "funkce": "rozvrzeni-karty"
         }
       ],
       "zpracovano": "2026-11-12"
@@ -602,7 +612,11 @@
       "verze": "2.27.0",
       "datum": "2026-08-04",
       "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.27.0",
-      "zmeny": [],
+      "zmeny": [
+        {
+          "co": "Přehled přihlášených zařízení; volba, jestli se záznam otevře v panelu, nebo na celé stránce"
+        }
+      ],
       "zpracovano": "2026-11-12"
     },
     {
@@ -780,7 +794,15 @@
       "verze": "2.11.0",
       "datum": "2026-06-09",
       "url": "https://github.com/twentyhq/twenty/releases/tag/twenty/v2.11.0",
-      "zmeny": [],
+      "zmeny": [
+        {
+          "co": "Záznam průběhu kroků automatizace pro všechny",
+          "funkce": [
+            "automatizace",
+            "zaznam-behu-automatizace"
+          ]
+        }
+      ],
       "zpracovano": "2026-11-12"
     },
     {
@@ -796,7 +818,7 @@
       "url": "https://github.com/twentyhq/twenty/releases/tag/v2.9.0",
       "zmeny": [
         {
-          "co": "Záznam průběhu jednotlivých kroků automatizace",
+          "co": "Záznam průběhu jednotlivých kroků automatizace (zkušební funkce)",
           "funkce": [
             "automatizace",
             "zaznam-behu-automatizace"
@@ -947,9 +969,208 @@
         {
           "co": "Dashboardy",
           "funkce": "dashboardy"
+        },
+        {
+          "co": "Koncept e-mailu jako krok automatizace pro všechny",
+          "funkce": "koncept-emailu"
         }
       ],
       "zpracovano": "2026-11-12"
+    },
+    {
+      "verze": "1.15.0",
+      "datum": "2026-01-08",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v1.15.0",
+      "zmeny": [
+        {
+          "co": "U záznamu je vidět, kdo ho naposledy upravil"
+        },
+        {
+          "co": "U hotové nástěnky jde změnit pole, podle kterého se karty dělí do sloupců",
+          "funkce": "pohledy"
+        }
+      ],
+      "zpracovano": "2026-11-20"
+    },
+    {
+      "verze": "1.16.0",
+      "datum": "2026-01-24",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v1.16.0",
+      "zmeny": [
+        {
+          "co": "Dashboardy pro všechny — dřív jen mezi zkušebními funkcemi",
+          "funkce": "dashboardy"
+        },
+        {
+          "co": "Krok automatizace „Pokud / jinak“ — automatizace podle podmínky pokračuje jednou ze dvou cest",
+          "funkce": "automatizace"
+        },
+        {
+          "co": "Skrytí prázdných skupin v seskupené tabulce, řazení podle navázaného záznamu a bez ohledu na velká písmena",
+          "funkce": "pohledy"
+        },
+        {
+          "co": "Vlastní pole u událostí v kalendáři jdou upravovat",
+          "funkce": "posta-kalendar"
+        },
+        {
+          "co": "Pole pro soubory přímo v záznamu (za přepínačem)",
+          "funkce": "vlastni-zaznamy"
+        },
+        {
+          "co": "Vazby mnoho na mnoho jako zkušební funkce",
+          "funkce": "vazby-mnoho"
+        },
+        {
+          "co": "Základ pravidel, kdo vidí které záznamy (zkušební funkce)",
+          "funkce": "jen-sve-zaznamy"
+        }
+      ],
+      "zpracovano": "2026-11-20"
+    },
+    {
+      "verze": "1.17.0",
+      "datum": "2026-02-18",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v1.17.0",
+      "zmeny": [
+        {
+          "co": "Pole Soubory pro všechny; přílohy se na něj převedly",
+          "funkce": "vlastni-zaznamy"
+        },
+        {
+          "co": "Možnosti výběru jde při zakládání pole vložit celým seznamem najednou",
+          "funkce": "vlastni-zaznamy"
+        },
+        {
+          "co": "E-mail z automatizace více příjemcům",
+          "funkce": "automatizace"
+        },
+        {
+          "co": "Přehlednější AI chat a volba modelu (AI za přepínačem)",
+          "funkce": "ai-chat"
+        }
+      ],
+      "zpracovano": "2026-11-20"
+    },
+    {
+      "verze": "1.18.0",
+      "datum": "2026-02-19",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v1.18.0",
+      "zmeny": [
+        {
+          "co": "V poznámce jde znakem @ odkázat na firmu, osobu nebo jiný záznam"
+        },
+        {
+          "co": "Nové pole se samo přidá na kartu záznamu; nový typ záznamu dostane kartu",
+          "funkce": "rozvrzeni-karty"
+        },
+        {
+          "co": "Koncept e-mailu jako krok automatizace (za přepínačem)",
+          "funkce": "koncept-emailu"
+        },
+        {
+          "co": "Úprava postranní nabídky a změny od kolegů hned na obrazovce (za přepínačem a jako zkušební funkce)"
+        }
+      ],
+      "zpracovano": "2026-11-20"
+    },
+    {
+      "verze": "1.19.0",
+      "datum": "2026-03-23",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v1.19.0",
+      "zmeny": [
+        {
+          "co": "Role jde vybrat rovnou při pozvání člena týmu",
+          "funkce": "role-opravneni"
+        },
+        {
+          "co": "Část změn od kolegů se ukáže hned, bez obnovení stránky"
+        },
+        {
+          "co": "Filtr podle člena týmu u polí Vytvořil a Upravil, filtr data podle čtvrtletí",
+          "funkce": "pohledy"
+        },
+        {
+          "co": "Opakování kroku pro každou položku seznamu pokračuje, i když jedna položka selže",
+          "funkce": "automatizace"
+        }
+      ],
+      "zpracovano": "2026-11-20"
+    },
+    {
+      "verze": "1.20.0",
+      "datum": "2026-03-31",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v1.20.0",
+      "zmeny": [
+        {
+          "co": "Vlastní postranní nabídka: položky, složky, odkazy a oblíbené na jednom místě"
+        },
+        {
+          "co": "Pravidla, kdo vidí které záznamy, bez zkušebního režimu (tarif Organization)",
+          "funkce": "jen-sve-zaznamy"
+        },
+        {
+          "co": "Filtr data na celý den",
+          "funkce": "pohledy"
+        },
+        {
+          "co": "E-mail z automatizace jako odpověď do existujícího vlákna; ve formuláři automatizace výběr více hodnot",
+          "funkce": "automatizace"
+        },
+        {
+          "co": "Přidání pole a úprava částí karty přímo z karty záznamu (za přepínačem)",
+          "funkce": "rozvrzeni-karty"
+        }
+      ],
+      "zpracovano": "2026-11-20"
+    },
+    {
+      "verze": "1.21.0",
+      "datum": "2026-04-09",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v1.21.0",
+      "zmeny": [
+        {
+          "co": "Odpověď na e-mail přímo z detailu konverzace v Twenty",
+          "funkce": "posta-kalendar"
+        },
+        {
+          "co": "AI jako zkušební funkce, kterou si zapne správce",
+          "funkce": "ai-chat"
+        }
+      ],
+      "zpracovano": "2026-11-20"
+    },
+    {
+      "verze": "1.22.4",
+      "datum": "2026-04-17",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v1.22.4",
+      "zmeny": [
+        {
+          "co": "Tabulka záznamů jako část dashboardu",
+          "funkce": "dashboardy"
+        },
+        {
+          "co": "Dlouhý text jako samostatná část karty (za přepínačem, pro všechny od v2.0)",
+          "funkce": "rozvrzeni-karty"
+        }
+      ],
+      "zpracovano": "2026-11-20"
+    },
+    {
+      "verze": "1.23.0",
+      "datum": "2026-04-20",
+      "url": "https://github.com/twentyhq/twenty/releases/tag/v1.23.0",
+      "zmeny": [
+        {
+          "co": "Hledání v nabídce polí a při přidávání sloupce",
+          "funkce": "pohledy"
+        },
+        {
+          "co": "Návrat rozvržení karty na výchozí a ikony záložek (za přepínačem, pro všechny od v2.0)",
+          "funkce": "rozvrzeni-karty"
+        }
+      ],
+      "zpracovano": "2026-11-20"
     }
   ]
 }
